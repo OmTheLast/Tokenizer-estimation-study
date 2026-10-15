@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-15T15:55:19.973773+00:00",
-  "status": "github_update_ready_to_push",
+  "timestamp_utc": "2026-10-15T15:56:14.400690+00:00",
+  "status": "phase1_pilot_published_ready_for_review",
   "request": "Explain model/language experiment dimensions and update progress on GitHub",
   "completed": [
     "Official authenticated dataset access succeeded",
@@ -53,13 +53,21 @@
     "Broader phase-1 coverage",
     "Browser performance and full prompt budgeting studies"
   ],
-  "publication_status": "First commit and push authorized by Om; file checks completed, remote initially empty; push pending",
-  "exact_next_action": "Create initial study commit, push main without force, verify remote commit, save publication receipt.",
+  "publication_status": "Study commit pushed to GitHub main and remote SHA verified",
+  "exact_next_action": "Review published pilot results with Om, then choose broader phase-1 tests. Do not fit on FLORES+.",
   "publication_checks": {
     "candidate_files": 182,
     "total_bytes": 4007780,
     "raw_dataset_sentences_checked": 17946,
     "secret_pattern_or_raw_flores_findings": 0,
-    "pilot_independent_checks": "passed"
+    "pilot_independent_checks": "passed",
+    "whitespace_check": "Source/config/docs passed. Preserved generated CSV CRLF and SVG whitespace produce warnings in whole-tree check; archived artifacts were not rewritten."
+  },
+  "publication": {
+    "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
+    "branch": "main",
+    "study_commit": "e1da27de4fbcefe25a3e426d03a80279c3b86450",
+    "remote_sha_verified": true,
+    "excluded": "Raw FLORES text, Parquet tables, caches, downloaded assets and environments"
   }
 }

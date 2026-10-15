@@ -325,7 +325,7 @@ Read the [pilot report](../results/2026-10-15-phase1-pilot/run-02/REPORT.md) and
 No fitting, model inference, devtest access, commit or push occurred. Next: review
 these findings together before choosing the next phase-1 extension.
 
-## 2026-10-15 — GitHub progress update prepared
+## 2026-10-15 — GitHub progress published
 
 Om asked whether the experiment varied models or languages and requested a
 GitHub progress update. It varied both tokenizer profiles and language varieties:
@@ -336,8 +336,9 @@ the per-tokenizer results and identifies remaining work.
 The destination repository had no remote branches when checked. This is the
 first publication of the local study source, documentation and compact results.
 Raw FLORES+ files, numeric Parquet tables, environments, downloaded tokenizer
-assets and third-party checkouts remain excluded. Publication will be verified
-against the remote branch; recovery logs record the actual outcome.
+assets and third-party checkouts remain excluded. Study commit `e1da27de4fbcefe25a3e426d03a80279c3b86450` was pushed to `main`, and
+GitHub returned the same SHA during verification. Source, documentation and compact
+results are now on GitHub; excluded local data and caches are not backed up there.
 
 ## Current completion checklist
 

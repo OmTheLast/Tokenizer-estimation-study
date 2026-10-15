@@ -1,0 +1,32 @@
+{
+  "samples": 38,
+  "saved_js_python_count_matches": 38,
+  "js_python_token_id_matches": 38,
+  "estimator": {
+    "minimum_error_percent": -16.216216216216218,
+    "minimum_error_sample": "mr-a",
+    "maximum_error_percent": 22.857142857142858,
+    "maximum_error_sample": "mixed-hi-en-a",
+    "median_absolute_error_percent": 3.1054405392392876,
+    "mean_absolute_error_percent": 4.844053199324871,
+    "within_20_percent_count": 37,
+    "undercount_count": 13,
+    "overcount_count": 18,
+    "exact_count": 7
+  },
+  "old_heuristic": {
+    "minimum_error_percent": -67.27272727272727,
+    "minimum_error_sample": "or-b",
+    "maximum_error_percent": 40.476190476190474,
+    "maximum_error_sample": "en-prose-a",
+    "median_absolute_error_percent": 35.15182707153886,
+    "mean_absolute_error_percent": 32.275516813401545,
+    "within_20_percent_count": 10,
+    "undercount_count": 24,
+    "overcount_count": 12,
+    "exact_count": 2
+  },
+  "reference_disagreements": [],
+  "scope": "Qwen content counts on existing LocalMind fixtures; no new fitting or held-out evaluation.",
+  "historical_provenance": "Repository mapped from pinned LocalMind index.html. HF revision predates 2026-09-24 fixture measurement, but original fixture file does not record an exact HF SHA or @huggingface/tokenizers version. This run pins available assets; historical identity is not proven."
+}

@@ -1,0 +1,30 @@
+{
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "model_key": "lfm2-1.2b",
+  "repository": "LiquidAI/LFM2.5-1.2B-Instruct-ONNX",
+  "revision": "10f72e70abf67ac0fd7ebf15bc5854726891d864",
+  "cache_directory": ".cache/tokenizers/lfm2-1.2b/10f72e70abf67ac0fd7ebf15bc5854726891d864",
+  "add_special_tokens": false,
+  "assets": [
+    {
+      "filename": "tokenizer.json",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-ONNX/resolve/10f72e70abf67ac0fd7ebf15bc5854726891d864/tokenizer.json",
+      "sha256": "0a1f2cb9fc2769030ca1f4207e81c1af493319373d41b8d3cf5be53860c13760",
+      "bytes": 3297799
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-ONNX/resolve/10f72e70abf67ac0fd7ebf15bc5854726891d864/tokenizer_config.json",
+      "sha256": "0f11f4ffa5750369414bb24e41f26e2bbf23f1d01def533cad5f584e59ae3bef",
+      "bytes": 2391
+    },
+    {
+      "filename": "LICENSE",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-ONNX/resolve/10f72e70abf67ac0fd7ebf15bc5854726891d864/LICENSE",
+      "sha256": "5188f2b355da20647257a3156db5834c794e5fb5e6d8dc4d4cdbb3180e75b85b",
+      "bytes": 10596
+    }
+  ],
+  "historical_provenance": "Repository mapped from pinned LocalMind registry; original fixture does not record the exact HF revision or tokenizer-library version. Selected revision predates the fixture measurement date; historical identity is unproven.",
+  "licence_note": "Model card identifies LFM Open License v1.0; source LICENSE retained in cache."
+}

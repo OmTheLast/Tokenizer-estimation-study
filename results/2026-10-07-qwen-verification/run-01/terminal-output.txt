@@ -1,0 +1,48 @@
+Qwen verification: 38 fixtures
+Saved counts = fresh JS counts = fresh Python counts: 38/38
+JS and Python token IDs identical: 38/38
+Estimator worst under: -16.22% (mr-a)
+Estimator worst over: +22.86% (mixed-hi-en-a)
+Estimator median absolute error: 3.11%
+Within +/-20%: 37/38
+Undercount / exact / overcount: 13 / 7 / 18
+Sample                              Saved    JS    Python  Estimate  Error
+en-prose-a                             84    84      84        84   +0.00%
+en-chat-a                              29    29      29        28   -3.45%
+code-js-a                              88    88      88        79  -10.23%
+code-py-a                              58    58      58        54   -6.90%
+json-a                                 84    84      84        87   +3.57%
+hi-a                                  128   128     128       125   -2.34%
+mr-a                                  111   111     111        93  -16.22%
+bn-a                                  100   100     100       100   +0.00%
+kn-a                                  102   102     102       103   +0.98%
+ta-a                                   85    85      85        89   +4.71%
+te-a                                   90    90      90        93   +3.33%
+gu-a                                   85    85      85        86   +1.18%
+ar-a                                   55    55      55        54   -1.82%
+zh-a                                   44    44      44        44   +0.00%
+ja-a                                   39    39      39        40   +2.56%
+ru-a                                   41    41      41        43   +4.88%
+mixed-hi-en-a                          35    35      35        43  +22.86%
+en-prose-b                             67    67      67        65   -2.99%
+en-chat-b                              29    29      29        31   +6.90%
+code-js-b                              70    70      70        66   -5.71%
+code-py-b                              58    58      58        59   +1.72%
+json-b                                 70    70      70        80  +14.29%
+hi-b                                   82    82      82        85   +3.66%
+mr-b                                   62    62      62        59   -4.84%
+bn-b                                   59    59      59        60   +1.69%
+kn-b                                   88    88      88        89   +1.14%
+ta-b                                   71    71      71        71   +0.00%
+te-b                                   91    91      91        89   -2.20%
+gu-b                                   79    79      79        79   +0.00%
+ml-b                                   85    85      85        85   +0.00%
+pa-b                                  104   104     104       104   +0.00%
+or-b                                  110   110     110       111   +0.91%
+ar-b                                   31    31      31        32   +3.23%
+zh-b                                   28    28      28        25  -10.71%
+ja-b                                   29    29      29        32  +10.34%
+ru-b                                   38    38      38        37   -2.63%
+mixed-hi-en-b                          47    47      47        53  +12.77%
+mixed-code-ta-b                        45    45      45        39  -13.33%
+Exit code: 0

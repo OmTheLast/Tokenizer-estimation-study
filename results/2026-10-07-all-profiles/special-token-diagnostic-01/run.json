@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-10-07T10:39:59.315525+00:00",
+  "python_version": "3.13.11",
+  "python_tokenizers_version": "0.23.2",
+  "node_version": "v25.2.1",
+  "js_tokenizers_version": "0.2.0",
+  "script_and_config_sha256": {
+    "scripts/diagnose_special_tokens.py": "7f7ad5951620ebecaf7be5bad2d5b6e7faac8e7610ff6af1956641cee92c38cd",
+    "scripts/probe_special_tokens.mjs": "8cf6b3b0fa38063c314baf9163108fac59ed47eb8a42376c31c799d4c0d35093",
+    "scripts/localmind_source.mjs": "0f3e5aed7d3dd3c24a8e62b3c079f1ebfb7cd714ff290ff85860499140f83d0a",
+    "scripts/verify_all_profiles.py": "7a0267ac90f6ba58190cc792cf0d3c37ab85c2517a8f3d7fd116a68fe482bb86",
+    "scripts/fetch_tokenizer.py": "736bbf0d305b07419e8a417d98333fcad40e01709b20bf4273cb10e89b796e7c",
+    "package-lock.json": "a9a9595154c3d9f46f6f65c63874dbcf312baf3fe7c70133bb9cd64b30192327",
+    "requirements.lock.txt": "94ab79db5723aa4c84f363e5e8803e3f0f7854c0e89517cf9249644cb2008727",
+    "config/qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "config/bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "config/lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "config/gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "config/minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4"
+  },
+  "interpretation_limit": "Observed equivalence with these pinned assets/library versions. Original fixture generator and original library version are unavailable; exact historical cause is inferred, not proven."
+}

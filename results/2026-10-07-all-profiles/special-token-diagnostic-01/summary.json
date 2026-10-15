@@ -1,0 +1,82 @@
+{
+  "qwen35-4b": {
+    "samples": 38,
+    "prefix": [],
+    "special_token_count_deltas": [
+      0
+    ],
+    "saved_matches_false": 38,
+    "saved_matches_true": 38,
+    "false_ids_match_js": 38,
+    "true_ids_match_js": 38,
+    "js_camel_equals_default": 38,
+    "js_camel_equals_true": 38,
+    "true_is_prefix_plus_content": 38
+  },
+  "bonsai-ternary-4b": {
+    "samples": 38,
+    "prefix": [],
+    "special_token_count_deltas": [
+      0
+    ],
+    "saved_matches_false": 38,
+    "saved_matches_true": 38,
+    "false_ids_match_js": 38,
+    "true_ids_match_js": 38,
+    "js_camel_equals_default": 38,
+    "js_camel_equals_true": 38,
+    "true_is_prefix_plus_content": 38
+  },
+  "lfm2-1.2b": {
+    "samples": 38,
+    "prefix": [
+      {
+        "id": 1,
+        "token": "<|startoftext|>"
+      }
+    ],
+    "special_token_count_deltas": [
+      1
+    ],
+    "saved_matches_false": 0,
+    "saved_matches_true": 38,
+    "false_ids_match_js": 38,
+    "true_ids_match_js": 38,
+    "js_camel_equals_default": 38,
+    "js_camel_equals_true": 38,
+    "true_is_prefix_plus_content": 38
+  },
+  "gemma4-e2b": {
+    "samples": 38,
+    "prefix": [],
+    "special_token_count_deltas": [
+      0
+    ],
+    "saved_matches_false": 38,
+    "saved_matches_true": 38,
+    "false_ids_match_js": 38,
+    "true_ids_match_js": 38,
+    "js_camel_equals_default": 38,
+    "js_camel_equals_true": 38,
+    "true_is_prefix_plus_content": 38
+  },
+  "minicpm5-2b-gguf": {
+    "samples": 38,
+    "prefix": [
+      {
+        "id": 0,
+        "token": "<s>"
+      }
+    ],
+    "special_token_count_deltas": [
+      1
+    ],
+    "saved_matches_false": 0,
+    "saved_matches_true": 38,
+    "false_ids_match_js": 38,
+    "true_ids_match_js": 38,
+    "js_camel_equals_default": 38,
+    "js_camel_equals_true": 38,
+    "true_is_prefix_plus_content": 38
+  }
+}

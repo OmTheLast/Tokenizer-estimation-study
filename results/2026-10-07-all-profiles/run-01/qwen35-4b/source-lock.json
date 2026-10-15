@@ -1,0 +1,24 @@
+{
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "model_key": "qwen35-4b",
+  "repository": "onnx-community/Qwen3.5-4B-ONNX-OPT",
+  "revision": "57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7",
+  "cache_directory": ".cache/tokenizers/qwen35-4b/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7",
+  "add_special_tokens": false,
+  "assets": [
+    {
+      "filename": "tokenizer.json",
+      "url": "https://huggingface.co/onnx-community/Qwen3.5-4B-ONNX-OPT/resolve/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7/tokenizer.json",
+      "sha256": "89da80cc6689bef4d90cc1028249436975ffb0814618f1d93c65310e05801a9b",
+      "bytes": 19226111
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "url": "https://huggingface.co/onnx-community/Qwen3.5-4B-ONNX-OPT/resolve/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7/tokenizer_config.json",
+      "sha256": "2de621ec071dd61438efdd6d0183bd3d612e98d05ac10d19ed75f1fef9299bc9",
+      "bytes": 9162
+    }
+  ],
+  "historical_provenance": "Repository mapped from pinned LocalMind index.html. HF revision predates 2026-09-24 fixture measurement, but original fixture file does not record an exact HF SHA or @huggingface/tokenizers version. This run pins available assets; historical identity is not proven.",
+  "licence_note": "HF conversion repository has an empty README and no licence file listed. Tokenizer assets are cached locally and excluded from Git; no redistribution licence is asserted."
+}

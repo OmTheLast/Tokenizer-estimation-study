@@ -1,0 +1,6 @@
+qwen35-4b: saved matches content-only 38/38, special-enabled 38/38; extra prefix []
+bonsai-ternary-4b: saved matches content-only 38/38, special-enabled 38/38; extra prefix []
+lfm2-1.2b: saved matches content-only 0/38, special-enabled 38/38; extra prefix [{'id': 1, 'token': '<|startoftext|>'}]
+gemma4-e2b: saved matches content-only 38/38, special-enabled 38/38; extra prefix []
+minicpm5-2b-gguf: saved matches content-only 0/38, special-enabled 38/38; extra prefix [{'id': 0, 'token': '<s>'}]
+Exit code: 0

@@ -1,0 +1,23 @@
+{
+  "summary.json": "03e292eade3eb010b5580ac4da779ed910d3d9845ca4e17b6c6e81851cd3aea8",
+  "input-manifest.json": "947b762e16a85d334f3e1e298edac680553b796ff115b333fc20ba84dc7015c1",
+  "bonsai-ternary-4b-complete.json": "dc11d4d2b6b7738e95e809d6934ba013c50e7439f17251785059b56d44c75527",
+  "minicpm5-2b-gguf.parquet": "2d6c18087fc33d45fd6ffc44c69f8443ecbaf28c7224942024f3c04076d8287c",
+  "REPORT.md": "bd020d018e287614ab4c0cc368a44b0aaf4c0782961c56fd380e2ab905e4d79e",
+  "gemma4-e2b-complete.json": "f9446d1d04d56989a903c15cf3a13143e6fb3d7e16ec0eeeb4fbb9054681b9ca",
+  "lfm2-1.2b.parquet": "9977d9d13c9e949b942485cbfa63fcde54c4b02a84908e540f55908c25bda175",
+  "bonsai-ternary-4b.parquet": "b0bc4f1d14574a6e869c98660bf11d941cfdc04b9d742cec0ef0ead0b4678c37",
+  "gemma4-e2b.parquet": "b5c48f2a6b5e3b2835d3388cf1a49480801e955ba39bef77542ab501216971ea",
+  "qwen35-4b-complete.json": "99c5113824f1d9e3edfdf1715dfbfa167bee994d9cf07590ea3ca5315c9eaf11",
+  "ground-truth.parquet": "c76f90ccfb844b8711470304e6e22b9bbfcfabeb5134e3e46dd38a1e67b4e5f0",
+  "lfm2-1.2b-complete.json": "1806ac563f6b8ebb4fd0edcbebaea1d0de71f9a5a669e46e38c86e6b75a6479d",
+  "validation.json": "8af911e0dafad972dc3e7c87fd091335ca2af0c5a05307d62029934b0a4cd571",
+  "minicpm5-2b-gguf-complete.json": "f7c0b773c6a627d49795534b4dbbb7c309735e6877e5bc5bcaa3d9aa596996e9",
+  "tokens-per-character.svg": "6d4e26b3d676de453222527fea51d412f18cd6196470c35014c7a18934f0d5b3",
+  "progress.json": "a799628217390658c1b80c72e32a455a338a09208ce0c752dda960ade6e1be82",
+  "terminal-output.txt": "426140b54010e67229d7e5588a1134fceb2c6f83367604c7a457d78542275505",
+  "tokens-per-character.png": "a0b8a7c2d3e8b86f737aee654e0dc58f04249213a10dd5eb9625b0d6a5b49ce0",
+  "run.json": "afa676a98249e55d1501425a98a158ff8ff299e55c2860ffdbb5848e0137bc86",
+  "qwen35-4b.parquet": "de04876d400a16b3fd559001f66448de562bcf6f5fe4ed1e0a5e08463695482c",
+  "status.json": "5c9d9727c0b81eb128b715a591db6b0079a72f38ca52ed7040302719907c68b0"
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp_utc": "2026-10-07T10:06:28.865630+00:00",
+  "source_lock": {
+    "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+    "model_key": "qwen35-4b",
+    "repository": "onnx-community/Qwen3.5-4B-ONNX-OPT",
+    "revision": "57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7",
+    "cache_directory": ".cache/tokenizers/qwen35-4b/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7",
+    "add_special_tokens": false,
+    "assets": [
+      {
+        "filename": "tokenizer.json",
+        "url": "https://huggingface.co/onnx-community/Qwen3.5-4B-ONNX-OPT/resolve/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7/tokenizer.json",
+        "sha256": "89da80cc6689bef4d90cc1028249436975ffb0814618f1d93c65310e05801a9b",
+        "bytes": 19226111
+      },
+      {
+        "filename": "tokenizer_config.json",
+        "url": "https://huggingface.co/onnx-community/Qwen3.5-4B-ONNX-OPT/resolve/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7/tokenizer_config.json",
+        "sha256": "2de621ec071dd61438efdd6d0183bd3d612e98d05ac10d19ed75f1fef9299bc9",
+        "bytes": 9162
+      }
+    ],
+    "historical_provenance": "Repository mapped from pinned LocalMind index.html. HF revision predates 2026-09-24 fixture measurement, but original fixture file does not record an exact HF SHA or @huggingface/tokenizers version. This run pins available assets; historical identity is not proven.",
+    "licence_note": "HF conversion repository has an empty README and no licence file listed. Tokenizer assets are cached locally and excluded from Git; no redistribution licence is asserted."
+  },
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "python_version": "3.13.11",
+  "python_tokenizers_version": "0.23.2",
+  "node_version": "v25.2.1",
+  "js_tokenizers_version": "0.2.0",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "add_special_tokens": false,
+  "truncation": false,
+  "padding": false,
+  "chat_template_applied": false,
+  "python_dependencies": [
+    "anyio==4.15.1",
+    "certifi==2026.7.22",
+    "click==8.5.0",
+    "filelock==4.0.12",
+    "fsspec==2026.9.0",
+    "h11==0.16.0",
+    "hf-xet==1.7.0",
+    "httpcore==1.0.9",
+    "httpx==0.28.1",
+    "huggingface_hub==1.33.0",
+    "idna==3.20",
+    "packaging==26.3",
+    "PyYAML==6.0.3",
+    "tokenizers==0.23.2",
+    "tqdm==4.70.1",
+    "typing_extensions==4.16.0"
+  ],
+  "script_and_config_sha256": {
+    "scripts/fetch_tokenizer.py": "736bbf0d305b07419e8a417d98333fcad40e01709b20bf4273cb10e89b796e7c",
+    "scripts/count_qwen.mjs": "56efe6ad6d42af561a67c444130d55cbbf66ca28e07df0b4e41dc5732eeb6451",
+    "scripts/verify_qwen.py": "1702874874ec7c0003be36f99e7f0beafc6b54ba9d7252f4012465b0a9469f1a",
+    "config/qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "package-lock.json": "a9a9595154c3d9f46f6f65c63874dbcf312baf3fe7c70133bb9cd64b30192327",
+    "requirements.lock.txt": "94ab79db5723aa4c84f363e5e8803e3f0f7854c0e89517cf9249644cb2008727"
+  }
+}

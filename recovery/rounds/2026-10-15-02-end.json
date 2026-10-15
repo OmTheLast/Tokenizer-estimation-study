@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-10-15T15:48:17.422488+00:00",
+  "status": "phase1_pilot_complete_ready_for_review",
+  "request": "Start the real FLORES+ multilingual evaluation",
+  "completed": [
+    "Official authenticated dataset access succeeded",
+    "Pinned 18 dev files and 100 common sentence IDs",
+    "Measured and validated 9000 rows from 1800 texts and 5 frozen tokenizers",
+    "Checked source/config hashes, shard checksums, all error calculations and figure",
+    "Updated README, pilot notes and readable history"
+  ],
+  "artifacts": [
+    "config/flores-pilot.lock.json",
+    "config/flores-pilot-sample.json",
+    "results/2026-10-15-phase1-pilot/run-02",
+    "docs/STUDY_HISTORY.md",
+    "docs/PHASE1_PILOT.md",
+    "README.md"
+  ],
+  "checks": {
+    "rows": 9000,
+    "unique_keys": 9000,
+    "source_texts": 1800,
+    "published_fixture_overlap": 0,
+    "smoke_only": false,
+    "raw_text_saved_in_table": false,
+    "devtest_accessed": false,
+    "class_sums_match": true,
+    "estimator_weights_unchanged": true,
+    "parquet_round_trip": true
+  },
+  "additional_checks": {
+    "independent_verification": true,
+    "figure_visually_inspected": true,
+    "exit_code": 0
+  },
+  "decisions": [
+    "FLORES+ evaluation-only; no fitting or calibration",
+    "Raw text kept in ignored cache; no text/token-ID sequences in results",
+    "Devtest unaccessed",
+    "Historical upstream training/fitting contamination remains unknown"
+  ],
+  "failed_attempts": [
+    {
+      "path": "results/2026-10-15-phase1-pilot/run-01",
+      "reason": "Restricted-network DNS resolution failed; superseded by successful authorized network run-02"
+    }
+  ],
+  "running_jobs": [],
+  "blockers": [],
+  "unfinished": [
+    "Joint interpretation of pilot",
+    "Broader phase-1 coverage",
+    "Browser performance and full prompt budgeting studies"
+  ],
+  "publication_status": "No commits or pushes; local artifacts only",
+  "exact_next_action": "Review results/2026-10-15-phase1-pilot/run-02/REPORT.md with Om, especially the median-versus-worst-error distinction and CJK errors. Choose next phase-1 extension after review; do not fit on FLORES+."
+}

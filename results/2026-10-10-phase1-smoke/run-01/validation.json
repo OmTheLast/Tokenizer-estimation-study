@@ -1,0 +1,13 @@
+{
+  "rows": 190,
+  "unique_keys": 190,
+  "source_texts": 38,
+  "published_fixture_overlap": 38,
+  "smoke_only": true,
+  "raw_text_saved_in_table": false,
+  "devtest_accessed": false,
+  "class_sums_match": true,
+  "estimator_weights_unchanged": true,
+  "phase0_count_estimate_agreement": 190,
+  "parquet_round_trip": true
+}

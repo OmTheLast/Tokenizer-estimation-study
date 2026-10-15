@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-10-15T15:46:21.359424+00:00",
+  "smoke_only": false,
+  "rows": 9000,
+  "input_manifest_sha256": "f8fa6c427fc938b3ceebc8eaf4d37595cd26167f3a44c4a3465019c412974461",
+  "ground_truth_sha256": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb",
+  "special_tokens_added_for_content_counts": false,
+  "pretokenizer_diagnostic_note": "Normalizer then explicit pre-tokenizer; added-token extraction is not emulated.",
+  "no_fitting": true,
+  "no_model_inference": true,
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O"
+}

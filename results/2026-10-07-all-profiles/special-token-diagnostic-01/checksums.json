@@ -1,0 +1,22 @@
+{
+  "REPORT.md": "22b85af63bda0096541cf5d3830d0282c8b19ca6ee87383f1ec36388412b5a0c",
+  "bonsai-ternary-4b-js.json": "9d9e1c43f61f534fa791ae5a557da2e519e879e8f04fdf14c800efa637fec441",
+  "bonsai-ternary-4b-js.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "bonsai-ternary-4b-python.json": "c4e93c7d6852af2744a2a5f13808994d08c112d842dd5e454e5e8ba4dba37b7a",
+  "gemma4-e2b-js.json": "98fa72b2a53be2094c20ba078a616cd58abe926ae2e60a7e8d7df3cc31b94356",
+  "gemma4-e2b-js.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "gemma4-e2b-python.json": "5725a46e23ddd224ea17cd582f3003f49c6ac742b1bb48bf53b707bd1ca92242",
+  "lfm2-1.2b-js.json": "e0e247a131c296d1df531d836bf71103a0564b187d5e4b2465e77d140a60a5a2",
+  "lfm2-1.2b-js.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "lfm2-1.2b-python.json": "6c54fcd8e3be930794c2c9bf474b812b379bf05363589dadabeb841bdf7be2e2",
+  "minicpm5-2b-gguf-js.json": "9b9bd01d2fd0fba646afe659769452613faccedb9fe965e0890ecca4986582cd",
+  "minicpm5-2b-gguf-js.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "minicpm5-2b-gguf-python.json": "ababad7321698168ac47d3a004f163d4924dad20ac659c79f01a4be0e728783f",
+  "qwen35-4b-js.json": "0aed32b47408ba944fd7566c1dafa173cdf9b013a9bfc3921bf2241a0e551c47",
+  "qwen35-4b-js.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "qwen35-4b-python.json": "33cbf3679fa32ff2530f20cfc0f5f98b8fcaffab59ae7efb8b3697dd58a25d6a",
+  "run.json": "f8928250581c43f4d84de6048b77c0bc295022394227da8ef7523221589b9e9a",
+  "status.json": "17f0027b28303f3ffcd1d1322aa8d1caa13d64d99e2b3d7d8034087004180847",
+  "summary.json": "12b6e0379719c7e37713acda68dbff1018efe265c1007cf554091b1c3eb91167",
+  "terminal-output.txt": "7d00398a822813b27aad320810bb650e778aea37fa207e84e97dc4912187f8ad"
+}

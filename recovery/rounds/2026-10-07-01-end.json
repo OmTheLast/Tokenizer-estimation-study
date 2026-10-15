@@ -1,0 +1,59 @@
+{
+  "timestamp_utc": "2026-10-07T10:09:04.656186+00:00",
+  "status": "completed_qwen_verification",
+  "request": "Proceed with the first actual-tokenizer reference-count verification and document it.",
+  "completed": [
+    "Identified LocalMind Qwen tokenizer source and pinned HF revision and SHA256 asset hashes",
+    "Added checksum-validated fetch and verification scripts, JS lockfile, Python environment lock and attribution",
+    "Executed fresh JavaScript and Python tokenization with no added special tokens",
+    "Verified all 38 saved counts match both fresh counts and all 38 token-ID sequences agree",
+    "Saved complete IDs, per-sample CSV/JSON, metrics, provenance, terminal output and generated report",
+    "Updated readable study history, README and reproduction instructions"
+  ],
+  "results": {
+    "saved_count_matches": "38/38",
+    "js_python_id_matches": "38/38",
+    "worst_under_percent": -16.216216216216218,
+    "worst_over_percent": 22.857142857142858,
+    "median_absolute_error_percent": 3.1054405392392876
+  },
+  "artifacts": [
+    "config/qwen-tokenizer.lock.json",
+    "scripts/fetch_tokenizer.py",
+    "scripts/count_qwen.mjs",
+    "scripts/verify_qwen.py",
+    "package.json",
+    "package-lock.json",
+    "requirements.lock.txt",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/REPRODUCING_QWEN.md",
+    "docs/STUDY_HISTORY.md",
+    "README.md",
+    "results/2026-10-07-qwen-verification/"
+  ],
+  "checks": [
+    "Verification exit code 0",
+    "Independent saved-result arithmetic and CSV row checks passed",
+    "Script/config hashes match executed run",
+    "Local documentation links resolve",
+    "LocalMind checkout still clean",
+    "Output checksums saved"
+  ],
+  "resolved_issue": "Initial system Python urllib metadata request failed certificate validation; curl succeeded with TLS verification enabled.",
+  "limitations": [
+    "Historical tokenizer revision/library version absent from original fixtures; reproduction succeeded with pinned assets whose HF commit predates fixture measurement",
+    "Qwen only; existing fixtures, not held-out data",
+    "Python estimator port not yet written; Python here runs the real tokenizer",
+    "No browser benchmark or full chat-format accounting performed"
+  ],
+  "unfinished": [
+    "Interpret Qwen results with Om",
+    "Regenerate other four profiles",
+    "Port estimator to Python",
+    "Complete phase 0 and phase 1 review before later study phases"
+  ],
+  "running_jobs": [],
+  "blockers": [],
+  "publication_status": "No commits or pushes; all artifacts saved locally.",
+  "exact_next_action": "Review results/2026-10-07-qwen-verification/run-01/REPORT.md with Om; then identify and pin the remaining four tokenizer profiles for fresh count verification, preserving original weights and recording provenance gaps."
+}

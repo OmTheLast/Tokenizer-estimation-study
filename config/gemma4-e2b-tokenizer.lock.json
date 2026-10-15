@@ -1,0 +1,24 @@
+{
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "model_key": "gemma4-e2b",
+  "repository": "onnx-community/gemma-4-E2B-it-ONNX",
+  "revision": "9f4bef82ea6e296bc69f8a2f5939f73af81b07a6",
+  "cache_directory": ".cache/tokenizers/gemma4-e2b/9f4bef82ea6e296bc69f8a2f5939f73af81b07a6",
+  "add_special_tokens": false,
+  "assets": [
+    {
+      "filename": "tokenizer.json",
+      "url": "https://huggingface.co/onnx-community/gemma-4-E2B-it-ONNX/resolve/9f4bef82ea6e296bc69f8a2f5939f73af81b07a6/tokenizer.json",
+      "sha256": "47bd35616c7c782aaca6ccf48c75f3461d5877170984b8836b375107d0a9f566",
+      "bytes": 19439251
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "url": "https://huggingface.co/onnx-community/gemma-4-E2B-it-ONNX/resolve/9f4bef82ea6e296bc69f8a2f5939f73af81b07a6/tokenizer_config.json",
+      "sha256": "06afbf54e228050cba79c4a0afd83543cc89070a2d62b8337d0aa8b4cdc348c3",
+      "bytes": 18807
+    }
+  ],
+  "historical_provenance": "Repository mapped from pinned LocalMind registry; original fixture does not record the exact HF revision or tokenizer-library version. Selected revision predates the fixture measurement date; historical identity is unproven.",
+  "licence_note": "Conversion model card identifies apache-2.0 and links the Gemma 4 licence. Assets remain unredistributed in cache."
+}

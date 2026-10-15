@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-07T10:42:52.894592+00:00",
+  "status": "verified_all_profiles_with_explained_reference_discrepancy",
+  "completed": [
+    "Ran 190 fresh JS/Python tokenizer comparisons with exact ID agreement",
+    "Verified Python estimator matches JS in all 190 primary comparisons, 380 fixture/alias checks, 1230 edge checks and 109 class checks",
+    "Preserved failed content-only reference check: 76 mismatches in LFM and MiniCPM, each saved count +1",
+    "Ran diagnostic: all 190 saved counts match special-enabled tokenization; identified BOS prefixes",
+    "Reproduced camelCase option being ignored in installed JS library; historical cause remains inference"
+  ],
+  "artifacts": [
+    "results/2026-10-07-all-profiles/run-01/",
+    "results/2026-10-07-all-profiles/special-token-diagnostic-01/"
+  ],
+  "next_action": "Generate phase-0 review report, update history and README, validate artifact integrity and save end checkpoint."
+}

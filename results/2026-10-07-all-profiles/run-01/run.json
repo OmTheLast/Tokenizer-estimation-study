@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-07T10:38:19.794257+00:00",
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "python_version": "3.13.11",
+  "python_tokenizers_version": "0.23.2",
+  "node_version": "v25.2.1",
+  "js_tokenizers_version": "0.2.0",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "add_special_tokens": false,
+  "truncation": false,
+  "padding": false,
+  "script_and_config_sha256": {
+    "scripts/verify_all_profiles.py": "7a0267ac90f6ba58190cc792cf0d3c37ab85c2517a8f3d7fd116a68fe482bb86",
+    "scripts/count_profile.mjs": "8dc5ccbe0f9bacae826f2be040e87aab4d869e223f878e18d7eb2c8f9e944458",
+    "scripts/localmind_source.mjs": "0f3e5aed7d3dd3c24a8e62b3c079f1ebfb7cd714ff290ff85860499140f83d0a",
+    "scripts/export_estimator_cases.mjs": "8ec2c448bf14f7bd20d5eb1dbc4256c281207728f117ba7026343e42760e6bf4",
+    "scripts/localmind_estimator.py": "29cae446d4bb98b35d0c367e23ab20b802de0f99f9b6b715089efc2bf346db76",
+    "scripts/fetch_tokenizer.py": "736bbf0d305b07419e8a417d98333fcad40e01709b20bf4273cb10e89b796e7c",
+    "config/localmind-profiles.json": "43f0b129567b0b62f1715e95f412742c83eb0eb576122bc8462c77197ca09ef5",
+    "package-lock.json": "a9a9595154c3d9f46f6f65c63874dbcf312baf3fe7c70133bb9cd64b30192327",
+    "requirements.lock.txt": "94ab79db5723aa4c84f363e5e8803e3f0f7854c0e89517cf9249644cb2008727",
+    "config/qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "config/bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "config/lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "config/gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "config/minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4"
+  }
+}

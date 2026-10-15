@@ -1,0 +1,10 @@
+{
+  "name": "tokenizer-estimation-study",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible checks of tokenizer count estimates",
+  "dependencies": {
+    "@huggingface/tokenizers": "0.2.0"
+  }
+}

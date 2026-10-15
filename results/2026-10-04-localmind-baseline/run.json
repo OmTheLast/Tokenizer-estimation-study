@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-10-04T06:14:22.518914+00:00",
+  "status": "passed",
+  "source_url": "https://github.com/NakliTechie/LocalMind",
+  "source_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "command": [
+    "node",
+    "scripts/test-token-count.mjs"
+  ],
+  "working_directory": "external/LocalMind",
+  "node_version": "v25.2.1",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "upstream_licence": "MIT; Copyright (c) 2026 Chirag Patnaik",
+  "sha256": {
+    "index.html": "62f05db5f11c37bdc0f8adbaae946530482f497f81a053d0d5ce2a1a7d8795a3",
+    "scripts/test-token-count.mjs": "6b6c2beae856c6a3886e8125dec8bfbcb01b4d374ce62a5936fb1a65c2637126",
+    "scripts/token-fixtures.mjs": "676ed3859a08816816b7dc9a009be17d7d7e685814fcd2fba37629b63cbb1ed3",
+    "LICENSE": "8d5bf298355c136fb57eac95af829c4cc06a8e144cb3f08dc9f6aa5f8a7356ad"
+  },
+  "exit_code": 0,
+  "upstream_worktree_clean_after": true,
+  "limitations": [
+    "Comparison is against stored fixture counts, not freshly executed tokenizers.",
+    "Timing is a single Node run, not a browser performance benchmark.",
+    "The synthetic history regression multiplies per-sentence stored counts; it does not tokenize the complete joined history."
+  ]
+}

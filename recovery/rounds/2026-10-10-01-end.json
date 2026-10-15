@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-10T13:30:27.901478+00:00",
+  "status": "pilot_pipeline_ready_dataset_access_pending",
+  "request": "Start the broader multilingual measurement study after phase-0 explanation.",
+  "completed": [
+    "Checked official FLORES+ dataset metadata and use conditions",
+    "Attempted authenticated English dev download with existing local HF credential; HTTP 403 GatedRepoError",
+    "Asked user to accept dataset conditions with the configured account; no response received yet",
+    "Pinned proposed 18-language, 100-aligned-ID dev pilot and evaluation-only usage",
+    "Implemented authorized data loader, stable sampling/freezing, numeric feature/count pipeline, resumable Parquet shards and generated reports/figures",
+    "Verified 190 old-fixture measurements, Parquet fidelity, saved-shard resume and 3 input-contract tests",
+    "Updated human-readable history and pilot instructions"
+  ],
+  "artifacts": [
+    "config/phase1-pilot.json",
+    "scripts/flores_pilot_data.py",
+    "scripts/pilot_features.py",
+    "scripts/pilot_report.py",
+    "scripts/measure_pilot.py",
+    "tests/test_pilot_inputs.py",
+    "requirements-phase1.lock.txt",
+    "results/2026-10-10-pilot-access/",
+    "results/2026-10-10-phase1-smoke/run-01/",
+    "docs/PHASE1_PILOT.md",
+    "docs/STUDY_HISTORY.md",
+    "README.md"
+  ],
+  "checks": {
+    "input_tests": {
+      "command": ".venv/bin/python tests/test_pilot_inputs.py",
+      "tests_passed": 3,
+      "exit_code": 0
+    },
+    "smoke_measurements": 190,
+    "phase0_agreement": true,
+    "parquet_round_trip": true,
+    "resume_shards_verified": 5,
+    "figure_visually_inspected": true,
+    "earlier_artifacts_unchanged": true,
+    "documentation_links_resolve": true,
+    "real_dataset_integration_tested": false
+  },
+  "decisions": [
+    "FLORES+ only evaluates frozen estimators; future fitting/calibration needs other data",
+    "Do not download or inspect devtest",
+    "No gate bypass or unauthenticated mirror fallback",
+    "No raw FLORES+ text/token IDs in output table or logs",
+    "Preserve phase-0 dependencies and outputs; phase-1 dependencies separately locked"
+  ],
+  "unfinished": [
+    "Dataset account access approval",
+    "Real FLORES+ pilot and generated findings",
+    "Broader phase-1 dataset/tokenizer coverage and later estimator/browser studies"
+  ],
+  "blockers": [
+    "HTTP 403 from official dataset for the configured account; user action required"
+  ],
+  "running_jobs": [],
+  "publication_status": "No commits or pushes; saved locally.",
+  "exact_next_action": "After user confirms FLORES+ access approval, run .venv/bin/python scripts/measure_pilot.py --output results/2026-10-10-phase1-pilot/run-01 from tokenizer-study/. Use --resume on the same path if interrupted. Verify actual rows and figure, then update readable history with empirical results. Do not present smoke metrics as new evidence."
+}

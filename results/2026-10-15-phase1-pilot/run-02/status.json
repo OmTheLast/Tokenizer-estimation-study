@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-15T15:46:05.218965+00:00",
+  "command": [
+    "scripts/measure_pilot.py",
+    "--output",
+    "results/2026-10-15-phase1-pilot/run-02"
+  ],
+  "smoke_only": false,
+  "exit_code": 0,
+  "completed_utc": "2026-10-15T15:46:21.400586+00:00"
+}

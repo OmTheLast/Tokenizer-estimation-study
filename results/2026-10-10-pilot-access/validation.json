@@ -1,0 +1,15 @@
+{
+  "input_tests": {
+    "command": ".venv/bin/python tests/test_pilot_inputs.py",
+    "tests_passed": 3,
+    "exit_code": 0
+  },
+  "smoke_measurements": 190,
+  "phase0_agreement": true,
+  "parquet_round_trip": true,
+  "resume_shards_verified": 5,
+  "figure_visually_inspected": true,
+  "earlier_artifacts_unchanged": true,
+  "documentation_links_resolve": true,
+  "real_dataset_integration_tested": false
+}

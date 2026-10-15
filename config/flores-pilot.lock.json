@@ -1,0 +1,117 @@
+{
+  "dataset": "openlanguagedata/flores_plus",
+  "revision": "e707e62e762a9e2faca3933aa315f4665cc3cd8f",
+  "split": "dev",
+  "licence": "CC-BY-SA-4.0",
+  "use": "Evaluation only; no training; no public redistribution of raw text or token IDs",
+  "files": [
+    {
+      "language": "eng_Latn",
+      "filename": "dev/eng_Latn.jsonl",
+      "sha256": "5b0267273e0ccc7c2c935f9cb19070f26e4c04775180220ea1a33f72bacbe037",
+      "records": 997
+    },
+    {
+      "language": "hin_Deva",
+      "filename": "dev/hin_Deva.jsonl",
+      "sha256": "def135dec44a6e05e78b4e0481117065a1be01fe859cc532e07f94dcf6ba9109",
+      "records": 997
+    },
+    {
+      "language": "mar_Deva",
+      "filename": "dev/mar_Deva.jsonl",
+      "sha256": "de8cc46a634d4fbcf60856fd45da497f5cd37eaf119b0631b2abe5ea3ce60322",
+      "records": 997
+    },
+    {
+      "language": "ben_Beng",
+      "filename": "dev/ben_Beng.jsonl",
+      "sha256": "5e7bc2c11c2943144ba3d79dac82aa60c9661e7aea23258a5d6d26708273a485",
+      "records": 997
+    },
+    {
+      "language": "guj_Gujr",
+      "filename": "dev/guj_Gujr.jsonl",
+      "sha256": "231b80f0f6fa762a0bc43e399fb01324c18c0f0d3aef09c08332a6db431b6c4d",
+      "records": 997
+    },
+    {
+      "language": "kan_Knda",
+      "filename": "dev/kan_Knda.jsonl",
+      "sha256": "76da9f3484ab6afa7830744f1e42c4d0ad4b6ce4aaa4af9cab846ac8c855c881",
+      "records": 997
+    },
+    {
+      "language": "mal_Mlym",
+      "filename": "dev/mal_Mlym.jsonl",
+      "sha256": "97827e2f2c138552232f308e802ab18867e6118d3f7c04823f2611f84ca50bf3",
+      "records": 997
+    },
+    {
+      "language": "ory_Orya",
+      "filename": "dev/ory_Orya.jsonl",
+      "sha256": "6d36a823635d07192387155db459fd17e426c54c8a898a43a77269688dd6c88d",
+      "records": 997
+    },
+    {
+      "language": "pan_Guru",
+      "filename": "dev/pan_Guru.jsonl",
+      "sha256": "05fc30f234451728949518715bcd44889e955960876679cccb9eede481020733",
+      "records": 997
+    },
+    {
+      "language": "tam_Taml",
+      "filename": "dev/tam_Taml.jsonl",
+      "sha256": "5f94fbd027f6bcb95054920e4d9034e58d3074ab7f65c42fbd1d09df7cb0a905",
+      "records": 997
+    },
+    {
+      "language": "tel_Telu",
+      "filename": "dev/tel_Telu.jsonl",
+      "sha256": "58eb965294409ba56db29e1d4f7f63d771d417d7dce1d5a9182d3308e742abc1",
+      "records": 997
+    },
+    {
+      "language": "cmn_Hans",
+      "filename": "dev/cmn_Hans.jsonl",
+      "sha256": "fb87fffbfaceadd065ed2a5afded9e9c719c4470496e9c164a6e60e394a7c505",
+      "records": 997
+    },
+    {
+      "language": "cmn_Hant",
+      "filename": "dev/cmn_Hant.jsonl",
+      "sha256": "9957a3265b03c07b465da4cc79d59fc9d3bc9156afccfbb867bb85d6103da6df",
+      "records": 997
+    },
+    {
+      "language": "yue_Hant",
+      "filename": "dev/yue_Hant.jsonl",
+      "sha256": "eb4a8c0d419753f1e52c2f610c6e1ddc680a054fb384e40d69993ff3bb8b9e4e",
+      "records": 997
+    },
+    {
+      "language": "jpn_Jpan",
+      "filename": "dev/jpn_Jpan.jsonl",
+      "sha256": "7c5e6e8a0218548faf2581e479e0b0501c470fd24c9ca1f4c38de04629f152df",
+      "records": 997
+    },
+    {
+      "language": "kor_Hang",
+      "filename": "dev/kor_Hang.jsonl",
+      "sha256": "31ed3aa6888ba3d204f50a903aeeade4e29d61f441365a83c16961f1f53f82d1",
+      "records": 997
+    },
+    {
+      "language": "arb_Arab",
+      "filename": "dev/arb_Arab.jsonl",
+      "sha256": "49bfbf6066c879b99b3ebe5d1244aca4dc57960945b91fc0922bbf25e68de2fe",
+      "records": 997
+    },
+    {
+      "language": "rus_Cyrl",
+      "filename": "dev/rus_Cyrl.jsonl",
+      "sha256": "ef67fb040a565c162e3250bbc3b73192a59fe1311a09ec66a9467008f3160b69",
+      "records": 997
+    }
+  ]
+}

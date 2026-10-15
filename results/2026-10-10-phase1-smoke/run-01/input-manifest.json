@@ -1,0 +1,29 @@
+{
+  "smoke_only": true,
+  "input_text_digest": "ffd0ac270a14dc237f82d38710d479cd93ed66f127daf4e27d98a21ff300e325",
+  "input_provenance": {
+    "smoke_only": true,
+    "source_sha256": "6c68fdc295e36715c990a5c225360c2451a29eb065561b3eb0f1c311454057ed"
+  },
+  "file_sha256": {
+    "scripts/measure_pilot.py": "910ee43e48f1a16c13775ddbf910afa04aafd8ad212eacba00a86cbe1c13358a",
+    "scripts/flores_pilot_data.py": "82c564a70263e797f42248ed240355c09cc725fa0ecf64e45bb6a83fdb1f3dc0",
+    "scripts/pilot_features.py": "ddeb49bcd4def43bceff1c91a3ea8b4ac75bf678678d096da8491949ba614e28",
+    "scripts/pilot_report.py": "fc29d2f4e4e27e58de5c329989148c8268f30f1fd27f6d1134983e0b2b1689b9",
+    "scripts/localmind_estimator.py": "29cae446d4bb98b35d0c367e23ab20b802de0f99f9b6b715089efc2bf346db76",
+    "scripts/verify_all_profiles.py": "7a0267ac90f6ba58190cc792cf0d3c37ab85c2517a8f3d7fd116a68fe482bb86",
+    "scripts/fetch_tokenizer.py": "736bbf0d305b07419e8a417d98333fcad40e01709b20bf4273cb10e89b796e7c",
+    "config/localmind-profiles.json": "43f0b129567b0b62f1715e95f412742c83eb0eb576122bc8462c77197ca09ef5",
+    "config/phase1-pilot.json": "d17135566ef51a0358096cea5e2fd0dbe3cdd0e57106ddcaae67b9b4344c28ff",
+    "requirements-phase1.lock.txt": "be787856d9e5935b59889a3ee5dc1f7df3bd171dc78240760c96152d54a8df98",
+    "config/qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "config/bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "config/lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "config/gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "config/minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4"
+  },
+  "python_version": "3.13.11",
+  "tokenizers_version": "0.23.2",
+  "pyarrow_version": "26.0.0",
+  "unicode_version": "15.1.0"
+}

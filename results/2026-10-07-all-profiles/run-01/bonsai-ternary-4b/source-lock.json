@@ -1,0 +1,24 @@
+{
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "model_key": "bonsai-ternary-4b",
+  "repository": "onnx-community/Ternary-Bonsai-4B-ONNX",
+  "revision": "9d085aaf786063cadb648fff1725c2c36fd28ade",
+  "cache_directory": ".cache/tokenizers/bonsai-ternary-4b/9d085aaf786063cadb648fff1725c2c36fd28ade",
+  "add_special_tokens": false,
+  "assets": [
+    {
+      "filename": "tokenizer.json",
+      "url": "https://huggingface.co/onnx-community/Ternary-Bonsai-4B-ONNX/resolve/9d085aaf786063cadb648fff1725c2c36fd28ade/tokenizer.json",
+      "sha256": "40ae5d1ee027b985684a3bbeef4ee16b2b5697d1d90658bec5bc5d2a73018bd7",
+      "bytes": 9117036
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "url": "https://huggingface.co/onnx-community/Ternary-Bonsai-4B-ONNX/resolve/9d085aaf786063cadb648fff1725c2c36fd28ade/tokenizer_config.json",
+      "sha256": "a8342e0e0e791a478f628dd1adf825ab1f9afe4a1075959ad32d77f1318b9841",
+      "bytes": 4598
+    }
+  ],
+  "historical_provenance": "Repository mapped from pinned LocalMind registry; original fixture does not record the exact HF revision or tokenizer-library version. Selected revision predates the fixture measurement date; historical identity is unproven.",
+  "licence_note": "No model card/licence file listed in conversion repository."
+}

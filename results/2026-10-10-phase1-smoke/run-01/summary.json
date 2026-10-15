@@ -1,0 +1,196 @@
+{
+  "smoke_only": true,
+  "rows": 190,
+  "models": {
+    "qwen35-4b": {
+      "rows": 38,
+      "total_tokens": 2601,
+      "tokens_per_character": 0.39054054054054055,
+      "median_absolute_error_percent": 3.1054405392392876,
+      "minimum_error_percent": -16.216216216216218,
+      "maximum_error_percent": 22.857142857142858,
+      "within_20_percent_count": 37,
+      "undercount_count": 13
+    },
+    "bonsai-ternary-4b": {
+      "rows": 38,
+      "total_tokens": 4734,
+      "tokens_per_character": 0.7108108108108108,
+      "median_absolute_error_percent": 2.1431828545371636,
+      "minimum_error_percent": -11.475409836065573,
+      "maximum_error_percent": 10.606060606060606,
+      "within_20_percent_count": 38,
+      "undercount_count": 13
+    },
+    "lfm2-1.2b": {
+      "rows": 38,
+      "total_tokens": 7217,
+      "tokens_per_character": 1.0836336336336336,
+      "median_absolute_error_percent": 1.8099362640954404,
+      "minimum_error_percent": -10.95890410958904,
+      "maximum_error_percent": 15.0,
+      "within_20_percent_count": 38,
+      "undercount_count": 10
+    },
+    "gemma4-e2b": {
+      "rows": 38,
+      "total_tokens": 2062,
+      "tokens_per_character": 0.3096096096096096,
+      "median_absolute_error_percent": 4.7388059701492535,
+      "minimum_error_percent": -16.27906976744186,
+      "maximum_error_percent": 20.833333333333332,
+      "within_20_percent_count": 37,
+      "undercount_count": 16
+    },
+    "minicpm5-2b-gguf": {
+      "rows": 38,
+      "total_tokens": 5812,
+      "tokens_per_character": 0.8726726726726727,
+      "median_absolute_error_percent": 2.000800320128051,
+      "minimum_error_percent": -12.5,
+      "maximum_error_percent": 15.909090909090908,
+      "within_20_percent_count": 38,
+      "undercount_count": 9
+    }
+  },
+  "cells": [
+    {
+      "model_key": "qwen35-4b",
+      "language": "existing-fixtures",
+      "label": "Existing fixtures",
+      "rows": 38,
+      "total_tokens": 2601,
+      "tokens_per_character": 0.39054054054054055,
+      "median_absolute_error_percent": 3.1054405392392876,
+      "minimum_error_percent": -16.216216216216218,
+      "maximum_error_percent": 22.857142857142858,
+      "within_20_percent_count": 37,
+      "undercount_count": 13
+    },
+    {
+      "model_key": "bonsai-ternary-4b",
+      "language": "existing-fixtures",
+      "label": "Existing fixtures",
+      "rows": 38,
+      "total_tokens": 4734,
+      "tokens_per_character": 0.7108108108108108,
+      "median_absolute_error_percent": 2.1431828545371636,
+      "minimum_error_percent": -11.475409836065573,
+      "maximum_error_percent": 10.606060606060606,
+      "within_20_percent_count": 38,
+      "undercount_count": 13
+    },
+    {
+      "model_key": "lfm2-1.2b",
+      "language": "existing-fixtures",
+      "label": "Existing fixtures",
+      "rows": 38,
+      "total_tokens": 7217,
+      "tokens_per_character": 1.0836336336336336,
+      "median_absolute_error_percent": 1.8099362640954404,
+      "minimum_error_percent": -10.95890410958904,
+      "maximum_error_percent": 15.0,
+      "within_20_percent_count": 38,
+      "undercount_count": 10
+    },
+    {
+      "model_key": "gemma4-e2b",
+      "language": "existing-fixtures",
+      "label": "Existing fixtures",
+      "rows": 38,
+      "total_tokens": 2062,
+      "tokens_per_character": 0.3096096096096096,
+      "median_absolute_error_percent": 4.7388059701492535,
+      "minimum_error_percent": -16.27906976744186,
+      "maximum_error_percent": 20.833333333333332,
+      "within_20_percent_count": 37,
+      "undercount_count": 16
+    },
+    {
+      "model_key": "minicpm5-2b-gguf",
+      "language": "existing-fixtures",
+      "label": "Existing fixtures",
+      "rows": 38,
+      "total_tokens": 5812,
+      "tokens_per_character": 0.8726726726726727,
+      "median_absolute_error_percent": 2.000800320128051,
+      "minimum_error_percent": -12.5,
+      "maximum_error_percent": 15.909090909090908,
+      "within_20_percent_count": 38,
+      "undercount_count": 9
+    }
+  ],
+  "groups": [
+    {
+      "model_key": "qwen35-4b",
+      "group": "Smoke only",
+      "rows": 38,
+      "total_tokens": 2601,
+      "tokens_per_character": 0.39054054054054055,
+      "median_absolute_error_percent": 3.1054405392392876,
+      "minimum_error_percent": -16.216216216216218,
+      "maximum_error_percent": 22.857142857142858,
+      "within_20_percent_count": 37,
+      "undercount_count": 13
+    },
+    {
+      "model_key": "bonsai-ternary-4b",
+      "group": "Smoke only",
+      "rows": 38,
+      "total_tokens": 4734,
+      "tokens_per_character": 0.7108108108108108,
+      "median_absolute_error_percent": 2.1431828545371636,
+      "minimum_error_percent": -11.475409836065573,
+      "maximum_error_percent": 10.606060606060606,
+      "within_20_percent_count": 38,
+      "undercount_count": 13
+    },
+    {
+      "model_key": "lfm2-1.2b",
+      "group": "Smoke only",
+      "rows": 38,
+      "total_tokens": 7217,
+      "tokens_per_character": 1.0836336336336336,
+      "median_absolute_error_percent": 1.8099362640954404,
+      "minimum_error_percent": -10.95890410958904,
+      "maximum_error_percent": 15.0,
+      "within_20_percent_count": 38,
+      "undercount_count": 10
+    },
+    {
+      "model_key": "gemma4-e2b",
+      "group": "Smoke only",
+      "rows": 38,
+      "total_tokens": 2062,
+      "tokens_per_character": 0.3096096096096096,
+      "median_absolute_error_percent": 4.7388059701492535,
+      "minimum_error_percent": -16.27906976744186,
+      "maximum_error_percent": 20.833333333333332,
+      "within_20_percent_count": 37,
+      "undercount_count": 16
+    },
+    {
+      "model_key": "minicpm5-2b-gguf",
+      "group": "Smoke only",
+      "rows": 38,
+      "total_tokens": 5812,
+      "tokens_per_character": 0.8726726726726727,
+      "median_absolute_error_percent": 2.000800320128051,
+      "minimum_error_percent": -12.5,
+      "maximum_error_percent": 15.909090909090908,
+      "within_20_percent_count": 38,
+      "undercount_count": 9
+    }
+  ],
+  "largest_gaps": [
+    {
+      "language": "existing-fixtures",
+      "label": "Existing fixtures",
+      "lowest_model": "gemma4-e2b",
+      "highest_model": "lfm2-1.2b",
+      "lowest_total_tokens": 2062,
+      "highest_total_tokens": 7217,
+      "ratio_high_to_low": 3.5
+    }
+  ]
+}

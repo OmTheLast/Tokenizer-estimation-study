@@ -1,0 +1,14 @@
+Measured qwen35-4b: 38 rows
+Measured bonsai-ternary-4b: 38 rows
+Measured lfm2-1.2b: 38 rows
+Measured gemma4-e2b: 38 rows
+Measured minicpm5-2b-gguf: 38 rows
+SMOKE ONLY: saved and validated 190 rows; no weights fitted
+Exit code: 0
+Resumed verified qwen35-4b: 38 rows
+Resumed verified bonsai-ternary-4b: 38 rows
+Resumed verified lfm2-1.2b: 38 rows
+Resumed verified gemma4-e2b: 38 rows
+Resumed verified minicpm5-2b-gguf: 38 rows
+SMOKE ONLY: saved and validated 190 rows; no weights fitted
+Exit code: 0

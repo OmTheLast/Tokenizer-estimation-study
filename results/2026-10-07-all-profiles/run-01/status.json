@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "started_utc": "2026-10-07T10:38:17.093715+00:00",
+  "command": [
+    "scripts/verify_all_profiles.py",
+    "--output",
+    "results/2026-10-07-all-profiles/run-01"
+  ],
+  "exit_code": 2,
+  "completed_utc": "2026-10-07T10:38:19.833447+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "rows": 9000,
+  "source_config_hashes_match": true,
+  "five_shard_checksums_match": true,
+  "error_formula_checked_all_rows": true,
+  "raw_text_and_ids_absent": true,
+  "statistics": {
+    "qwen35-4b": {
+      "median_absolute_error_percent": 8.695652173913043,
+      "old_median_absolute_error_percent": 47.61904761904762,
+      "worst_under": {
+        "language": "yue_Hant",
+        "sentence_id": "370",
+        "estimate": 15,
+        "token_count": 29,
+        "error_percent": -48.275862068965516
+      }
+    },
+    "bonsai-ternary-4b": {
+      "median_absolute_error_percent": 4.3478260869565215,
+      "old_median_absolute_error_percent": 69.90473180422612,
+      "worst_under": {
+        "language": "cmn_Hant",
+        "sentence_id": "131",
+        "estimate": 18,
+        "token_count": 34,
+        "error_percent": -47.05882352941177
+      }
+    },
+    "lfm2-1.2b": {
+      "median_absolute_error_percent": 3.2820864342603473,
+      "old_median_absolute_error_percent": 76.92307692307692,
+      "worst_under": {
+        "language": "kor_Hang",
+        "sentence_id": "891",
+        "estimate": 21,
+        "token_count": 44,
+        "error_percent": -52.27272727272727
+      }
+    },
+    "gemma4-e2b": {
+      "median_absolute_error_percent": 11.11111111111111,
+      "old_median_absolute_error_percent": 31.11111111111111,
+      "worst_under": {
+        "language": "kor_Hang",
+        "sentence_id": "891",
+        "estimate": 20,
+        "token_count": 39,
+        "error_percent": -48.717948717948715
+      }
+    },
+    "minicpm5-2b-gguf": {
+      "median_absolute_error_percent": 3.491466883380739,
+      "old_median_absolute_error_percent": 69.23076923076923,
+      "worst_under": {
+        "language": "yue_Hant",
+        "sentence_id": "843",
+        "estimate": 11,
+        "token_count": 26,
+        "error_percent": -57.69230769230769
+      }
+    }
+  }
+}

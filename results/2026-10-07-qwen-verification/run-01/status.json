@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-07T10:06:28.204717+00:00",
+  "command": [
+    "scripts/verify_qwen.py",
+    "--output",
+    "results/2026-10-07-qwen-verification/run-01"
+  ],
+  "exit_code": 0,
+  "completed_utc": "2026-10-07T10:06:29.016016+00:00"
+}

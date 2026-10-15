@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-10-07T10:43:48.784009+00:00",
+  "status": "completed_phase0_checks_with_explained_reference_discrepancy",
+  "request": "Verify remaining four tokenizer profiles and port estimator to Python.",
+  "completed": [
+    "Pinned and checked all five tokenizer profiles over 190 comparisons",
+    "Fresh JS/Python complete token-ID sequences agree in all 190 content-only comparisons",
+    "Python port agrees with original estimator for all 190 primary comparisons, 380 fixture/alias checks, 1230 edge checks and 109 class checks",
+    "Preserved failed content-only saved-reference check: 76 LFM/MiniCPM saved counts are exactly one token higher",
+    "Diagnostic reproduces every saved count with special tokens enabled; identifies LFM BOS ID 1 and MiniCPM BOS ID 0",
+    "Demonstrated camelCase option ignored by installed JS library; documented historical cause as inference",
+    "Generated phase-0 report and updated readable history, README and reproducibility instructions"
+  ],
+  "artifacts": [
+    "scripts/pin_remaining_tokenizers.py",
+    "scripts/localmind_source.mjs",
+    "scripts/count_profile.mjs",
+    "scripts/export_estimator_cases.mjs",
+    "scripts/localmind_estimator.py",
+    "scripts/verify_all_profiles.py",
+    "scripts/probe_special_tokens.mjs",
+    "scripts/diagnose_special_tokens.py",
+    "scripts/write_phase0_report.py",
+    "config/localmind-profiles.json",
+    "config/*-tokenizer.lock.json",
+    "results/2026-10-07-all-profiles/",
+    "docs/PHASE0_RESULTS.md",
+    "docs/REPRODUCING_PHASE0.md",
+    "docs/STUDY_HISTORY.md",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "checks": [
+    "All-profile run exit 2 intentionally retained for 76 reference discrepancies; no execution failures",
+    "Diagnostic exit 0",
+    "Independent 190-row delta and parity audit passed",
+    "Executed-script/config hashes match saved run metadata",
+    "Earlier Qwen artifact checksums unchanged",
+    "Documentation links resolve",
+    "Upstream checkout unchanged",
+    "New result checksums recorded"
+  ],
+  "limitations": [
+    "Exact original generator, HF revisions and tokenizer-library version unavailable",
+    "MiniCPM tested with first-party parent JSON tokenizer; GGUF runtime equivalence not checked",
+    "String/None estimator API; arbitrary JS object coercion intentionally excluded",
+    "Existing fixtures only; no held-out evaluation, browser benchmark or full chat budgeting"
+  ],
+  "unfinished": [
+    "Review phase-0 findings with Om",
+    "Phase 1 ground-truth dataset and split design",
+    "Later held-out estimator evaluation and browser benchmarks"
+  ],
+  "blockers": [],
+  "running_jobs": [],
+  "publication_status": "No commits or pushes this round; all work saved locally.",
+  "exact_next_action": "Read docs/PHASE0_RESULTS.md with Om, agree on phase-1 tokenizer/language pilot and data access, then create frozen dataset partitions and content-only ground-truth pipeline with special-token accounting separate. Preserve original fixture mismatch evidence."
+}

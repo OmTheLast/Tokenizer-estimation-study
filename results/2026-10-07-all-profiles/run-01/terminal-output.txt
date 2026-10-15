@@ -1,0 +1,8 @@
+Python estimator parity: 380 fixture/alias checks, 1230 edge checks, 109 class checks; 0 mismatches
+qwen35-4b: saved=JS 38/38; saved=Python 38/38; IDs 38/38; estimator 38/38; error -16.22% to +22.86%
+bonsai-ternary-4b: saved=JS 38/38; saved=Python 38/38; IDs 38/38; estimator 38/38; error -11.48% to +10.61%
+lfm2-1.2b: saved=JS 0/38; saved=Python 0/38; IDs 38/38; estimator 38/38; error -10.96% to +15.00%
+gemma4-e2b: saved=JS 38/38; saved=Python 38/38; IDs 38/38; estimator 38/38; error -16.28% to +20.83%
+minicpm5-2b-gguf: saved=JS 0/38; saved=Python 0/38; IDs 38/38; estimator 38/38; error -12.50% to +15.91%
+Total: 114/190 saved-count matches; 190/190 ID matches; 190/190 estimator matches
+Exit code: 2

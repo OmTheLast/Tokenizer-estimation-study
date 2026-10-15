@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-10-06T02:45:59.005559+00:00",
+  "status": "completed_documentation_only",
+  "request": "Save readable internal history and clarify real-tokenizer verification.",
+  "completed": [
+    "Created docs/STUDY_HISTORY.md with dated project history, explanation, exact baseline output, limits and checklist",
+    "Linked readable history from README",
+    "Added standing instruction to maintain readable history",
+    "Clarified upcoming check compares saved counts, fresh actual counts and unchanged estimates"
+  ],
+  "artifacts": [
+    "docs/STUDY_HISTORY.md",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "checks": [
+    "All local links in history resolve",
+    "Recorded terminal output matches saved output verbatim",
+    "Confirmed repository still has no commits"
+  ],
+  "unfinished": [
+    "Fresh real-tokenizer count regeneration",
+    "Python estimator port and JS/Python agreement",
+    "Unseen-text and browser evaluation"
+  ],
+  "running_jobs": [],
+  "blockers": [],
+  "publication_status": "Local documentation saved; no commits or pushes.",
+  "exact_next_action": "Identify tokenizer assets and historical revision for LocalMind qwen35-4b, pin an available revision with provenance caveat if needed, then regenerate counts on the same 38 fixtures and compare saved count, fresh count and unchanged estimate."
+}

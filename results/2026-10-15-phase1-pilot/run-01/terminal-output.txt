@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/ompatnaik/Documents/Code/AiLearningThing/tokenizer-study/scripts/measure_pilot.py", line 170, in main
+    run(out, args.smoke, log)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ompatnaik/Documents/Code/AiLearningThing/tokenizer-study/scripts/measure_pilot.py", line 45, in run
+    texts, provenance = smoke_texts() if smoke else load_pilot(log)
+                                                    ~~~~~~~~~~^^^^^
+  File "/Users/ompatnaik/Documents/Code/AiLearningThing/tokenizer-study/scripts/flores_pilot_data.py", line 42, in load_pilot
+    raise RuntimeError(f"Dataset access failed for {filename}: {type(error).__name__}, HTTP {status}. Review FLORES+ conditions with the configured HF account; no fallback was used.") from None
+RuntimeError: Dataset access failed for dev/eng_Latn.jsonl: LocalEntryNotFoundError, HTTP None. Review FLORES+ conditions with the configured HF account; no fallback was used.
+
+Exit code: 1

@@ -1,0 +1,24 @@
+{
+  "localmind_commit": "b39f0bc145a0c0926ba22247ee31cd369e0445b6",
+  "model_key": "minicpm5-2b-gguf",
+  "repository": "openbmb/MiniCPM5-2B",
+  "revision": "12a3808a956f869c767195e9266b59c4d21d92e2",
+  "cache_directory": ".cache/tokenizers/minicpm5-2b-gguf/12a3808a956f869c767195e9266b59c4d21d92e2",
+  "add_special_tokens": false,
+  "assets": [
+    {
+      "filename": "tokenizer.json",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B/resolve/12a3808a956f869c767195e9266b59c4d21d92e2/tokenizer.json",
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81",
+      "bytes": 9894271
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B/resolve/12a3808a956f869c767195e9266b59c4d21d92e2/tokenizer_config.json",
+      "sha256": "e9b1064649e771d7a8e15637c68b2d2749724877ba3648bd74a4ece31c26303b",
+      "bytes": 94391
+    }
+  ],
+  "historical_provenance": "LocalMind uses first-party openbmb/MiniCPM5-2B-GGUF, which has no tokenizer.json. This run uses the first-party parent MiniCPM5-2B JSON tokenizer at the latest recorded revision before 2026-09-24. It can reproduce the stated JSON-based fixtures but does not verify GGUF/wllama runtime equivalence. Original fixture HF revision/library version is unrecorded.",
+  "licence_note": "First-party model card identifies apache-2.0. HF JSON tokenizer checked, not the GGUF runtime."
+}

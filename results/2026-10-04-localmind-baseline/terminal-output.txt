@@ -1,0 +1,4 @@
+$ node scripts/test-token-count.mjs
+LocalMind token counting: ok — 38 samples x 5 tokenizers, worst -16% (mixed-code-ta-b/gemma4-e2b) / +23% (mixed-hi-en-a/qwen35-4b), old guess worst -89%, 2 ms for 267880 chars
+
+Exit code: 0

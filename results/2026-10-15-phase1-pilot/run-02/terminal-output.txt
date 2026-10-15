@@ -1,0 +1,25 @@
+Fetched eng_Latn: 997 dev records (text kept in ignored cache)
+Fetched hin_Deva: 997 dev records (text kept in ignored cache)
+Fetched mar_Deva: 997 dev records (text kept in ignored cache)
+Fetched ben_Beng: 997 dev records (text kept in ignored cache)
+Fetched guj_Gujr: 997 dev records (text kept in ignored cache)
+Fetched kan_Knda: 997 dev records (text kept in ignored cache)
+Fetched mal_Mlym: 997 dev records (text kept in ignored cache)
+Fetched ory_Orya: 997 dev records (text kept in ignored cache)
+Fetched pan_Guru: 997 dev records (text kept in ignored cache)
+Fetched tam_Taml: 997 dev records (text kept in ignored cache)
+Fetched tel_Telu: 997 dev records (text kept in ignored cache)
+Fetched cmn_Hans: 997 dev records (text kept in ignored cache)
+Fetched cmn_Hant: 997 dev records (text kept in ignored cache)
+Fetched yue_Hant: 997 dev records (text kept in ignored cache)
+Fetched jpn_Jpan: 997 dev records (text kept in ignored cache)
+Fetched kor_Hang: 997 dev records (text kept in ignored cache)
+Fetched arb_Arab: 997 dev records (text kept in ignored cache)
+Fetched rus_Cyrl: 997 dev records (text kept in ignored cache)
+Measured qwen35-4b: 1800 rows
+Measured bonsai-ternary-4b: 1800 rows
+Measured lfm2-1.2b: 1800 rows
+Measured gemma4-e2b: 1800 rows
+Measured minicpm5-2b-gguf: 1800 rows
+PILOT: saved and validated 9000 rows; no weights fitted
+Exit code: 0

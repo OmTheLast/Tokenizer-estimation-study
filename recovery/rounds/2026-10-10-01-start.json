@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-10T13:23:49.938974+00:00",
+  "status": "running",
+  "request": "Start the multilingual measurement pilot after phase-0 review and explanations.",
+  "decisions": [
+    "Measure the five pinned tokenizers on a small, sourced multilingual sample",
+    "Freeze existing estimator weights; no fitting or model training",
+    "Keep final devtest data unexamined and freeze pilot sentence IDs before counting",
+    "Use official dataset access; do not bypass gating"
+  ],
+  "completed": [
+    "Read instructions, current checkpoint and original plan"
+  ],
+  "next_action": "Check FLORES+ access and format; freeze a pilot sampling design and build a reusable ground-truth pipeline."
+}

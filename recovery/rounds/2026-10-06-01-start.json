@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-06T02:45:40.816893+00:00",
+  "status": "running",
+  "request": "Create readable internal project history and clarify the purpose of the upcoming real-tokenizer check.",
+  "completed": [
+    "Read workspace memory, project instructions, README, recovery state and baseline provenance"
+  ],
+  "decisions": [
+    "Document existing evidence and discussion in repository documentation",
+    "Mark fresh-tokenizer verification as planned, not executed",
+    "Do not run new experiments in this documentation round"
+  ],
+  "next_action": "Write docs/STUDY_HISTORY.md, link it from README and update recovery checkpoint."
+}

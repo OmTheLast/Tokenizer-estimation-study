@@ -1,0 +1,72 @@
+{
+  "profiles": {
+    "qwen35-4b": {
+      "samples": 38,
+      "min_error_percent": -16.216216216216218,
+      "max_error_percent": 22.857142857142858,
+      "median_absolute_error_percent": 3.1054405392392876,
+      "within_20_percent_count": 37,
+      "saved_js_matches": 38,
+      "saved_python_matches": 38,
+      "id_matches": 38,
+      "estimator_matches": 38
+    },
+    "bonsai-ternary-4b": {
+      "samples": 38,
+      "min_error_percent": -11.475409836065573,
+      "max_error_percent": 10.606060606060606,
+      "median_absolute_error_percent": 2.1431828545371636,
+      "within_20_percent_count": 38,
+      "saved_js_matches": 38,
+      "saved_python_matches": 38,
+      "id_matches": 38,
+      "estimator_matches": 38
+    },
+    "lfm2-1.2b": {
+      "samples": 38,
+      "min_error_percent": -10.95890410958904,
+      "max_error_percent": 15.0,
+      "median_absolute_error_percent": 1.8099362640954404,
+      "within_20_percent_count": 38,
+      "saved_js_matches": 0,
+      "saved_python_matches": 0,
+      "id_matches": 38,
+      "estimator_matches": 38
+    },
+    "gemma4-e2b": {
+      "samples": 38,
+      "min_error_percent": -16.27906976744186,
+      "max_error_percent": 20.833333333333332,
+      "median_absolute_error_percent": 4.7388059701492535,
+      "within_20_percent_count": 37,
+      "saved_js_matches": 38,
+      "saved_python_matches": 38,
+      "id_matches": 38,
+      "estimator_matches": 38
+    },
+    "minicpm5-2b-gguf": {
+      "samples": 38,
+      "min_error_percent": -12.5,
+      "max_error_percent": 15.909090909090908,
+      "median_absolute_error_percent": 2.000800320128051,
+      "within_20_percent_count": 38,
+      "saved_js_matches": 0,
+      "saved_python_matches": 0,
+      "id_matches": 38,
+      "estimator_matches": 38
+    }
+  },
+  "rows": 190,
+  "expected_rows": 190,
+  "saved_js_python_matches": 114,
+  "id_matches": 190,
+  "estimator_matches": 190,
+  "estimator_parity": {
+    "fixture_checks": 380,
+    "edge_checks": 1230,
+    "classification_checks": 109,
+    "mismatches": []
+  },
+  "disagreement_rows": 76,
+  "failures": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "flores-dev-pilot-v1",
+  "dataset": "openlanguagedata/flores_plus",
+  "revision": "e707e62e762a9e2faca3933aa315f4665cc3cd8f",
+  "split": "dev",
+  "sample_count": 100,
+  "selection": "Take 100 common sentence IDs with smallest SHA256(salt + | + id); use the same IDs in every language. Freeze before measuring tokens.",
+  "selection_salt": "tokenizer-study-flores-dev-pilot-v1",
+  "usage": "Evaluation of frozen estimators only; no fitting or calibration on FLORES+. Do not download or inspect devtest in this pilot.",
+  "languages": [
+    {"code": "eng_Latn", "label": "English", "group": "Other"},
+    {"code": "hin_Deva", "label": "Hindi", "group": "Indian"},
+    {"code": "mar_Deva", "label": "Marathi", "group": "Indian"},
+    {"code": "ben_Beng", "label": "Bengali", "group": "Indian"},
+    {"code": "guj_Gujr", "label": "Gujarati", "group": "Indian"},
+    {"code": "kan_Knda", "label": "Kannada", "group": "Indian"},
+    {"code": "mal_Mlym", "label": "Malayalam", "group": "Indian"},
+    {"code": "ory_Orya", "label": "Odia", "group": "Indian"},
+    {"code": "pan_Guru", "label": "Punjabi", "group": "Indian"},
+    {"code": "tam_Taml", "label": "Tamil", "group": "Indian"},
+    {"code": "tel_Telu", "label": "Telugu", "group": "Indian"},
+    {"code": "cmn_Hans", "label": "Chinese (Simplified)", "group": "CJK"},
+    {"code": "cmn_Hant", "label": "Chinese (Traditional)", "group": "CJK"},
+    {"code": "yue_Hant", "label": "Cantonese", "group": "CJK"},
+    {"code": "jpn_Jpan", "label": "Japanese", "group": "CJK"},
+    {"code": "kor_Hang", "label": "Korean", "group": "CJK"},
+    {"code": "arb_Arab", "label": "Arabic", "group": "Other"},
+    {"code": "rus_Cyrl", "label": "Russian", "group": "Other"}
+  ]
+}

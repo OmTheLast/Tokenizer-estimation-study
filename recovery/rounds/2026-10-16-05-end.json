@@ -1,0 +1,60 @@
+{
+  "timestamp_utc": "2026-10-16T16:49:21.402915+00:00",
+  "status": "verified_ready_to_publish",
+  "request": "Keep study focused and present research evidence and progress through traceable graphs.",
+  "decisions": [
+    "Active CJK design v2: unknown article relationships are a stated limitation, not an automatic stop.",
+    "Keep duplicate/known-family separation and narrow source-text use check.",
+    "Descriptive fixed-test-set comparison; no bootstrap intervals or significance claims in this bounded trial.",
+    "Publish figures for measured results; use milestone records for progress."
+  ],
+  "completed": [
+    "Recorded v2 design and configuration before any candidate fitting or scoring.",
+    "Generated three figures in PNG/SVG/PDF from frozen pilot measurements.",
+    "Created readable evidence guide and updated project instructions, protocol, README and history."
+  ],
+  "artifacts": [
+    "docs/CJK_EXPERIMENT_V2.md",
+    "config/cjk-experiment-v2.json",
+    "docs/EVIDENCE_GUIDE.md",
+    "scripts/plot_pilot_evidence.py",
+    "results/2026-10-16-pilot-figures/run-02"
+  ],
+  "checks": {
+    "summary_values_recomputed": 20,
+    "heatmap_values_recomputed": 180,
+    "scatter_points": 9000,
+    "numeric_data_identical_across_plot_runs": true,
+    "final_pngs_visually_inspected": 3,
+    "input_and_script_hashes_verified": true,
+    "markdown_links_checked": true,
+    "git_diff_check_passed": true
+  },
+  "preserved_attempts": [
+    {
+      "path": "results/2026-10-16-pilot-figures/run-01",
+      "reason": "Figure 1 caption overlap repaired in run-02; identical numeric data."
+    }
+  ],
+  "running_jobs": [],
+  "unfinished": [
+    "Narrow candidate source-text use check",
+    "Freeze cleaned v2 split manifest",
+    "Review and authorize fitting after preparation",
+    "Independent exam scoring and browser evaluation"
+  ],
+  "blockers": [
+    "Candidate source-text use documentation remains unresolved; no approved v2 split manifest."
+  ],
+  "not_executed": [
+    "New tokenization measurements",
+    "Coefficient fitting",
+    "Candidate test-error scoring",
+    "FLORES+ devtest access",
+    "Browser benchmarks"
+  ],
+  "publication_status": "Local verified milestone; commit/push next.",
+  "exact_next_action": "Publish verified figures and v2 amendment, then resolve the narrow source-use question before preparing cleaned v2 splits.",
+  "communication_preference": "Explain in high-school English; introduce vocabulary gradually.",
+  "prior_checkpoint": "recovery/rounds/2026-10-16-05-start.json"
+}

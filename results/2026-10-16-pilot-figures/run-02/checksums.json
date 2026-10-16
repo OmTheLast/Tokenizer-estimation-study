@@ -1,0 +1,14 @@
+{
+  "01-error-comparison.pdf": "833267317407121e01bded05165dc8f3cbd1de1bdd1ad1a3979f47cc768d8412",
+  "01-error-comparison.png": "38a86a45390bc4aaca20861ef57732b89c94af9a1649a60fbc080d740feeb694",
+  "01-error-comparison.svg": "de81395203c0788bc09a1dd07b8a29e4c6f4556e8c09fbc748322275663428ba",
+  "02-undercount-by-language.pdf": "4dfba8219d413720a92c09e9bb631e32ae96160d74eb915be7966c2a94047853",
+  "02-undercount-by-language.png": "2664ed15e409a38189550fb1c35c52105675c13f81741267d5e0eb52aad71bdc",
+  "02-undercount-by-language.svg": "8bd5ae56ad92955a9c67a831f63bd275b4a5a36d18a6b393ff99a0ef320da126",
+  "03-predicted-versus-actual.pdf": "88759c78457550d18b1729eb8155bb0f8f54493bb2d28252979e8b9e6aa9aa03",
+  "03-predicted-versus-actual.png": "f04d2f785743a588fdda9f8db21a4e56e60b2978ce511141b703c3d923345a73",
+  "03-predicted-versus-actual.svg": "fa1e86680511d802e9448a304cdfa759814b5dafb9ab8fd056107efa9e490748",
+  "plot-data.json": "3e6992d0091b1de22186edd78e27b83929ab06a5f12e14a67534f785e6cd148f",
+  "plot_pilot_evidence.py": "972fd83e187eb2a0deee42718825a0a83f01c8e5b261de8fb46a49e25041ecd9",
+  "validation.json": "3c6fcdadf017d40998e7f579f12f307e2e7cb3a9b152f57b6e89bd4e489a09e8"
+}

@@ -542,3 +542,27 @@ standing Git policy. Commit `025f616d001a4188dcf19b1b26154eb3d12f27f4` was verif
 Earlier setup and experiment rounds were saved locally without commits or
 pushes. The 2026-10-15 publication round records the first GitHub update;
 ignored local caches and data are not included in that publication.
+
+## 2026-10-16 — Focus the experiment and make its evidence visible
+
+Om asked us to avoid unnecessary detours and treat the project as a research
+study with graphs and a clear progress record. We recorded a versioned v2
+amendment before candidate token counts, fitting or exam-error scoring. Missing
+article IDs become a limitation for this bounded sentence-level comparison;
+we keep duplicate/known-family separation and avoid independence or significance
+claims. Source-text use documentation and a cleaned v2 manifest remain pending.
+The earlier v1 design and audit are preserved as historical records.
+
+Added three scientific figures from the already verified pilot: typical/large
+errors for both existing methods, undercount frequency for all tokenizer-language
+cells, and predicted-versus-actual count plots. Recomputed 20 summary values and
+180 heatmap values against the saved diagnostics; plotted all 9,000 pairs. These
+are new presentations of existing evidence, not new fitting results. Run-01 was
+retained; run-02 fixes caption spacing and a title with identical numeric data.
+All three final PNGs were visually inspected. PNG/SVG/PDF exports, numeric plot
+data, script snapshots and checksums are saved.
+
+The new [evidence guide](EVIDENCE_GUIDE.md) explains each graph in plain language
+and records progress without inventing a completion percentage. Next: complete
+the narrow source-use check, then prepare the cleaned v2 split manifest. No
+training, candidate scoring, FLORES+ devtest access or browser trial occurred.

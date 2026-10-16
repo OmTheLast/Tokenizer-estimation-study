@@ -17,6 +17,7 @@ analysis of the frozen pilot is now complete; estimator weights remain unchanged
 
 Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md)
 for what we did, what the results mean, and the next planned experiment.
+The [evidence guide](docs/EVIDENCE_GUIDE.md) explains our graphs and current progress.
 
 **Phase 1 pilot completed (2026-10-15):** 100 aligned dev sentence IDs across
 18 language varieties and five tokenizers produced 9,000 verified measurements.
@@ -37,17 +38,18 @@ The next step is review and a justified follow-up, not fitting on FLORES+.
 
 **Controlled follow-up designed (2026-10-16):** compare newly fitted pooled
 and separate Han/kana/Hangul coefficients on the same independent development
-text. The [experiment design](docs/CJK_EXPERIMENT_V1.md) specifies controls,
-data candidates, leakage checks and decision rules. The first data preflight is complete but fails the readiness requirements;
-approved split manifests remain pending. No fitting or new test scoring has occurred.
+text. The [active v2 design](docs/CJK_EXPERIMENT_V2.md) specifies a bounded exploratory
+comparison. The original v1 audit is preserved; missing article IDs are now a
+stated limitation rather than an automatic stop. Source-use documentation and
+approved cleaned split manifests remain pending. No fitting or new test scoring has occurred.
 
 **Candidate-data audit completed (2026-10-16): not ready for fitting.**
 We checked 20,940 sentences at pinned source revisions. The audit found duplicate
 families across Korean splits, unverified original-document boundaries in all
 three primary candidates, and source-text licensing caveats in GSD documentation.
 Read the [data-check report](results/2026-10-16-cjk-preflight/audit-02/REPORT.md).
-No weights were fitted or test predictions scored. Next: recover the missing
-provenance or select better-documented sources; no approved split manifest exists.
+No weights were fitted or test predictions scored. Next: resolve the narrow source-text use question and freeze cleaned splits
+under v2; no exhaustive article-recovery project is required.
 
 ### What the experiment compares
 
@@ -72,7 +74,7 @@ The median describes the middle absolute error, not a maximum error guarantee.
 For example, MiniCPM predicted 11 tokens for one Cantonese sample whose actual
 count was 26. Comparing token counts does not compare model intelligence.
 
-Next: review errors by language and script, then choose broader phase-1 tests.
+Language/script error analysis is complete; the follow-up design is recorded above.
 Code, JSON, webpages, complete chat formatting and browser performance still
 need separate evaluation. FLORES+ will not be used for fitting or calibration.
 

@@ -20,11 +20,11 @@ FLORES+ conditions reviewed from Om's screenshot on 2026-10-15 are recorded in
 `docs/PHASE1_PILOT.md`. Keep it evaluation-only, excluded from training, fitting
 and calibration; never re-host its contents where web crawlers can collect them.
 Keep raw text and reconstructable token sequences out of public artifacts.
-Do not claim upstream training-data absence has been verified. Access acceptance
-remains unconfirmed until Om confirms it or authorized access succeeds.
+Do not claim upstream training-data absence has been verified. Authorized dataset access succeeded on 2026-10-15.
 
-Follow `docs/RESEARCH_PROTOCOL.md` for research decisions. The next analysis is
-specified in `config/pilot-diagnostics-v1.json`; preserve versions and distinguish
+Follow `docs/RESEARCH_PROTOCOL.md` for research decisions. The completed pilot analysis is specified in `config/pilot-diagnostics-v1.json`;
+the active follow-up is `docs/CJK_EXPERIMENT_V2.md` and its v2 configuration.
+Preserve versions and distinguish
 exploratory pilot analysis from independent final evaluation. FLORES+ remains
 evaluation-only. Record protocol amendments before dependent experiments.
 
@@ -47,3 +47,14 @@ research/statistics knowledge or equate assent with understanding. Technical
 protocols may stay precise, but chat and progress updates must explain their
 meaning plainly. A short optional understanding check can help; do not quiz or
 block routine work unnecessarily.
+
+## Proportionate research and evidence — 2026-10-16
+
+Keep checks proportionate to the study question. Do not turn missing article IDs
+into an exhaustive provenance project for the bounded exploratory comparison.
+Retain duplicate/known-family separation, document limitations, and resolve the
+separate source-use question. Record amendments before dependent experiments.
+Use traceable graphs at measurement milestones, including unfavorable results,
+with readable captions, units, sample counts, saved numeric inputs and scripts.
+Use dated milestone records for progress, not invented completion percentages.
+See `docs/EVIDENCE_GUIDE.md`; no new fitting is authorized by this preference.

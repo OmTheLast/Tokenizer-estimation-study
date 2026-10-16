@@ -1,0 +1,184 @@
+{
+  "name": "cjk-experiment-v2",
+  "recorded_date": "2026-10-16",
+  "status": "exploratory_design_amended_source_use_pending",
+  "authorization_scope": "User authorized removing unnecessary article-ID prerequisite and maintaining research evidence. No fitting authorized in this amendment.",
+  "evidence_context": "Motivated by already-inspected FLORES pilot; separate candidate texts acquired and audited, but no candidate token counts, fitted coefficients or test errors computed.",
+  "protocol": "docs/CJK_EXPERIMENT_V2.md",
+  "hypothesis": "Split CJK coefficients improve independent test error beyond a newly fitted pooled coefficient",
+  "primary_contrast": [
+    "refit_split",
+    "refit_pooled"
+  ],
+  "arms": [
+    "legacy_utf16_div_3_5",
+    "frozen_localmind",
+    "refit_pooled",
+    "refit_split"
+  ],
+  "tokenizer_lock_sha256": {
+    "qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4"
+  },
+  "original_weights_sha256": "43f0b129567b0b62f1715e95f412742c83eb0eb576122bc8462c77197ca09ef5",
+  "feature_partition_inclusive": {
+    "han": [
+      [
+        13312,
+        19903
+      ],
+      [
+        19968,
+        40959
+      ]
+    ],
+    "kana": [
+      [
+        12352,
+        12543
+      ]
+    ],
+    "hangul": [
+      [
+        44032,
+        55215
+      ]
+    ]
+  },
+  "frozen_features": "All non-CJK weights and character classifications unchanged, including other and punctuation",
+  "inference": "Same per-character binary64 summation order then ceiling as original",
+  "sources": [
+    {
+      "code": "zh_gsd",
+      "repository": "https://github.com/UniversalDependencies/UD_Chinese-GSD",
+      "documentation": "https://universaldependencies.org/treebanks/zh_gsd/index.html",
+      "documented_license": "CC BY-SA 4.0",
+      "metadata_checked_date": "2026-10-16",
+      "role": "primary_development_and_test",
+      "revision": null,
+      "license_file_audited": false,
+      "dataset_downloaded": false
+    },
+    {
+      "code": "ja_gsd",
+      "repository": "https://github.com/UniversalDependencies/UD_Japanese-GSD",
+      "documentation": "https://universaldependencies.org/treebanks/ja_gsd/index.html",
+      "documented_license": "CC BY-SA 4.0",
+      "metadata_checked_date": "2026-10-16",
+      "role": "primary_development_and_test",
+      "revision": null,
+      "license_file_audited": false,
+      "dataset_downloaded": false
+    },
+    {
+      "code": "ko_gsd",
+      "repository": "https://github.com/UniversalDependencies/UD_Korean-GSD",
+      "documentation": "https://universaldependencies.org/treebanks/ko_gsd/index.html",
+      "documented_license": "CC BY-SA 4.0",
+      "metadata_checked_date": "2026-10-16",
+      "role": "primary_development_and_test",
+      "revision": null,
+      "license_file_audited": false,
+      "dataset_downloaded": false
+    },
+    {
+      "code": "zh_gsdsimp",
+      "repository": "https://github.com/UniversalDependencies/UD_Chinese-GSDSimp",
+      "documentation": "https://universaldependencies.org/treebanks/zh_gsdsimp/index.html",
+      "documented_license": "CC BY-SA 4.0",
+      "metadata_checked_date": "2026-10-16",
+      "role": "secondary_test_only_aligned_to_zh_gsd_test",
+      "revision": null,
+      "license_file_audited": false,
+      "dataset_downloaded": false
+    },
+    {
+      "code": "yue_hk",
+      "repository": "https://github.com/UniversalDependencies/UD_Cantonese-HK",
+      "documentation": "https://universaldependencies.org/treebanks/yue_hk/index.html",
+      "documented_license": "CC BY-SA 4.0",
+      "metadata_checked_date": "2026-10-16",
+      "role": "secondary_transfer_test_only",
+      "revision": null,
+      "license_file_audited": false,
+      "dataset_downloaded": false
+    }
+  ],
+  "data_policy": {
+    "fit": "official train of three primary varieties only",
+    "debug": "official dev; no hyperparameter/model selection",
+    "test": "official test, no error inspection until coefficients and code frozen",
+    "flores": "No fitting, calibration, model selection or devtest access",
+    "text_extraction": "Exact # text value from CoNLL-U; exclude missing/empty and log; never reconstruct with inserted spaces",
+    "sampling": "All eligible rows; equal language weight, no score-dependent filtering",
+    "grouping": "Always group exact/near duplicates and known translation/conversion families. Use reliable source-document groups when available; record unknown article dependence without blocking on missing IDs.",
+    "cross_split_priority": [
+      "test",
+      "dev",
+      "train"
+    ],
+    "cross_split_action": "Keep only members from most restrictive split; exclude earlier-split members",
+    "dedup_matching": "NFC plus collapsed whitespace, leaving original measurement input unchanged",
+    "near_duplicate_rule": "Character 5-gram set Jaccard >= 0.9 for normalized texts >=20 code points; otherwise exact only",
+    "upstream_overlap_screen": "Exclude matches to cached FLORES dev and 38 published fixtures; no devtest access"
+  },
+  "feasibility_floors": {
+    "primary_train_rows_per_variety": 500,
+    "primary_test_rows_per_variety": 100,
+    "train_sentences_with_each_split_feature": 100,
+    "split_design_matrix_rank": 3,
+    "meaning": "Text-count and feature-coverage feasibility only; original-document IDs are optional. This does not establish independent examples or statistical power."
+  },
+  "fit": {
+    "per_tokenizer": true,
+    "adjusted_coefficients_pooled": 1,
+    "adjusted_coefficients_split": 3,
+    "objective": "Equal-language mean squared relative residual (O+Xw-T)/T on development train",
+    "constraints": "w >= 0",
+    "intercept": false,
+    "regularization": null,
+    "hyperparameter_search": false,
+    "optimization": "Enumerate active subsets; binary64 weighted least squares; minimum feasible objective, then min L2 norm and lexicographic tie-break",
+    "objective_tie_atol": 1e-12,
+    "negative_clamp_atol": 1e-12,
+    "solver_library_lock_pending": true
+  },
+  "evaluation": {
+    "primary_metric": "Equal-language mean absolute percentage error per tokenizer, then equal mean over five tokenizers",
+    "primary_delta": "split minus pooled, percentage points",
+    "support_rule": "Descriptive exploratory finding only: primary macro error lower for split than pooled on this fixed cleaned test set. Report full effect and all cell regressions; no statistical-significance claim.",
+    "practical_relevance_flag": "At least 10% relative reduction in primary macro metric; undefined if pooled error zero",
+    "tradeoff_flag": "Any primary cell undercount>20% or overcount>20% rate worsens by more than 5 percentage points",
+    "secondary_varieties_in_primary_metric": false,
+    "quantiles": "linear",
+    "bootstrap": {
+      "enabled": false,
+      "reason": "Original article dependence unknown. Do not present duplicate groups or individual sentences as independent article samples. A later uncertainty analysis needs a separately specified defensible sampling model."
+    },
+    "length_edges": [
+      0,
+      50,
+      100,
+      200,
+      null
+    ],
+    "deployment_claim_allowed": false
+  },
+  "preflight_required": [
+    "Use pinned source revisions and document source-text use basis; no raw text redistribution",
+    "Validate original sentence extraction",
+    "Freeze exclusions and known duplicate/translation/source components; unknown source-document identities are a limitation, not a blocker",
+    "Freeze cleaned split manifest and validate row-count and feature-coverage floors",
+    "Review bounded exploratory design; obtain explicit authorization before coefficient fitting",
+    "Pin solver/runtime and validate feature parity on synthetic cases before fitting"
+  ],
+  "next_action": "Complete the narrow source-text use check, then freeze cleaned sentence-level splits under v2; do not attempt exhaustive article recovery or fit weights yet.",
+  "supersedes": {
+    "path": "config/cjk-experiment-v1.json",
+    "sha256": "665cc1ef45609adb0e67357c22b40301009a58d18c8e54d85e4c29e4d5b3ec52",
+    "reason": "User requested focused study; original-document recovery is disproportionate for a bounded exploratory sentence-level comparison."
+  }
+}

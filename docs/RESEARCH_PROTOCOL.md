@@ -149,3 +149,16 @@ Codex's coding, analysis and documentation assistance.
 
 Evidence: [study history](STUDY_HISTORY.md), [phase 0](PHASE0_RESULTS.md),
 [pilot notes](PHASE1_PILOT.md), and [saved pilot report](../results/2026-10-15-phase1-pilot/run-02/REPORT.md).
+
+## Focused exploratory amendment — 2026-10-16
+
+For the bounded CJK comparison, [v2](CJK_EXPERIMENT_V2.md) supersedes the
+requirement to establish every original-document group before proceeding.
+Keep known families together; report unknown article relationships as a
+limitation. This trial will report descriptive fixed-test-set differences,
+without bootstrap intervals or significance claims. The general stronger-study
+requirements above remain relevant to later generalization claims. The separate
+source-text use question remains pending. No fitting has occurred.
+
+The [evidence guide](EVIDENCE_GUIDE.md) maps saved plots to their questions,
+measurements and limitations, and lists completed and unstarted stages.

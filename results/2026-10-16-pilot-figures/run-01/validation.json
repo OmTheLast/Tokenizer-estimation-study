@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "results/2026-10-15-pilot-diagnostics/run-02/diagnostics.json": "a2e0c23bf85cce380394fbdc0959db34e54bc86ccc4ba155c95e55757fb865c2",
+    "results/2026-10-15-phase1-pilot/run-02/ground-truth.parquet": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb"
+  },
+  "script_sha256": "5843439456170376e7fdf5644d281a2e27efd7ab87361288a48eacfd3f3a86c4",
+  "numpy_version": "2.5.3",
+  "matplotlib_version": "3.11.2",
+  "rows": 9000,
+  "summary_values_recomputed_and_checked": 20,
+  "heatmap_values_recomputed_and_checked": 180,
+  "scatter_points": 9000,
+  "no_new_data_or_fitting": true,
+  "output_formats": [
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "visual_inspection": "Reviewed all three PNGs; run-01 caption overlap superseded by run-02.",
+  "numeric_data_identical_between_runs": true
+}

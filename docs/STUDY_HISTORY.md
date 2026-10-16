@@ -411,9 +411,9 @@ diagnostics are saved locally; the earlier pilot publication remains on GitHub.
 Om requested that meaningful progress be committed and pushed without repeated
 reminders. This preference is saved in workspace memory and this project's
 instructions. The completed research protocol, diagnostic specification, analysis
-scripts/tests and numeric reports are being published as the next milestone.
+scripts/tests and numeric reports were published as the next milestone.
 Restricted raw data and ignored caches stay local; only pushed files are
-preserved remotely. Publication receipts record the verified commit.
+preserved remotely. The remote branch was verified at commit `bf281f1796507316949e0d5f46cecc84c819bf9c`.
 
 The proposed next step is to specify a controlled follow-up for the shared CJK
 weight, using separate, licensed development and evaluation texts. Compare a

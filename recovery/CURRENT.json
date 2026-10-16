@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-16T15:50:57.262133+00:00",
-  "status": "milestone_publication_in_progress",
+  "timestamp_utc": "2026-10-16T15:51:56.102075+00:00",
+  "status": "diagnostics_published_next_experiment_proposed",
   "request": "Remember to commit and push reasonable progress milestones; explain the next research step",
   "completed": [
     "Official authenticated dataset access succeeded",
@@ -53,8 +53,8 @@
     "Broader phase-1 coverage",
     "Browser performance and full prompt budgeting studies"
   ],
-  "publication_status": "Study commit pushed to GitHub main and remote SHA verified",
-  "exact_next_action": "Record standing Git preference, verify and publish completed protocol and diagnostics, then propose independent CJK follow-up design.",
+  "publication_status": "Protocol and diagnostics pushed to main; remote SHA verified",
+  "exact_next_action": "Review existing phase-0/phase-1 evidence with Om and specify an independent controlled CJK experiment: licensed data, grouped development/test splits, pooled-vs-split features, fixed objective and success criteria. Do not fit on FLORES+ or begin fitting before explicit authorization.",
   "publication_checks": {
     "candidate_files": 182,
     "total_bytes": 4007780,
@@ -66,35 +66,27 @@
   "publication": {
     "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
     "branch": "main",
-    "study_commit": "e1da27de4fbcefe25a3e426d03a80279c3b86450",
+    "milestone_commit": "bf281f1796507316949e0d5f46cecc84c819bf9c",
     "remote_sha_verified": true,
-    "excluded": "Raw FLORES text, Parquet tables, caches, downloaded assets and environments"
+    "excluded": "Raw FLORES data, Parquet tables, caches, environments and unrelated projects"
   },
   "latest_round": {
-    "artifacts": [
-      "scripts/analyze_pilot_errors.py",
-      "scripts/verify_pilot_diagnostics.py",
-      "tests/test_pilot_diagnostics.py",
-      "results/2026-10-15-pilot-diagnostics/run-02",
-      "docs/STUDY_HISTORY.md",
-      "README.md"
-    ],
     "completed": [
-      "All metrics for both estimators across 470 groups",
-      "Deterministic outliers and script compositions",
-      "Readable main and length reports",
-      "Independent verification and source snapshots"
+      "Standing milestone commit/push preference saved in workspace memory and project instructions",
+      "Published completed protocol, diagnostics, tests and recovery history",
+      "Verified remote commit",
+      "Recorded proposed separate-data controlled CJK follow-up"
     ],
-    "checks": {
-      "all_group_cells_verified": 470,
-      "metrics_per_estimator": 13,
-      "estimators": 2,
-      "outlier_rankings_verified": 20,
-      "script_composition_cells_verified": 90,
-      "independent_arithmetic": "Python sorting/statistics and rational outlier ranks",
-      "input_hash_unchanged": true,
-      "unit_tests_passed": 4
-    },
-    "publication_status": "Protocol and new diagnostics are local; prior pilot is on GitHub"
+    "artifacts": [
+      "AGENTS.md",
+      "docs/STUDY_HISTORY.md",
+      "recovery/rounds/2026-10-16-01-publication-checks.json"
+    ],
+    "checks": "29 files committed; raw-text/secret-pattern checks clear; diagnostic checksums verified",
+    "not_executed": [
+      "New experiment",
+      "Fitting",
+      "New dataset access"
+    ]
   }
 }

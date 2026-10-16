@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-16T16:02:25.769370+00:00",
-  "status": "cjk_design_complete_publication_pending",
+  "timestamp_utc": "2026-10-16T16:02:50.262230+00:00",
+  "status": "cjk_design_published_data_preflight_pending",
   "request": "Write and publish the controlled CJK experiment design; no fitting yet",
   "completed": [
     "Official authenticated dataset access succeeded",
@@ -53,8 +53,8 @@
     "Broader phase-1 coverage",
     "Browser performance and full prompt budgeting studies"
   ],
-  "publication_status": "Protocol and diagnostics pushed to main; remote SHA verified",
-  "exact_next_action": "Publish the design, then perform data preflight: source revisions/licences, text extraction, source groups, leakage exclusions and split manifests. Review before requesting explicit coefficient-fitting authorization.",
+  "publication_status": "Experiment design pushed to main and remote SHA verified",
+  "exact_next_action": "Perform source-data preflight for the CJK design: immutable revisions/licences, original sentence extraction, source/duplicate groups, leakage exclusions, feasibility counts and sealed split manifests. No fitting or test-error inspection until preflight review and explicit fitting authorization.",
   "publication_checks": {
     "candidate_files": 182,
     "total_bytes": 4007780,
@@ -66,9 +66,8 @@
   "publication": {
     "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
     "branch": "main",
-    "milestone_commit": "bf281f1796507316949e0d5f46cecc84c819bf9c",
-    "remote_sha_verified": true,
-    "excluded": "Raw FLORES data, Parquet tables, caches, environments and unrelated projects"
+    "milestone_commit": "76e93dbe774ab3619913deb1f39045461737d079",
+    "remote_sha_verified": true
   },
   "latest_round": {
     "completed": [

@@ -454,8 +454,8 @@ dated design amendment, not an ad-hoc relaxation after scoring.
 
 This round made no new empirical findings and fitted no coefficients. The next
 milestone is data preflight and frozen manifests, followed by review and explicit
-fit authorization. The design is being committed and pushed under Om's standing
-milestone policy; the recovery record tracks publication verification.
+fit authorization. The design was pushed under Om's standing milestone policy; commit
+`76e93dbe774ab3619913deb1f39045461737d079` was verified on GitHub main.
 
 ## Current completion checklist
 

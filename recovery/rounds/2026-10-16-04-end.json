@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-10-16T16:28:18.225867+00:00",
+  "status": "cjk_preflight_published_candidates_not_ready",
+  "request": "Check practice/exam data with plain-language explanation",
+  "completed": [
+    "Official authenticated dataset access succeeded",
+    "Pinned 18 dev files and 100 common sentence IDs",
+    "Measured and validated 9000 rows from 1800 texts and 5 frozen tokenizers",
+    "Checked source/config hashes, shard checksums, all error calculations and figure",
+    "Updated README, pilot notes and readable history"
+  ],
+  "artifacts": [
+    "config/flores-pilot.lock.json",
+    "config/flores-pilot-sample.json",
+    "results/2026-10-15-phase1-pilot/run-02",
+    "docs/STUDY_HISTORY.md",
+    "docs/PHASE1_PILOT.md",
+    "README.md"
+  ],
+  "checks": {
+    "rows": 9000,
+    "unique_keys": 9000,
+    "source_texts": 1800,
+    "published_fixture_overlap": 0,
+    "smoke_only": false,
+    "raw_text_saved_in_table": false,
+    "devtest_accessed": false,
+    "class_sums_match": true,
+    "estimator_weights_unchanged": true,
+    "parquet_round_trip": true
+  },
+  "additional_checks": {
+    "independent_verification": true,
+    "figure_visually_inspected": true,
+    "exit_code": 0
+  },
+  "decisions": [
+    "FLORES+ evaluation-only; no fitting or calibration",
+    "Raw text kept in ignored cache; no text/token-ID sequences in results",
+    "Devtest unaccessed",
+    "Historical upstream training/fitting contamination remains unknown"
+  ],
+  "failed_attempts": [
+    {
+      "path": "results/2026-10-15-phase1-pilot/run-01",
+      "reason": "Restricted-network DNS resolution failed; superseded by successful authorized network run-02"
+    }
+  ],
+  "running_jobs": [],
+  "blockers": [
+    "Original document IDs are absent for Chinese and Korean; Japanese newdoc IDs equal sentence IDs and are not verified source-document identities. The planned document-group isolation and minimum groups cannot be established.",
+    "GSD source documentation distinguishes annotation licensing from underlying-text rights; the design source-text licensing requirement is not cleared."
+  ],
+  "unfinished": [
+    "Joint interpretation of pilot",
+    "Broader phase-1 coverage",
+    "Browser performance and full prompt budgeting studies"
+  ],
+  "publication_status": "Data-audit milestone pushed to main; remote SHA verified",
+  "exact_next_action": "Resolve original-document provenance and underlying-text permissions or select better-documented replacement sources. Record a data-plan amendment before fitting. Do not use provisional manifests to fit or score the exam.",
+  "publication_checks": {
+    "changed_files_checked": 28,
+    "bytes_checked": 262493,
+    "secret_pattern_findings": 0,
+    "raw_source_sentence_findings": 0,
+    "ignored_raw_and_provisional_files_not_tracked": true
+  },
+  "publication": {
+    "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
+    "branch": "main",
+    "milestone_commit": "025f616d001a4188dcf19b1b26154eb3d12f27f4",
+    "remote_sha_verified": true,
+    "excluded": "Raw candidate/FLORES text, caches and provisional row-level split manifests"
+  },
+  "latest_round": {
+    "completed": [
+      "Pinned and fetched 21 official source files",
+      "Audited 20940 sentences without scoring",
+      "Screened duplicates and cached prior-evaluation overlap",
+      "Recorded document-provenance and source-text caveats",
+      "Validated reported results independently"
+    ],
+    "artifacts": [
+      "results/2026-10-16-cjk-preflight/acquisition/sources.json",
+      "results/2026-10-16-cjk-preflight/audit-02",
+      "scripts/fetch_cjk_candidates.py",
+      "scripts/audit_cjk_candidates.py",
+      "scripts/verify_cjk_preflight.py",
+      "tests/test_cjk_preflight.py"
+    ],
+    "checks": {
+      "verified_rows": 20940,
+      "verified_files": 21,
+      "verified_duplicate_and_parallel_edges": 742,
+      "counts_and_dispositions_match": true,
+      "kept_known_groups_do_not_cross_splits": true,
+      "no_approved_manifest": true,
+      "source_text_not_printed": true,
+      "unit_tests_passed": 4,
+      "limitations": "Verifies every reported edge and known-group split, not an independent exhaustive search for missing near-duplicate edges or undocumented source relationships."
+    },
+    "research_readiness": "Not ready for fitting; no approved split manifests",
+    "not_executed": [
+      "tokenizer encoding",
+      "fitting",
+      "test prediction/error scoring",
+      "FLORES devtest access"
+    ]
+  },
+  "communication_preference": "High-school English; teach one or two terms through concrete examples as work progresses.",
+  "latest_teaching_note": "recovery/rounds/2026-10-16-03-end.json"
+}

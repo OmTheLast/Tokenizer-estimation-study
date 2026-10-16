@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-16T16:27:21.173972+00:00",
-  "status": "cjk_preflight_complete_candidates_not_ready",
+  "timestamp_utc": "2026-10-16T16:28:18.225867+00:00",
+  "status": "cjk_preflight_published_candidates_not_ready",
   "request": "Check practice/exam data with plain-language explanation",
   "completed": [
     "Official authenticated dataset access succeeded",
@@ -56,21 +56,21 @@
     "Broader phase-1 coverage",
     "Browser performance and full prompt budgeting studies"
   ],
-  "publication_status": "Experiment design pushed to main and remote SHA verified",
+  "publication_status": "Data-audit milestone pushed to main; remote SHA verified",
   "exact_next_action": "Resolve original-document provenance and underlying-text permissions or select better-documented replacement sources. Record a data-plan amendment before fitting. Do not use provisional manifests to fit or score the exam.",
   "publication_checks": {
-    "candidate_files": 182,
-    "total_bytes": 4007780,
-    "raw_dataset_sentences_checked": 17946,
-    "secret_pattern_or_raw_flores_findings": 0,
-    "pilot_independent_checks": "passed",
-    "whitespace_check": "Source/config/docs passed. Preserved generated CSV CRLF and SVG whitespace produce warnings in whole-tree check; archived artifacts were not rewritten."
+    "changed_files_checked": 28,
+    "bytes_checked": 262493,
+    "secret_pattern_findings": 0,
+    "raw_source_sentence_findings": 0,
+    "ignored_raw_and_provisional_files_not_tracked": true
   },
   "publication": {
     "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
     "branch": "main",
-    "milestone_commit": "76e93dbe774ab3619913deb1f39045461737d079",
-    "remote_sha_verified": true
+    "milestone_commit": "025f616d001a4188dcf19b1b26154eb3d12f27f4",
+    "remote_sha_verified": true,
+    "excluded": "Raw candidate/FLORES text, caches and provisional row-level split manifests"
   },
   "latest_round": {
     "completed": [

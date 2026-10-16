@@ -521,8 +521,8 @@ The row-level provisional manifests are local-only and explicitly not approved
 training/test manifests. The frozen experiment design was not weakened to pass.
 Next: recover source mappings and clarify text provenance or choose replacements,
 then record an amendment before fitting. This completed audit is a research
-milestone, including its negative outcome, and is being published under the
-standing Git policy.
+milestone, including its negative outcome, and was published under the
+standing Git policy. Commit `025f616d001a4188dcf19b1b26154eb3d12f27f4` was verified on GitHub main.
 
 ## Current completion checklist
 

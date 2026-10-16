@@ -38,8 +38,16 @@ The next step is review and a justified follow-up, not fitting on FLORES+.
 **Controlled follow-up designed (2026-10-16):** compare newly fitted pooled
 and separate Han/kana/Hangul coefficients on the same independent development
 text. The [experiment design](docs/CJK_EXPERIMENT_V1.md) specifies controls,
-data candidates, leakage checks and decision rules. Data preflight and immutable
-split manifests are pending; no fitting or new test scoring has occurred.
+data candidates, leakage checks and decision rules. The first data preflight is complete but fails the readiness requirements;
+approved split manifests remain pending. No fitting or new test scoring has occurred.
+
+**Candidate-data audit completed (2026-10-16): not ready for fitting.**
+We checked 20,940 sentences at pinned source revisions. The audit found duplicate
+families across Korean splits, unverified original-document boundaries in all
+three primary candidates, and source-text licensing caveats in GSD documentation.
+Read the [data-check report](results/2026-10-16-cjk-preflight/audit-02/REPORT.md).
+No weights were fitted or test predictions scored. Next: recover the missing
+provenance or select better-documented sources; no approved split manifest exists.
 
 ### What the experiment compares
 

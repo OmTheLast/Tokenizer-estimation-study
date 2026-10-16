@@ -1,0 +1,317 @@
+{
+  "status": "not_ready_for_fitting",
+  "created_utc": "2026-10-16T16:24:20.958735+00:00",
+  "sources_lock_sha256": "c045f93d324b6651c798781b91254b7bbf1c09dd57462f6676d13940ccdbf25c",
+  "plan_sha256": "665cc1ef45609adb0e67357c22b40301009a58d18c8e54d85e4c29e4d5b3ec52",
+  "script_sha256": "e29b4d85989a6a94e74ce209ead59d5e49f3a3ea1b1d3ba795638173eddbb7cd",
+  "inventory": [
+    {
+      "code": "zh_gsd",
+      "split": "train",
+      "records": 3997,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "parallel_id": 3997,
+        "sent_id": 3997,
+        "text": 3997,
+        "translit": 3997
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 3997
+      },
+      "passes_available_checks": 3997,
+      "distinct_duplicate_or_parallel_components": 3997
+    },
+    {
+      "code": "zh_gsd",
+      "split": "dev",
+      "records": 500,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "parallel_id": 500,
+        "sent_id": 500,
+        "text": 500,
+        "translit": 500
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 500
+      },
+      "passes_available_checks": 500,
+      "distinct_duplicate_or_parallel_components": 500
+    },
+    {
+      "code": "zh_gsd",
+      "split": "test",
+      "records": 500,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "parallel_id": 500,
+        "sent_id": 500,
+        "text": 500,
+        "translit": 500
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 500
+      },
+      "passes_available_checks": 500,
+      "distinct_duplicate_or_parallel_components": 500
+    },
+    {
+      "code": "ja_gsd",
+      "split": "train",
+      "records": 7050,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "newdoc id": 7050,
+        "parallel_id": 7050,
+        "sent_id": 7050,
+        "text": 7050
+      },
+      "newdoc_equal_sentence_id": 7050,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 7050
+      },
+      "passes_available_checks": 7050,
+      "distinct_duplicate_or_parallel_components": 7050
+    },
+    {
+      "code": "ja_gsd",
+      "split": "dev",
+      "records": 507,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "newdoc id": 507,
+        "parallel_id": 507,
+        "sent_id": 507,
+        "text": 507
+      },
+      "newdoc_equal_sentence_id": 507,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 507
+      },
+      "passes_available_checks": 507,
+      "distinct_duplicate_or_parallel_components": 507
+    },
+    {
+      "code": "ja_gsd",
+      "split": "test",
+      "records": 543,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "newdoc id": 543,
+        "parallel_id": 543,
+        "sent_id": 543,
+        "text": 543
+      },
+      "newdoc_equal_sentence_id": 543,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 543
+      },
+      "passes_available_checks": 543,
+      "distinct_duplicate_or_parallel_components": 543
+    },
+    {
+      "code": "ko_gsd",
+      "split": "train",
+      "records": 4400,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "sent_id": 4400,
+        "text": 4400,
+        "translit": 4400
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 4249,
+        "cross_split_family": 133,
+        "within_split_exact_duplicate": 18
+      },
+      "passes_available_checks": 4249,
+      "distinct_duplicate_or_parallel_components": 4381
+    },
+    {
+      "code": "ko_gsd",
+      "split": "dev",
+      "records": 950,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "sent_id": 950,
+        "text": 950,
+        "translit": 950
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 919,
+        "cross_split_family": 30,
+        "within_split_exact_duplicate": 1
+      },
+      "passes_available_checks": 919,
+      "distinct_duplicate_or_parallel_components": 949
+    },
+    {
+      "code": "ko_gsd",
+      "split": "test",
+      "records": 989,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "sent_id": 989,
+        "text": 989,
+        "translit": 989
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 961,
+        "within_split_exact_duplicate": 28
+      },
+      "passes_available_checks": 961,
+      "distinct_duplicate_or_parallel_components": 960
+    },
+    {
+      "code": "zh_gsdsimp",
+      "split": "test",
+      "records": 500,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "parallel_id": 500,
+        "sent_id": 500,
+        "text": 500,
+        "translit": 500
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 0,
+      "dispositions": {
+        "passes_available_checks_not_final": 500
+      },
+      "passes_available_checks": 500,
+      "distinct_duplicate_or_parallel_components": 500
+    },
+    {
+      "code": "yue_hk",
+      "split": "test",
+      "records": 1004,
+      "missing_or_empty_text": 0,
+      "metadata_key_counts": {
+        "parallel_id": 1004,
+        "sent_id": 1004,
+        "text": 1004
+      },
+      "newdoc_equal_sentence_id": 0,
+      "verified_source_groups": 4,
+      "dispositions": {
+        "passes_available_checks_not_final": 974,
+        "within_split_exact_duplicate": 30
+      },
+      "passes_available_checks": 974,
+      "distinct_duplicate_or_parallel_components": 4
+    }
+  ],
+  "licenses": [
+    {
+      "code": "zh_gsd",
+      "metadata_license": "CC BY-SA 4.0",
+      "license_file_mentions_by_sa_4": true,
+      "underlying_text_caveat_in_readme": true,
+      "raw_text_training_permission_status": "unresolved_due_to_source_text_caveat",
+      "readme_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/README.md",
+      "license_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/LICENSE.txt",
+      "attribution_metadata": [
+        "Contributors: Shen, Mo; McDonald, Ryan; Zeman, Daniel; Qi, Peng"
+      ]
+    },
+    {
+      "code": "ja_gsd",
+      "metadata_license": "CC BY-SA 4.0",
+      "license_file_mentions_by_sa_4": true,
+      "underlying_text_caveat_in_readme": true,
+      "raw_text_training_permission_status": "unresolved_due_to_source_text_caveat",
+      "readme_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/README.md",
+      "license_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/LICENSE.txt",
+      "attribution_metadata": [
+        "Contributors: Omura, Mai; Miyao, Yusuke; Kanayama, Hiroshi; Matsuda, Hiroshi; Wakasa, Aya; Yamashita, Kayo; Asahara, Masayuki; Tanaka, Takaaki; Murawaki, Yugo; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel"
+      ]
+    },
+    {
+      "code": "ko_gsd",
+      "metadata_license": "CC BY-SA 4.0",
+      "license_file_mentions_by_sa_4": true,
+      "underlying_text_caveat_in_readme": true,
+      "raw_text_training_permission_status": "unresolved_due_to_source_text_caveat",
+      "readme_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/README.md",
+      "license_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/LICENSE.txt",
+      "attribution_metadata": [
+        "Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Choi, Jinho; Han, Na-Rae; Hwang, Jena; Chun, Jayeol"
+      ]
+    },
+    {
+      "code": "zh_gsdsimp",
+      "metadata_license": "CC BY-SA 4.0",
+      "license_file_mentions_by_sa_4": true,
+      "underlying_text_caveat_in_readme": true,
+      "raw_text_training_permission_status": "unresolved_due_to_source_text_caveat",
+      "readme_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSDSimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/README.md",
+      "license_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSDSimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/LICENSE.txt",
+      "attribution_metadata": [
+        "Contributors: Qi, Peng; Yasuoka, Koichi"
+      ]
+    },
+    {
+      "code": "yue_hk",
+      "metadata_license": "CC BY-SA 4.0",
+      "license_file_mentions_by_sa_4": true,
+      "underlying_text_caveat_in_readme": false,
+      "raw_text_training_permission_status": "not_independently_cleared; repository terms recorded",
+      "readme_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Cantonese-HK/68c3151c1181a7b67ef5c917570635bcccf7e4bf/README.md",
+      "license_url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Cantonese-HK/68c3151c1181a7b67ef5c917570635bcccf7e4bf/LICENSE.txt",
+      "attribution_metadata": [
+        "Contributors: Gerdes, Kim; Lee, John; Leung, Herman; Wong, Tak-sum"
+      ]
+    }
+  ],
+  "script_feature_check": {
+    "primary_train_rows_after_available_checks": 15296,
+    "sentences_with_feature": {
+      "han": 11096,
+      "kana": 6947,
+      "hangul": 4249
+    },
+    "rank": 3
+  },
+  "simplified_traditional_test_alignment": {
+    "zh_parallel_ids": 500,
+    "simp_parallel_ids": 500,
+    "same_nonempty_ids": true
+  },
+  "duplicate_screen": {
+    "normalized_external_records": 17984,
+    "candidate_rows": 20940,
+    "candidate_exact_edges": 226,
+    "candidate_near_edges": 16,
+    "near_text_pairs_including_external": 16,
+    "pair_comparisons": 64272,
+    "candidate_rows_in_external_overlap_families": 0,
+    "cross_split_excluded_rows": 163
+  },
+  "blockers": [
+    "Original document IDs are absent for Chinese and Korean; Japanese newdoc IDs equal sentence IDs and are not verified source-document identities. The planned document-group isolation and minimum groups cannot be established.",
+    "GSD source documentation distinguishes annotation licensing from underlying-text rights; the design source-text licensing requirement is not cleared."
+  ],
+  "not_executed": [
+    "tokenizer encoding",
+    "fitting",
+    "test prediction/error scoring",
+    "FLORES devtest access"
+  ],
+  "manifest_status": "Provisional audit manifest only; not an approved or frozen training/test manifest"
+}

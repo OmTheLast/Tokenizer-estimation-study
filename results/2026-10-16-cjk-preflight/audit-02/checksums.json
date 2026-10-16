@@ -1,0 +1,12 @@
+{
+  "audit.json": "3e2e8291790e1e782949149bd06eaf3c09346946a50a65bbea6abe5fa3cbf2b6",
+  "REPORT.md": "321d7ea72601c825448b07ae82efbadd630c311d3320204e43ff6119667dc62f",
+  "duplicate-edges.json": "084c0605b7edac41d398d2905df74f1d12e88fde8f49aa4357c4968b447c8770",
+  "provisional-manifest.json": "953796f21fb294f55125d533ddb85332530a97afbe0bafe0b9b68e5d1f61c5c4",
+  "run.json": "15fea53882d4d877d46d004480c1d3a67633b52380289b86a8c355011899c8c1",
+  "independent-validation.json": "a12a8993f9f3b61ee34d0cbe44154b82f9e6f6ce81814b3627aef5ebc5d673d7",
+  "source-snapshot/audit_cjk_candidates.py": "2905a4b0a6cec2aea09cecd8de27cb9f0c2105d4b909fcda5ab7cc361c26a731",
+  "source-snapshot/fetch_cjk_candidates.py": "c0ed15fbe13cbdae2057b8131c0ff11389180ab09c6c59c0eb394fc0c0dab8a6",
+  "source-snapshot/verify_cjk_preflight.py": "557a9f07b9a78f21ccaa4cd2368900e08b0ef4a64f11a8d0cdef7c45ae26978d",
+  "source-snapshot/test_cjk_preflight.py": "1f3e5fd34490ef76546a1cd0e24d8cc3df2c453bc9ca6fb797c5a4a69b08ab4d"
+}

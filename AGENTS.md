@@ -37,3 +37,13 @@ remote and verify its branch SHA. Do not wait for a fresh reminder. Preserve
 chronological commits; never force-push. Exclude raw FLORES+ contents, secrets,
 large caches and unrelated project files. Save local progress and report any
 push blocker. Pushed Git history covers only included files, not ignored data.
+
+## Teaching style — 2026-10-16
+
+Explain work to Om in high-school English. Teach vocabulary gradually through
+small concrete examples: purpose first, then one or two defined terms. Keep
+observations, hypotheses and future experiments distinct. Do not assume prior
+research/statistics knowledge or equate assent with understanding. Technical
+protocols may stay precise, but chat and progress updates must explain their
+meaning plainly. A short optional understanding check can help; do not quiz or
+block routine work unnecessarily.

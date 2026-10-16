@@ -1,0 +1,11 @@
+{
+  "verified_rows": 20940,
+  "verified_files": 21,
+  "verified_duplicate_and_parallel_edges": 742,
+  "counts_and_dispositions_match": true,
+  "kept_known_groups_do_not_cross_splits": true,
+  "no_approved_manifest": true,
+  "source_text_not_printed": true,
+  "unit_tests_passed": 4,
+  "limitations": "Verifies every reported edge and known-group split, not an independent exhaustive search for missing near-duplicate edges or undocumented source relationships."
+}

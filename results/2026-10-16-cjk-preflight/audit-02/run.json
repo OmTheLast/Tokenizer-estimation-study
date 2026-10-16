@@ -1,0 +1,25 @@
+{
+  "fetch": {
+    "command": ".venv/bin/python scripts/fetch_cjk_candidates.py",
+    "exit_code": 0,
+    "pinned_files": 21
+  },
+  "audit": {
+    "command": ".venv/bin/python scripts/audit_cjk_candidates.py --output results/2026-10-16-cjk-preflight/audit-02",
+    "exit_code": 0,
+    "scientific_readiness": "not_ready_for_fitting"
+  },
+  "unit_tests": {
+    "command": ".venv/bin/python tests/test_cjk_preflight.py",
+    "passed": 4,
+    "exit_code": 0
+  },
+  "verification": {
+    "command": ".venv/bin/python scripts/verify_cjk_preflight.py --output results/2026-10-16-cjk-preflight/audit-02",
+    "exit_code": 0
+  },
+  "run01_vs_run02": "Audit findings unchanged; run-02 adds selectable output directory. Run-01 preserved.",
+  "no_fitting": true,
+  "no_test_scores": true,
+  "no_model_inference": true
+}

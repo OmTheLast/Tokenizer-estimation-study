@@ -18,3 +18,6 @@ data/processed/
 *.safetensors
 *.gguf
 recovery/CURRENT.tmp
+
+# Provisional CJK row-level manifests are local audit records, not approved splits.
+results/2026-10-16-cjk-preflight/*/provisional-manifest.json

@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-16T16:02:50.262230+00:00",
-  "status": "cjk_design_published_data_preflight_pending",
-  "request": "Write and publish the controlled CJK experiment design; no fitting yet",
+  "timestamp_utc": "2026-10-16T16:27:21.173972+00:00",
+  "status": "cjk_preflight_complete_candidates_not_ready",
+  "request": "Check practice/exam data with plain-language explanation",
   "completed": [
     "Official authenticated dataset access succeeded",
     "Pinned 18 dev files and 100 common sentence IDs",
@@ -47,14 +47,17 @@
     }
   ],
   "running_jobs": [],
-  "blockers": [],
+  "blockers": [
+    "Original document IDs are absent for Chinese and Korean; Japanese newdoc IDs equal sentence IDs and are not verified source-document identities. The planned document-group isolation and minimum groups cannot be established.",
+    "GSD source documentation distinguishes annotation licensing from underlying-text rights; the design source-text licensing requirement is not cleared."
+  ],
   "unfinished": [
     "Joint interpretation of pilot",
     "Broader phase-1 coverage",
     "Browser performance and full prompt budgeting studies"
   ],
   "publication_status": "Experiment design pushed to main and remote SHA verified",
-  "exact_next_action": "Perform source-data preflight for the CJK design: immutable revisions/licences, original sentence extraction, source/duplicate groups, leakage exclusions, feasibility counts and sealed split manifests. No fitting or test-error inspection until preflight review and explicit fitting authorization.",
+  "exact_next_action": "Resolve original-document provenance and underlying-text permissions or select better-documented replacement sources. Record a data-plan amendment before fitting. Do not use provisional manifests to fit or score the exam.",
   "publication_checks": {
     "candidate_files": 182,
     "total_bytes": 4007780,
@@ -71,30 +74,39 @@
   },
   "latest_round": {
     "completed": [
-      "Controlled four-arm design",
-      "Exact CJK feature partition",
-      "Candidate dataset roles with primary-source links",
-      "Grouped split and duplicate rules",
-      "Fixed fitting objective and held-out decision criteria"
+      "Pinned and fetched 21 official source files",
+      "Audited 20940 sentences without scoring",
+      "Screened duplicates and cached prior-evaluation overlap",
+      "Recorded document-provenance and source-text caveats",
+      "Validated reported results independently"
     ],
     "artifacts": [
-      "docs/CJK_EXPERIMENT_V1.md",
-      "config/cjk-experiment-v1.json",
-      "recovery/rounds/2026-10-16-02-design-checks.json"
+      "results/2026-10-16-cjk-preflight/acquisition/sources.json",
+      "results/2026-10-16-cjk-preflight/audit-02",
+      "scripts/fetch_cjk_candidates.py",
+      "scripts/audit_cjk_candidates.py",
+      "scripts/verify_cjk_preflight.py",
+      "tests/test_cjk_preflight.py"
     ],
     "checks": {
-      "scope": "Design validation only; no tokenization, fitting or data download",
-      "unicode_partition": "Disjoint and exact match to original CJK class across all Unicode code points",
-      "tokenizer_locks_and_weights_unchanged": true,
-      "source_selection": "5 metadata pages reviewed; data and immutable revisions pending",
-      "relative_links_resolve": true,
-      "primary_comparison": "refit split versus refit pooled, matched development data and objective"
+      "verified_rows": 20940,
+      "verified_files": 21,
+      "verified_duplicate_and_parallel_edges": 742,
+      "counts_and_dispositions_match": true,
+      "kept_known_groups_do_not_cross_splits": true,
+      "no_approved_manifest": true,
+      "source_text_not_printed": true,
+      "unit_tests_passed": 4,
+      "limitations": "Verifies every reported edge and known-group split, not an independent exhaustive search for missing near-duplicate edges or undocumented source relationships."
     },
+    "research_readiness": "Not ready for fitting; no approved split manifests",
     "not_executed": [
-      "Dataset file acquisition",
-      "Coefficient fitting",
-      "Model inference",
-      "New test scoring"
+      "tokenizer encoding",
+      "fitting",
+      "test prediction/error scoring",
+      "FLORES devtest access"
     ]
-  }
+  },
+  "communication_preference": "High-school English; teach one or two terms through concrete examples as work progresses.",
+  "latest_teaching_note": "recovery/rounds/2026-10-16-03-end.json"
 }

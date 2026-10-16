@@ -1,0 +1,171 @@
+{
+  "plan_sha256": "665cc1ef45609adb0e67357c22b40301009a58d18c8e54d85e4c29e4d5b3ec52",
+  "sources": {
+    "zh_gsd": {
+      "repository": "https://github.com/UniversalDependencies/UD_Chinese-GSD",
+      "revision": "22f73e87f7ddc530bb131a6b7587971a03e1a712",
+      "pinned_utc": "2026-10-16T16:21:54.481068+00:00",
+      "role": "primary_development_and_test",
+      "files": {
+        "README.md": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/README.md",
+          "sha256": "f9748d8a752833c4fba6ecac6a15e1c87520c5f7ec39db73f6d84d3834e254f4",
+          "bytes": 3075,
+          "cache_path": ".cache/cjk_ud/zh_gsd/22f73e87f7ddc530bb131a6b7587971a03e1a712/README.md"
+        },
+        "LICENSE.txt": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202,
+          "cache_path": ".cache/cjk_ud/zh_gsd/22f73e87f7ddc530bb131a6b7587971a03e1a712/LICENSE.txt"
+        },
+        "zh_gsd-ud-train.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/zh_gsd-ud-train.conllu",
+          "sha256": "de36e605a4786edb00097165cfc0ee425ab668a2dfc1da7ce4652ba4d2585b1e",
+          "bytes": 9318330,
+          "cache_path": ".cache/cjk_ud/zh_gsd/22f73e87f7ddc530bb131a6b7587971a03e1a712/zh_gsd-ud-train.conllu"
+        },
+        "zh_gsd-ud-dev.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/zh_gsd-ud-dev.conllu",
+          "sha256": "09374c8361400861a536ae94a1d7710e1cdd72285c32b9764d94d2d956b4ae02",
+          "bytes": 1195021,
+          "cache_path": ".cache/cjk_ud/zh_gsd/22f73e87f7ddc530bb131a6b7587971a03e1a712/zh_gsd-ud-dev.conllu"
+        },
+        "zh_gsd-ud-test.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSD/22f73e87f7ddc530bb131a6b7587971a03e1a712/zh_gsd-ud-test.conllu",
+          "sha256": "ff01a3d01d62b623756396085e78bdaeefb7c2b7935a890dde5b18e92712d54f",
+          "bytes": 1136344,
+          "cache_path": ".cache/cjk_ud/zh_gsd/22f73e87f7ddc530bb131a6b7587971a03e1a712/zh_gsd-ud-test.conllu"
+        }
+      }
+    },
+    "ja_gsd": {
+      "repository": "https://github.com/UniversalDependencies/UD_Japanese-GSD",
+      "revision": "7bc20119f476b552635e0640644e577b6fd3606b",
+      "pinned_utc": "2026-10-16T16:21:58.480653+00:00",
+      "role": "primary_development_and_test",
+      "files": {
+        "README.md": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/README.md",
+          "sha256": "5256741c40fb99fc673967bcbc35c28d09666fb8cee992ee7c20d553a1c0b380",
+          "bytes": 8905,
+          "cache_path": ".cache/cjk_ud/ja_gsd/7bc20119f476b552635e0640644e577b6fd3606b/README.md"
+        },
+        "LICENSE.txt": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202,
+          "cache_path": ".cache/cjk_ud/ja_gsd/7bc20119f476b552635e0640644e577b6fd3606b/LICENSE.txt"
+        },
+        "ja_gsd-ud-train.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/ja_gsd-ud-train.conllu",
+          "sha256": "99f67fd88257e7cfe81d81c4b8ee98aff85fc22bb525d907475a2856c8cfa9f3",
+          "bytes": 40583344,
+          "cache_path": ".cache/cjk_ud/ja_gsd/7bc20119f476b552635e0640644e577b6fd3606b/ja_gsd-ud-train.conllu"
+        },
+        "ja_gsd-ud-dev.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/ja_gsd-ud-dev.conllu",
+          "sha256": "18d266e29336ef619787a928d89d20f2e64188be70d5b37829e3aadc5bb6b841",
+          "bytes": 2961591,
+          "cache_path": ".cache/cjk_ud/ja_gsd/7bc20119f476b552635e0640644e577b6fd3606b/ja_gsd-ud-dev.conllu"
+        },
+        "ja_gsd-ud-test.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Japanese-GSD/7bc20119f476b552635e0640644e577b6fd3606b/ja_gsd-ud-test.conllu",
+          "sha256": "5f50ee6ed45c7ebda3787e593eaf5e9a225f25e53f6b4b32df778031862c843f",
+          "bytes": 3111982,
+          "cache_path": ".cache/cjk_ud/ja_gsd/7bc20119f476b552635e0640644e577b6fd3606b/ja_gsd-ud-test.conllu"
+        }
+      }
+    },
+    "ko_gsd": {
+      "repository": "https://github.com/UniversalDependencies/UD_Korean-GSD",
+      "revision": "7628157f2ba54e0580b2c03e22f1a9f5b111d7e7",
+      "pinned_utc": "2026-10-16T16:22:07.366339+00:00",
+      "role": "primary_development_and_test",
+      "files": {
+        "README.md": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/README.md",
+          "sha256": "6d68b7128f8851fd343b81ea049a743b0351c918022fac9bd7ed302464f98007",
+          "bytes": 4388,
+          "cache_path": ".cache/cjk_ud/ko_gsd/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/README.md"
+        },
+        "LICENSE.txt": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202,
+          "cache_path": ".cache/cjk_ud/ko_gsd/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/LICENSE.txt"
+        },
+        "ko_gsd-ud-train.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/ko_gsd-ud-train.conllu",
+          "sha256": "0bd96ceae934d1089ece599b8904b43b0074df75e41a8e07e4b72264337b39f8",
+          "bytes": 6431794,
+          "cache_path": ".cache/cjk_ud/ko_gsd/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/ko_gsd-ud-train.conllu"
+        },
+        "ko_gsd-ud-dev.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/ko_gsd-ud-dev.conllu",
+          "sha256": "8f7c4e24bbf6db2b0df8007068eb2d56d5ad8a5539360589d0f15a8c17034566",
+          "bytes": 1358435,
+          "cache_path": ".cache/cjk_ud/ko_gsd/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/ko_gsd-ud-dev.conllu"
+        },
+        "ko_gsd-ud-test.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Korean-GSD/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/ko_gsd-ud-test.conllu",
+          "sha256": "3d1df99bda4800235e14bcfd915baf706eafa1a3935a75ffd32420a51e57f5aa",
+          "bytes": 1324771,
+          "cache_path": ".cache/cjk_ud/ko_gsd/7628157f2ba54e0580b2c03e22f1a9f5b111d7e7/ko_gsd-ud-test.conllu"
+        }
+      }
+    },
+    "zh_gsdsimp": {
+      "repository": "https://github.com/UniversalDependencies/UD_Chinese-GSDSimp",
+      "revision": "4231dfd59866fa5999ad4a6bc1fdecd7985b3b59",
+      "pinned_utc": "2026-10-16T16:22:11.212399+00:00",
+      "role": "secondary_test_only_aligned_to_zh_gsd_test",
+      "files": {
+        "README.md": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSDSimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/README.md",
+          "sha256": "02287bdf80282151d8ca7ef3c3f7a3c3b98609f7266f145e3e3dd0a05693abd3",
+          "bytes": 3105,
+          "cache_path": ".cache/cjk_ud/zh_gsdsimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/README.md"
+        },
+        "LICENSE.txt": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSDSimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202,
+          "cache_path": ".cache/cjk_ud/zh_gsdsimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/LICENSE.txt"
+        },
+        "zh_gsdsimp-ud-test.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Chinese-GSDSimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/zh_gsdsimp-ud-test.conllu",
+          "sha256": "3af8046a6f32477b4d5cf3dd06bbf38682a380fe77aade3f68de97e51ab94900",
+          "bytes": 1136613,
+          "cache_path": ".cache/cjk_ud/zh_gsdsimp/4231dfd59866fa5999ad4a6bc1fdecd7985b3b59/zh_gsdsimp-ud-test.conllu"
+        }
+      }
+    },
+    "yue_hk": {
+      "repository": "https://github.com/UniversalDependencies/UD_Cantonese-HK",
+      "revision": "68c3151c1181a7b67ef5c917570635bcccf7e4bf",
+      "pinned_utc": "2026-10-16T16:22:13.121858+00:00",
+      "role": "secondary_transfer_test_only",
+      "files": {
+        "README.md": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Cantonese-HK/68c3151c1181a7b67ef5c917570635bcccf7e4bf/README.md",
+          "sha256": "2067d1face9c636e49a5d3cdc36fd894dfb0cae0850e22decb829ce9b871e44c",
+          "bytes": 5114,
+          "cache_path": ".cache/cjk_ud/yue_hk/68c3151c1181a7b67ef5c917570635bcccf7e4bf/README.md"
+        },
+        "LICENSE.txt": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Cantonese-HK/68c3151c1181a7b67ef5c917570635bcccf7e4bf/LICENSE.txt",
+          "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+          "bytes": 202,
+          "cache_path": ".cache/cjk_ud/yue_hk/68c3151c1181a7b67ef5c917570635bcccf7e4bf/LICENSE.txt"
+        },
+        "yue_hk-ud-test.conllu": {
+          "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Cantonese-HK/68c3151c1181a7b67ef5c917570635bcccf7e4bf/yue_hk-ud-test.conllu",
+          "sha256": "cbd843a195d0db4cdafbf6fcafb7b7b559afea750411006f4728311e70cc4e2a",
+          "bytes": 757400,
+          "cache_path": ".cache/cjk_ud/yue_hk/68c3151c1181a7b67ef5c917570635bcccf7e4bf/yue_hk-ud-test.conllu"
+        }
+      }
+    }
+  }
+}

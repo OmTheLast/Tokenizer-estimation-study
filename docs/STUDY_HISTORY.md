@@ -457,6 +457,73 @@ milestone is data preflight and frozen manifests, followed by review and explici
 fit authorization. The design was pushed under Om's standing milestone policy; commit
 `76e93dbe774ab3619913deb1f39045461737d079` was verified on GitHub main.
 
+## 2026-10-16 — Plain-language teaching preference
+
+Om requested high-school English and gradual vocabulary-building throughout
+the study. This is saved in workspace memory and project instructions. Future
+explanations should start with purpose and a small example, introducing only
+one or two new terms at a time. Distinguish measured findings from proposed
+explanations; preserve technical details in the research documents.
+
+The current experiment can be explained as comparing one shared multiplier
+with three separate multipliers, using the same practice texts and then new
+exam texts. A multiplier is a weight; choosing it from practice examples is
+fitting. Updating the shared multiplier is also necessary for a fair comparison,
+so improvement cannot be attributed merely to newer practice data. The data
+checks and fitting have not started. No research result or experiment scope
+changed during this teaching-preference round.
+
+## 2026-10-16 — Practice/exam data audit completed; candidates not approved
+
+Om authorized checking the practice and exam texts and asked for explanations
+along the way. Codex pinned five official UD repositories by commit and fetched
+21 files, including README/licence files and the requested splits. Raw data stay
+in ignored `.cache/cjk_ud/`. Original # text fields were used; test text was read
+only by preparation checks, without showing examples or computing token counts,
+predictions or errors. No weights were fitted.
+
+The audit parsed 20,940 sentences with no
+missing text fields. It checked normalized exact matches and the specified
+character-5-gram near-duplicate rule against candidate data, all cached FLORES+
+dev text and the 38 original fixtures. It found no external overlap under these
+rules; that does not prove all possible semantic overlap is absent.
+
+In Korean, the priority rule flags 133 practice rows and 30 development rows
+because matching families occur in a later split. Further within-split copies
+are recorded separately. The 500 simplified Chinese test sentences align with
+the 500 traditional Chinese test IDs, so conversion families are kept together.
+Script feature coverage and rank pass the stated checks on provisionally eligible
+practice rows; eligibility is not an approval to fit.
+
+The primary candidates fail the document-provenance requirement: Chinese and
+Korean lack original-document IDs, and Japanese newdoc IDs repeat sentence IDs.
+They cannot establish separation of articles or satisfy the verified-source-group
+floor. Cantonese has four source ranges documented in its README and remains
+secondary-only. We did not pretend that duplicate components were source articles.
+
+A second issue emerged in the pinned GSD READMEs: the CC BY-SA annotation label
+is distinguished from the underlying text, over which Google disclaims ownership.
+Our earlier metadata-level selection did not resolve this. The experiment's
+clear text-provenance/licensing requirement is therefore not cleared. This is
+a source-audit limitation, not a conclusion that all research use is prohibited.
+
+Four tests check original-text extraction, document metadata handling, duplicate
+rules and group construction. An independent verifier checked all 20,940 row
+hashes/counts, all 21 file hashes, 742 reported duplicate/parallel edges, and
+known-group split dispositions. It does not independently prove exhaustive
+near-match discovery or recover undocumented article relationships. Audit-01 is
+preserved; audit-02 has identical findings and a reusable output-path command.
+
+See the [report](../results/2026-10-16-cjk-preflight/audit-02/REPORT.md),
+[source locks](../results/2026-10-16-cjk-preflight/acquisition/sources.json), and
+[verification](../results/2026-10-16-cjk-preflight/audit-02/independent-validation.json).
+The row-level provisional manifests are local-only and explicitly not approved
+training/test manifests. The frozen experiment design was not weakened to pass.
+Next: recover source mappings and clarify text provenance or choose replacements,
+then record an amendment before fitting. This completed audit is a research
+milestone, including its negative outcome, and is being published under the
+standing Git policy.
+
 ## Current completion checklist
 
 - [x] Preserve the supplied plan and review notes.

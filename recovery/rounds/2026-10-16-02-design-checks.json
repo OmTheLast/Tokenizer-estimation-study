@@ -1,0 +1,8 @@
+{
+  "scope": "Design validation only; no tokenization, fitting or data download",
+  "unicode_partition": "Disjoint and exact match to original CJK class across all Unicode code points",
+  "tokenizer_locks_and_weights_unchanged": true,
+  "source_selection": "5 metadata pages reviewed; data and immutable revisions pending",
+  "relative_links_resolve": true,
+  "primary_comparison": "refit split versus refit pooled, matched development data and objective"
+}

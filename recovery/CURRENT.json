@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-16T15:51:56.102075+00:00",
-  "status": "diagnostics_published_next_experiment_proposed",
-  "request": "Remember to commit and push reasonable progress milestones; explain the next research step",
+  "timestamp_utc": "2026-10-16T16:02:25.769370+00:00",
+  "status": "cjk_design_complete_publication_pending",
+  "request": "Write and publish the controlled CJK experiment design; no fitting yet",
   "completed": [
     "Official authenticated dataset access succeeded",
     "Pinned 18 dev files and 100 common sentence IDs",
@@ -54,7 +54,7 @@
     "Browser performance and full prompt budgeting studies"
   ],
   "publication_status": "Protocol and diagnostics pushed to main; remote SHA verified",
-  "exact_next_action": "Review existing phase-0/phase-1 evidence with Om and specify an independent controlled CJK experiment: licensed data, grouped development/test splits, pooled-vs-split features, fixed objective and success criteria. Do not fit on FLORES+ or begin fitting before explicit authorization.",
+  "exact_next_action": "Publish the design, then perform data preflight: source revisions/licences, text extraction, source groups, leakage exclusions and split manifests. Review before requesting explicit coefficient-fitting authorization.",
   "publication_checks": {
     "candidate_files": 182,
     "total_bytes": 4007780,
@@ -72,21 +72,30 @@
   },
   "latest_round": {
     "completed": [
-      "Standing milestone commit/push preference saved in workspace memory and project instructions",
-      "Published completed protocol, diagnostics, tests and recovery history",
-      "Verified remote commit",
-      "Recorded proposed separate-data controlled CJK follow-up"
+      "Controlled four-arm design",
+      "Exact CJK feature partition",
+      "Candidate dataset roles with primary-source links",
+      "Grouped split and duplicate rules",
+      "Fixed fitting objective and held-out decision criteria"
     ],
     "artifacts": [
-      "AGENTS.md",
-      "docs/STUDY_HISTORY.md",
-      "recovery/rounds/2026-10-16-01-publication-checks.json"
+      "docs/CJK_EXPERIMENT_V1.md",
+      "config/cjk-experiment-v1.json",
+      "recovery/rounds/2026-10-16-02-design-checks.json"
     ],
-    "checks": "29 files committed; raw-text/secret-pattern checks clear; diagnostic checksums verified",
+    "checks": {
+      "scope": "Design validation only; no tokenization, fitting or data download",
+      "unicode_partition": "Disjoint and exact match to original CJK class across all Unicode code points",
+      "tokenizer_locks_and_weights_unchanged": true,
+      "source_selection": "5 metadata pages reviewed; data and immutable revisions pending",
+      "relative_links_resolve": true,
+      "primary_comparison": "refit split versus refit pooled, matched development data and objective"
+    },
     "not_executed": [
-      "New experiment",
-      "Fitting",
-      "New dataset access"
+      "Dataset file acquisition",
+      "Coefficient fitting",
+      "Model inference",
+      "New test scoring"
     ]
   }
 }

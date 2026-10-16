@@ -427,6 +427,36 @@ show the shared class is insufficient, or that splitting it adds little benefit.
 Review the existing phase-0/phase-1 evidence and select that bounded design with
 Om before executing later-stage fitting.
 
+## 2026-10-16 — Controlled CJK experiment design recorded
+
+Om approved writing the next experiment's design, explicitly before fitting.
+The [design](CJK_EXPERIMENT_V1.md) and [versioned configuration](../config/cjk-experiment-v1.json)
+compare a refitted shared coefficient with three refitted script coefficients
+on identical development data. The old frozen formula and simple heuristic are
+additional baselines. Non-CJK weights, Unicode coverage, rounding and tokenizer
+assets stay fixed. The split is exactly Han/kana/Hangul within the old CJK class;
+it does not introduce Cantonese-specific weights or move punctuation/Jamo out
+of other. Splitting may therefore leave important errors unresolved.
+
+Official Universal Dependencies documentation was checked for Chinese GSD,
+Japanese GSD, Korean GSD, Chinese GSDSimp and Cantonese HK. Candidate roles and
+source links are saved; all five pages list CC BY-SA 4.0. No dataset files were
+downloaded, licences at pinned revisions audited, or corpus counts promised.
+Traditional/simplified Chinese versions share source material and must remain
+aligned across splits. Cantonese is secondary transfer evaluation, not fitting.
+
+The plan sets an equal-language nonnegative relative least-squares objective,
+paired group-bootstrap analysis, a primary error metric and prospective practical
+and tradeoff flags. These study criteria are not browser safety thresholds.
+Preflight must establish licensed snapshots, document groups, deduplication,
+feasible train/test sizes and script coverage. Failed requirements trigger a
+dated design amendment, not an ad-hoc relaxation after scoring.
+
+This round made no new empirical findings and fitted no coefficients. The next
+milestone is data preflight and frozen manifests, followed by review and explicit
+fit authorization. The design is being committed and pushed under Om's standing
+milestone policy; the recovery record tracks publication verification.
+
 ## Current completion checklist
 
 - [x] Preserve the supplied plan and review notes.

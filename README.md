@@ -35,6 +35,12 @@ undercounts remain concentrated in specific tokenizer-language combinations.
 See the [diagnostics](results/2026-10-15-pilot-diagnostics/run-02/REPORT.md).
 The next step is review and a justified follow-up, not fitting on FLORES+.
 
+**Controlled follow-up designed (2026-10-16):** compare newly fitted pooled
+and separate Han/kana/Hangul coefficients on the same independent development
+text. The [experiment design](docs/CJK_EXPERIMENT_V1.md) specifies controls,
+data candidates, leakage checks and decision rules. Data preflight and immutable
+split manifests are pending; no fitting or new test scoring has occurred.
+
 ### What the experiment compares
 
 We varied **both the tokenizer and the language**. For each of 100 sentence IDs,

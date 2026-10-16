@@ -28,7 +28,8 @@
     "final_pngs_visually_inspected": 3,
     "input_and_script_hashes_verified": true,
     "markdown_links_checked": true,
-    "git_diff_check_passed": true
+    "source_documentation_json_diff_check_passed": true,
+    "generated_svg_whitespace": "Matplotlib emits trailing whitespace in SVG paths; full diff check reported those warnings. Original generated exports retained; source/docs/JSON check passes."
   },
   "preserved_attempts": [
     {

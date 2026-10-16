@@ -566,3 +566,6 @@ The new [evidence guide](EVIDENCE_GUIDE.md) explains each graph in plain languag
 and records progress without inventing a completion percentage. Next: complete
 the narrow source-use check, then prepare the cleaned v2 split manifest. No
 training, candidate scoring, FLORES+ devtest access or browser trial occurred.
+
+Publication: milestone `457bfec3b9891dbb141ff81c0ebb4616441f7281` was pushed
+and verified on GitHub main. Raw data and ignored local artifacts remain excluded.

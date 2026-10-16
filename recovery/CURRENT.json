@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-15T15:56:14.400690+00:00",
-  "status": "phase1_pilot_published_ready_for_review",
-  "request": "Explain model/language experiment dimensions and update progress on GitHub",
+  "timestamp_utc": "2026-10-16T15:50:57.262133+00:00",
+  "status": "milestone_publication_in_progress",
+  "request": "Remember to commit and push reasonable progress milestones; explain the next research step",
   "completed": [
     "Official authenticated dataset access succeeded",
     "Pinned 18 dev files and 100 common sentence IDs",
@@ -54,7 +54,7 @@
     "Browser performance and full prompt budgeting studies"
   ],
   "publication_status": "Study commit pushed to GitHub main and remote SHA verified",
-  "exact_next_action": "Review published pilot results with Om, then choose broader phase-1 tests. Do not fit on FLORES+.",
+  "exact_next_action": "Record standing Git preference, verify and publish completed protocol and diagnostics, then propose independent CJK follow-up design.",
   "publication_checks": {
     "candidate_files": 182,
     "total_bytes": 4007780,
@@ -69,5 +69,32 @@
     "study_commit": "e1da27de4fbcefe25a3e426d03a80279c3b86450",
     "remote_sha_verified": true,
     "excluded": "Raw FLORES text, Parquet tables, caches, downloaded assets and environments"
+  },
+  "latest_round": {
+    "artifacts": [
+      "scripts/analyze_pilot_errors.py",
+      "scripts/verify_pilot_diagnostics.py",
+      "tests/test_pilot_diagnostics.py",
+      "results/2026-10-15-pilot-diagnostics/run-02",
+      "docs/STUDY_HISTORY.md",
+      "README.md"
+    ],
+    "completed": [
+      "All metrics for both estimators across 470 groups",
+      "Deterministic outliers and script compositions",
+      "Readable main and length reports",
+      "Independent verification and source snapshots"
+    ],
+    "checks": {
+      "all_group_cells_verified": 470,
+      "metrics_per_estimator": 13,
+      "estimators": 2,
+      "outlier_rankings_verified": 20,
+      "script_composition_cells_verified": 90,
+      "independent_arithmetic": "Python sorting/statistics and rational outlier ranks",
+      "input_hash_unchanged": true,
+      "unit_tests_passed": 4
+    },
+    "publication_status": "Protocol and new diagnostics are local; prior pilot is on GitHub"
   }
 }

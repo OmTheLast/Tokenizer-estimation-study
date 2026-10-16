@@ -9,6 +9,10 @@ history removal?
 An estimator predicts a count; it does not replace the tokenizer that produces
 model input IDs. Browser performance benefits are hypotheses to measure.
 
+Read the [research protocol](docs/RESEARCH_PROTOCOL.md) for the questions,
+evaluation rules, limitations and review gates. The specified
+analysis of the frozen pilot is now complete; estimator weights remain unchanged.
+
 ## Current status
 
 Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md)
@@ -23,6 +27,13 @@ Read the [pilot report](results/2026-10-15-phase1-pilot/run-02/REPORT.md) and
 [saved terminal output](results/2026-10-15-phase1-pilot/run-02/terminal-output.txt).
 FLORES+ remains evaluation-only; weights were unchanged and devtest unaccessed.
 Broader phase-1 coverage and browser testing remain unfinished.
+
+**Error analysis completed (2026-10-15):** all 90 tokenizer-language cells and
+360 fixed length-band cells were analyzed for both unchanged estimators.
+LocalMind has lower median absolute error in 89/90 cells, but substantial
+undercounts remain concentrated in specific tokenizer-language combinations.
+See the [diagnostics](results/2026-10-15-pilot-diagnostics/run-02/REPORT.md).
+The next step is review and a justified follow-up, not fitting on FLORES+.
 
 ### What the experiment compares
 

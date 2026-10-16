@@ -1,0 +1,3 @@
+Command: .venv/bin/python tests/test_pilot_diagnostics.py
+4 tests passed; exit code 0.
+Independent verifier: all 470 groups, every metric/difference, 20 outlier rankings and 90 script compositions passed.

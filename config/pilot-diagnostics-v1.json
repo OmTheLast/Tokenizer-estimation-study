@@ -1,0 +1,99 @@
+{
+  "name": "pilot-diagnostics-v1",
+  "recorded_date": "2026-10-15",
+  "status": "specified_not_executed",
+  "evidence_status": "exploratory; pilot aggregate results inspected before this specification",
+  "input": "results/2026-10-15-phase1-pilot/run-02/ground-truth.parquet",
+  "input_sha256": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb",
+  "expected_rows": 9000,
+  "expected_aligned_ids": 100,
+  "expected_language_varieties": 18,
+  "expected_tokenizers": 5,
+  "estimators": {
+    "localmind": "estimate",
+    "legacy_utf16_div_3_5": "old_estimate"
+  },
+  "actual_count": "token_count",
+  "signed_percent_error": "100 * (prediction - actual) / actual",
+  "primary_descriptive_metrics": [
+    "undercount_fraction: prediction < actual",
+    "under_by_more_than_20_percent_fraction: signed_percent_error < -20",
+    "p95_absolute_percent_error"
+  ],
+  "secondary_metrics": [
+    "median_absolute_percent_error",
+    "signed_percent_error_p05",
+    "signed_percent_error_p95",
+    "min_signed_percent_error",
+    "max_signed_percent_error",
+    "within_20_percent_fraction: abs(signed_percent_error) <= 20",
+    "mean_token_shortfall_all_rows: mean(max(actual-prediction,0))",
+    "p95_token_shortfall_all_rows",
+    "max_token_shortfall",
+    "mean_absolute_token_error"
+  ],
+  "quantiles": {
+    "method": "linear",
+    "percentiles": [
+      5,
+      50,
+      95
+    ]
+  },
+  "tables": [
+    "all 90 tokenizer-language cells",
+    "per tokenizer, equal weight per sentence-language row",
+    "per tokenizer and existing Indian/CJK/Other group, with row and language counts",
+    "per tokenizer-language-length band, including empty cells"
+  ],
+  "length_bands": {
+    "field": "characters",
+    "unit": "Unicode code points",
+    "intervals": "[0,50), [50,100), [100,200), [200,infinity)",
+    "edges": [
+      0,
+      50,
+      100,
+      200,
+      null
+    ]
+  },
+  "paired_comparison": "LocalMind minus legacy for each reported metric on identical rows; negative values favor LocalMind for error/shortfall/rate-of-undercount metrics; positive values favor LocalMind for within-20 fraction",
+  "outliers": {
+    "per_tokenizer_per_estimator": 5,
+    "rankings": [
+      "signed_percent_error ascending",
+      "max(actual-prediction,0) descending; positive shortfalls only"
+    ],
+    "tie_break": [
+      "language ascending",
+      "sentence_id lexicographic ascending"
+    ],
+    "output": "IDs, counts, errors and existing numeric features only; no raw text/token sequences"
+  },
+  "uncertainty": {
+    "enabled_for_initial_diagnostics": false,
+    "if_added": "Version analysis plan before implementation; use shared aligned-ID block resamples for both estimators and every language/tokenizer; no independent-row bootstrap"
+  },
+  "interpretation_rules": [
+    "Report every cell; no selective winner reporting",
+    "Observed maximum is not a bound",
+    "20 percent is a descriptive continuity threshold, not a product acceptance target",
+    "Associations do not establish causal mechanisms",
+    "No formal significance claims from this exploratory analysis"
+  ],
+  "prohibited_actions": [
+    "fitting",
+    "calibration",
+    "new dataset download",
+    "devtest access",
+    "model inference",
+    "raw FLORES text publication"
+  ],
+  "planned_outputs": [
+    "diagnostics.json",
+    "REPORT.md",
+    "validation.json"
+  ],
+  "next_review": "Review diagnostic results and phase-0 limitations with Om before expanding scope"
+}

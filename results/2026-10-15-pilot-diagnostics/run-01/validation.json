@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-10-15T16:21:05.950090+00:00",
+  "input_sha256": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb",
+  "plan_sha256": "f1602c09445b4843876610b404111eb1c1d9db4777dde64ef7b6faf3c983317f",
+  "script_sha256": "2d8d08c7cf4ce8834f301b292245be4cd5cb95db1eff3f32bc017425663c5498",
+  "python": "3.13.11",
+  "numpy": "2.5.3",
+  "rows": 9000,
+  "aligned_ids": 100,
+  "cells": 90,
+  "length_cells": 360,
+  "empty_length_cells": 70,
+  "groups": 15,
+  "no_fitting": true,
+  "no_new_data_access": true,
+  "all_cells_have_same_100_ids": true,
+  "quantile_method": "linear",
+  "null_empty_cells": true
+}

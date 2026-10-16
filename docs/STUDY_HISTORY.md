@@ -340,6 +340,93 @@ assets and third-party checkouts remain excluded. Study commit `e1da27de4fbcefe2
 GitHub returned the same SHA during verification. Source, documentation and compact
 results are now on GitHub; excluded local data and caches are not backed up there.
 
+## 2026-10-15 — Research protocol and next-analysis specification
+
+Om asked to approach the work methodically as research. Codex recorded
+[protocol v1](RESEARCH_PROTOCOL.md), separating descriptive tokenizer differences,
+estimator accuracy, asset-derived estimation and browser budgeting/performance.
+The document preserves the original research questions but supersedes the
+proposal's FLORES dev-fitting suggestion with evaluation-only usage.
+
+This protocol was written after the pilot summaries were inspected. It is not a
+preregistration of those results. The pilot has 9,000 repeated measurements from
+100 aligned sentence IDs; it does not have 9,000 independent examples. Maximum
+observed errors are not universal bounds, and tokenizer counts do not measure
+model intelligence. No novelty claim is established; literature review remains.
+
+The [next-analysis specification](../config/pilot-diagnostics-v1.json) pins the
+existing Parquet hash, all 90 tokenizer-language cells, paired baseline metrics,
+fixed length bands and deterministic outlier selection. It requires reporting
+both percentage errors and token shortfalls, including failures. This detailed
+analysis has not yet been run. No new measurements, data downloads or fitting
+occurred in this round. Product acceptance thresholds and independent final-test
+design remain future decisions, before the relevant experiments.
+
+## 2026-10-15 — Prespecified pilot diagnostics completed
+
+Om approved the structured error analysis. The analysis used only the frozen
+9,000-row Parquet and both saved prediction columns. It computed all 90
+language/tokenizer cells, five tokenizer summaries, 15 group summaries, and
+360 fixed length-band cells (70 empty). Empty cells have null metrics.
+No fitting, new measurements, data downloads, devtest access or model inference
+occurred. All original weights and the input Parquet hash remain unchanged.
+
+LocalMind has lower median absolute error in 89/90 cells. The exception is
+MiniCPM/Russian; better typical error does not imply every error metric improves.
+The language-specific undercount patterns include:
+
+- lfm2-1.2b, kor_Hang: 99/100 texts underestimated by more than 20%.
+- minicpm5-2b-gguf, kor_Hang: 11/100 texts underestimated by more than 20%.
+- minicpm5-2b-gguf, yue_Hant: 99/100 texts underestimated by more than 20%.
+
+These are exploratory observations from 100 aligned IDs, not population
+probabilities or independent samples across all 9,000 rows. The report includes
+both percentage and absolute token shortfalls, both estimators, all cells,
+script composition and fixed length bands. Shared CJK weighting remains a
+candidate explanation, not an established cause. Browser overflow was not tested.
+
+Four hand-calculated unit tests cover strict threshold boundaries, quantiles,
+empty cells, band edges, deterministic outliers and paired differences. An
+independent verifier using Python arithmetic/sorting checked every metric and
+paired difference in all 470 groups, all 20 outlier rankings using exact rational
+ordering, and all 90 script composition summaries. No significance tests or
+uncertainty intervals were computed.
+
+Run-01 is preserved. Run-02 adds readable length-band and composition tables;
+the numeric diagnostics are byte-identical between runs. The frozen plan's
+broad wording about signed-error differences is clarified in the report:
+more-negative signed error means more underestimation, not generic improvement.
+
+Read the [diagnostic report](../results/2026-10-15-pilot-diagnostics/run-02/REPORT.md)
+and [all length bands](../results/2026-10-15-pilot-diagnostics/run-02/LENGTH_REPORT.md).
+Commands: `.venv/bin/python scripts/analyze_pilot_errors.py --output results/diagnostics-new`
+and `.venv/bin/python scripts/verify_pilot_diagnostics.py --output results/diagnostics-new`.
+
+Next: review these findings and the remaining phase-0 limits with Om before
+selecting a bounded phase-1 extension or controlled follow-up. New protocol and
+diagnostics are saved locally; the earlier pilot publication remains on GitHub.
+
+## 2026-10-16 — Standing Git milestone policy and next research decision
+
+Om requested that meaningful progress be committed and pushed without repeated
+reminders. This preference is saved in workspace memory and this project's
+instructions. The completed research protocol, diagnostic specification, analysis
+scripts/tests and numeric reports are being published as the next milestone.
+Restricted raw data and ignored caches stay local; only pushed files are
+preserved remotely. Publication receipts record the verified commit.
+
+The proposed next step is to specify a controlled follow-up for the shared CJK
+weight, using separate, licensed development and evaluation texts. Compare a
+single CJK coefficient with Han/kana/Hangul coefficients while keeping other
+features, samples, objective and fitting procedure fixed. Any fitted coefficients
+must come from separate development data, never FLORES+. Freeze the hypothesis,
+splits, baselines and success criteria before fitting. Test on an untouched
+split and report changes in absolute error, undercount severity and overcounting.
+This is a proposed experiment, not a result or an authorized fitting run. It may
+show the shared class is insufficient, or that splitting it adds little benefit.
+Review the existing phase-0/phase-1 evidence and select that bounded design with
+Om before executing later-stage fitting.
+
 ## Current completion checklist
 
 - [x] Preserve the supplied plan and review notes.

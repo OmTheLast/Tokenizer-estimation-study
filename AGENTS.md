@@ -22,3 +22,18 @@ and calibration; never re-host its contents where web crawlers can collect them.
 Keep raw text and reconstructable token sequences out of public artifacts.
 Do not claim upstream training-data absence has been verified. Access acceptance
 remains unconfirmed until Om confirms it or authorized access succeeds.
+
+Follow `docs/RESEARCH_PROTOCOL.md` for research decisions. The next analysis is
+specified in `config/pilot-diagnostics-v1.json`; preserve versions and distinguish
+exploratory pilot analysis from independent final evaluation. FLORES+ remains
+evaluation-only. Record protocol amendments before dependent experiments.
+
+## Commit and push milestones — 2026-10-16
+
+Om explicitly requested commits and pushes whenever reasonable progress is made.
+After a meaningful verified milestone, commit the relevant source, documentation,
+compact results and logs; push to the configured Tokenizer-estimation-study
+remote and verify its branch SHA. Do not wait for a fresh reminder. Preserve
+chronological commits; never force-push. Exclude raw FLORES+ contents, secrets,
+large caches and unrelated project files. Save local progress and report any
+push blocker. Pushed Git history covers only included files, not ignored data.

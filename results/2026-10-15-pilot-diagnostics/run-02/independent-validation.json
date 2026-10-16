@@ -1,0 +1,10 @@
+{
+  "all_group_cells_verified": 470,
+  "metrics_per_estimator": 13,
+  "estimators": 2,
+  "outlier_rankings_verified": 20,
+  "script_composition_cells_verified": 90,
+  "independent_arithmetic": "Python sorting/statistics and rational outlier ranks",
+  "input_hash_unchanged": true,
+  "unit_tests_passed": 4
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-10-17T16:38:07.690015+00:00",
+  "status": "discussion_recorded_proposal_pending",
+  "request": "Clarify broader tokenizer behavior study, naming, family comparisons and graphs.",
+  "prior_checkpoint": "recovery/rounds/2026-10-16-05-publication.json",
+  "scope": "Research-scoping discussion; no new measurements, fitting or external repository rename.",
+  "completed": [
+    "Reviewed written protocol, README, instructions and latest recovery record.",
+    "Recorded proposed broader goal, title, prioritized comparisons and family-definition cautions in readable history."
+  ],
+  "decisions": [
+    "Preserve prior results and protocol chronology.",
+    "Do not silently rename the GitHub repository or claim the proposal is an executed experiment."
+  ],
+  "proposed_next_action": "Inventory the existing five tokenizer assets and specify the first descriptive family/language comparison before adding tokenizers or fitting coefficients.",
+  "not_executed": [
+    "Repository rename",
+    "Formal protocol replacement",
+    "Tokenizer asset inventory",
+    "New measurements or graphs",
+    "Fitting"
+  ],
+  "artifacts": [
+    "docs/STUDY_HISTORY.md"
+  ],
+  "checks": [
+    "No experimental source or outputs changed."
+  ],
+  "publication_status": "Discussion milestone ready to commit and push."
+}

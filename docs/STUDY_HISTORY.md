@@ -569,3 +569,48 @@ training, candidate scoring, FLORES+ devtest access or browser trial occurred.
 
 Publication: milestone `457bfec3b9891dbb141ff81c0ebb4616441f7281` was pushed
 and verified on GitHub main. Raw data and ignored local artifacts remain excluded.
+
+## 2026-10-17 — Proposed broader tokenizer-behavior study
+
+Om clarified an interest in observing how tokenization changes across tokenizers,
+families and circumstances, with comparative graphs. The written umbrella goal
+currently emphasizes browser token-count estimation; it is narrower than this
+proposed direction. Prior results remain useful descriptive pilot evidence.
+
+Proposed working title: **Comparative Tokenizer Study: Languages, Text Types,
+and Context Budgets**. Proposed main question: how do tokenizer choices affect
+text splitting, token counts and context use across languages and text types?
+Estimation accuracy becomes one sub-question. Browser runtime remains a later
+measured application; model answer quality is outside this current scope.
+This is a proposal for discussion, not an approved new protocol or a claim that
+the original study was designed this way. The GitHub repository was not renamed.
+
+Proposed order:
+1. Inventory the five pinned tokenizer assets: revision, algorithm, vocabulary
+   size, normalization/pre-tokenization, special-token settings and asset
+   identity/lineage where verifiable. Distinguish model names, tokenizer families
+   and language families; do not infer family membership from branding alone.
+2. Specify a small descriptive comparison using existing pilot counts: paired
+   counts on identical text within each language and aligned translations for
+   cross-language comparisons. Plot language-by-tokenizer patterns and pairwise
+   count ratios with distributions, denominators and clear ratio direction.
+   Translation comparisons preserve approximate meaning, not identical text
+   length; character/byte ratios answer different questions and need labels.
+3. Add a bounded set of text types (prose, code, JSON/HTML, mixed-language text)
+   only after specifying sampling and metrics. Use shareable examples for visible
+   token-boundary illustrations; do not expose restricted FLORES+ text.
+4. Compare existing estimator errors and later measure browser runtime and
+   serialized context budgets as separate outcomes.
+
+Keep early claims about the tokenizer versions actually measured. A family-wide
+claim needs justified family definitions and adequate representatives; one
+example per family cannot establish a universal pattern. Token-count differences
+do not establish model intelligence or prove which tokenizer design feature
+caused the difference. Choose questions before graphs, retain unfavorable results,
+and avoid expanding every possible combination at once.
+
+Recommendation: prioritize the inventory and comparison specification before
+the proposed CJK coefficient-fitting experiment. That experiment remains saved
+and unstarted; it need not drive a descriptive study. Its source-use issue is
+not a blocker to analyzing already-authorized pilot measurements. No new data,
+fitting, scoring or graph generation occurred in this discussion.

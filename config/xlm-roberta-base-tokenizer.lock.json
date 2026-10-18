@@ -1,0 +1,41 @@
+{
+  "model_key": "xlm-roberta-base",
+  "repository": "FacebookAI/xlm-roberta-base",
+  "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "cache_directory": ".cache/tokenizers/xlm-roberta-base/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "add_special_tokens": false,
+  "assets": [
+    {
+      "filename": "tokenizer.json",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer.json",
+      "sha256": "a898ea75433890f6610f4e470b8ebeb0c21dce5c8dd61f892eb09eb5919d2e2c",
+      "bytes": 9096718
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer_config.json",
+      "sha256": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce",
+      "bytes": 25
+    },
+    {
+      "filename": "README.md",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/resolve/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/README.md",
+      "sha256": "bec9f2cd81f7396a64ee474145117d81139906443a21480cbe4993c97cb499aa",
+      "bytes": 5238
+    }
+  ],
+  "runtime_model_type": "Unigram",
+  "base_vocab_entries": 250002,
+  "effective_vocab_entries": 250002,
+  "source_schema_note": "Original legacy JSON has no model.type field; tokenizers runtime loads it as Unigram. Original bytes preserved.",
+  "derived_asset": {
+    "filename": "tokenizer-runtime.json",
+    "sha256": "96b7c87adafbac890f2a4da99d093b46fd26331e12770c625d724f14a5078195",
+    "bytes": 9081405,
+    "method": "Tokenizer.from_file(original).to_str() plus newline",
+    "tokenizers_version": "0.23.2",
+    "purpose": "Explicit modern model/type fields for JS compatibility; all original-vs-derived Python ID sequences must agree."
+  },
+  "selection_reason": "Multilingual non-BPE profile selected before workload counts. Encoder tokenizer; not an algorithm-isolated or chat-model comparison.",
+  "licence_note": "Pinned model card labels MIT; downloaded assets stay ignored, not redistributed."
+}

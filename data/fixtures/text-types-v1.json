@@ -1,0 +1,2897 @@
+{
+  "name": "text-types-v1",
+  "authorship": "Original Codex-authored illustrative fixtures; not scraped, not FLORES; translations not independently validated.",
+  "sampling": "12 templated scenario blocks × 3 content conditions × 5 renderers, plus 8 separate diagnostic probes. Not natural traffic.",
+  "conditions": [
+    "english",
+    "english_hindi",
+    "english_tamil"
+  ],
+  "formats": [
+    "prose",
+    "python",
+    "json_compact",
+    "json_pretty",
+    "html"
+  ],
+  "records": [
+    {
+      "scenario": "s01",
+      "condition": "english",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-01",
+        "active": true,
+        "items": [
+          {
+            "id": 100,
+            "quantity": 1,
+            "message": "Check the water level."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s01",
+      "condition": "english_hindi",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-01",
+        "active": true,
+        "items": [
+          {
+            "id": 100,
+            "quantity": 1,
+            "message": "पानी का स्तर जाँचें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s01",
+      "condition": "english_tamil",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-01",
+        "active": true,
+        "items": [
+          {
+            "id": 100,
+            "quantity": 1,
+            "message": "நீரின் அளவைச் சரிபார்க்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s02",
+      "condition": "english",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-02",
+        "active": false,
+        "items": [
+          {
+            "id": 200,
+            "quantity": 2,
+            "message": "Close the window before leaving."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s02",
+      "condition": "english_hindi",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-02",
+        "active": false,
+        "items": [
+          {
+            "id": 200,
+            "quantity": 2,
+            "message": "जाने से पहले खिड़की बंद करें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s02",
+      "condition": "english_tamil",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-02",
+        "active": false,
+        "items": [
+          {
+            "id": 200,
+            "quantity": 2,
+            "message": "செல்வதற்கு முன் சன்னலை மூடவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s03",
+      "condition": "english",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-03",
+        "active": true,
+        "items": [
+          {
+            "id": 300,
+            "quantity": 3,
+            "message": "Put the books on the shelf."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s03",
+      "condition": "english_hindi",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-03",
+        "active": true,
+        "items": [
+          {
+            "id": 300,
+            "quantity": 3,
+            "message": "किताबें शेल्फ पर रखें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s03",
+      "condition": "english_tamil",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-03",
+        "active": true,
+        "items": [
+          {
+            "id": 300,
+            "quantity": 3,
+            "message": "புத்தகங்களை அலமாரியில் வைக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s04",
+      "condition": "english",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-04",
+        "active": false,
+        "items": [
+          {
+            "id": 400,
+            "quantity": 4,
+            "message": "Count the red boxes."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s04",
+      "condition": "english_hindi",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-04",
+        "active": false,
+        "items": [
+          {
+            "id": 400,
+            "quantity": 4,
+            "message": "लाल डिब्बों को गिनें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s04",
+      "condition": "english_tamil",
+      "item_count": 1,
+      "record": {
+        "batch": "batch-04",
+        "active": false,
+        "items": [
+          {
+            "id": 400,
+            "quantity": 4,
+            "message": "சிவப்பு பெட்டிகளை எண்ணவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s05",
+      "condition": "english",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-05",
+        "active": true,
+        "items": [
+          {
+            "id": 500,
+            "quantity": 5,
+            "message": "Save the latest report."
+          },
+          {
+            "id": 501,
+            "quantity": 6,
+            "message": "Send the meeting notes."
+          },
+          {
+            "id": 502,
+            "quantity": 7,
+            "message": "Measure the length of the table."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s05",
+      "condition": "english_hindi",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-05",
+        "active": true,
+        "items": [
+          {
+            "id": 500,
+            "quantity": 5,
+            "message": "नवीनतम रिपोर्ट सहेजें।"
+          },
+          {
+            "id": 501,
+            "quantity": 6,
+            "message": "बैठक के नोट्स भेजें।"
+          },
+          {
+            "id": 502,
+            "quantity": 7,
+            "message": "मेज़ की लंबाई मापें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s05",
+      "condition": "english_tamil",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-05",
+        "active": true,
+        "items": [
+          {
+            "id": 500,
+            "quantity": 5,
+            "message": "சமீபத்திய அறிக்கையைச் சேமிக்கவும்."
+          },
+          {
+            "id": 501,
+            "quantity": 6,
+            "message": "கூட்டக் குறிப்புகளை அனுப்பவும்."
+          },
+          {
+            "id": 502,
+            "quantity": 7,
+            "message": "மேசையின் நீளத்தை அளக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s06",
+      "condition": "english",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-06",
+        "active": false,
+        "items": [
+          {
+            "id": 600,
+            "quantity": 6,
+            "message": "Send the meeting notes."
+          },
+          {
+            "id": 601,
+            "quantity": 7,
+            "message": "Measure the length of the table."
+          },
+          {
+            "id": 602,
+            "quantity": 8,
+            "message": "Turn off the lights."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s06",
+      "condition": "english_hindi",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-06",
+        "active": false,
+        "items": [
+          {
+            "id": 600,
+            "quantity": 6,
+            "message": "बैठक के नोट्स भेजें।"
+          },
+          {
+            "id": 601,
+            "quantity": 7,
+            "message": "मेज़ की लंबाई मापें।"
+          },
+          {
+            "id": 602,
+            "quantity": 8,
+            "message": "बत्तियाँ बंद करें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s06",
+      "condition": "english_tamil",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-06",
+        "active": false,
+        "items": [
+          {
+            "id": 600,
+            "quantity": 6,
+            "message": "கூட்டக் குறிப்புகளை அனுப்பவும்."
+          },
+          {
+            "id": 601,
+            "quantity": 7,
+            "message": "மேசையின் நீளத்தை அளக்கவும்."
+          },
+          {
+            "id": 602,
+            "quantity": 8,
+            "message": "விளக்குகளை அணைக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s07",
+      "condition": "english",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-07",
+        "active": true,
+        "items": [
+          {
+            "id": 700,
+            "quantity": 7,
+            "message": "Measure the length of the table."
+          },
+          {
+            "id": 701,
+            "quantity": 8,
+            "message": "Turn off the lights."
+          },
+          {
+            "id": 702,
+            "quantity": 9,
+            "message": "Update the delivery address."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s07",
+      "condition": "english_hindi",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-07",
+        "active": true,
+        "items": [
+          {
+            "id": 700,
+            "quantity": 7,
+            "message": "मेज़ की लंबाई मापें।"
+          },
+          {
+            "id": 701,
+            "quantity": 8,
+            "message": "बत्तियाँ बंद करें।"
+          },
+          {
+            "id": 702,
+            "quantity": 9,
+            "message": "डिलीवरी का पता अपडेट करें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s07",
+      "condition": "english_tamil",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-07",
+        "active": true,
+        "items": [
+          {
+            "id": 700,
+            "quantity": 7,
+            "message": "மேசையின் நீளத்தை அளக்கவும்."
+          },
+          {
+            "id": 701,
+            "quantity": 8,
+            "message": "விளக்குகளை அணைக்கவும்."
+          },
+          {
+            "id": 702,
+            "quantity": 9,
+            "message": "விநியோக முகவரியைப் புதுப்பிக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s08",
+      "condition": "english",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-08",
+        "active": false,
+        "items": [
+          {
+            "id": 800,
+            "quantity": 8,
+            "message": "Turn off the lights."
+          },
+          {
+            "id": 801,
+            "quantity": 9,
+            "message": "Update the delivery address."
+          },
+          {
+            "id": 802,
+            "quantity": 1,
+            "message": "Find the missing key."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s08",
+      "condition": "english_hindi",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-08",
+        "active": false,
+        "items": [
+          {
+            "id": 800,
+            "quantity": 8,
+            "message": "बत्तियाँ बंद करें।"
+          },
+          {
+            "id": 801,
+            "quantity": 9,
+            "message": "डिलीवरी का पता अपडेट करें।"
+          },
+          {
+            "id": 802,
+            "quantity": 1,
+            "message": "गुम हुई चाबी ढूँढें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s08",
+      "condition": "english_tamil",
+      "item_count": 3,
+      "record": {
+        "batch": "batch-08",
+        "active": false,
+        "items": [
+          {
+            "id": 800,
+            "quantity": 8,
+            "message": "விளக்குகளை அணைக்கவும்."
+          },
+          {
+            "id": 801,
+            "quantity": 9,
+            "message": "விநியோக முகவரியைப் புதுப்பிக்கவும்."
+          },
+          {
+            "id": 802,
+            "quantity": 1,
+            "message": "காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s09",
+      "condition": "english",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-09",
+        "active": true,
+        "items": [
+          {
+            "id": 900,
+            "quantity": 9,
+            "message": "Update the delivery address."
+          },
+          {
+            "id": 901,
+            "quantity": 1,
+            "message": "Find the missing key."
+          },
+          {
+            "id": 902,
+            "quantity": 2,
+            "message": "Clean the small container."
+          },
+          {
+            "id": 903,
+            "quantity": 3,
+            "message": "Record the room temperature."
+          },
+          {
+            "id": 904,
+            "quantity": 4,
+            "message": "Check the water level."
+          },
+          {
+            "id": 905,
+            "quantity": 5,
+            "message": "Close the window before leaving."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s09",
+      "condition": "english_hindi",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-09",
+        "active": true,
+        "items": [
+          {
+            "id": 900,
+            "quantity": 9,
+            "message": "डिलीवरी का पता अपडेट करें।"
+          },
+          {
+            "id": 901,
+            "quantity": 1,
+            "message": "गुम हुई चाबी ढूँढें।"
+          },
+          {
+            "id": 902,
+            "quantity": 2,
+            "message": "छोटे बर्तन को साफ़ करें।"
+          },
+          {
+            "id": 903,
+            "quantity": 3,
+            "message": "कमरे का तापमान दर्ज करें।"
+          },
+          {
+            "id": 904,
+            "quantity": 4,
+            "message": "पानी का स्तर जाँचें।"
+          },
+          {
+            "id": 905,
+            "quantity": 5,
+            "message": "जाने से पहले खिड़की बंद करें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s09",
+      "condition": "english_tamil",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-09",
+        "active": true,
+        "items": [
+          {
+            "id": 900,
+            "quantity": 9,
+            "message": "விநியோக முகவரியைப் புதுப்பிக்கவும்."
+          },
+          {
+            "id": 901,
+            "quantity": 1,
+            "message": "காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்."
+          },
+          {
+            "id": 902,
+            "quantity": 2,
+            "message": "சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்."
+          },
+          {
+            "id": 903,
+            "quantity": 3,
+            "message": "அறையின் வெப்பநிலையைப் பதிவு செய்யவும்."
+          },
+          {
+            "id": 904,
+            "quantity": 4,
+            "message": "நீரின் அளவைச் சரிபார்க்கவும்."
+          },
+          {
+            "id": 905,
+            "quantity": 5,
+            "message": "செல்வதற்கு முன் சன்னலை மூடவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s10",
+      "condition": "english",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-10",
+        "active": false,
+        "items": [
+          {
+            "id": 1000,
+            "quantity": 1,
+            "message": "Find the missing key."
+          },
+          {
+            "id": 1001,
+            "quantity": 2,
+            "message": "Clean the small container."
+          },
+          {
+            "id": 1002,
+            "quantity": 3,
+            "message": "Record the room temperature."
+          },
+          {
+            "id": 1003,
+            "quantity": 4,
+            "message": "Check the water level."
+          },
+          {
+            "id": 1004,
+            "quantity": 5,
+            "message": "Close the window before leaving."
+          },
+          {
+            "id": 1005,
+            "quantity": 6,
+            "message": "Put the books on the shelf."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s10",
+      "condition": "english_hindi",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-10",
+        "active": false,
+        "items": [
+          {
+            "id": 1000,
+            "quantity": 1,
+            "message": "गुम हुई चाबी ढूँढें।"
+          },
+          {
+            "id": 1001,
+            "quantity": 2,
+            "message": "छोटे बर्तन को साफ़ करें।"
+          },
+          {
+            "id": 1002,
+            "quantity": 3,
+            "message": "कमरे का तापमान दर्ज करें।"
+          },
+          {
+            "id": 1003,
+            "quantity": 4,
+            "message": "पानी का स्तर जाँचें।"
+          },
+          {
+            "id": 1004,
+            "quantity": 5,
+            "message": "जाने से पहले खिड़की बंद करें।"
+          },
+          {
+            "id": 1005,
+            "quantity": 6,
+            "message": "किताबें शेल्फ पर रखें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s10",
+      "condition": "english_tamil",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-10",
+        "active": false,
+        "items": [
+          {
+            "id": 1000,
+            "quantity": 1,
+            "message": "காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்."
+          },
+          {
+            "id": 1001,
+            "quantity": 2,
+            "message": "சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்."
+          },
+          {
+            "id": 1002,
+            "quantity": 3,
+            "message": "அறையின் வெப்பநிலையைப் பதிவு செய்யவும்."
+          },
+          {
+            "id": 1003,
+            "quantity": 4,
+            "message": "நீரின் அளவைச் சரிபார்க்கவும்."
+          },
+          {
+            "id": 1004,
+            "quantity": 5,
+            "message": "செல்வதற்கு முன் சன்னலை மூடவும்."
+          },
+          {
+            "id": 1005,
+            "quantity": 6,
+            "message": "புத்தகங்களை அலமாரியில் வைக்கவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s11",
+      "condition": "english",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-11",
+        "active": true,
+        "items": [
+          {
+            "id": 1100,
+            "quantity": 2,
+            "message": "Clean the small container."
+          },
+          {
+            "id": 1101,
+            "quantity": 3,
+            "message": "Record the room temperature."
+          },
+          {
+            "id": 1102,
+            "quantity": 4,
+            "message": "Check the water level."
+          },
+          {
+            "id": 1103,
+            "quantity": 5,
+            "message": "Close the window before leaving."
+          },
+          {
+            "id": 1104,
+            "quantity": 6,
+            "message": "Put the books on the shelf."
+          },
+          {
+            "id": 1105,
+            "quantity": 7,
+            "message": "Count the red boxes."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s11",
+      "condition": "english_hindi",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-11",
+        "active": true,
+        "items": [
+          {
+            "id": 1100,
+            "quantity": 2,
+            "message": "छोटे बर्तन को साफ़ करें।"
+          },
+          {
+            "id": 1101,
+            "quantity": 3,
+            "message": "कमरे का तापमान दर्ज करें।"
+          },
+          {
+            "id": 1102,
+            "quantity": 4,
+            "message": "पानी का स्तर जाँचें।"
+          },
+          {
+            "id": 1103,
+            "quantity": 5,
+            "message": "जाने से पहले खिड़की बंद करें।"
+          },
+          {
+            "id": 1104,
+            "quantity": 6,
+            "message": "किताबें शेल्फ पर रखें।"
+          },
+          {
+            "id": 1105,
+            "quantity": 7,
+            "message": "लाल डिब्बों को गिनें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s11",
+      "condition": "english_tamil",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-11",
+        "active": true,
+        "items": [
+          {
+            "id": 1100,
+            "quantity": 2,
+            "message": "சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்."
+          },
+          {
+            "id": 1101,
+            "quantity": 3,
+            "message": "அறையின் வெப்பநிலையைப் பதிவு செய்யவும்."
+          },
+          {
+            "id": 1102,
+            "quantity": 4,
+            "message": "நீரின் அளவைச் சரிபார்க்கவும்."
+          },
+          {
+            "id": 1103,
+            "quantity": 5,
+            "message": "செல்வதற்கு முன் சன்னலை மூடவும்."
+          },
+          {
+            "id": 1104,
+            "quantity": 6,
+            "message": "புத்தகங்களை அலமாரியில் வைக்கவும்."
+          },
+          {
+            "id": 1105,
+            "quantity": 7,
+            "message": "சிவப்பு பெட்டிகளை எண்ணவும்."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s12",
+      "condition": "english",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-12",
+        "active": false,
+        "items": [
+          {
+            "id": 1200,
+            "quantity": 3,
+            "message": "Record the room temperature."
+          },
+          {
+            "id": 1201,
+            "quantity": 4,
+            "message": "Check the water level."
+          },
+          {
+            "id": 1202,
+            "quantity": 5,
+            "message": "Close the window before leaving."
+          },
+          {
+            "id": 1203,
+            "quantity": 6,
+            "message": "Put the books on the shelf."
+          },
+          {
+            "id": 1204,
+            "quantity": 7,
+            "message": "Count the red boxes."
+          },
+          {
+            "id": 1205,
+            "quantity": 8,
+            "message": "Save the latest report."
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s12",
+      "condition": "english_hindi",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-12",
+        "active": false,
+        "items": [
+          {
+            "id": 1200,
+            "quantity": 3,
+            "message": "कमरे का तापमान दर्ज करें।"
+          },
+          {
+            "id": 1201,
+            "quantity": 4,
+            "message": "पानी का स्तर जाँचें।"
+          },
+          {
+            "id": 1202,
+            "quantity": 5,
+            "message": "जाने से पहले खिड़की बंद करें।"
+          },
+          {
+            "id": 1203,
+            "quantity": 6,
+            "message": "किताबें शेल्फ पर रखें।"
+          },
+          {
+            "id": 1204,
+            "quantity": 7,
+            "message": "लाल डिब्बों को गिनें।"
+          },
+          {
+            "id": 1205,
+            "quantity": 8,
+            "message": "नवीनतम रिपोर्ट सहेजें।"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "s12",
+      "condition": "english_tamil",
+      "item_count": 6,
+      "record": {
+        "batch": "batch-12",
+        "active": false,
+        "items": [
+          {
+            "id": 1200,
+            "quantity": 3,
+            "message": "அறையின் வெப்பநிலையைப் பதிவு செய்யவும்."
+          },
+          {
+            "id": 1201,
+            "quantity": 4,
+            "message": "நீரின் அளவைச் சரிபார்க்கவும்."
+          },
+          {
+            "id": 1202,
+            "quantity": 5,
+            "message": "செல்வதற்கு முன் சன்னலை மூடவும்."
+          },
+          {
+            "id": 1203,
+            "quantity": 6,
+            "message": "புத்தகங்களை அலமாரியில் வைக்கவும்."
+          },
+          {
+            "id": 1204,
+            "quantity": 7,
+            "message": "சிவப்பு பெட்டிகளை எண்ணவும்."
+          },
+          {
+            "id": 1205,
+            "quantity": 8,
+            "message": "சமீபத்திய அறிக்கையைச் சேமிக்கவும்."
+          }
+        ]
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "s01/english/prose",
+      "scenario": "s01",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-01. Active: true.\nItem 100; quantity 1; message: Check the water level.",
+      "text_sha256": "4f717020faa913916fbee528c0f82af6f9e3bc91d96973bcdae983169bc07389"
+    },
+    {
+      "id": "s01/english/python",
+      "scenario": "s01",
+      "condition": "english",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-01',\n 'active': True,\n 'items': [{'id': 100, 'quantity': 1, 'message': 'Check the water level.'}]}\n",
+      "text_sha256": "9d70f6981782884ec9e5c5148e8479eb8c9ccfa1a03e358a4433b391ba67ac5a"
+    },
+    {
+      "id": "s01/english/json_compact",
+      "scenario": "s01",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-01\",\"active\":true,\"items\":[{\"id\":100,\"quantity\":1,\"message\":\"Check the water level.\"}]}",
+      "text_sha256": "bc9995a7466b72f8f8ffcc6ae659be813c252eb88af1660c0c7cb6e64cccacb6"
+    },
+    {
+      "id": "s01/english/json_pretty",
+      "scenario": "s01",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-01\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 100,\n      \"quantity\": 1,\n      \"message\": \"Check the water level.\"\n    }\n  ]\n}",
+      "text_sha256": "cd40074225b075f43eeb43a6661779eb3344fa127cf8d04196111ef6fd4a301f"
+    },
+    {
+      "id": "s01/english/html",
+      "scenario": "s01",
+      "condition": "english",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-01\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>100</td><td>1</td><td>Check the water level.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "c5a483120d7c9689d4275f125e31b8d5c8e14fc5b747e460fdfa97fda90b485f"
+    },
+    {
+      "id": "s01/english_hindi/prose",
+      "scenario": "s01",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-01. Active: true.\nItem 100; quantity 1; message: पानी का स्तर जाँचें।",
+      "text_sha256": "f743351e7332ce836bfdd0ae540761f8336024ea3b40e8576133544f30dedcc6"
+    },
+    {
+      "id": "s01/english_hindi/python",
+      "scenario": "s01",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-01',\n 'active': True,\n 'items': [{'id': 100, 'quantity': 1, 'message': 'पानी का स्तर जाँचें।'}]}\n",
+      "text_sha256": "fa78f8b25e7270212b7423ea9a8922f2e8f0fd98f9d48bf1964abaedb7ba933b"
+    },
+    {
+      "id": "s01/english_hindi/json_compact",
+      "scenario": "s01",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-01\",\"active\":true,\"items\":[{\"id\":100,\"quantity\":1,\"message\":\"पानी का स्तर जाँचें।\"}]}",
+      "text_sha256": "240c8d82da53bcac1316e178a15eca34d199724fe2b9c6adca648ea66b20ac72"
+    },
+    {
+      "id": "s01/english_hindi/json_pretty",
+      "scenario": "s01",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-01\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 100,\n      \"quantity\": 1,\n      \"message\": \"पानी का स्तर जाँचें।\"\n    }\n  ]\n}",
+      "text_sha256": "6612f81744882bae84de624434eebda7c667cf0f82029856004735101c476ada"
+    },
+    {
+      "id": "s01/english_hindi/html",
+      "scenario": "s01",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-01\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>100</td><td>1</td><td>पानी का स्तर जाँचें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "19893fe4093416dc2400391dc0a7c118d16ce845ec52876f874e3dd474394195"
+    },
+    {
+      "id": "s01/english_tamil/prose",
+      "scenario": "s01",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-01. Active: true.\nItem 100; quantity 1; message: நீரின் அளவைச் சரிபார்க்கவும்.",
+      "text_sha256": "00af7b91fdf4584cc19f5abe785bd4d49af625c13cde8386247dbaccced978a6"
+    },
+    {
+      "id": "s01/english_tamil/python",
+      "scenario": "s01",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-01',\n 'active': True,\n 'items': [{'id': 100, 'quantity': 1, 'message': 'நீரின் அளவைச் சரிபார்க்கவும்.'}]}\n",
+      "text_sha256": "ee1e30267a9544dd139c236781d32d267fa043d9cea3f2126ff55410392f83d8"
+    },
+    {
+      "id": "s01/english_tamil/json_compact",
+      "scenario": "s01",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-01\",\"active\":true,\"items\":[{\"id\":100,\"quantity\":1,\"message\":\"நீரின் அளவைச் சரிபார்க்கவும்.\"}]}",
+      "text_sha256": "7dea99007d2b5d54c5f7ea0ae07f0f1625cd456eee939efe300d1b39307cb5ff"
+    },
+    {
+      "id": "s01/english_tamil/json_pretty",
+      "scenario": "s01",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-01\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 100,\n      \"quantity\": 1,\n      \"message\": \"நீரின் அளவைச் சரிபார்க்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "806fd0e44a4e95300cbe8fa3055170a5cf3ca7cf3c6eaa9a0e18cd4ed150aa4a"
+    },
+    {
+      "id": "s01/english_tamil/html",
+      "scenario": "s01",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-01\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>100</td><td>1</td><td>நீரின் அளவைச் சரிபார்க்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "90939ba24a86082d2e8af4840b95856a4016df06ad3c9eec319d1f0c3add224e"
+    },
+    {
+      "id": "s02/english/prose",
+      "scenario": "s02",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-02. Active: false.\nItem 200; quantity 2; message: Close the window before leaving.",
+      "text_sha256": "101c2f9d9586703531ef8d86cfb1daf11c5e4dc35af920399a6db57bbae51284"
+    },
+    {
+      "id": "s02/english/python",
+      "scenario": "s02",
+      "condition": "english",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-02',\n 'active': False,\n 'items': [{'id': 200, 'quantity': 2, 'message': 'Close the window before leaving.'}]}\n",
+      "text_sha256": "a765f53ebd8fb132c3911795930afe096cee2b117d64ce6436f7354f60718f25"
+    },
+    {
+      "id": "s02/english/json_compact",
+      "scenario": "s02",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-02\",\"active\":false,\"items\":[{\"id\":200,\"quantity\":2,\"message\":\"Close the window before leaving.\"}]}",
+      "text_sha256": "cb3a9270e6953f3394fe9a5183eb046c9f7a258f06ca035e835cd5cb4bcc4d83"
+    },
+    {
+      "id": "s02/english/json_pretty",
+      "scenario": "s02",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-02\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 200,\n      \"quantity\": 2,\n      \"message\": \"Close the window before leaving.\"\n    }\n  ]\n}",
+      "text_sha256": "a3429a1645d7e668ca876ad3d956bd83f0b4d32134783e83041268e2c12ef9f0"
+    },
+    {
+      "id": "s02/english/html",
+      "scenario": "s02",
+      "condition": "english",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-02\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>200</td><td>2</td><td>Close the window before leaving.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "8a4d2c76b5531a0c3a1ae523339ca9ecb84b6a10daedd56833f60760355d81a2"
+    },
+    {
+      "id": "s02/english_hindi/prose",
+      "scenario": "s02",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-02. Active: false.\nItem 200; quantity 2; message: जाने से पहले खिड़की बंद करें।",
+      "text_sha256": "e1af7c95b0d9734ba96348d968a2da75881c1c83cf6494b5555a1ac74d758559"
+    },
+    {
+      "id": "s02/english_hindi/python",
+      "scenario": "s02",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-02',\n 'active': False,\n 'items': [{'id': 200, 'quantity': 2, 'message': 'जाने से पहले खिड़की बंद करें।'}]}\n",
+      "text_sha256": "6e822e9b3121572a31de6b24c78950dc632c2aab0632a716d7cc0a027581817d"
+    },
+    {
+      "id": "s02/english_hindi/json_compact",
+      "scenario": "s02",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-02\",\"active\":false,\"items\":[{\"id\":200,\"quantity\":2,\"message\":\"जाने से पहले खिड़की बंद करें।\"}]}",
+      "text_sha256": "902ebd3b018a07b557d708c20189f389afe63264d89562ebdf41202b9ebb96ab"
+    },
+    {
+      "id": "s02/english_hindi/json_pretty",
+      "scenario": "s02",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-02\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 200,\n      \"quantity\": 2,\n      \"message\": \"जाने से पहले खिड़की बंद करें।\"\n    }\n  ]\n}",
+      "text_sha256": "f8a134c21f9ec8540fd497702528bee7a4998d86b4eaf41d0fbf43428e47edb0"
+    },
+    {
+      "id": "s02/english_hindi/html",
+      "scenario": "s02",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-02\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>200</td><td>2</td><td>जाने से पहले खिड़की बंद करें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "ddd041e9d9484f531d6beb55a510fc909365694ac4ef732a041e1bd9b4a8025f"
+    },
+    {
+      "id": "s02/english_tamil/prose",
+      "scenario": "s02",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-02. Active: false.\nItem 200; quantity 2; message: செல்வதற்கு முன் சன்னலை மூடவும்.",
+      "text_sha256": "9d2e9203b19e12c504e888dcf763d78d653ab3de6dd270b4c1c37ed352ab2da5"
+    },
+    {
+      "id": "s02/english_tamil/python",
+      "scenario": "s02",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-02',\n 'active': False,\n 'items': [{'id': 200, 'quantity': 2, 'message': 'செல்வதற்கு முன் சன்னலை மூடவும்.'}]}\n",
+      "text_sha256": "892044db2915e83c274a11cc24a710d8ed61fa39d860aa7844d37fbdd4f17f29"
+    },
+    {
+      "id": "s02/english_tamil/json_compact",
+      "scenario": "s02",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-02\",\"active\":false,\"items\":[{\"id\":200,\"quantity\":2,\"message\":\"செல்வதற்கு முன் சன்னலை மூடவும்.\"}]}",
+      "text_sha256": "4a93dea53e4409f17f612f0543056c5b3b0b893419917052df5d3c5bbdfcd417"
+    },
+    {
+      "id": "s02/english_tamil/json_pretty",
+      "scenario": "s02",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-02\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 200,\n      \"quantity\": 2,\n      \"message\": \"செல்வதற்கு முன் சன்னலை மூடவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "78bfab4865d8a2e8542ed32dce1540887e100367a7e21b0df4fb0e6651c39597"
+    },
+    {
+      "id": "s02/english_tamil/html",
+      "scenario": "s02",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-02\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>200</td><td>2</td><td>செல்வதற்கு முன் சன்னலை மூடவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "d221e781623ff79939da9c4322f4965a87491dcf75f83c6d0fa2cc44c051dc6b"
+    },
+    {
+      "id": "s03/english/prose",
+      "scenario": "s03",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-03. Active: true.\nItem 300; quantity 3; message: Put the books on the shelf.",
+      "text_sha256": "50ab966124c1dd75a54fe913e8365c03bcf93a7574fae89be03081e6ac30510e"
+    },
+    {
+      "id": "s03/english/python",
+      "scenario": "s03",
+      "condition": "english",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-03',\n 'active': True,\n 'items': [{'id': 300, 'quantity': 3, 'message': 'Put the books on the shelf.'}]}\n",
+      "text_sha256": "282662bf2123f24cf48b35761c5b5de71d934f1b07f7951fc0d418bcb895e1fd"
+    },
+    {
+      "id": "s03/english/json_compact",
+      "scenario": "s03",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-03\",\"active\":true,\"items\":[{\"id\":300,\"quantity\":3,\"message\":\"Put the books on the shelf.\"}]}",
+      "text_sha256": "20d685860e744077d30cc0e799f4011eed3868dcea898c0e04c4ab496003344d"
+    },
+    {
+      "id": "s03/english/json_pretty",
+      "scenario": "s03",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-03\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 300,\n      \"quantity\": 3,\n      \"message\": \"Put the books on the shelf.\"\n    }\n  ]\n}",
+      "text_sha256": "9fa1473390f9dc240db73aa05ee58a6b8dd9e8221dfe01c0cc4c872ae2e371fd"
+    },
+    {
+      "id": "s03/english/html",
+      "scenario": "s03",
+      "condition": "english",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-03\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>300</td><td>3</td><td>Put the books on the shelf.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "f135f056dc16d6681028d4ab779a91b50ed2c6b90feea450cbfaeb05e74dd8c0"
+    },
+    {
+      "id": "s03/english_hindi/prose",
+      "scenario": "s03",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-03. Active: true.\nItem 300; quantity 3; message: किताबें शेल्फ पर रखें।",
+      "text_sha256": "1cbeb90c68817d67c06aa6f8bd40393cb8ac4566de9a194355b522323efa7c87"
+    },
+    {
+      "id": "s03/english_hindi/python",
+      "scenario": "s03",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-03',\n 'active': True,\n 'items': [{'id': 300, 'quantity': 3, 'message': 'किताबें शेल्फ पर रखें।'}]}\n",
+      "text_sha256": "60e3e4c54c206b5852e2ffc60ee50fae5aa2f440fbc1506dd3562fb4e651e319"
+    },
+    {
+      "id": "s03/english_hindi/json_compact",
+      "scenario": "s03",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-03\",\"active\":true,\"items\":[{\"id\":300,\"quantity\":3,\"message\":\"किताबें शेल्फ पर रखें।\"}]}",
+      "text_sha256": "693e28fbec425ad45426005c15da4f327408bcf7103aafc28bbba3a5e0197017"
+    },
+    {
+      "id": "s03/english_hindi/json_pretty",
+      "scenario": "s03",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-03\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 300,\n      \"quantity\": 3,\n      \"message\": \"किताबें शेल्फ पर रखें।\"\n    }\n  ]\n}",
+      "text_sha256": "06874452db4422da86eac6c022343edd6010dae36e5363cb71fa2e133adb02c3"
+    },
+    {
+      "id": "s03/english_hindi/html",
+      "scenario": "s03",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-03\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>300</td><td>3</td><td>किताबें शेल्फ पर रखें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "51014625f1f173a1b74d55d6c1bd4940ecce0e86b63fab03d0870d30caeca9ee"
+    },
+    {
+      "id": "s03/english_tamil/prose",
+      "scenario": "s03",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-03. Active: true.\nItem 300; quantity 3; message: புத்தகங்களை அலமாரியில் வைக்கவும்.",
+      "text_sha256": "e9bdf02a6b5328d4494437fc7ea4149e81440b2be4d0121ba852225983466ca6"
+    },
+    {
+      "id": "s03/english_tamil/python",
+      "scenario": "s03",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-03',\n 'active': True,\n 'items': [{'id': 300, 'quantity': 3, 'message': 'புத்தகங்களை அலமாரியில் வைக்கவும்.'}]}\n",
+      "text_sha256": "154da47dfe9289cdc819eab9817a0f4802606034df693b3a2a29d0e296d865b9"
+    },
+    {
+      "id": "s03/english_tamil/json_compact",
+      "scenario": "s03",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-03\",\"active\":true,\"items\":[{\"id\":300,\"quantity\":3,\"message\":\"புத்தகங்களை அலமாரியில் வைக்கவும்.\"}]}",
+      "text_sha256": "27b41c90f45548a404411e8e4d173a3f345bbacb733f19e1bc0f24d28c9af4de"
+    },
+    {
+      "id": "s03/english_tamil/json_pretty",
+      "scenario": "s03",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-03\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 300,\n      \"quantity\": 3,\n      \"message\": \"புத்தகங்களை அலமாரியில் வைக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "1dda8dd7d08bd94465254d0f358c958765754729874f1945d93a9095df425f24"
+    },
+    {
+      "id": "s03/english_tamil/html",
+      "scenario": "s03",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-03\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>300</td><td>3</td><td>புத்தகங்களை அலமாரியில் வைக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "5ed31d0d54ea47b4a6620b0e93b0b5887c74165b1d9593eae711e65fd8342760"
+    },
+    {
+      "id": "s04/english/prose",
+      "scenario": "s04",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-04. Active: false.\nItem 400; quantity 4; message: Count the red boxes.",
+      "text_sha256": "8985f31bf95e259b7cde65215527eeb3680d46147a59b5b7952e5983e5159eed"
+    },
+    {
+      "id": "s04/english/python",
+      "scenario": "s04",
+      "condition": "english",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-04',\n 'active': False,\n 'items': [{'id': 400, 'quantity': 4, 'message': 'Count the red boxes.'}]}\n",
+      "text_sha256": "756faba559b9c683c55249fd4ff97006d7504c0a3f680821361fd2593d38f42e"
+    },
+    {
+      "id": "s04/english/json_compact",
+      "scenario": "s04",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-04\",\"active\":false,\"items\":[{\"id\":400,\"quantity\":4,\"message\":\"Count the red boxes.\"}]}",
+      "text_sha256": "55e5e79e1a63aba72ddd615eb08a6963ec9bc6273c1905786f9d10d86f91e051"
+    },
+    {
+      "id": "s04/english/json_pretty",
+      "scenario": "s04",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-04\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 400,\n      \"quantity\": 4,\n      \"message\": \"Count the red boxes.\"\n    }\n  ]\n}",
+      "text_sha256": "89a8f8e675c4cf43d67902e0241c805602859694105b200ac5ee4b82dbc2b8f1"
+    },
+    {
+      "id": "s04/english/html",
+      "scenario": "s04",
+      "condition": "english",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-04\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>400</td><td>4</td><td>Count the red boxes.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "84068266b4525b4e0b4baa0796830c5be22274e41d2d4887e4cec64f2d6efe0e"
+    },
+    {
+      "id": "s04/english_hindi/prose",
+      "scenario": "s04",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-04. Active: false.\nItem 400; quantity 4; message: लाल डिब्बों को गिनें।",
+      "text_sha256": "d26e7a2d1ec970de0c3dc2b0986cc670ffa7a3c5c971d0a3649cab29a053c87f"
+    },
+    {
+      "id": "s04/english_hindi/python",
+      "scenario": "s04",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-04',\n 'active': False,\n 'items': [{'id': 400, 'quantity': 4, 'message': 'लाल डिब्बों को गिनें।'}]}\n",
+      "text_sha256": "f952660ac3e2f1d811f1a51815087923836f17afbf35f89a07ba4a614c8acbb4"
+    },
+    {
+      "id": "s04/english_hindi/json_compact",
+      "scenario": "s04",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-04\",\"active\":false,\"items\":[{\"id\":400,\"quantity\":4,\"message\":\"लाल डिब्बों को गिनें।\"}]}",
+      "text_sha256": "d40ec698d9c23b4b48a5c14be4fea52254fda026a26354c893c21f3f2fdabd98"
+    },
+    {
+      "id": "s04/english_hindi/json_pretty",
+      "scenario": "s04",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-04\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 400,\n      \"quantity\": 4,\n      \"message\": \"लाल डिब्बों को गिनें।\"\n    }\n  ]\n}",
+      "text_sha256": "ca8ec92fe14690413693650bed8fd4977b526bb04344b6292b5c2861f667d560"
+    },
+    {
+      "id": "s04/english_hindi/html",
+      "scenario": "s04",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-04\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>400</td><td>4</td><td>लाल डिब्बों को गिनें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "cbf3fe14c458e378c872c6ae438c1d03da2d445f74e83bc88d2b37b9303eeb2b"
+    },
+    {
+      "id": "s04/english_tamil/prose",
+      "scenario": "s04",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 1,
+      "role": "primary",
+      "text": "Batch batch-04. Active: false.\nItem 400; quantity 4; message: சிவப்பு பெட்டிகளை எண்ணவும்.",
+      "text_sha256": "0e57211e34c4f401fbc70f16e40aaf9cee366f495a650db52761b2e6bf4813d8"
+    },
+    {
+      "id": "s04/english_tamil/python",
+      "scenario": "s04",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 1,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-04',\n 'active': False,\n 'items': [{'id': 400, 'quantity': 4, 'message': 'சிவப்பு பெட்டிகளை எண்ணவும்.'}]}\n",
+      "text_sha256": "4dffb7fd3b44055ab40286adb3e24831b8ed17d2941972c0d2889d9d724c9b8c"
+    },
+    {
+      "id": "s04/english_tamil/json_compact",
+      "scenario": "s04",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-04\",\"active\":false,\"items\":[{\"id\":400,\"quantity\":4,\"message\":\"சிவப்பு பெட்டிகளை எண்ணவும்.\"}]}",
+      "text_sha256": "9d88b836648d44b57dbc01a0649e9972d86ec0b4b9b11445f5adbbec8cc8e83f"
+    },
+    {
+      "id": "s04/english_tamil/json_pretty",
+      "scenario": "s04",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 1,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-04\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 400,\n      \"quantity\": 4,\n      \"message\": \"சிவப்பு பெட்டிகளை எண்ணவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "a60b509ea2a91185373c98207c98fa02ce5dcd3646ef747b2994287ab486b6e9"
+    },
+    {
+      "id": "s04/english_tamil/html",
+      "scenario": "s04",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 1,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-04\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>400</td><td>4</td><td>சிவப்பு பெட்டிகளை எண்ணவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "1ae6166d73bb3d186c54e3a53fb5fb5dc858436745f775e08d01163b577d11a8"
+    },
+    {
+      "id": "s05/english/prose",
+      "scenario": "s05",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-05. Active: true.\nItem 500; quantity 5; message: Save the latest report.\nItem 501; quantity 6; message: Send the meeting notes.\nItem 502; quantity 7; message: Measure the length of the table.",
+      "text_sha256": "510b5e8f306179c4c13bd1fd26a48b5460cfdf6c94522ad928809a49ef1973d0"
+    },
+    {
+      "id": "s05/english/python",
+      "scenario": "s05",
+      "condition": "english",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-05',\n 'active': True,\n 'items': [{'id': 500, 'quantity': 5, 'message': 'Save the latest report.'},\n           {'id': 501, 'quantity': 6, 'message': 'Send the meeting notes.'},\n           {'id': 502, 'quantity': 7, 'message': 'Measure the length of the table.'}]}\n",
+      "text_sha256": "494805345a2e23bdd925ddbc5b81e1e2af4bda1bd757201b5a3f8a72caead559"
+    },
+    {
+      "id": "s05/english/json_compact",
+      "scenario": "s05",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-05\",\"active\":true,\"items\":[{\"id\":500,\"quantity\":5,\"message\":\"Save the latest report.\"},{\"id\":501,\"quantity\":6,\"message\":\"Send the meeting notes.\"},{\"id\":502,\"quantity\":7,\"message\":\"Measure the length of the table.\"}]}",
+      "text_sha256": "eb1153937d86d1fdc43b7d24fe1d3fa0355f602614c7b2b758eda12c7a0b170c"
+    },
+    {
+      "id": "s05/english/json_pretty",
+      "scenario": "s05",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-05\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 500,\n      \"quantity\": 5,\n      \"message\": \"Save the latest report.\"\n    },\n    {\n      \"id\": 501,\n      \"quantity\": 6,\n      \"message\": \"Send the meeting notes.\"\n    },\n    {\n      \"id\": 502,\n      \"quantity\": 7,\n      \"message\": \"Measure the length of the table.\"\n    }\n  ]\n}",
+      "text_sha256": "e7089a8fda1e074f49211d7f62f9bbca327b99cbf4db574fb28371e6a2eb7a3a"
+    },
+    {
+      "id": "s05/english/html",
+      "scenario": "s05",
+      "condition": "english",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-05\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>500</td><td>5</td><td>Save the latest report.</td></tr>\n    <tr><td>501</td><td>6</td><td>Send the meeting notes.</td></tr>\n    <tr><td>502</td><td>7</td><td>Measure the length of the table.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "29f4350f09eb2fb3046217ab61866f9af35dccf2cecfeb556fa85987207c3bb9"
+    },
+    {
+      "id": "s05/english_hindi/prose",
+      "scenario": "s05",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-05. Active: true.\nItem 500; quantity 5; message: नवीनतम रिपोर्ट सहेजें।\nItem 501; quantity 6; message: बैठक के नोट्स भेजें।\nItem 502; quantity 7; message: मेज़ की लंबाई मापें।",
+      "text_sha256": "4f4bd0912dffdf9fcf5c1366b73d3fd8130767c18caa8c2e58979ffd7e5f237a"
+    },
+    {
+      "id": "s05/english_hindi/python",
+      "scenario": "s05",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-05',\n 'active': True,\n 'items': [{'id': 500, 'quantity': 5, 'message': 'नवीनतम रिपोर्ट सहेजें।'},\n           {'id': 501, 'quantity': 6, 'message': 'बैठक के नोट्स भेजें।'},\n           {'id': 502, 'quantity': 7, 'message': 'मेज़ की लंबाई मापें।'}]}\n",
+      "text_sha256": "1e91e452ea2e5accca888216551e1ae62e3c3e2a0acdb426cb8572a34c910a65"
+    },
+    {
+      "id": "s05/english_hindi/json_compact",
+      "scenario": "s05",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-05\",\"active\":true,\"items\":[{\"id\":500,\"quantity\":5,\"message\":\"नवीनतम रिपोर्ट सहेजें।\"},{\"id\":501,\"quantity\":6,\"message\":\"बैठक के नोट्स भेजें।\"},{\"id\":502,\"quantity\":7,\"message\":\"मेज़ की लंबाई मापें।\"}]}",
+      "text_sha256": "6df8360dbd61a8070b2b7becdf8184fc38d57c270257bf96e15a7249c16c6bc0"
+    },
+    {
+      "id": "s05/english_hindi/json_pretty",
+      "scenario": "s05",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-05\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 500,\n      \"quantity\": 5,\n      \"message\": \"नवीनतम रिपोर्ट सहेजें।\"\n    },\n    {\n      \"id\": 501,\n      \"quantity\": 6,\n      \"message\": \"बैठक के नोट्स भेजें।\"\n    },\n    {\n      \"id\": 502,\n      \"quantity\": 7,\n      \"message\": \"मेज़ की लंबाई मापें।\"\n    }\n  ]\n}",
+      "text_sha256": "06bc1a0eafe0e4d50f4ac46e64a3b05c8e9b02c41369b7db42364be3a91e8cb1"
+    },
+    {
+      "id": "s05/english_hindi/html",
+      "scenario": "s05",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-05\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>500</td><td>5</td><td>नवीनतम रिपोर्ट सहेजें।</td></tr>\n    <tr><td>501</td><td>6</td><td>बैठक के नोट्स भेजें।</td></tr>\n    <tr><td>502</td><td>7</td><td>मेज़ की लंबाई मापें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "77423dad16786cccc6df1013f81a37ecbb7ac42a57d87e77ef040f7cd209d7e4"
+    },
+    {
+      "id": "s05/english_tamil/prose",
+      "scenario": "s05",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-05. Active: true.\nItem 500; quantity 5; message: சமீபத்திய அறிக்கையைச் சேமிக்கவும்.\nItem 501; quantity 6; message: கூட்டக் குறிப்புகளை அனுப்பவும்.\nItem 502; quantity 7; message: மேசையின் நீளத்தை அளக்கவும்.",
+      "text_sha256": "bff59a47a7386233eb733413fe764d827ee781bdbdc8cb4c648219a644d1ea87"
+    },
+    {
+      "id": "s05/english_tamil/python",
+      "scenario": "s05",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-05',\n 'active': True,\n 'items': [{'id': 500, 'quantity': 5, 'message': 'சமீபத்திய அறிக்கையைச் சேமிக்கவும்.'},\n           {'id': 501, 'quantity': 6, 'message': 'கூட்டக் குறிப்புகளை அனுப்பவும்.'},\n           {'id': 502, 'quantity': 7, 'message': 'மேசையின் நீளத்தை அளக்கவும்.'}]}\n",
+      "text_sha256": "b024325cfa5275cca2a64709bda64675dcf57bb6b1280661a31e3ad91dc41780"
+    },
+    {
+      "id": "s05/english_tamil/json_compact",
+      "scenario": "s05",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-05\",\"active\":true,\"items\":[{\"id\":500,\"quantity\":5,\"message\":\"சமீபத்திய அறிக்கையைச் சேமிக்கவும்.\"},{\"id\":501,\"quantity\":6,\"message\":\"கூட்டக் குறிப்புகளை அனுப்பவும்.\"},{\"id\":502,\"quantity\":7,\"message\":\"மேசையின் நீளத்தை அளக்கவும்.\"}]}",
+      "text_sha256": "0e7c5096d6064fe8be665f5ac9009ca4341602983e40d4dfda59faf2b9ddc805"
+    },
+    {
+      "id": "s05/english_tamil/json_pretty",
+      "scenario": "s05",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-05\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 500,\n      \"quantity\": 5,\n      \"message\": \"சமீபத்திய அறிக்கையைச் சேமிக்கவும்.\"\n    },\n    {\n      \"id\": 501,\n      \"quantity\": 6,\n      \"message\": \"கூட்டக் குறிப்புகளை அனுப்பவும்.\"\n    },\n    {\n      \"id\": 502,\n      \"quantity\": 7,\n      \"message\": \"மேசையின் நீளத்தை அளக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "68a1ed6ceac44c1620b956e6f77164bbdc6443bbc92dabdb4e7c0599648c8995"
+    },
+    {
+      "id": "s05/english_tamil/html",
+      "scenario": "s05",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-05\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>500</td><td>5</td><td>சமீபத்திய அறிக்கையைச் சேமிக்கவும்.</td></tr>\n    <tr><td>501</td><td>6</td><td>கூட்டக் குறிப்புகளை அனுப்பவும்.</td></tr>\n    <tr><td>502</td><td>7</td><td>மேசையின் நீளத்தை அளக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "59c3d0f6e38ade94eff36e2c2f53f122c8e4613f2c9f19f1e8798464b93679e1"
+    },
+    {
+      "id": "s06/english/prose",
+      "scenario": "s06",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-06. Active: false.\nItem 600; quantity 6; message: Send the meeting notes.\nItem 601; quantity 7; message: Measure the length of the table.\nItem 602; quantity 8; message: Turn off the lights.",
+      "text_sha256": "5c8eb93b5f7c4cd1f66bc6a06d0d559c8d80cc23bb1979ff89a2f717acbfdb2e"
+    },
+    {
+      "id": "s06/english/python",
+      "scenario": "s06",
+      "condition": "english",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-06',\n 'active': False,\n 'items': [{'id': 600, 'quantity': 6, 'message': 'Send the meeting notes.'},\n           {'id': 601, 'quantity': 7, 'message': 'Measure the length of the table.'},\n           {'id': 602, 'quantity': 8, 'message': 'Turn off the lights.'}]}\n",
+      "text_sha256": "bfdd26b13fe237c3311774c2a920b8eb1d45db7fbe600f48c4acad0edfccb9e2"
+    },
+    {
+      "id": "s06/english/json_compact",
+      "scenario": "s06",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-06\",\"active\":false,\"items\":[{\"id\":600,\"quantity\":6,\"message\":\"Send the meeting notes.\"},{\"id\":601,\"quantity\":7,\"message\":\"Measure the length of the table.\"},{\"id\":602,\"quantity\":8,\"message\":\"Turn off the lights.\"}]}",
+      "text_sha256": "b609da1627af6c3778d4d7b964db9b156072e1d000bc7da7f71b321058850357"
+    },
+    {
+      "id": "s06/english/json_pretty",
+      "scenario": "s06",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-06\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 600,\n      \"quantity\": 6,\n      \"message\": \"Send the meeting notes.\"\n    },\n    {\n      \"id\": 601,\n      \"quantity\": 7,\n      \"message\": \"Measure the length of the table.\"\n    },\n    {\n      \"id\": 602,\n      \"quantity\": 8,\n      \"message\": \"Turn off the lights.\"\n    }\n  ]\n}",
+      "text_sha256": "593c3d1ed178bfe54568a2f8646f50ba1165c4df91b9bf3f3af366cf2059971c"
+    },
+    {
+      "id": "s06/english/html",
+      "scenario": "s06",
+      "condition": "english",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-06\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>600</td><td>6</td><td>Send the meeting notes.</td></tr>\n    <tr><td>601</td><td>7</td><td>Measure the length of the table.</td></tr>\n    <tr><td>602</td><td>8</td><td>Turn off the lights.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "c0e2bf5a13fee7abb5f5237f5d339772beba40aea0fd505ac33600b233939645"
+    },
+    {
+      "id": "s06/english_hindi/prose",
+      "scenario": "s06",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-06. Active: false.\nItem 600; quantity 6; message: बैठक के नोट्स भेजें।\nItem 601; quantity 7; message: मेज़ की लंबाई मापें।\nItem 602; quantity 8; message: बत्तियाँ बंद करें।",
+      "text_sha256": "3e17effc7864f94fe63b8dbdd8b0d6df3e6ab48ec5366b7d0a0e6ac5b0416b1f"
+    },
+    {
+      "id": "s06/english_hindi/python",
+      "scenario": "s06",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-06',\n 'active': False,\n 'items': [{'id': 600, 'quantity': 6, 'message': 'बैठक के नोट्स भेजें।'},\n           {'id': 601, 'quantity': 7, 'message': 'मेज़ की लंबाई मापें।'},\n           {'id': 602, 'quantity': 8, 'message': 'बत्तियाँ बंद करें।'}]}\n",
+      "text_sha256": "6c6799cb44060e10df27e4c2c2036af1914b20a8e9815e156fa090405025d0d5"
+    },
+    {
+      "id": "s06/english_hindi/json_compact",
+      "scenario": "s06",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-06\",\"active\":false,\"items\":[{\"id\":600,\"quantity\":6,\"message\":\"बैठक के नोट्स भेजें।\"},{\"id\":601,\"quantity\":7,\"message\":\"मेज़ की लंबाई मापें।\"},{\"id\":602,\"quantity\":8,\"message\":\"बत्तियाँ बंद करें।\"}]}",
+      "text_sha256": "25ea1150b1e3c5e97e59398f4b7b037cabe29cacd7dc40bfd9b982201e652d27"
+    },
+    {
+      "id": "s06/english_hindi/json_pretty",
+      "scenario": "s06",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-06\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 600,\n      \"quantity\": 6,\n      \"message\": \"बैठक के नोट्स भेजें।\"\n    },\n    {\n      \"id\": 601,\n      \"quantity\": 7,\n      \"message\": \"मेज़ की लंबाई मापें।\"\n    },\n    {\n      \"id\": 602,\n      \"quantity\": 8,\n      \"message\": \"बत्तियाँ बंद करें।\"\n    }\n  ]\n}",
+      "text_sha256": "59228dc64eb5918d95d5d9a20999ab636b88a30c9232bbeb4bb6562bf35ba88f"
+    },
+    {
+      "id": "s06/english_hindi/html",
+      "scenario": "s06",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-06\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>600</td><td>6</td><td>बैठक के नोट्स भेजें।</td></tr>\n    <tr><td>601</td><td>7</td><td>मेज़ की लंबाई मापें।</td></tr>\n    <tr><td>602</td><td>8</td><td>बत्तियाँ बंद करें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "e06e4d0aaa9d709a2b39cb14f86dbf47a29022b665721c1492ce869ffde30813"
+    },
+    {
+      "id": "s06/english_tamil/prose",
+      "scenario": "s06",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-06. Active: false.\nItem 600; quantity 6; message: கூட்டக் குறிப்புகளை அனுப்பவும்.\nItem 601; quantity 7; message: மேசையின் நீளத்தை அளக்கவும்.\nItem 602; quantity 8; message: விளக்குகளை அணைக்கவும்.",
+      "text_sha256": "4024a5908a92b656b3b424168f3d4035d74874056fe8949ac738a164fbe5b9c7"
+    },
+    {
+      "id": "s06/english_tamil/python",
+      "scenario": "s06",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-06',\n 'active': False,\n 'items': [{'id': 600, 'quantity': 6, 'message': 'கூட்டக் குறிப்புகளை அனுப்பவும்.'},\n           {'id': 601, 'quantity': 7, 'message': 'மேசையின் நீளத்தை அளக்கவும்.'},\n           {'id': 602, 'quantity': 8, 'message': 'விளக்குகளை அணைக்கவும்.'}]}\n",
+      "text_sha256": "25702169cb4bc4a41f1e82e47669bd3ad05fd33208cbd13edadf7382b9ff3011"
+    },
+    {
+      "id": "s06/english_tamil/json_compact",
+      "scenario": "s06",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-06\",\"active\":false,\"items\":[{\"id\":600,\"quantity\":6,\"message\":\"கூட்டக் குறிப்புகளை அனுப்பவும்.\"},{\"id\":601,\"quantity\":7,\"message\":\"மேசையின் நீளத்தை அளக்கவும்.\"},{\"id\":602,\"quantity\":8,\"message\":\"விளக்குகளை அணைக்கவும்.\"}]}",
+      "text_sha256": "9eea4db5f579fd4985dfa367576ef87883d23f10f98cd720f749b1a773f0efa1"
+    },
+    {
+      "id": "s06/english_tamil/json_pretty",
+      "scenario": "s06",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-06\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 600,\n      \"quantity\": 6,\n      \"message\": \"கூட்டக் குறிப்புகளை அனுப்பவும்.\"\n    },\n    {\n      \"id\": 601,\n      \"quantity\": 7,\n      \"message\": \"மேசையின் நீளத்தை அளக்கவும்.\"\n    },\n    {\n      \"id\": 602,\n      \"quantity\": 8,\n      \"message\": \"விளக்குகளை அணைக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "b4fffb7b02bdbe8619565bd56ee148ccbd7797b66905bf7654ec370407b6d7cf"
+    },
+    {
+      "id": "s06/english_tamil/html",
+      "scenario": "s06",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-06\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>600</td><td>6</td><td>கூட்டக் குறிப்புகளை அனுப்பவும்.</td></tr>\n    <tr><td>601</td><td>7</td><td>மேசையின் நீளத்தை அளக்கவும்.</td></tr>\n    <tr><td>602</td><td>8</td><td>விளக்குகளை அணைக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "a1b16dccdd95cf296e3f0bdd58fbb26b5644ccd8ff81861e2f96c18892c768a1"
+    },
+    {
+      "id": "s07/english/prose",
+      "scenario": "s07",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-07. Active: true.\nItem 700; quantity 7; message: Measure the length of the table.\nItem 701; quantity 8; message: Turn off the lights.\nItem 702; quantity 9; message: Update the delivery address.",
+      "text_sha256": "5e2c44e2359caa20813e75fc84c6218722d12309d6adf4127ae29dfa50744d5b"
+    },
+    {
+      "id": "s07/english/python",
+      "scenario": "s07",
+      "condition": "english",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-07',\n 'active': True,\n 'items': [{'id': 700, 'quantity': 7, 'message': 'Measure the length of the table.'},\n           {'id': 701, 'quantity': 8, 'message': 'Turn off the lights.'},\n           {'id': 702, 'quantity': 9, 'message': 'Update the delivery address.'}]}\n",
+      "text_sha256": "c45ad004d9f2ec7b1f295bccc4eebabec9e3c4fac20ece8516902eb79a49dc1b"
+    },
+    {
+      "id": "s07/english/json_compact",
+      "scenario": "s07",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-07\",\"active\":true,\"items\":[{\"id\":700,\"quantity\":7,\"message\":\"Measure the length of the table.\"},{\"id\":701,\"quantity\":8,\"message\":\"Turn off the lights.\"},{\"id\":702,\"quantity\":9,\"message\":\"Update the delivery address.\"}]}",
+      "text_sha256": "43ff7c099ba87299711665f221d1f957ada548a878df22ab4df3e4218a5368e2"
+    },
+    {
+      "id": "s07/english/json_pretty",
+      "scenario": "s07",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-07\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 700,\n      \"quantity\": 7,\n      \"message\": \"Measure the length of the table.\"\n    },\n    {\n      \"id\": 701,\n      \"quantity\": 8,\n      \"message\": \"Turn off the lights.\"\n    },\n    {\n      \"id\": 702,\n      \"quantity\": 9,\n      \"message\": \"Update the delivery address.\"\n    }\n  ]\n}",
+      "text_sha256": "a1fb93f6af4022071dab11881dfa21fc09f08e09ee02a329f7dc01c162685da9"
+    },
+    {
+      "id": "s07/english/html",
+      "scenario": "s07",
+      "condition": "english",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-07\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>700</td><td>7</td><td>Measure the length of the table.</td></tr>\n    <tr><td>701</td><td>8</td><td>Turn off the lights.</td></tr>\n    <tr><td>702</td><td>9</td><td>Update the delivery address.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "1eb07826128b8ddf907b83a286ad02dde9d07576d50c2f7ed3b6bd45983ca3cb"
+    },
+    {
+      "id": "s07/english_hindi/prose",
+      "scenario": "s07",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-07. Active: true.\nItem 700; quantity 7; message: मेज़ की लंबाई मापें।\nItem 701; quantity 8; message: बत्तियाँ बंद करें।\nItem 702; quantity 9; message: डिलीवरी का पता अपडेट करें।",
+      "text_sha256": "88e0fb0cacda1c19aed2dedeaa1f4f8e2d512528a4c09e27c41458208f49b17d"
+    },
+    {
+      "id": "s07/english_hindi/python",
+      "scenario": "s07",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-07',\n 'active': True,\n 'items': [{'id': 700, 'quantity': 7, 'message': 'मेज़ की लंबाई मापें।'},\n           {'id': 701, 'quantity': 8, 'message': 'बत्तियाँ बंद करें।'},\n           {'id': 702, 'quantity': 9, 'message': 'डिलीवरी का पता अपडेट करें।'}]}\n",
+      "text_sha256": "90dc48517410474733179a39efa4a17a06ee6af875bec5964caa6de9ebd462ef"
+    },
+    {
+      "id": "s07/english_hindi/json_compact",
+      "scenario": "s07",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-07\",\"active\":true,\"items\":[{\"id\":700,\"quantity\":7,\"message\":\"मेज़ की लंबाई मापें।\"},{\"id\":701,\"quantity\":8,\"message\":\"बत्तियाँ बंद करें।\"},{\"id\":702,\"quantity\":9,\"message\":\"डिलीवरी का पता अपडेट करें।\"}]}",
+      "text_sha256": "b1c384a7f9d93d515c08db91cea8b8ba2bb0f98d7136c20e30b6ef3ccfbcc305"
+    },
+    {
+      "id": "s07/english_hindi/json_pretty",
+      "scenario": "s07",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-07\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 700,\n      \"quantity\": 7,\n      \"message\": \"मेज़ की लंबाई मापें।\"\n    },\n    {\n      \"id\": 701,\n      \"quantity\": 8,\n      \"message\": \"बत्तियाँ बंद करें।\"\n    },\n    {\n      \"id\": 702,\n      \"quantity\": 9,\n      \"message\": \"डिलीवरी का पता अपडेट करें।\"\n    }\n  ]\n}",
+      "text_sha256": "fdddedb59719dc2470af1b67b53875ae980c35f54640c26eeb45fb9bedc5da0b"
+    },
+    {
+      "id": "s07/english_hindi/html",
+      "scenario": "s07",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-07\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>700</td><td>7</td><td>मेज़ की लंबाई मापें।</td></tr>\n    <tr><td>701</td><td>8</td><td>बत्तियाँ बंद करें।</td></tr>\n    <tr><td>702</td><td>9</td><td>डिलीवरी का पता अपडेट करें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "790ffe6b73303e229012ad78bef06780f24ddc7bbfed602303c6f2e54cba4ae2"
+    },
+    {
+      "id": "s07/english_tamil/prose",
+      "scenario": "s07",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-07. Active: true.\nItem 700; quantity 7; message: மேசையின் நீளத்தை அளக்கவும்.\nItem 701; quantity 8; message: விளக்குகளை அணைக்கவும்.\nItem 702; quantity 9; message: விநியோக முகவரியைப் புதுப்பிக்கவும்.",
+      "text_sha256": "b52cd8069d2c054e9d223de343805f275859aa405a765177c72c1e06b17d7494"
+    },
+    {
+      "id": "s07/english_tamil/python",
+      "scenario": "s07",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-07',\n 'active': True,\n 'items': [{'id': 700, 'quantity': 7, 'message': 'மேசையின் நீளத்தை அளக்கவும்.'},\n           {'id': 701, 'quantity': 8, 'message': 'விளக்குகளை அணைக்கவும்.'},\n           {'id': 702,\n            'quantity': 9,\n            'message': 'விநியோக முகவரியைப் புதுப்பிக்கவும்.'}]}\n",
+      "text_sha256": "f5a72cdfcc86ebe93c0b19b54a8b3bac3e8063bbbecbc6db43c2c95f0044c7e6"
+    },
+    {
+      "id": "s07/english_tamil/json_compact",
+      "scenario": "s07",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-07\",\"active\":true,\"items\":[{\"id\":700,\"quantity\":7,\"message\":\"மேசையின் நீளத்தை அளக்கவும்.\"},{\"id\":701,\"quantity\":8,\"message\":\"விளக்குகளை அணைக்கவும்.\"},{\"id\":702,\"quantity\":9,\"message\":\"விநியோக முகவரியைப் புதுப்பிக்கவும்.\"}]}",
+      "text_sha256": "1234c73eacf1a2d1b8415ff11f40df079cfa7db90bd637eba5f2be452b8eb13b"
+    },
+    {
+      "id": "s07/english_tamil/json_pretty",
+      "scenario": "s07",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-07\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 700,\n      \"quantity\": 7,\n      \"message\": \"மேசையின் நீளத்தை அளக்கவும்.\"\n    },\n    {\n      \"id\": 701,\n      \"quantity\": 8,\n      \"message\": \"விளக்குகளை அணைக்கவும்.\"\n    },\n    {\n      \"id\": 702,\n      \"quantity\": 9,\n      \"message\": \"விநியோக முகவரியைப் புதுப்பிக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "8a650f516a55943c57192890edc259d5a36185caf51381baef1cabfc878c49b5"
+    },
+    {
+      "id": "s07/english_tamil/html",
+      "scenario": "s07",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-07\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>700</td><td>7</td><td>மேசையின் நீளத்தை அளக்கவும்.</td></tr>\n    <tr><td>701</td><td>8</td><td>விளக்குகளை அணைக்கவும்.</td></tr>\n    <tr><td>702</td><td>9</td><td>விநியோக முகவரியைப் புதுப்பிக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "b52e30dd4566081aa5bc54640648bafb7d06b209f5bf4ad65e359a6e783ae68e"
+    },
+    {
+      "id": "s08/english/prose",
+      "scenario": "s08",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-08. Active: false.\nItem 800; quantity 8; message: Turn off the lights.\nItem 801; quantity 9; message: Update the delivery address.\nItem 802; quantity 1; message: Find the missing key.",
+      "text_sha256": "3e5a115ef017f876eebfec9e764f62032cf5eb90a3af0ffbf12ad1ced8041c6b"
+    },
+    {
+      "id": "s08/english/python",
+      "scenario": "s08",
+      "condition": "english",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-08',\n 'active': False,\n 'items': [{'id': 800, 'quantity': 8, 'message': 'Turn off the lights.'},\n           {'id': 801, 'quantity': 9, 'message': 'Update the delivery address.'},\n           {'id': 802, 'quantity': 1, 'message': 'Find the missing key.'}]}\n",
+      "text_sha256": "6acdf488732a2ed9c9f0070f59c8b5db46ae736cd821338df7b4db9d0f163cf1"
+    },
+    {
+      "id": "s08/english/json_compact",
+      "scenario": "s08",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-08\",\"active\":false,\"items\":[{\"id\":800,\"quantity\":8,\"message\":\"Turn off the lights.\"},{\"id\":801,\"quantity\":9,\"message\":\"Update the delivery address.\"},{\"id\":802,\"quantity\":1,\"message\":\"Find the missing key.\"}]}",
+      "text_sha256": "652824b1b01ec0abbf04583e040626078523a3450fc40cd287bf8f744f23700f"
+    },
+    {
+      "id": "s08/english/json_pretty",
+      "scenario": "s08",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-08\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 800,\n      \"quantity\": 8,\n      \"message\": \"Turn off the lights.\"\n    },\n    {\n      \"id\": 801,\n      \"quantity\": 9,\n      \"message\": \"Update the delivery address.\"\n    },\n    {\n      \"id\": 802,\n      \"quantity\": 1,\n      \"message\": \"Find the missing key.\"\n    }\n  ]\n}",
+      "text_sha256": "457c7db65bd598e2b0d66c03ee69708ccf773d32b4d67e078586e96cc2e69a92"
+    },
+    {
+      "id": "s08/english/html",
+      "scenario": "s08",
+      "condition": "english",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-08\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>800</td><td>8</td><td>Turn off the lights.</td></tr>\n    <tr><td>801</td><td>9</td><td>Update the delivery address.</td></tr>\n    <tr><td>802</td><td>1</td><td>Find the missing key.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "1b7d90d3ef3cbc400329b83eebfb1f26764505f3de4487b238ded9344a5ab06d"
+    },
+    {
+      "id": "s08/english_hindi/prose",
+      "scenario": "s08",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-08. Active: false.\nItem 800; quantity 8; message: बत्तियाँ बंद करें।\nItem 801; quantity 9; message: डिलीवरी का पता अपडेट करें।\nItem 802; quantity 1; message: गुम हुई चाबी ढूँढें।",
+      "text_sha256": "554b4b4b4e00c50663cd29ee02a6d15d2084825c17af3a0739123b9cef3971b4"
+    },
+    {
+      "id": "s08/english_hindi/python",
+      "scenario": "s08",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-08',\n 'active': False,\n 'items': [{'id': 800, 'quantity': 8, 'message': 'बत्तियाँ बंद करें।'},\n           {'id': 801, 'quantity': 9, 'message': 'डिलीवरी का पता अपडेट करें।'},\n           {'id': 802, 'quantity': 1, 'message': 'गुम हुई चाबी ढूँढें।'}]}\n",
+      "text_sha256": "6b2618a5b46a703e3b73b07ede91ed42dc462a7c8109b77485078b10b5e594b8"
+    },
+    {
+      "id": "s08/english_hindi/json_compact",
+      "scenario": "s08",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-08\",\"active\":false,\"items\":[{\"id\":800,\"quantity\":8,\"message\":\"बत्तियाँ बंद करें।\"},{\"id\":801,\"quantity\":9,\"message\":\"डिलीवरी का पता अपडेट करें।\"},{\"id\":802,\"quantity\":1,\"message\":\"गुम हुई चाबी ढूँढें।\"}]}",
+      "text_sha256": "88b6db4afcbc0312e4746303ca059d7ab059be70be6a7a580961d0a5c497495f"
+    },
+    {
+      "id": "s08/english_hindi/json_pretty",
+      "scenario": "s08",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-08\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 800,\n      \"quantity\": 8,\n      \"message\": \"बत्तियाँ बंद करें।\"\n    },\n    {\n      \"id\": 801,\n      \"quantity\": 9,\n      \"message\": \"डिलीवरी का पता अपडेट करें।\"\n    },\n    {\n      \"id\": 802,\n      \"quantity\": 1,\n      \"message\": \"गुम हुई चाबी ढूँढें।\"\n    }\n  ]\n}",
+      "text_sha256": "be1d48ae27ef4780737473d09da03fc19361f41b41f64e7e835038ddc7c793b8"
+    },
+    {
+      "id": "s08/english_hindi/html",
+      "scenario": "s08",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-08\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>800</td><td>8</td><td>बत्तियाँ बंद करें।</td></tr>\n    <tr><td>801</td><td>9</td><td>डिलीवरी का पता अपडेट करें।</td></tr>\n    <tr><td>802</td><td>1</td><td>गुम हुई चाबी ढूँढें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "a99323e44fca8fa30bd43f1118b04a025eda31dc7c470eec54d5bebebb3f9fc8"
+    },
+    {
+      "id": "s08/english_tamil/prose",
+      "scenario": "s08",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 3,
+      "role": "primary",
+      "text": "Batch batch-08. Active: false.\nItem 800; quantity 8; message: விளக்குகளை அணைக்கவும்.\nItem 801; quantity 9; message: விநியோக முகவரியைப் புதுப்பிக்கவும்.\nItem 802; quantity 1; message: காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.",
+      "text_sha256": "0557081068e9de5ee68a5e2fe047130f16bd8a834a6d72ce4590a45459409ecf"
+    },
+    {
+      "id": "s08/english_tamil/python",
+      "scenario": "s08",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 3,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-08',\n 'active': False,\n 'items': [{'id': 800, 'quantity': 8, 'message': 'விளக்குகளை அணைக்கவும்.'},\n           {'id': 801, 'quantity': 9, 'message': 'விநியோக முகவரியைப் புதுப்பிக்கவும்.'},\n           {'id': 802,\n            'quantity': 1,\n            'message': 'காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.'}]}\n",
+      "text_sha256": "8833954fa04c7d11aca2f252cf0c11c85dcecc9d198ad548a3e2c7d6fa0e0b2d"
+    },
+    {
+      "id": "s08/english_tamil/json_compact",
+      "scenario": "s08",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-08\",\"active\":false,\"items\":[{\"id\":800,\"quantity\":8,\"message\":\"விளக்குகளை அணைக்கவும்.\"},{\"id\":801,\"quantity\":9,\"message\":\"விநியோக முகவரியைப் புதுப்பிக்கவும்.\"},{\"id\":802,\"quantity\":1,\"message\":\"காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\"}]}",
+      "text_sha256": "946c74b9615aac18d13c33110cb22e9c339f945ec2d261105c1b25de1173dcff"
+    },
+    {
+      "id": "s08/english_tamil/json_pretty",
+      "scenario": "s08",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 3,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-08\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 800,\n      \"quantity\": 8,\n      \"message\": \"விளக்குகளை அணைக்கவும்.\"\n    },\n    {\n      \"id\": 801,\n      \"quantity\": 9,\n      \"message\": \"விநியோக முகவரியைப் புதுப்பிக்கவும்.\"\n    },\n    {\n      \"id\": 802,\n      \"quantity\": 1,\n      \"message\": \"காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "b232a575c1d208ee67e6ed6dbdfca99e3c0cc4e67637de36fa4828175b1ffc5f"
+    },
+    {
+      "id": "s08/english_tamil/html",
+      "scenario": "s08",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 3,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-08\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>800</td><td>8</td><td>விளக்குகளை அணைக்கவும்.</td></tr>\n    <tr><td>801</td><td>9</td><td>விநியோக முகவரியைப் புதுப்பிக்கவும்.</td></tr>\n    <tr><td>802</td><td>1</td><td>காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "fd80fa989c5a3e9c63e80bdead1743ebff6c1b9c1961d354aea85257176397a6"
+    },
+    {
+      "id": "s09/english/prose",
+      "scenario": "s09",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-09. Active: true.\nItem 900; quantity 9; message: Update the delivery address.\nItem 901; quantity 1; message: Find the missing key.\nItem 902; quantity 2; message: Clean the small container.\nItem 903; quantity 3; message: Record the room temperature.\nItem 904; quantity 4; message: Check the water level.\nItem 905; quantity 5; message: Close the window before leaving.",
+      "text_sha256": "6812c12dfdb69c20c1d90b840929645e47016e6e130c86201f738a590f471244"
+    },
+    {
+      "id": "s09/english/python",
+      "scenario": "s09",
+      "condition": "english",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-09',\n 'active': True,\n 'items': [{'id': 900, 'quantity': 9, 'message': 'Update the delivery address.'},\n           {'id': 901, 'quantity': 1, 'message': 'Find the missing key.'},\n           {'id': 902, 'quantity': 2, 'message': 'Clean the small container.'},\n           {'id': 903, 'quantity': 3, 'message': 'Record the room temperature.'},\n           {'id': 904, 'quantity': 4, 'message': 'Check the water level.'},\n           {'id': 905, 'quantity': 5, 'message': 'Close the window before leaving.'}]}\n",
+      "text_sha256": "0a4044783f99da507137de762d3e694c1dbe694d8b01e0872d1b5a9bda846839"
+    },
+    {
+      "id": "s09/english/json_compact",
+      "scenario": "s09",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-09\",\"active\":true,\"items\":[{\"id\":900,\"quantity\":9,\"message\":\"Update the delivery address.\"},{\"id\":901,\"quantity\":1,\"message\":\"Find the missing key.\"},{\"id\":902,\"quantity\":2,\"message\":\"Clean the small container.\"},{\"id\":903,\"quantity\":3,\"message\":\"Record the room temperature.\"},{\"id\":904,\"quantity\":4,\"message\":\"Check the water level.\"},{\"id\":905,\"quantity\":5,\"message\":\"Close the window before leaving.\"}]}",
+      "text_sha256": "540e4c64452d2101bbc6c51bc24bca6c3822e9ce011b1f10c62e88cac51333ae"
+    },
+    {
+      "id": "s09/english/json_pretty",
+      "scenario": "s09",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-09\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 900,\n      \"quantity\": 9,\n      \"message\": \"Update the delivery address.\"\n    },\n    {\n      \"id\": 901,\n      \"quantity\": 1,\n      \"message\": \"Find the missing key.\"\n    },\n    {\n      \"id\": 902,\n      \"quantity\": 2,\n      \"message\": \"Clean the small container.\"\n    },\n    {\n      \"id\": 903,\n      \"quantity\": 3,\n      \"message\": \"Record the room temperature.\"\n    },\n    {\n      \"id\": 904,\n      \"quantity\": 4,\n      \"message\": \"Check the water level.\"\n    },\n    {\n      \"id\": 905,\n      \"quantity\": 5,\n      \"message\": \"Close the window before leaving.\"\n    }\n  ]\n}",
+      "text_sha256": "d28e719a88fddd627368470431485986384952526741cab9246c549ca0b23a57"
+    },
+    {
+      "id": "s09/english/html",
+      "scenario": "s09",
+      "condition": "english",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-09\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>900</td><td>9</td><td>Update the delivery address.</td></tr>\n    <tr><td>901</td><td>1</td><td>Find the missing key.</td></tr>\n    <tr><td>902</td><td>2</td><td>Clean the small container.</td></tr>\n    <tr><td>903</td><td>3</td><td>Record the room temperature.</td></tr>\n    <tr><td>904</td><td>4</td><td>Check the water level.</td></tr>\n    <tr><td>905</td><td>5</td><td>Close the window before leaving.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "4bbe279ff2c21d91c6fc8309b6710eb81e9263993938757591aa1d076f263ba2"
+    },
+    {
+      "id": "s09/english_hindi/prose",
+      "scenario": "s09",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-09. Active: true.\nItem 900; quantity 9; message: डिलीवरी का पता अपडेट करें।\nItem 901; quantity 1; message: गुम हुई चाबी ढूँढें।\nItem 902; quantity 2; message: छोटे बर्तन को साफ़ करें।\nItem 903; quantity 3; message: कमरे का तापमान दर्ज करें।\nItem 904; quantity 4; message: पानी का स्तर जाँचें।\nItem 905; quantity 5; message: जाने से पहले खिड़की बंद करें।",
+      "text_sha256": "e2a25f294a1e5e9eaf20aa9d5b72b79ed62ff2d2614481eaa504c382611c2263"
+    },
+    {
+      "id": "s09/english_hindi/python",
+      "scenario": "s09",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-09',\n 'active': True,\n 'items': [{'id': 900, 'quantity': 9, 'message': 'डिलीवरी का पता अपडेट करें।'},\n           {'id': 901, 'quantity': 1, 'message': 'गुम हुई चाबी ढूँढें।'},\n           {'id': 902, 'quantity': 2, 'message': 'छोटे बर्तन को साफ़ करें।'},\n           {'id': 903, 'quantity': 3, 'message': 'कमरे का तापमान दर्ज करें।'},\n           {'id': 904, 'quantity': 4, 'message': 'पानी का स्तर जाँचें।'},\n           {'id': 905, 'quantity': 5, 'message': 'जाने से पहले खिड़की बंद करें।'}]}\n",
+      "text_sha256": "67d2d3927e806bbf66b514d55ec446271352aea69be6cfbdca9fc097a062311e"
+    },
+    {
+      "id": "s09/english_hindi/json_compact",
+      "scenario": "s09",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-09\",\"active\":true,\"items\":[{\"id\":900,\"quantity\":9,\"message\":\"डिलीवरी का पता अपडेट करें।\"},{\"id\":901,\"quantity\":1,\"message\":\"गुम हुई चाबी ढूँढें।\"},{\"id\":902,\"quantity\":2,\"message\":\"छोटे बर्तन को साफ़ करें।\"},{\"id\":903,\"quantity\":3,\"message\":\"कमरे का तापमान दर्ज करें।\"},{\"id\":904,\"quantity\":4,\"message\":\"पानी का स्तर जाँचें।\"},{\"id\":905,\"quantity\":5,\"message\":\"जाने से पहले खिड़की बंद करें।\"}]}",
+      "text_sha256": "6544f62b39d0e17029ce18b5d6efe8b6e5b5e48a7b15b68dc7352fe193ca3b94"
+    },
+    {
+      "id": "s09/english_hindi/json_pretty",
+      "scenario": "s09",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-09\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 900,\n      \"quantity\": 9,\n      \"message\": \"डिलीवरी का पता अपडेट करें।\"\n    },\n    {\n      \"id\": 901,\n      \"quantity\": 1,\n      \"message\": \"गुम हुई चाबी ढूँढें।\"\n    },\n    {\n      \"id\": 902,\n      \"quantity\": 2,\n      \"message\": \"छोटे बर्तन को साफ़ करें।\"\n    },\n    {\n      \"id\": 903,\n      \"quantity\": 3,\n      \"message\": \"कमरे का तापमान दर्ज करें।\"\n    },\n    {\n      \"id\": 904,\n      \"quantity\": 4,\n      \"message\": \"पानी का स्तर जाँचें।\"\n    },\n    {\n      \"id\": 905,\n      \"quantity\": 5,\n      \"message\": \"जाने से पहले खिड़की बंद करें।\"\n    }\n  ]\n}",
+      "text_sha256": "02b807f38d605f7dbf0f959302b4bfc93122bd32748a194ccb461aebd29ed385"
+    },
+    {
+      "id": "s09/english_hindi/html",
+      "scenario": "s09",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-09\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>900</td><td>9</td><td>डिलीवरी का पता अपडेट करें।</td></tr>\n    <tr><td>901</td><td>1</td><td>गुम हुई चाबी ढूँढें।</td></tr>\n    <tr><td>902</td><td>2</td><td>छोटे बर्तन को साफ़ करें।</td></tr>\n    <tr><td>903</td><td>3</td><td>कमरे का तापमान दर्ज करें।</td></tr>\n    <tr><td>904</td><td>4</td><td>पानी का स्तर जाँचें।</td></tr>\n    <tr><td>905</td><td>5</td><td>जाने से पहले खिड़की बंद करें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "09d10256b536c491232f8d25a27684be62e4b7990d4784dd741f502e1a4453a6"
+    },
+    {
+      "id": "s09/english_tamil/prose",
+      "scenario": "s09",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-09. Active: true.\nItem 900; quantity 9; message: விநியோக முகவரியைப் புதுப்பிக்கவும்.\nItem 901; quantity 1; message: காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\nItem 902; quantity 2; message: சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\nItem 903; quantity 3; message: அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\nItem 904; quantity 4; message: நீரின் அளவைச் சரிபார்க்கவும்.\nItem 905; quantity 5; message: செல்வதற்கு முன் சன்னலை மூடவும்.",
+      "text_sha256": "9891f2e5f80453994c8fac5739780627cdcb10c5efca37fa893ef40e71df7e4a"
+    },
+    {
+      "id": "s09/english_tamil/python",
+      "scenario": "s09",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-09',\n 'active': True,\n 'items': [{'id': 900, 'quantity': 9, 'message': 'விநியோக முகவரியைப் புதுப்பிக்கவும்.'},\n           {'id': 901,\n            'quantity': 1,\n            'message': 'காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.'},\n           {'id': 902,\n            'quantity': 2,\n            'message': 'சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.'},\n           {'id': 903,\n            'quantity': 3,\n            'message': 'அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.'},\n           {'id': 904, 'quantity': 4, 'message': 'நீரின் அளவைச் சரிபார்க்கவும்.'},\n           {'id': 905, 'quantity': 5, 'message': 'செல்வதற்கு முன் சன்னலை மூடவும்.'}]}\n",
+      "text_sha256": "2272bc5ba23e452043c2318d6238dd9d0d1dcf503bb9189cf609157ea3604beb"
+    },
+    {
+      "id": "s09/english_tamil/json_compact",
+      "scenario": "s09",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-09\",\"active\":true,\"items\":[{\"id\":900,\"quantity\":9,\"message\":\"விநியோக முகவரியைப் புதுப்பிக்கவும்.\"},{\"id\":901,\"quantity\":1,\"message\":\"காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\"},{\"id\":902,\"quantity\":2,\"message\":\"சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\"},{\"id\":903,\"quantity\":3,\"message\":\"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"},{\"id\":904,\"quantity\":4,\"message\":\"நீரின் அளவைச் சரிபார்க்கவும்.\"},{\"id\":905,\"quantity\":5,\"message\":\"செல்வதற்கு முன் சன்னலை மூடவும்.\"}]}",
+      "text_sha256": "f94affc4947cf15d9f65b6e8433119f64a19c4db0994e21ea3712bf1660a80f7"
+    },
+    {
+      "id": "s09/english_tamil/json_pretty",
+      "scenario": "s09",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-09\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 900,\n      \"quantity\": 9,\n      \"message\": \"விநியோக முகவரியைப் புதுப்பிக்கவும்.\"\n    },\n    {\n      \"id\": 901,\n      \"quantity\": 1,\n      \"message\": \"காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\"\n    },\n    {\n      \"id\": 902,\n      \"quantity\": 2,\n      \"message\": \"சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\"\n    },\n    {\n      \"id\": 903,\n      \"quantity\": 3,\n      \"message\": \"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"\n    },\n    {\n      \"id\": 904,\n      \"quantity\": 4,\n      \"message\": \"நீரின் அளவைச் சரிபார்க்கவும்.\"\n    },\n    {\n      \"id\": 905,\n      \"quantity\": 5,\n      \"message\": \"செல்வதற்கு முன் சன்னலை மூடவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "09c6a15ba2a3bd821c4df99aa2ac60be1b920678774ad46c90563e63570c55dd"
+    },
+    {
+      "id": "s09/english_tamil/html",
+      "scenario": "s09",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-09\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>900</td><td>9</td><td>விநியோக முகவரியைப் புதுப்பிக்கவும்.</td></tr>\n    <tr><td>901</td><td>1</td><td>காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.</td></tr>\n    <tr><td>902</td><td>2</td><td>சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.</td></tr>\n    <tr><td>903</td><td>3</td><td>அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.</td></tr>\n    <tr><td>904</td><td>4</td><td>நீரின் அளவைச் சரிபார்க்கவும்.</td></tr>\n    <tr><td>905</td><td>5</td><td>செல்வதற்கு முன் சன்னலை மூடவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "b2f03c80cddb21e158e4431c79436bbe3e220146990acfe0cfb62d8e61855ec5"
+    },
+    {
+      "id": "s10/english/prose",
+      "scenario": "s10",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-10. Active: false.\nItem 1000; quantity 1; message: Find the missing key.\nItem 1001; quantity 2; message: Clean the small container.\nItem 1002; quantity 3; message: Record the room temperature.\nItem 1003; quantity 4; message: Check the water level.\nItem 1004; quantity 5; message: Close the window before leaving.\nItem 1005; quantity 6; message: Put the books on the shelf.",
+      "text_sha256": "5a71780544da72e06259e8cea0c751867fc7e934bd3f7e498d8538673f1db5b4"
+    },
+    {
+      "id": "s10/english/python",
+      "scenario": "s10",
+      "condition": "english",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-10',\n 'active': False,\n 'items': [{'id': 1000, 'quantity': 1, 'message': 'Find the missing key.'},\n           {'id': 1001, 'quantity': 2, 'message': 'Clean the small container.'},\n           {'id': 1002, 'quantity': 3, 'message': 'Record the room temperature.'},\n           {'id': 1003, 'quantity': 4, 'message': 'Check the water level.'},\n           {'id': 1004, 'quantity': 5, 'message': 'Close the window before leaving.'},\n           {'id': 1005, 'quantity': 6, 'message': 'Put the books on the shelf.'}]}\n",
+      "text_sha256": "2fe189c26e663a2bca7b0a1ccd6cb12ffb78452b0e93e3643d031c53b22099dd"
+    },
+    {
+      "id": "s10/english/json_compact",
+      "scenario": "s10",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-10\",\"active\":false,\"items\":[{\"id\":1000,\"quantity\":1,\"message\":\"Find the missing key.\"},{\"id\":1001,\"quantity\":2,\"message\":\"Clean the small container.\"},{\"id\":1002,\"quantity\":3,\"message\":\"Record the room temperature.\"},{\"id\":1003,\"quantity\":4,\"message\":\"Check the water level.\"},{\"id\":1004,\"quantity\":5,\"message\":\"Close the window before leaving.\"},{\"id\":1005,\"quantity\":6,\"message\":\"Put the books on the shelf.\"}]}",
+      "text_sha256": "2dfdc54ea14d83bc9198dbaf6bc80b4dbe99ad6531578155fc97f55080407dd5"
+    },
+    {
+      "id": "s10/english/json_pretty",
+      "scenario": "s10",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-10\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 1000,\n      \"quantity\": 1,\n      \"message\": \"Find the missing key.\"\n    },\n    {\n      \"id\": 1001,\n      \"quantity\": 2,\n      \"message\": \"Clean the small container.\"\n    },\n    {\n      \"id\": 1002,\n      \"quantity\": 3,\n      \"message\": \"Record the room temperature.\"\n    },\n    {\n      \"id\": 1003,\n      \"quantity\": 4,\n      \"message\": \"Check the water level.\"\n    },\n    {\n      \"id\": 1004,\n      \"quantity\": 5,\n      \"message\": \"Close the window before leaving.\"\n    },\n    {\n      \"id\": 1005,\n      \"quantity\": 6,\n      \"message\": \"Put the books on the shelf.\"\n    }\n  ]\n}",
+      "text_sha256": "b6f5d0557cced850810cdac612e8f2d4a1ea334d73f30f118e9aa2441a0f268a"
+    },
+    {
+      "id": "s10/english/html",
+      "scenario": "s10",
+      "condition": "english",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-10\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1000</td><td>1</td><td>Find the missing key.</td></tr>\n    <tr><td>1001</td><td>2</td><td>Clean the small container.</td></tr>\n    <tr><td>1002</td><td>3</td><td>Record the room temperature.</td></tr>\n    <tr><td>1003</td><td>4</td><td>Check the water level.</td></tr>\n    <tr><td>1004</td><td>5</td><td>Close the window before leaving.</td></tr>\n    <tr><td>1005</td><td>6</td><td>Put the books on the shelf.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "2c5dcf5464f07511d5175f8f97ddeaaaea440e9887ee56530e07378715f191dd"
+    },
+    {
+      "id": "s10/english_hindi/prose",
+      "scenario": "s10",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-10. Active: false.\nItem 1000; quantity 1; message: गुम हुई चाबी ढूँढें।\nItem 1001; quantity 2; message: छोटे बर्तन को साफ़ करें।\nItem 1002; quantity 3; message: कमरे का तापमान दर्ज करें।\nItem 1003; quantity 4; message: पानी का स्तर जाँचें।\nItem 1004; quantity 5; message: जाने से पहले खिड़की बंद करें।\nItem 1005; quantity 6; message: किताबें शेल्फ पर रखें।",
+      "text_sha256": "7fda79745dff22354aa7559ffa370245ed35ea8e6dcd2b457ec0a0ec69260d7d"
+    },
+    {
+      "id": "s10/english_hindi/python",
+      "scenario": "s10",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-10',\n 'active': False,\n 'items': [{'id': 1000, 'quantity': 1, 'message': 'गुम हुई चाबी ढूँढें।'},\n           {'id': 1001, 'quantity': 2, 'message': 'छोटे बर्तन को साफ़ करें।'},\n           {'id': 1002, 'quantity': 3, 'message': 'कमरे का तापमान दर्ज करें।'},\n           {'id': 1003, 'quantity': 4, 'message': 'पानी का स्तर जाँचें।'},\n           {'id': 1004, 'quantity': 5, 'message': 'जाने से पहले खिड़की बंद करें।'},\n           {'id': 1005, 'quantity': 6, 'message': 'किताबें शेल्फ पर रखें।'}]}\n",
+      "text_sha256": "b382f557308c22b70d821f9503fe6ba27f52e820a04fef158502405187d056ca"
+    },
+    {
+      "id": "s10/english_hindi/json_compact",
+      "scenario": "s10",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-10\",\"active\":false,\"items\":[{\"id\":1000,\"quantity\":1,\"message\":\"गुम हुई चाबी ढूँढें।\"},{\"id\":1001,\"quantity\":2,\"message\":\"छोटे बर्तन को साफ़ करें।\"},{\"id\":1002,\"quantity\":3,\"message\":\"कमरे का तापमान दर्ज करें।\"},{\"id\":1003,\"quantity\":4,\"message\":\"पानी का स्तर जाँचें।\"},{\"id\":1004,\"quantity\":5,\"message\":\"जाने से पहले खिड़की बंद करें।\"},{\"id\":1005,\"quantity\":6,\"message\":\"किताबें शेल्फ पर रखें।\"}]}",
+      "text_sha256": "ef262e9a0a94e3db046b6122f8f39fc3d155659791c820aa1a6e08daa7680ff9"
+    },
+    {
+      "id": "s10/english_hindi/json_pretty",
+      "scenario": "s10",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-10\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 1000,\n      \"quantity\": 1,\n      \"message\": \"गुम हुई चाबी ढूँढें।\"\n    },\n    {\n      \"id\": 1001,\n      \"quantity\": 2,\n      \"message\": \"छोटे बर्तन को साफ़ करें।\"\n    },\n    {\n      \"id\": 1002,\n      \"quantity\": 3,\n      \"message\": \"कमरे का तापमान दर्ज करें।\"\n    },\n    {\n      \"id\": 1003,\n      \"quantity\": 4,\n      \"message\": \"पानी का स्तर जाँचें।\"\n    },\n    {\n      \"id\": 1004,\n      \"quantity\": 5,\n      \"message\": \"जाने से पहले खिड़की बंद करें।\"\n    },\n    {\n      \"id\": 1005,\n      \"quantity\": 6,\n      \"message\": \"किताबें शेल्फ पर रखें।\"\n    }\n  ]\n}",
+      "text_sha256": "4b2494fda94a243c6866089f9f7860067d51981a91e3bee032ffb9451194254c"
+    },
+    {
+      "id": "s10/english_hindi/html",
+      "scenario": "s10",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-10\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1000</td><td>1</td><td>गुम हुई चाबी ढूँढें।</td></tr>\n    <tr><td>1001</td><td>2</td><td>छोटे बर्तन को साफ़ करें।</td></tr>\n    <tr><td>1002</td><td>3</td><td>कमरे का तापमान दर्ज करें।</td></tr>\n    <tr><td>1003</td><td>4</td><td>पानी का स्तर जाँचें।</td></tr>\n    <tr><td>1004</td><td>5</td><td>जाने से पहले खिड़की बंद करें।</td></tr>\n    <tr><td>1005</td><td>6</td><td>किताबें शेल्फ पर रखें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "117a14a34e96329a39f02c0a5919657c025c0192c7f812724546982982ac0e6e"
+    },
+    {
+      "id": "s10/english_tamil/prose",
+      "scenario": "s10",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-10. Active: false.\nItem 1000; quantity 1; message: காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\nItem 1001; quantity 2; message: சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\nItem 1002; quantity 3; message: அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\nItem 1003; quantity 4; message: நீரின் அளவைச் சரிபார்க்கவும்.\nItem 1004; quantity 5; message: செல்வதற்கு முன் சன்னலை மூடவும்.\nItem 1005; quantity 6; message: புத்தகங்களை அலமாரியில் வைக்கவும்.",
+      "text_sha256": "ad6305b8e04d9e9971911a6ab13962efb13c4b6403c8fb8aac9a20a0a11ff475"
+    },
+    {
+      "id": "s10/english_tamil/python",
+      "scenario": "s10",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-10',\n 'active': False,\n 'items': [{'id': 1000,\n            'quantity': 1,\n            'message': 'காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.'},\n           {'id': 1001,\n            'quantity': 2,\n            'message': 'சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.'},\n           {'id': 1002,\n            'quantity': 3,\n            'message': 'அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.'},\n           {'id': 1003, 'quantity': 4, 'message': 'நீரின் அளவைச் சரிபார்க்கவும்.'},\n           {'id': 1004, 'quantity': 5, 'message': 'செல்வதற்கு முன் சன்னலை மூடவும்.'},\n           {'id': 1005, 'quantity': 6, 'message': 'புத்தகங்களை அலமாரியில் வைக்கவும்.'}]}\n",
+      "text_sha256": "4afbc96219e7ecbecc00619fa606935b838db8c26be8ac7e68afeb1b1a26236d"
+    },
+    {
+      "id": "s10/english_tamil/json_compact",
+      "scenario": "s10",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-10\",\"active\":false,\"items\":[{\"id\":1000,\"quantity\":1,\"message\":\"காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\"},{\"id\":1001,\"quantity\":2,\"message\":\"சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\"},{\"id\":1002,\"quantity\":3,\"message\":\"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"},{\"id\":1003,\"quantity\":4,\"message\":\"நீரின் அளவைச் சரிபார்க்கவும்.\"},{\"id\":1004,\"quantity\":5,\"message\":\"செல்வதற்கு முன் சன்னலை மூடவும்.\"},{\"id\":1005,\"quantity\":6,\"message\":\"புத்தகங்களை அலமாரியில் வைக்கவும்.\"}]}",
+      "text_sha256": "ce44d4d8da6bf4b67e46f8074f4610fde0211259ba7692b1ce3625e040b3b861"
+    },
+    {
+      "id": "s10/english_tamil/json_pretty",
+      "scenario": "s10",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-10\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 1000,\n      \"quantity\": 1,\n      \"message\": \"காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.\"\n    },\n    {\n      \"id\": 1001,\n      \"quantity\": 2,\n      \"message\": \"சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\"\n    },\n    {\n      \"id\": 1002,\n      \"quantity\": 3,\n      \"message\": \"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"\n    },\n    {\n      \"id\": 1003,\n      \"quantity\": 4,\n      \"message\": \"நீரின் அளவைச் சரிபார்க்கவும்.\"\n    },\n    {\n      \"id\": 1004,\n      \"quantity\": 5,\n      \"message\": \"செல்வதற்கு முன் சன்னலை மூடவும்.\"\n    },\n    {\n      \"id\": 1005,\n      \"quantity\": 6,\n      \"message\": \"புத்தகங்களை அலமாரியில் வைக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "3700ff14a3ed081edbfcb655accc2e805ed41524677d94dbbb28aed5c2491afc"
+    },
+    {
+      "id": "s10/english_tamil/html",
+      "scenario": "s10",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-10\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1000</td><td>1</td><td>காணாமல் போன சாவியைக் கண்டுபிடிக்கவும்.</td></tr>\n    <tr><td>1001</td><td>2</td><td>சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.</td></tr>\n    <tr><td>1002</td><td>3</td><td>அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.</td></tr>\n    <tr><td>1003</td><td>4</td><td>நீரின் அளவைச் சரிபார்க்கவும்.</td></tr>\n    <tr><td>1004</td><td>5</td><td>செல்வதற்கு முன் சன்னலை மூடவும்.</td></tr>\n    <tr><td>1005</td><td>6</td><td>புத்தகங்களை அலமாரியில் வைக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "ca8e6485a27af6a2794d77d1d3514b6ad47fe236d2e9656470ba596069129e7c"
+    },
+    {
+      "id": "s11/english/prose",
+      "scenario": "s11",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-11. Active: true.\nItem 1100; quantity 2; message: Clean the small container.\nItem 1101; quantity 3; message: Record the room temperature.\nItem 1102; quantity 4; message: Check the water level.\nItem 1103; quantity 5; message: Close the window before leaving.\nItem 1104; quantity 6; message: Put the books on the shelf.\nItem 1105; quantity 7; message: Count the red boxes.",
+      "text_sha256": "ba16e3074d6ed874ed80e206168877853dcca906529639ca3efe8d639eb0673f"
+    },
+    {
+      "id": "s11/english/python",
+      "scenario": "s11",
+      "condition": "english",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-11',\n 'active': True,\n 'items': [{'id': 1100, 'quantity': 2, 'message': 'Clean the small container.'},\n           {'id': 1101, 'quantity': 3, 'message': 'Record the room temperature.'},\n           {'id': 1102, 'quantity': 4, 'message': 'Check the water level.'},\n           {'id': 1103, 'quantity': 5, 'message': 'Close the window before leaving.'},\n           {'id': 1104, 'quantity': 6, 'message': 'Put the books on the shelf.'},\n           {'id': 1105, 'quantity': 7, 'message': 'Count the red boxes.'}]}\n",
+      "text_sha256": "ffb06e122498b0a73597fe57bfd61a77e3405b3a74ce903c8c85e5b55f1699b1"
+    },
+    {
+      "id": "s11/english/json_compact",
+      "scenario": "s11",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-11\",\"active\":true,\"items\":[{\"id\":1100,\"quantity\":2,\"message\":\"Clean the small container.\"},{\"id\":1101,\"quantity\":3,\"message\":\"Record the room temperature.\"},{\"id\":1102,\"quantity\":4,\"message\":\"Check the water level.\"},{\"id\":1103,\"quantity\":5,\"message\":\"Close the window before leaving.\"},{\"id\":1104,\"quantity\":6,\"message\":\"Put the books on the shelf.\"},{\"id\":1105,\"quantity\":7,\"message\":\"Count the red boxes.\"}]}",
+      "text_sha256": "767fbbf4b76cc60580fc0fec1e282a0ec9d785802e34e5b642e35500f48d634f"
+    },
+    {
+      "id": "s11/english/json_pretty",
+      "scenario": "s11",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-11\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 1100,\n      \"quantity\": 2,\n      \"message\": \"Clean the small container.\"\n    },\n    {\n      \"id\": 1101,\n      \"quantity\": 3,\n      \"message\": \"Record the room temperature.\"\n    },\n    {\n      \"id\": 1102,\n      \"quantity\": 4,\n      \"message\": \"Check the water level.\"\n    },\n    {\n      \"id\": 1103,\n      \"quantity\": 5,\n      \"message\": \"Close the window before leaving.\"\n    },\n    {\n      \"id\": 1104,\n      \"quantity\": 6,\n      \"message\": \"Put the books on the shelf.\"\n    },\n    {\n      \"id\": 1105,\n      \"quantity\": 7,\n      \"message\": \"Count the red boxes.\"\n    }\n  ]\n}",
+      "text_sha256": "bb2e0b097f552ca072565b57981f08611ec83c362d404344aba5827d9077232b"
+    },
+    {
+      "id": "s11/english/html",
+      "scenario": "s11",
+      "condition": "english",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-11\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1100</td><td>2</td><td>Clean the small container.</td></tr>\n    <tr><td>1101</td><td>3</td><td>Record the room temperature.</td></tr>\n    <tr><td>1102</td><td>4</td><td>Check the water level.</td></tr>\n    <tr><td>1103</td><td>5</td><td>Close the window before leaving.</td></tr>\n    <tr><td>1104</td><td>6</td><td>Put the books on the shelf.</td></tr>\n    <tr><td>1105</td><td>7</td><td>Count the red boxes.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "7842b204ccaeadb9b639e2242314ead19293a976abb5ce43e432b1e497972729"
+    },
+    {
+      "id": "s11/english_hindi/prose",
+      "scenario": "s11",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-11. Active: true.\nItem 1100; quantity 2; message: छोटे बर्तन को साफ़ करें।\nItem 1101; quantity 3; message: कमरे का तापमान दर्ज करें।\nItem 1102; quantity 4; message: पानी का स्तर जाँचें।\nItem 1103; quantity 5; message: जाने से पहले खिड़की बंद करें।\nItem 1104; quantity 6; message: किताबें शेल्फ पर रखें।\nItem 1105; quantity 7; message: लाल डिब्बों को गिनें।",
+      "text_sha256": "eef8c791a918693ee56c88e6aa8004dbac665eb760d8a1425b4f45f5c390edbf"
+    },
+    {
+      "id": "s11/english_hindi/python",
+      "scenario": "s11",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-11',\n 'active': True,\n 'items': [{'id': 1100, 'quantity': 2, 'message': 'छोटे बर्तन को साफ़ करें।'},\n           {'id': 1101, 'quantity': 3, 'message': 'कमरे का तापमान दर्ज करें।'},\n           {'id': 1102, 'quantity': 4, 'message': 'पानी का स्तर जाँचें।'},\n           {'id': 1103, 'quantity': 5, 'message': 'जाने से पहले खिड़की बंद करें।'},\n           {'id': 1104, 'quantity': 6, 'message': 'किताबें शेल्फ पर रखें।'},\n           {'id': 1105, 'quantity': 7, 'message': 'लाल डिब्बों को गिनें।'}]}\n",
+      "text_sha256": "9ff8f7dd8b47f768051c8711ec87bf1260aead0ebeb09398e4c4edd3bb3aa278"
+    },
+    {
+      "id": "s11/english_hindi/json_compact",
+      "scenario": "s11",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-11\",\"active\":true,\"items\":[{\"id\":1100,\"quantity\":2,\"message\":\"छोटे बर्तन को साफ़ करें।\"},{\"id\":1101,\"quantity\":3,\"message\":\"कमरे का तापमान दर्ज करें।\"},{\"id\":1102,\"quantity\":4,\"message\":\"पानी का स्तर जाँचें।\"},{\"id\":1103,\"quantity\":5,\"message\":\"जाने से पहले खिड़की बंद करें।\"},{\"id\":1104,\"quantity\":6,\"message\":\"किताबें शेल्फ पर रखें।\"},{\"id\":1105,\"quantity\":7,\"message\":\"लाल डिब्बों को गिनें।\"}]}",
+      "text_sha256": "92700707ec1ad6795623f520e35139a77ccf2911b9cbd4e609bb19134cc91c4e"
+    },
+    {
+      "id": "s11/english_hindi/json_pretty",
+      "scenario": "s11",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-11\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 1100,\n      \"quantity\": 2,\n      \"message\": \"छोटे बर्तन को साफ़ करें।\"\n    },\n    {\n      \"id\": 1101,\n      \"quantity\": 3,\n      \"message\": \"कमरे का तापमान दर्ज करें।\"\n    },\n    {\n      \"id\": 1102,\n      \"quantity\": 4,\n      \"message\": \"पानी का स्तर जाँचें।\"\n    },\n    {\n      \"id\": 1103,\n      \"quantity\": 5,\n      \"message\": \"जाने से पहले खिड़की बंद करें।\"\n    },\n    {\n      \"id\": 1104,\n      \"quantity\": 6,\n      \"message\": \"किताबें शेल्फ पर रखें।\"\n    },\n    {\n      \"id\": 1105,\n      \"quantity\": 7,\n      \"message\": \"लाल डिब्बों को गिनें।\"\n    }\n  ]\n}",
+      "text_sha256": "d8e33edadffbac6a8b254cf216b041ae2caf4cc490728c3cb6cf505fb708c3e2"
+    },
+    {
+      "id": "s11/english_hindi/html",
+      "scenario": "s11",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-11\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1100</td><td>2</td><td>छोटे बर्तन को साफ़ करें।</td></tr>\n    <tr><td>1101</td><td>3</td><td>कमरे का तापमान दर्ज करें।</td></tr>\n    <tr><td>1102</td><td>4</td><td>पानी का स्तर जाँचें।</td></tr>\n    <tr><td>1103</td><td>5</td><td>जाने से पहले खिड़की बंद करें।</td></tr>\n    <tr><td>1104</td><td>6</td><td>किताबें शेल्फ पर रखें।</td></tr>\n    <tr><td>1105</td><td>7</td><td>लाल डिब्बों को गिनें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "6a972c23ce0a2b41f3decd784a3bf9d68b667d6d0cb0b329245f643bae9bd9f8"
+    },
+    {
+      "id": "s11/english_tamil/prose",
+      "scenario": "s11",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-11. Active: true.\nItem 1100; quantity 2; message: சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\nItem 1101; quantity 3; message: அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\nItem 1102; quantity 4; message: நீரின் அளவைச் சரிபார்க்கவும்.\nItem 1103; quantity 5; message: செல்வதற்கு முன் சன்னலை மூடவும்.\nItem 1104; quantity 6; message: புத்தகங்களை அலமாரியில் வைக்கவும்.\nItem 1105; quantity 7; message: சிவப்பு பெட்டிகளை எண்ணவும்.",
+      "text_sha256": "a55ecfb1a366ef932f9b14033c2626a3c9fefb565d3cef165f96d7dd427899cd"
+    },
+    {
+      "id": "s11/english_tamil/python",
+      "scenario": "s11",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-11',\n 'active': True,\n 'items': [{'id': 1100,\n            'quantity': 2,\n            'message': 'சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.'},\n           {'id': 1101,\n            'quantity': 3,\n            'message': 'அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.'},\n           {'id': 1102, 'quantity': 4, 'message': 'நீரின் அளவைச் சரிபார்க்கவும்.'},\n           {'id': 1103, 'quantity': 5, 'message': 'செல்வதற்கு முன் சன்னலை மூடவும்.'},\n           {'id': 1104, 'quantity': 6, 'message': 'புத்தகங்களை அலமாரியில் வைக்கவும்.'},\n           {'id': 1105, 'quantity': 7, 'message': 'சிவப்பு பெட்டிகளை எண்ணவும்.'}]}\n",
+      "text_sha256": "d59c691b5d72d1a01e7a8f163e1b1bb8b5973937ce455b159ac2b14efd10bd00"
+    },
+    {
+      "id": "s11/english_tamil/json_compact",
+      "scenario": "s11",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-11\",\"active\":true,\"items\":[{\"id\":1100,\"quantity\":2,\"message\":\"சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\"},{\"id\":1101,\"quantity\":3,\"message\":\"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"},{\"id\":1102,\"quantity\":4,\"message\":\"நீரின் அளவைச் சரிபார்க்கவும்.\"},{\"id\":1103,\"quantity\":5,\"message\":\"செல்வதற்கு முன் சன்னலை மூடவும்.\"},{\"id\":1104,\"quantity\":6,\"message\":\"புத்தகங்களை அலமாரியில் வைக்கவும்.\"},{\"id\":1105,\"quantity\":7,\"message\":\"சிவப்பு பெட்டிகளை எண்ணவும்.\"}]}",
+      "text_sha256": "d250bfbf78b0abfc0aad32df3335905aceb87a819f333b7712d416fdcf31a5bd"
+    },
+    {
+      "id": "s11/english_tamil/json_pretty",
+      "scenario": "s11",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-11\",\n  \"active\": true,\n  \"items\": [\n    {\n      \"id\": 1100,\n      \"quantity\": 2,\n      \"message\": \"சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.\"\n    },\n    {\n      \"id\": 1101,\n      \"quantity\": 3,\n      \"message\": \"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"\n    },\n    {\n      \"id\": 1102,\n      \"quantity\": 4,\n      \"message\": \"நீரின் அளவைச் சரிபார்க்கவும்.\"\n    },\n    {\n      \"id\": 1103,\n      \"quantity\": 5,\n      \"message\": \"செல்வதற்கு முன் சன்னலை மூடவும்.\"\n    },\n    {\n      \"id\": 1104,\n      \"quantity\": 6,\n      \"message\": \"புத்தகங்களை அலமாரியில் வைக்கவும்.\"\n    },\n    {\n      \"id\": 1105,\n      \"quantity\": 7,\n      \"message\": \"சிவப்பு பெட்டிகளை எண்ணவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "a49c0c1e5bd3caa1162acbbacfa1a038091e44d6ae85712ad74976d8310890d3"
+    },
+    {
+      "id": "s11/english_tamil/html",
+      "scenario": "s11",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-11\" data-active=\"true\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1100</td><td>2</td><td>சிறிய பாத்திரத்தைச் சுத்தம் செய்யவும்.</td></tr>\n    <tr><td>1101</td><td>3</td><td>அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.</td></tr>\n    <tr><td>1102</td><td>4</td><td>நீரின் அளவைச் சரிபார்க்கவும்.</td></tr>\n    <tr><td>1103</td><td>5</td><td>செல்வதற்கு முன் சன்னலை மூடவும்.</td></tr>\n    <tr><td>1104</td><td>6</td><td>புத்தகங்களை அலமாரியில் வைக்கவும்.</td></tr>\n    <tr><td>1105</td><td>7</td><td>சிவப்பு பெட்டிகளை எண்ணவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "32e1ecf72bfc0f80bd85768d47a398295a5e7f179bcb98b9f167dd1166139563"
+    },
+    {
+      "id": "s12/english/prose",
+      "scenario": "s12",
+      "condition": "english",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-12. Active: false.\nItem 1200; quantity 3; message: Record the room temperature.\nItem 1201; quantity 4; message: Check the water level.\nItem 1202; quantity 5; message: Close the window before leaving.\nItem 1203; quantity 6; message: Put the books on the shelf.\nItem 1204; quantity 7; message: Count the red boxes.\nItem 1205; quantity 8; message: Save the latest report.",
+      "text_sha256": "d9166234dbc2e936b220714d936a3970fcf6d539d326dcbd0a86f1e5db874c1a"
+    },
+    {
+      "id": "s12/english/python",
+      "scenario": "s12",
+      "condition": "english",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-12',\n 'active': False,\n 'items': [{'id': 1200, 'quantity': 3, 'message': 'Record the room temperature.'},\n           {'id': 1201, 'quantity': 4, 'message': 'Check the water level.'},\n           {'id': 1202, 'quantity': 5, 'message': 'Close the window before leaving.'},\n           {'id': 1203, 'quantity': 6, 'message': 'Put the books on the shelf.'},\n           {'id': 1204, 'quantity': 7, 'message': 'Count the red boxes.'},\n           {'id': 1205, 'quantity': 8, 'message': 'Save the latest report.'}]}\n",
+      "text_sha256": "aa61d364c6e10524910af0a37e43ae95e6e16c6a512c43c08cc16d87c57cdbb1"
+    },
+    {
+      "id": "s12/english/json_compact",
+      "scenario": "s12",
+      "condition": "english",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-12\",\"active\":false,\"items\":[{\"id\":1200,\"quantity\":3,\"message\":\"Record the room temperature.\"},{\"id\":1201,\"quantity\":4,\"message\":\"Check the water level.\"},{\"id\":1202,\"quantity\":5,\"message\":\"Close the window before leaving.\"},{\"id\":1203,\"quantity\":6,\"message\":\"Put the books on the shelf.\"},{\"id\":1204,\"quantity\":7,\"message\":\"Count the red boxes.\"},{\"id\":1205,\"quantity\":8,\"message\":\"Save the latest report.\"}]}",
+      "text_sha256": "7445c0954f24af1436d7eb302fdad293365f7d8f69222c142c6d02dfb23693c8"
+    },
+    {
+      "id": "s12/english/json_pretty",
+      "scenario": "s12",
+      "condition": "english",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-12\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 1200,\n      \"quantity\": 3,\n      \"message\": \"Record the room temperature.\"\n    },\n    {\n      \"id\": 1201,\n      \"quantity\": 4,\n      \"message\": \"Check the water level.\"\n    },\n    {\n      \"id\": 1202,\n      \"quantity\": 5,\n      \"message\": \"Close the window before leaving.\"\n    },\n    {\n      \"id\": 1203,\n      \"quantity\": 6,\n      \"message\": \"Put the books on the shelf.\"\n    },\n    {\n      \"id\": 1204,\n      \"quantity\": 7,\n      \"message\": \"Count the red boxes.\"\n    },\n    {\n      \"id\": 1205,\n      \"quantity\": 8,\n      \"message\": \"Save the latest report.\"\n    }\n  ]\n}",
+      "text_sha256": "775b7afab994eb75467540fb04f04e3ee055057f8478544753521132dbddad04"
+    },
+    {
+      "id": "s12/english/html",
+      "scenario": "s12",
+      "condition": "english",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-12\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1200</td><td>3</td><td>Record the room temperature.</td></tr>\n    <tr><td>1201</td><td>4</td><td>Check the water level.</td></tr>\n    <tr><td>1202</td><td>5</td><td>Close the window before leaving.</td></tr>\n    <tr><td>1203</td><td>6</td><td>Put the books on the shelf.</td></tr>\n    <tr><td>1204</td><td>7</td><td>Count the red boxes.</td></tr>\n    <tr><td>1205</td><td>8</td><td>Save the latest report.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "76baceedcf8dffea1e6cb1e5120d303436da9076c7a4e2c51930f5b4d18755e7"
+    },
+    {
+      "id": "s12/english_hindi/prose",
+      "scenario": "s12",
+      "condition": "english_hindi",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-12. Active: false.\nItem 1200; quantity 3; message: कमरे का तापमान दर्ज करें।\nItem 1201; quantity 4; message: पानी का स्तर जाँचें।\nItem 1202; quantity 5; message: जाने से पहले खिड़की बंद करें।\nItem 1203; quantity 6; message: किताबें शेल्फ पर रखें।\nItem 1204; quantity 7; message: लाल डिब्बों को गिनें।\nItem 1205; quantity 8; message: नवीनतम रिपोर्ट सहेजें।",
+      "text_sha256": "2eb535544b8bc8903bf0b320a7569e905d4af490478203ab613c2192697da193"
+    },
+    {
+      "id": "s12/english_hindi/python",
+      "scenario": "s12",
+      "condition": "english_hindi",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-12',\n 'active': False,\n 'items': [{'id': 1200, 'quantity': 3, 'message': 'कमरे का तापमान दर्ज करें।'},\n           {'id': 1201, 'quantity': 4, 'message': 'पानी का स्तर जाँचें।'},\n           {'id': 1202, 'quantity': 5, 'message': 'जाने से पहले खिड़की बंद करें।'},\n           {'id': 1203, 'quantity': 6, 'message': 'किताबें शेल्फ पर रखें।'},\n           {'id': 1204, 'quantity': 7, 'message': 'लाल डिब्बों को गिनें।'},\n           {'id': 1205, 'quantity': 8, 'message': 'नवीनतम रिपोर्ट सहेजें।'}]}\n",
+      "text_sha256": "a3dda63184bcf4c6058653f3aae33f695c3593311e093e8f418f16673371729d"
+    },
+    {
+      "id": "s12/english_hindi/json_compact",
+      "scenario": "s12",
+      "condition": "english_hindi",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-12\",\"active\":false,\"items\":[{\"id\":1200,\"quantity\":3,\"message\":\"कमरे का तापमान दर्ज करें।\"},{\"id\":1201,\"quantity\":4,\"message\":\"पानी का स्तर जाँचें।\"},{\"id\":1202,\"quantity\":5,\"message\":\"जाने से पहले खिड़की बंद करें।\"},{\"id\":1203,\"quantity\":6,\"message\":\"किताबें शेल्फ पर रखें।\"},{\"id\":1204,\"quantity\":7,\"message\":\"लाल डिब्बों को गिनें।\"},{\"id\":1205,\"quantity\":8,\"message\":\"नवीनतम रिपोर्ट सहेजें।\"}]}",
+      "text_sha256": "3c69399f38c5ece7a862737cb67d0c9f22aab85e590665e441ae3027e17d295d"
+    },
+    {
+      "id": "s12/english_hindi/json_pretty",
+      "scenario": "s12",
+      "condition": "english_hindi",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-12\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 1200,\n      \"quantity\": 3,\n      \"message\": \"कमरे का तापमान दर्ज करें।\"\n    },\n    {\n      \"id\": 1201,\n      \"quantity\": 4,\n      \"message\": \"पानी का स्तर जाँचें।\"\n    },\n    {\n      \"id\": 1202,\n      \"quantity\": 5,\n      \"message\": \"जाने से पहले खिड़की बंद करें।\"\n    },\n    {\n      \"id\": 1203,\n      \"quantity\": 6,\n      \"message\": \"किताबें शेल्फ पर रखें।\"\n    },\n    {\n      \"id\": 1204,\n      \"quantity\": 7,\n      \"message\": \"लाल डिब्बों को गिनें।\"\n    },\n    {\n      \"id\": 1205,\n      \"quantity\": 8,\n      \"message\": \"नवीनतम रिपोर्ट सहेजें।\"\n    }\n  ]\n}",
+      "text_sha256": "27f28c1e80c087f2061acb8d2838669ea525826d6dc6fc880b860e6e86f5dfde"
+    },
+    {
+      "id": "s12/english_hindi/html",
+      "scenario": "s12",
+      "condition": "english_hindi",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-12\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1200</td><td>3</td><td>कमरे का तापमान दर्ज करें।</td></tr>\n    <tr><td>1201</td><td>4</td><td>पानी का स्तर जाँचें।</td></tr>\n    <tr><td>1202</td><td>5</td><td>जाने से पहले खिड़की बंद करें।</td></tr>\n    <tr><td>1203</td><td>6</td><td>किताबें शेल्फ पर रखें।</td></tr>\n    <tr><td>1204</td><td>7</td><td>लाल डिब्बों को गिनें।</td></tr>\n    <tr><td>1205</td><td>8</td><td>नवीनतम रिपोर्ट सहेजें।</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "81466dea00a9c49e54f4b39aab9fb19c181b35676d259a7a752cd5d3364fda27"
+    },
+    {
+      "id": "s12/english_tamil/prose",
+      "scenario": "s12",
+      "condition": "english_tamil",
+      "format": "prose",
+      "item_count": 6,
+      "role": "primary",
+      "text": "Batch batch-12. Active: false.\nItem 1200; quantity 3; message: அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\nItem 1201; quantity 4; message: நீரின் அளவைச் சரிபார்க்கவும்.\nItem 1202; quantity 5; message: செல்வதற்கு முன் சன்னலை மூடவும்.\nItem 1203; quantity 6; message: புத்தகங்களை அலமாரியில் வைக்கவும்.\nItem 1204; quantity 7; message: சிவப்பு பெட்டிகளை எண்ணவும்.\nItem 1205; quantity 8; message: சமீபத்திய அறிக்கையைச் சேமிக்கவும்.",
+      "text_sha256": "7d281f3658f4c88a81195628019ecca60cecfb2b85970b15c5a702382dc2c240"
+    },
+    {
+      "id": "s12/english_tamil/python",
+      "scenario": "s12",
+      "condition": "english_tamil",
+      "format": "python",
+      "item_count": 6,
+      "role": "primary",
+      "text": "record = {'batch': 'batch-12',\n 'active': False,\n 'items': [{'id': 1200,\n            'quantity': 3,\n            'message': 'அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.'},\n           {'id': 1201, 'quantity': 4, 'message': 'நீரின் அளவைச் சரிபார்க்கவும்.'},\n           {'id': 1202, 'quantity': 5, 'message': 'செல்வதற்கு முன் சன்னலை மூடவும்.'},\n           {'id': 1203, 'quantity': 6, 'message': 'புத்தகங்களை அலமாரியில் வைக்கவும்.'},\n           {'id': 1204, 'quantity': 7, 'message': 'சிவப்பு பெட்டிகளை எண்ணவும்.'},\n           {'id': 1205,\n            'quantity': 8,\n            'message': 'சமீபத்திய அறிக்கையைச் சேமிக்கவும்.'}]}\n",
+      "text_sha256": "f12c917d790203aa2866b6cbc9c323d058ff6f4969ae98c5e01344cc7f5d57eb"
+    },
+    {
+      "id": "s12/english_tamil/json_compact",
+      "scenario": "s12",
+      "condition": "english_tamil",
+      "format": "json_compact",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\"batch\":\"batch-12\",\"active\":false,\"items\":[{\"id\":1200,\"quantity\":3,\"message\":\"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"},{\"id\":1201,\"quantity\":4,\"message\":\"நீரின் அளவைச் சரிபார்க்கவும்.\"},{\"id\":1202,\"quantity\":5,\"message\":\"செல்வதற்கு முன் சன்னலை மூடவும்.\"},{\"id\":1203,\"quantity\":6,\"message\":\"புத்தகங்களை அலமாரியில் வைக்கவும்.\"},{\"id\":1204,\"quantity\":7,\"message\":\"சிவப்பு பெட்டிகளை எண்ணவும்.\"},{\"id\":1205,\"quantity\":8,\"message\":\"சமீபத்திய அறிக்கையைச் சேமிக்கவும்.\"}]}",
+      "text_sha256": "94d74f896a12447780f80eddee14a1ff1f31f432865410dd9b8f34c31729abd4"
+    },
+    {
+      "id": "s12/english_tamil/json_pretty",
+      "scenario": "s12",
+      "condition": "english_tamil",
+      "format": "json_pretty",
+      "item_count": 6,
+      "role": "primary",
+      "text": "{\n  \"batch\": \"batch-12\",\n  \"active\": false,\n  \"items\": [\n    {\n      \"id\": 1200,\n      \"quantity\": 3,\n      \"message\": \"அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.\"\n    },\n    {\n      \"id\": 1201,\n      \"quantity\": 4,\n      \"message\": \"நீரின் அளவைச் சரிபார்க்கவும்.\"\n    },\n    {\n      \"id\": 1202,\n      \"quantity\": 5,\n      \"message\": \"செல்வதற்கு முன் சன்னலை மூடவும்.\"\n    },\n    {\n      \"id\": 1203,\n      \"quantity\": 6,\n      \"message\": \"புத்தகங்களை அலமாரியில் வைக்கவும்.\"\n    },\n    {\n      \"id\": 1204,\n      \"quantity\": 7,\n      \"message\": \"சிவப்பு பெட்டிகளை எண்ணவும்.\"\n    },\n    {\n      \"id\": 1205,\n      \"quantity\": 8,\n      \"message\": \"சமீபத்திய அறிக்கையைச் சேமிக்கவும்.\"\n    }\n  ]\n}",
+      "text_sha256": "05155fbf51470596e00313eaf6c9a57a1dba5494018ffb2c1a6247279ffaf7cd"
+    },
+    {
+      "id": "s12/english_tamil/html",
+      "scenario": "s12",
+      "condition": "english_tamil",
+      "format": "html",
+      "item_count": 6,
+      "role": "primary",
+      "text": "<table data-batch=\"batch-12\" data-active=\"false\">\n  <thead><tr><th>ID</th><th>Quantity</th><th>Message</th></tr></thead>\n  <tbody>\n    <tr><td>1200</td><td>3</td><td>அறையின் வெப்பநிலையைப் பதிவு செய்யவும்.</td></tr>\n    <tr><td>1201</td><td>4</td><td>நீரின் அளவைச் சரிபார்க்கவும்.</td></tr>\n    <tr><td>1202</td><td>5</td><td>செல்வதற்கு முன் சன்னலை மூடவும்.</td></tr>\n    <tr><td>1203</td><td>6</td><td>புத்தகங்களை அலமாரியில் வைக்கவும்.</td></tr>\n    <tr><td>1204</td><td>7</td><td>சிவப்பு பெட்டிகளை எண்ணவும்.</td></tr>\n    <tr><td>1205</td><td>8</td><td>சமீபத்திய அறிக்கையைச் சேமிக்கவும்.</td></tr>\n  </tbody>\n</table>",
+      "text_sha256": "3f7da9230b0650f283dd24eaf04b39737b1d4888a9efef84fa1e804dc505632d"
+    },
+    {
+      "id": "probe/ascii",
+      "scenario": "ascii",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "A = 1\nB = 2\n",
+      "text_sha256": "570508a119784ec0dfd4b3c90a4e3a51f46c880bd8a79328f69c71d6c9e1f5d8"
+    },
+    {
+      "id": "probe/whitespace",
+      "scenario": "whitespace",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "A  =  1\n\tB = 2\n\n",
+      "text_sha256": "04c88842b2f8d1d9eb6cee70806e1869ae91a0de9154c0a62771976f4fc4f81c"
+    },
+    {
+      "id": "probe/composed",
+      "scenario": "composed",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "café naïve",
+      "text_sha256": "13b003cc7a7084e7f2ee5da8baf71a9e0c2191f0ebba72f3fd39f4f3822b3461"
+    },
+    {
+      "id": "probe/decomposed",
+      "scenario": "decomposed",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "café naïve",
+      "text_sha256": "cb507fbf66c9674a8decac646be589e518ad69e25ddcac02d51a9a9020e770d4"
+    },
+    {
+      "id": "probe/emoji",
+      "scenario": "emoji",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "Status: ready ✅ 🧪 🚀.",
+      "text_sha256": "062bbef35a884dcb66fda9ee5cce6bb5e6904454bad4f70ceb93abbcacea0f92"
+    },
+    {
+      "id": "probe/rare_characters",
+      "scenario": "rare_characters",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "Symbols: 𠮷 𓀀.",
+      "text_sha256": "1c696dc35621ad1d0707848a4f460f6102a71c0fea56a8fe84e9a7176208edf2"
+    },
+    {
+      "id": "probe/indentation",
+      "scenario": "indentation",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "def ready():\n    return True\n",
+      "text_sha256": "11c84b7d8ab8ef85c787c2bcb30d6495f4409d8ca6d735beefd0f47261db9a55"
+    },
+    {
+      "id": "probe/literal_space_marker",
+      "scenario": "literal_space_marker",
+      "condition": "probe",
+      "format": "probe",
+      "item_count": null,
+      "role": "probe",
+      "text": "Marker: ▁ and tab:\tend.",
+      "text_sha256": "76f40f69fd73face7533c55650fcd82b3b3177e403cfe57b201cda3533882a3b"
+    }
+  ]
+}

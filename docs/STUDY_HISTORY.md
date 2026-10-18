@@ -723,3 +723,41 @@ claims. No fitting, model inference, browser trial or FLORES+ devtest access occ
 Publication: results commit `fb7aeb7871965cabb080a7f9c547f0985f811ebe` was
 pushed and verified on GitHub main. Original fixtures, permitted results,
 figures, scripts and logs are included; downloaded tokenizer assets stay local.
+
+## 2026-10-18 — Published-text sources and sampling rules fixed
+
+Om requested source selection and sampling rules, simple explanations during work,
+and GitHub publication. This round completes the design, not the collection or
+tokenizer experiment. Seven repositories are pinned for 100 target original inputs:
+20 each of English documentation, code, JSON package files, HTML examples and
+Hindi/Tamil–English documentation. The same six existing profiles will be used.
+
+Sources are CPython, Node.js, npm CLI, VS Code, MDN dom-examples, MDN learning-area
+and Microsoft ML for Beginners. The latter publishes automatic translations; we
+explicitly label this and do not call them human conversation. Learn X in Y Minutes
+was considered but had only four Hindi and four Tamil documents at the inspected
+revision. MDN's two repositories share one publisher. The study therefore samples
+technical materials, not a representative cross-section of all browser content.
+
+The metadata-only audit contains 2,129 path candidates, with no claim of content
+eligibility. Source/license hashes and commit-to-tree links were checked. A fixed
+hash order, source/language quotas, one sample per file, duplicate filtering and
+one language per translated lesson prevent discretionary selection based on token
+counts. Original formatting is preserved. The next collection step must record
+paragraph byte boundaries, eligibility reviews, file terms and shortfalls before
+encoding. Whole files and passages have different length limits; categories are
+not treated as matched representations of identical content. JSON compact/pretty
+variants supply the separate controlled formatting comparison.
+
+An initial Python HTTPS attempt failed certificate verification. We used curl
+with TLS verification enabled instead. The first commit-addressed tree response
+reported the requested commit SHA rather than the actual tree SHA; a consistency
+assertion caught this. We fetched all inventories again by their actual tree SHAs
+and verified them against commit metadata. No failed evidence was accepted.
+
+See the [plain-language plan](PUBLISHED_TEXT_SAMPLING_V1.md) and
+[source audit](../results/2026-10-18-source-design/REPORT.md). There are no new token
+counts or result graphs in this round. Next: implement collection and review,
+freeze the selected sample manifest, then measure. No fitting, inference, browser
+trial, model-weight download or FLORES+ devtest access occurred. Codex prepared
+the plan, metadata script and documentation; Om remains the study owner.

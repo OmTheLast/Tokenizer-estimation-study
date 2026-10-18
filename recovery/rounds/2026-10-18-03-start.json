@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-18T10:14:33.055540+00:00",
+  "status": "natural_sources_design_running",
+  "request": "Select sources and sampling rules, explain simply, push progress. No corpus collection or tokenizer run requested this round.",
+  "planned": [
+    "Inspect primary source documentation and reuse terms",
+    "Pin source revisions and file-inventory evidence",
+    "Specify category quotas, length bands, exclusions and deterministic selection",
+    "Document limitations, source shortfall handling and next action; push verified design"
+  ],
+  "prior_checkpoint": "recovery/rounds/2026-10-18-02-publication.json",
+  "running_jobs": [],
+  "exact_next_action": "Choose source pools and inspect their licenses and relevant paths without encoding text."
+}

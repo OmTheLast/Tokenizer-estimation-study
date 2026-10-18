@@ -1,0 +1,77 @@
+{
+  "status": "metadata_inventory_only_not_selected_samples",
+  "path_candidates": 2129,
+  "summaries": [
+    {
+      "stratum": "english_cpython",
+      "category": "prose",
+      "repo": "python/cpython",
+      "target": 10,
+      "path_candidate_count": 346
+    },
+    {
+      "stratum": "python",
+      "category": "code",
+      "repo": "python/cpython",
+      "target": 10,
+      "path_candidate_count": 765
+    },
+    {
+      "stratum": "english_node",
+      "category": "prose",
+      "repo": "nodejs/node",
+      "target": 10,
+      "path_candidate_count": 70
+    },
+    {
+      "stratum": "javascript",
+      "category": "code",
+      "repo": "nodejs/node",
+      "target": 10,
+      "path_candidate_count": 431
+    },
+    {
+      "stratum": "npm_package",
+      "category": "json",
+      "repo": "npm/cli",
+      "target": 10,
+      "path_candidate_count": 12
+    },
+    {
+      "stratum": "vscode_extension",
+      "category": "json",
+      "repo": "microsoft/vscode",
+      "target": 10,
+      "path_candidate_count": 96
+    },
+    {
+      "stratum": "mdn_dom",
+      "category": "html",
+      "repo": "mdn/dom-examples",
+      "target": 10,
+      "path_candidate_count": 199
+    },
+    {
+      "stratum": "mdn_learning",
+      "category": "html",
+      "repo": "mdn/learning-area",
+      "target": 10,
+      "path_candidate_count": 154
+    },
+    {
+      "stratum": "hindi_english",
+      "category": "mixed",
+      "repo": "microsoft/ML-For-Beginners",
+      "target": 10,
+      "path_candidate_count": 28
+    },
+    {
+      "stratum": "tamil_english",
+      "category": "mixed",
+      "repo": "microsoft/ML-For-Beginners",
+      "target": 10,
+      "path_candidate_count": 28
+    }
+  ],
+  "output_sha256": "c6b30f0f80949fc0e4e21586d8c52d8207da31c4560ac71e33c5c2f4a50625f4"
+}

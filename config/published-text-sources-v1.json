@@ -1,0 +1,250 @@
+{
+  "name": "published-technical-text-v1",
+  "recorded_date": "2026-10-18",
+  "status": "sources_and_rules_fixed_before_collection",
+  "protocol": "docs/PUBLISHED_TEXT_SAMPLING_V1.md",
+  "protocol_sha256": "465cfb504b95651fb1a7e156cffc252d382aaa22e2f691d4a086d1b479d0f1f7",
+  "seed": "published-text-v1-2026-10-18",
+  "target_original_samples": 100,
+  "target_per_category": 20,
+  "category_order": [
+    "prose",
+    "code",
+    "json",
+    "html",
+    "mixed"
+  ],
+  "stratum_order": [
+    [
+      "english_cpython",
+      "english_node"
+    ],
+    [
+      "python",
+      "javascript"
+    ],
+    [
+      "npm_package",
+      "vscode_extension"
+    ],
+    [
+      "mdn_dom",
+      "mdn_learning"
+    ],
+    [
+      "hindi_english",
+      "tamil_english"
+    ]
+  ],
+  "whole_file_codepoints": [
+    200,
+    12000
+  ],
+  "passage_codepoints": [
+    200,
+    2000
+  ],
+  "length_bands_inclusive": [
+    [
+      200,
+      999
+    ],
+    [
+      1000,
+      3999
+    ],
+    [
+      4000,
+      12000
+    ]
+  ],
+  "excluded_path_components": [
+    "test",
+    "tests",
+    "fixtures",
+    "node_modules",
+    "vendor",
+    "vendored",
+    "deps",
+    "dist",
+    "build",
+    "generated",
+    "__pycache__"
+  ],
+  "tokenizer_config": "config/text-types-v1.json",
+  "tokenizer_config_sha256": "9b9077d1b1778a9b315f7840fbe9bc526667c6c392f7f159fee6f3812680a8b3",
+  "sources": [
+    {
+      "repo": "python/cpython",
+      "revision": "b953155e0d64b143546dd47554983fb73cfa6d1a",
+      "git_tree_sha": "f95f647f29cfd3c14e6356395309c177dc2dcff8",
+      "commit_api_url": "https://api.github.com/repos/python/cpython/commits/b953155e0d64b143546dd47554983fb73cfa6d1a",
+      "tree_api_url": "https://api.github.com/repos/python/cpython/git/trees/f95f647f29cfd3c14e6356395309c177dc2dcff8?recursive=1",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/python/cpython/blob/b953155e0d64b143546dd47554983fb73cfa6d1a/LICENSE",
+      "license_sha256": "b0e25a78cffb43f4d92de8b61ccfa1f1f98ecbc22330b54b5251e7b6ba010231",
+      "license_summary": "PSF license and historical notices",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "prose",
+          "stratum": "english_cpython",
+          "path_regex": "Doc/(tutorial|library)/.+\\.rst",
+          "target": 10
+        },
+        {
+          "category": "code",
+          "stratum": "python",
+          "path_regex": "Lib/.+\\.py",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "repo": "nodejs/node",
+      "revision": "e2d55227730b77802c142519b7ef04487604cff3",
+      "git_tree_sha": "991103b91e763cd18a8535c749761b31fe24383e",
+      "commit_api_url": "https://api.github.com/repos/nodejs/node/commits/e2d55227730b77802c142519b7ef04487604cff3",
+      "tree_api_url": "https://api.github.com/repos/nodejs/node/git/trees/991103b91e763cd18a8535c749761b31fe24383e?recursive=1",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/nodejs/node/blob/e2d55227730b77802c142519b7ef04487604cff3/LICENSE",
+      "license_sha256": "3ebb7123f4d2b9b916338e11748380972d4339d66f54cb3258270f99bb62faf5",
+      "license_summary": "MIT for Node-originated parts; separate third-party notices",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "prose",
+          "stratum": "english_node",
+          "path_regex": "doc/api/[^/]+\\.md",
+          "target": 10
+        },
+        {
+          "category": "code",
+          "stratum": "javascript",
+          "path_regex": "lib/.+\\.js",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "repo": "npm/cli",
+      "revision": "ae98c62586b6fea44114f72e249e246a2981de70",
+      "git_tree_sha": "9afbe218106c688fedf80376fe681989be744786",
+      "commit_api_url": "https://api.github.com/repos/npm/cli/commits/ae98c62586b6fea44114f72e249e246a2981de70",
+      "tree_api_url": "https://api.github.com/repos/npm/cli/git/trees/9afbe218106c688fedf80376fe681989be744786?recursive=1",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/npm/cli/blob/ae98c62586b6fea44114f72e249e246a2981de70/LICENSE",
+      "license_sha256": "7610d223851f421d315df5e77974f1c68a04b97e02060e5bbbcf13d95e3ca257",
+      "license_summary": "Artistic-2.0 for npm application; separate dependencies",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "json",
+          "stratum": "npm_package",
+          "path_regex": "workspaces/[^/]+/package\\.json",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "repo": "microsoft/vscode",
+      "revision": "00ab0906bad641d5be1d009da16baa5cec66a161",
+      "git_tree_sha": "76693fb99cce9e906ddbffc32fd1af1546f8b1a5",
+      "commit_api_url": "https://api.github.com/repos/microsoft/vscode/commits/00ab0906bad641d5be1d009da16baa5cec66a161",
+      "tree_api_url": "https://api.github.com/repos/microsoft/vscode/git/trees/76693fb99cce9e906ddbffc32fd1af1546f8b1a5?recursive=1",
+      "license_path": "LICENSE.txt",
+      "license_url": "https://github.com/microsoft/vscode/blob/00ab0906bad641d5be1d009da16baa5cec66a161/LICENSE.txt",
+      "license_sha256": "9480271317925265e806a9a196aaa33410a962fa9d4d1e248a4a5187bc8c9df9",
+      "license_summary": "MIT; check file-level exceptions",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "json",
+          "stratum": "vscode_extension",
+          "path_regex": "extensions/[^/]+/package\\.json",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "repo": "mdn/dom-examples",
+      "revision": "93d7d40c7b14dc0dd208d4967905606339e1f0e6",
+      "git_tree_sha": "400e07336f147b57561305c520e32f26387e3d05",
+      "commit_api_url": "https://api.github.com/repos/mdn/dom-examples/commits/93d7d40c7b14dc0dd208d4967905606339e1f0e6",
+      "tree_api_url": "https://api.github.com/repos/mdn/dom-examples/git/trees/400e07336f147b57561305c520e32f26387e3d05?recursive=1",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/mdn/dom-examples/blob/93d7d40c7b14dc0dd208d4967905606339e1f0e6/LICENSE",
+      "license_sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+      "license_summary": "CC0-1.0",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "html",
+          "stratum": "mdn_dom",
+          "path_regex": ".+\\.html",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "repo": "mdn/learning-area",
+      "revision": "d55e1c2e3ff401519811b64e5b2a7d3643b43d0f",
+      "git_tree_sha": "6eb57c05c71de1bdabccc6efe94b2ef121e2b2e5",
+      "commit_api_url": "https://api.github.com/repos/mdn/learning-area/commits/d55e1c2e3ff401519811b64e5b2a7d3643b43d0f",
+      "tree_api_url": "https://api.github.com/repos/mdn/learning-area/git/trees/6eb57c05c71de1bdabccc6efe94b2ef121e2b2e5?recursive=1",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/mdn/learning-area/blob/d55e1c2e3ff401519811b64e5b2a7d3643b43d0f/LICENSE",
+      "license_sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+      "license_summary": "CC0-1.0",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "html",
+          "stratum": "mdn_learning",
+          "path_regex": ".+\\.html",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "repo": "microsoft/ML-For-Beginners",
+      "revision": "de2d4e12236445198213a0711855e348e7253cd4",
+      "git_tree_sha": "f938e183599893b2bc01bb8a9c9bd4acbad83156",
+      "commit_api_url": "https://api.github.com/repos/microsoft/ML-For-Beginners/commits/de2d4e12236445198213a0711855e348e7253cd4",
+      "tree_api_url": "https://api.github.com/repos/microsoft/ML-For-Beginners/git/trees/f938e183599893b2bc01bb8a9c9bd4acbad83156?recursive=1",
+      "license_path": "LICENSE",
+      "license_url": "https://github.com/microsoft/ML-For-Beginners/blob/de2d4e12236445198213a0711855e348e7253cd4/LICENSE",
+      "license_sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "license_summary": "MIT; automatic translations explicitly disclosed",
+      "file_level_terms_review": "required_at_collection",
+      "pools": [
+        {
+          "category": "mixed",
+          "stratum": "hindi_english",
+          "path_regex": "translations/hi/[^/]+/[^/]+/README\\.md",
+          "target": 10
+        },
+        {
+          "category": "mixed",
+          "stratum": "tamil_english",
+          "path_regex": "translations/ta/[^/]+/[^/]+/README\\.md",
+          "target": 10
+        }
+      ],
+      "translation_provenance": {
+        "readme_url": "https://github.com/microsoft/ML-For-Beginners/blob/de2d4e12236445198213a0711855e348e7253cd4/README.md",
+        "readme_sha256": "9ba547bfc11370e232c30c959bf4dd31d7ba2cd17e80e19973a534c4dea117c5",
+        "status": "README identifies automated translation support; not verified human translation"
+      }
+    }
+  ],
+  "candidate_inventory": "references/published-text-source-inventory-v1.json",
+  "inventory_scope": "Path-matching regular blobs after path exclusions only; NOT content eligibility or selected samples",
+  "not_selected": [
+    {
+      "repo": "adambard/learnxinyminutes-docs",
+      "revision": "78548dd09e4e5e9bd9ee235e3d59b43dfeccea05",
+      "reason": "Four Hindi and four Tamil Markdown files in inspected tree; insufficient for intended 20-file mixed group."
+    }
+  ]
+}

@@ -199,7 +199,9 @@ are not included in the public repository; see the pilot reproduction notes.
 | Inventory current tokenizer configurations | Complete | Five BPE profiles, 11 verified asset files |
 | Direct tokenizer and aligned-language comparisons | Complete | 565 summaries, three additional figures, independent checks |
 | Controlled text-type and non-BPE expansion | Complete | 180 original inputs, 8 probes, six profiles; limits above |
-| Natural-workload and broader profile sampling | Next | Define sources, sampling and metrics before collection |
+| Published technical text source/sampling design | Complete; collection not started | [Plan with seven pinned sources](PUBLISHED_TEXT_SAMPLING_V1.md); 100 target inputs, six existing profiles |
+| Published-text corpus, measurements and graphs | Next | Review/freeze samples before encoding; no new results yet |
+| Broader tokenizer representation | Future | Additional representatives needed before algorithm-family claims |
 | Specify one-weight versus three-weight comparison | Deferred; design preserved | [Focused design](CJK_EXPERIMENT_V2.md) |
 | Resolve CJK fitting-data use; freeze cleaned splits | Deferred with fitting experiment | Separate from current descriptive analysis |
 | Fit candidate weights and evaluate unseen exam errors | Not started | Requires prepared data and authorization |

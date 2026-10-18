@@ -22,6 +22,17 @@ Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md
 for what we did, what the results mean, and the next planned experiment.
 The [evidence guide](docs/EVIDENCE_GUIDE.md) explains our graphs and current progress.
 
+**Published-text sampling design completed (2026-10-18):** selected seven pinned
+repositories and fixed selection rules for 100 target inputs: 20 each of English
+documentation passages, code, JSON, HTML and mixed-script documentation. Microsoft
+Hindi/Tamil passages are published automatic translations; the scope is technical
+material, not a representative sample of the web. Read the [simple explanation
+and sampling plan](docs/PUBLISHED_TEXT_SAMPLING_V1.md), [source lock](config/published-text-sources-v1.json)
+and [metadata audit](results/2026-10-18-source-design/REPORT.md).
+Only source metadata and terms were inspected; corpus collection and measurements
+for this follow-up have not started. Next: collect and review eligible samples,
+freeze their manifest, then run the existing six profiles.
+
 **Text-type comparison completed (2026-10-18):** five BPE profiles plus the
 multilingual XLM-RoBERTa Unigram profile measured 180 original inputs across
 prose, Python literal assignments, compact/pretty JSON and HTML, with English,
@@ -43,8 +54,8 @@ of 12 paired ratios, not universal rules or a BPE-versus-Unigram ranking.
 
 This is a small authored fixture study, not sampled natural browser traffic.
 No primary input produced unknown tokens; two XLM-R diagnostic probes did.
-Next: specify independently sourced, varied natural workloads and additional
-representatives before generalizing. No fitting or browser trial has started.
+The source plan above specifies the next published-text follow-up. Broader
+tokenizer representation remains future work. No fitting or browser trial has started.
 
 **Comparative milestone completed (2026-10-18):** inspected the five pinned
 tokenizer profiles and compared their actual counts on the existing pilot.

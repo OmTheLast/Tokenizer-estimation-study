@@ -70,6 +70,9 @@ do not label them five proven genealogical families or claim cross-algorithm
 coverage. Define family/grouping evidence before reporting family effects.
 The bounded text-type study `docs/TEXT_TYPES_V1.md` now adds one XLM-R Unigram
 profile on original authored fixtures. It is not a causal algorithm comparison.
-Next specify natural workloads and additional representatives; do not fit
+The next published-text sources and sampling rules are fixed in
+`docs/PUBLISHED_TEXT_SAMPLING_V1.md` and `config/published-text-sources-v1.json`.
+Collect/review and freeze the corpus manifest before measuring; disclose automated
+Hindi/Tamil translation provenance and the technical-source scope. Do not fit
 weights or open FLORES+ devtest. Publish permitted numeric evidence and scripts
 on the existing repository; raw restricted data and third-party assets stay local.

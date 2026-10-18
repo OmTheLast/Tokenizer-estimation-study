@@ -1,5 +1,9 @@
 # Research protocol: tokenizer-count estimation
 
+**Historical umbrella scope:** the [comparative protocol v2](COMPARATIVE_STUDY_V2.md)
+is the active direction approved on 2026-10-18. This document preserves the
+original design; its completed diagnostic analysis remains valid evidence.
+
 Version 1, recorded 2026-10-15, after the first pilot results were inspected.
 Owner: Om. Prepared with Codex assistance. This is a working research protocol,
 not a retrospective preregistration or a claim of novelty.

@@ -22,8 +22,11 @@ and calibration; never re-host its contents where web crawlers can collect them.
 Keep raw text and reconstructable token sequences out of public artifacts.
 Do not claim upstream training-data absence has been verified. Authorized dataset access succeeded on 2026-10-15.
 
-Follow `docs/RESEARCH_PROTOCOL.md` for research decisions. The completed pilot analysis is specified in `config/pilot-diagnostics-v1.json`;
-the active follow-up is `docs/CJK_EXPERIMENT_V2.md` and its v2 configuration.
+Follow `docs/COMPARATIVE_STUDY_V2.md` for the broader study direction approved
+on 2026-10-18. `docs/RESEARCH_PROTOCOL.md` preserves the earlier estimation focus.
+The completed pilot diagnostics use `config/pilot-diagnostics-v1.json`; direct
+count comparisons use `config/comparative-pilot-v1.json`. The CJK coefficient
+experiment in `docs/CJK_EXPERIMENT_V2.md` is deferred, not the active next step.
 Preserve versions and distinguish
 exploratory pilot analysis from independent final evaluation. FLORES+ remains
 evaluation-only. Record protocol amendments before dependent experiments.
@@ -58,3 +61,13 @@ Use traceable graphs at measurement milestones, including unfavorable results,
 with readable captions, units, sample counts, saved numeric inputs and scripts.
 Use dated milestone records for progress, not invented completion percentages.
 See `docs/EVIDENCE_GUIDE.md`; no new fitting is authorized by this preference.
+
+## Comparative scope — 2026-10-18
+
+Study tokenizer behavior across languages, text types and verified tokenizer
+configurations. Estimation is a sub-question. All current five assets use BPE;
+do not label them five proven genealogical families or claim cross-algorithm
+coverage. Define family/grouping evidence before reporting family effects.
+Next specify a bounded text-type and algorithm-class expansion, without fitting
+weights or opening FLORES+ devtest. Publish permitted numeric evidence and scripts
+on the existing repository; raw restricted data and third-party assets stay local.

@@ -1,30 +1,66 @@
 {
-  "timestamp_utc": "2026-10-17T16:38:07.690015+00:00",
-  "status": "discussion_recorded_proposal_pending",
-  "request": "Clarify broader tokenizer behavior study, naming, family comparisons and graphs.",
-  "prior_checkpoint": "recovery/rounds/2026-10-16-05-publication.json",
-  "scope": "Research-scoping discussion; no new measurements, fitting or external repository rename.",
+  "timestamp_utc": "2026-10-18T04:03:19.110648+00:00",
+  "status": "verified_ready_to_publish",
+  "request": "Adopt broader comparative tokenizer study, inspect current assets, compare counts and put work on GitHub.",
+  "scope": "Five existing pinned profiles and existing numeric FLORES dev pilot. Public study title changed; repository URL retained.",
   "completed": [
-    "Reviewed written protocol, README, instructions and latest recovery record.",
-    "Recorded proposed broader goal, title, prioritized comparisons and family-definition cautions in readable history."
-  ],
-  "decisions": [
-    "Preserve prior results and protocol chronology.",
-    "Do not silently rename the GitHub repository or claim the proposal is an executed experiment."
-  ],
-  "proposed_next_action": "Inventory the existing five tokenizer assets and specify the first descriptive family/language comparison before adding tokenizers or fitting coefficients.",
-  "not_executed": [
-    "Repository rename",
-    "Formal protocol replacement",
-    "Tokenizer asset inventory",
-    "New measurements or graphs",
-    "Fitting"
+    "Adopted comparative protocol v2 and descriptive analysis specification",
+    "Verified 11 asset files and inventoried five BPE configurations",
+    "Computed 475 tokenizer-pair and 90 aligned-language ratio summaries",
+    "Generated and visually inspected three PNG/SVG/PDF figures",
+    "Updated README, instructions, evidence guide and readable history",
+    "Saved scripts, numerical inputs/results, source snapshots and checksums"
   ],
   "artifacts": [
-    "docs/STUDY_HISTORY.md"
+    "docs/COMPARATIVE_STUDY_V2.md",
+    "config/comparative-pilot-v1.json",
+    "results/2026-10-18-comparative-pilot/inventory-01",
+    "results/2026-10-18-comparative-pilot/run-01",
+    "scripts/inventory_tokenizers.py",
+    "scripts/compare_pilot_counts.py",
+    "scripts/verify_comparative_pilot.py",
+    "docs/EVIDENCE_GUIDE.md"
   ],
-  "checks": [
-    "No experimental source or outputs changed."
+  "checks": {
+    "inventory_assets_verified": 11,
+    "runtime_vocab_checks": 10,
+    "independently_verified_summary_groups": 565,
+    "independently_verified_summary_values": 5650,
+    "published_counts_verified": 9000,
+    "frozen_selection_and_complete_pairing_verified": true,
+    "final_pngs_visually_inspected": 3,
+    "source_snapshots_and_output_checksums_verified": true,
+    "local_document_links_checked": true
+  },
+  "findings": [
+    "All five model.type values are BPE; five distinct serialized pipelines, no genealogical family assignments.",
+    "Base vocabulary sizes range from 64400 to 262144.",
+    "LFM/Gemma geometric mean count ratios: English 1.0224359977616444, Tamil 8.260728748845109, Korean 1.2195390894372127."
   ],
-  "publication_status": "Discussion milestone ready to commit and push."
+  "decisions": [
+    "Estimation is a sub-question; CJK coefficient fitting deferred.",
+    "Keep all comparisons and descriptive limitations; no causal or model-quality claims.",
+    "Next specify bounded text-type and algorithm-class expansion."
+  ],
+  "not_executed": [
+    "New dataset acquisition",
+    "New text tokenization",
+    "Coefficient fitting",
+    "Model inference",
+    "FLORES devtest access",
+    "Browser benchmarks",
+    "GitHub repository rename"
+  ],
+  "limitations": [
+    "Existing pilot is exploratory, with 100 related translation sets rather than 9000 independent texts.",
+    "All profiles are BPE; no cross-algorithm or verified lineage-level conclusions.",
+    "MiniCPM HF JSON is unverified against GGUF/browser runtime.",
+    "Content counts do not measure serialized context budgets or answer quality."
+  ],
+  "running_jobs": [],
+  "blockers": [],
+  "deferred_issue": "CJK fitting source-text use remains unresolved; not a blocker to the current descriptive study.",
+  "exact_next_action": "Publish milestone, then specify a small text-type/algorithm-class extension before acquiring or measuring new data.",
+  "publication_status": "Local verified milestone; push pending.",
+  "prior_checkpoint": "recovery/rounds/2026-10-18-01-measurements-verified.json"
 }

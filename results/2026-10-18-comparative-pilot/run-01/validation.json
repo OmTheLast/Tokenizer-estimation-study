@@ -1,0 +1,25 @@
+{
+  "input_sha256": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb",
+  "plan_sha256": "309d9a6f1ac440bcf09555df55d9fa3d538915b9c956448000acefc862de3be0",
+  "script_sha256": "84bfedbad20512a3d92a50e292ad3232b47a960e3aeb10b9cadff8f0e9a35a1d",
+  "versions": {
+    "python": "3.13.11",
+    "numpy": "2.5.3",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2"
+  },
+  "checks": {
+    "rows": 9000,
+    "unique_keys": 9000,
+    "aligned_ids": 100,
+    "languages": 18,
+    "tokenizers": 5,
+    "paired_text_hashes_match": true,
+    "tokenizer_and_dataset_revisions_match": true,
+    "positive_counts": true,
+    "summary_groups": 565,
+    "geometric_mean_reciprocals_match": true
+  },
+  "visual_inspection": "All three PNGs inspected: readable axes, values and captions; no clipped values or overlapping labels observed.",
+  "independent_verification": "passed; see independent-validation.json"
+}

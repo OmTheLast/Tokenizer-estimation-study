@@ -1,0 +1,14 @@
+{
+  "recorded_date": "2026-10-18",
+  "commands": [
+    ".venv/bin/python scripts/inventory_tokenizers.py --output results/2026-10-18-comparative-pilot/inventory-01"
+  ],
+  "exit_codes": [
+    0
+  ],
+  "new_tokenization": false,
+  "new_fitting": false,
+  "devtest_access": false,
+  "source_snapshot": "source-snapshot/",
+  "note": "Generated report links target this original output layout. Reproduction outputs in a different folder may need relative documentation links adjusted."
+}

@@ -1,9 +1,65 @@
 # Reading our research evidence
 
-Updated 2026-10-16. Our question is whether a cheap token-count estimate can help
-with browser context budgeting. Graphs make measurements easier to understand;
+Updated 2026-10-18. Our main question now concerns tokenizer behavior across
+languages and text types, with estimation as one sub-question.
+Graphs make measurements easier to understand;
 the saved data, methods and checks are the evidence behind them. A graph does
 not establish that the estimator is safe for browser use.
+
+## Current comparative results — 2026-10-18
+
+Start with the [five tokenizer fact sheets](../results/2026-10-18-comparative-pilot/inventory-01/REPORT.md).
+A tokenizer's vocabulary is its inventory of stored token entries. We counted
+those entries and inspected its text-processing configuration. All five files
+say BPE, yet their vocabularies and processing pipelines differ. Therefore these
+results compare five particular configurations, not five proven historical
+families or multiple algorithm classes. A larger vocabulary alone does not
+prove better performance.
+
+The [comparison report](../results/2026-10-18-comparative-pilot/run-01/REPORT.md)
+contains three new graphs and links to every numeric result:
+
+| Graph | Question | Reading it |
+| --- | --- | --- |
+| [All tokenizer pairs](../results/2026-10-18-comparative-pilot/run-01/01-pairwise-count-ratios.png) | How do counts compare on identical text? | Row count divided by column count; 2 means twice as many, 0.5 means half |
+| [Differences by language](../results/2026-10-18-comparative-pilot/run-01/02-language-ratios-versus-qwen.png) | Does the difference depend on language? | A dot is the middle ratio; its line shows the middle 80% of observed ratios; Qwen is the fixed reference |
+| [Translations versus English](../results/2026-10-18-comparative-pilot/run-01/03-aligned-language-ratios.png) | How much does the count change across aligned translations? | Each tokenizer uses its own English count as the reference; translations vary in length and wording |
+
+For the heatmaps we use the **geometric mean**, an average suited to ratios.
+For example, ratios of 2 and 8 have geometric mean 4 (the square root of 2 × 8).
+This differs from averaging counts first and dividing those averages. The plots
+label the method explicitly, and their colors use a logarithmic scale: equal
+steps mean equal multiplication factors. The numeric values can be read directly.
+The language-distribution plot instead shows the median and observed percentiles.
+
+One concrete result: LFM/Gemma averages about 1.02× on English but 8.26× on Tamil
+using geometric means of 100 same-text ratios per language. Their relationship
+changes markedly across these language samples. This does not show that one
+model answers better, or prove which design choice caused the count difference.
+
+We checked all 565 summaries (5,650 numeric values) with a separate arithmetic
+implementation, all 9,000 published counts against the saved measurements, and
+all 11 inventory asset files against their recorded hashes. All three PNG figures
+were visually reviewed. These are additional analyses of existing measurements,
+not newly sampled evidence. The [active protocol](COMPARATIVE_STUDY_V2.md) records
+what we chose before this analysis and what was already known.
+
+Reproduction from the existing local caches and pinned pilot Parquet, using a
+new destination (scripts refuse to overwrite completed directories):
+
+```sh
+.venv/bin/python scripts/inventory_tokenizers.py --output results/reproduction/inventory-01
+.venv/bin/python scripts/compare_pilot_counts.py --output results/reproduction/run-01
+.venv/bin/python scripts/verify_comparative_pilot.py --run results/reproduction/run-01 --inventory results/reproduction/inventory-01
+```
+
+Use `requirements-phase1.lock.txt` for the recorded environment. Source snapshots,
+checksums and versions are saved with the results. The public numeric count cube
+contains the counts used in all these plots; cached third-party assets, raw text
+and the local Parquet remain excluded from GitHub. Recreating those local inputs
+requires the earlier pilot workflow and authorized dataset access.
+
+The sections below preserve the earlier estimation-focused figures.
 
 ## 1. Do token counts differ across languages and tokenizers?
 
@@ -96,8 +152,11 @@ are not included in the public repository; see the pilot reproduction notes.
 | Measure multilingual pilot | Complete | 9,000 verified measurements |
 | Analyze prediction errors | Complete | Saved diagnostics and figures above |
 | Check candidate practice/exam data | Audit complete; preparation unfinished | [Audit report](../results/2026-10-16-cjk-preflight/audit-02/REPORT.md) |
-| Specify one-weight versus three-weight comparison | v2 recorded before fitting | [Focused design](CJK_EXPERIMENT_V2.md) |
-| Resolve narrow source-use question; freeze cleaned splits | Pending | Missing article IDs are a limitation, not an automatic stop |
+| Inventory current tokenizer configurations | Complete | Five BPE profiles, 11 verified asset files |
+| Direct tokenizer and aligned-language comparisons | Complete | 565 summaries, three additional figures, independent checks |
+| Specify text-type and algorithm-class expansion | Next | Choose sample and metrics before collecting data |
+| Specify one-weight versus three-weight comparison | Deferred; design preserved | [Focused design](CJK_EXPERIMENT_V2.md) |
+| Resolve CJK fitting-data use; freeze cleaned splits | Deferred with fitting experiment | Separate from current descriptive analysis |
 | Fit candidate weights and evaluate unseen exam errors | Not started | Requires prepared data and authorization |
 | Measure browser speed, memory and full-prompt budgeting | Not started | Separate planned study stage |
 

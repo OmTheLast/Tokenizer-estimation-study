@@ -1,0 +1,73 @@
+{
+  "name": "comparative-pilot-v1",
+  "recorded_date": "2026-10-18",
+  "status": "specified_before_this_analysis",
+  "evidence_status": "Exploratory; existing data and previous pilot summaries already inspected.",
+  "protocol": "docs/COMPARATIVE_STUDY_V2.md",
+  "input": "results/2026-10-15-phase1-pilot/run-02/ground-truth.parquet",
+  "input_sha256": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb",
+  "pilot_config": "config/phase1-pilot.json",
+  "pilot_config_sha256": "d17135566ef51a0358096cea5e2fd0dbe3cdd0e57106ddcaae67b9b4344c28ff",
+  "models": [
+    "qwen35-4b",
+    "bonsai-ternary-4b",
+    "lfm2-1.2b",
+    "gemma4-e2b",
+    "minicpm5-2b-gguf"
+  ],
+  "labels": [
+    "Qwen",
+    "Bonsai",
+    "LFM",
+    "Gemma",
+    "MiniCPM*"
+  ],
+  "tokenizer_locks": {
+    "bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4",
+    "qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866"
+  },
+  "expected": {
+    "rows": 9000,
+    "aligned_ids": 100,
+    "languages": 18,
+    "tokenizers": 5
+  },
+  "count_field": "token_count",
+  "tokenizer_reference": "qwen35-4b",
+  "language_reference": "eng_Latn",
+  "pairing": [
+    "language",
+    "sentence_id"
+  ],
+  "paired_text_hash_required": true,
+  "summary_metrics": [
+    "n",
+    "geometric_mean_ratio",
+    "median_ratio",
+    "p10_ratio",
+    "p90_ratio",
+    "min_ratio",
+    "max_ratio",
+    "fraction_less",
+    "fraction_equal",
+    "fraction_more"
+  ],
+  "quantile_method": "linear",
+  "aggregation": "Equal weight per paired sentence; pooled sample has 100 rows per language. Geometric mean of per-row ratios, not ratio of totals.",
+  "uncertainty": "No confidence intervals or significance claims; p10-p90 describes observed ratio spread.",
+  "planned_figures": [
+    "pairwise-geometric-mean-matrix",
+    "per-language-versus-qwen-distributions",
+    "aligned-language-versus-english-matrix"
+  ],
+  "prohibited": [
+    "fitting",
+    "devtest access",
+    "raw text or token-sequence publication",
+    "model-quality rankings",
+    "unsupported family lineage or causal conclusions"
+  ]
+}

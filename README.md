@@ -1,23 +1,47 @@
-# Tokenizer estimation study
+# Comparative Tokenizer Study: Languages, Text Types, and Context Budgets
 
 Study owner: Om. Repository: https://github.com/OmTheLast/Tokenizer-estimation-study
 
-Research question: how accurately and cheaply can a browser estimate multilingual
-token usage for a particular model, while limiting context overflows and unnecessary
-history removal?
+Research question: how do different tokenizers split text, how do token counts
+vary across languages and text types, and what do these differences mean for
+context use? Token-count estimation is one part of this broader study.
+
+Om approved this direction on 2026-10-18. The repository URL remains unchanged
+to preserve existing links; prior results retain their original scope and dates.
 
 An estimator predicts a count; it does not replace the tokenizer that produces
 model input IDs. Browser performance benefits are hypotheses to measure.
 
-Read the [research protocol](docs/RESEARCH_PROTOCOL.md) for the questions,
-evaluation rules, limitations and review gates. The specified
-analysis of the frozen pilot is now complete; estimator weights remain unchanged.
+Read the [comparative study protocol](docs/COMPARATIVE_STUDY_V2.md) for the
+current questions, comparison rules and limitations. The [earlier protocol](docs/RESEARCH_PROTOCOL.md)
+preserves the estimation-focused history. No estimator weights have been fitted.
 
 ## Current status
 
 Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md)
 for what we did, what the results mean, and the next planned experiment.
 The [evidence guide](docs/EVIDENCE_GUIDE.md) explains our graphs and current progress.
+
+**Comparative milestone completed (2026-10-18):** inspected the five pinned
+tokenizer profiles and compared their actual counts on the existing pilot.
+All five assets use **BPE**, with five distinct serialized processing pipelines;
+this is not yet a comparison across algorithm classes or proven historical families.
+Base vocabulary sizes range from 64,400 to 262,144 entries.
+
+- [Tokenizer fact sheets and sources](results/2026-10-18-comparative-pilot/inventory-01/REPORT.md)
+- [Direct comparisons and three new graphs](results/2026-10-18-comparative-pilot/run-01/REPORT.md)
+- [Independent verification](results/2026-10-18-comparative-pilot/run-01/independent-validation.json)
+
+On identical English texts, the geometric mean LFM/Gemma count ratio is 1.022;
+on identical Tamil texts, it is 8.261. These are averages of per-text ratios,
+not model-quality scores or ratios of total tokens. All 565 summaries, including
+self-comparisons and aligned-language comparisons, are saved and independently
+checked. No new text was tokenized, no fitting occurred, and devtest stayed untouched.
+
+Next: specify a small expansion across text types and another algorithm class,
+with explicit sampling and comparison rules before collecting new data. The CJK
+coefficient-fitting design is deferred; its data-use question does not block
+this descriptive study.
 
 **Phase 1 pilot completed (2026-10-15):** 100 aligned dev sentence IDs across
 18 language varieties and five tokenizers produced 9,000 verified measurements.
@@ -34,11 +58,11 @@ Broader phase-1 coverage and browser testing remain unfinished.
 LocalMind has lower median absolute error in 89/90 cells, but substantial
 undercounts remain concentrated in specific tokenizer-language combinations.
 See the [diagnostics](results/2026-10-15-pilot-diagnostics/run-02/REPORT.md).
-The next step is review and a justified follow-up, not fitting on FLORES+.
+The broader comparative follow-up is now completed above; FLORES+ stays evaluation-only.
 
-**Controlled follow-up designed (2026-10-16):** compare newly fitted pooled
+**Deferred estimation experiment, designed 2026-10-16:** compare newly fitted pooled
 and separate Han/kana/Hangul coefficients on the same independent development
-text. The [active v2 design](docs/CJK_EXPERIMENT_V2.md) specifies a bounded exploratory
+text. The [preserved v2 design](docs/CJK_EXPERIMENT_V2.md) specifies a bounded exploratory
 comparison. The original v1 audit is preserved; missing article IDs are now a
 stated limitation rather than an automatic stop. Source-use documentation and
 approved cleaned split manifests remain pending. No fitting or new test scoring has occurred.
@@ -48,8 +72,8 @@ We checked 20,940 sentences at pinned source revisions. The audit found duplicat
 families across Korean splits, unverified original-document boundaries in all
 three primary candidates, and source-text licensing caveats in GSD documentation.
 Read the [data-check report](results/2026-10-16-cjk-preflight/audit-02/REPORT.md).
-No weights were fitted or test predictions scored. Next: resolve the narrow source-text use question and freeze cleaned splits
-under v2; no exhaustive article-recovery project is required.
+No weights were fitted or test predictions scored. If this deferred fitting experiment resumes, resolve the narrow source-text use
+question and freeze cleaned splits under its v2 design. It is not the current priority.
 
 ### What the experiment compares
 
@@ -74,7 +98,7 @@ The median describes the middle absolute error, not a maximum error guarantee.
 For example, MiniCPM predicted 11 tokens for one Cantonese sample whose actual
 count was 26. Comparing token counts does not compare model intelligence.
 
-Language/script error analysis is complete; the follow-up design is recorded above.
+Language/script error analysis and the first direct count comparisons are complete.
 Code, JSON, webpages, complete chat formatting and browser performance still
 need separate evaluation. FLORES+ will not be used for fitting or calibration.
 

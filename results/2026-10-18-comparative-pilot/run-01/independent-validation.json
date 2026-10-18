@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "summary_groups_verified": 565,
+  "summary_values_verified": 5650,
+  "published_counts_verified": 9000,
+  "frozen_selection_and_complete_pairing_verified": true,
+  "inventory_asset_files_verified": 11,
+  "inventory_profiles_verified": 5,
+  "inventory_pair_checks_verified": 10,
+  "arithmetic": "Python math.fsum/log and Fraction-based quantiles; no analysis imports or NumPy.",
+  "input_sha256": "6a25dc8ea2d8c15429025067dfc71d800a9efeb4a00865b230170a0ef1225afb",
+  "selection_sha256": "280c1f956daa24e99b1d522a757f46c2dd4e4c177bba5d2371167f2494cd3d3e",
+  "verifier_sha256": "ffa1980fd4f6b9a05ae85664e38fdaf22f3b917d2b1147dffed3df7122e5f909",
+  "compared_result_sha256": {
+    "comparisons.json": "66e7da3190b0489b77aa58082594f315d6128b94a7a16ae384ad013df4e8f785",
+    "count-data.json": "7e0e6655be68a1c67996505b626c9aa5bbbb59e92088ec9f0a879c81bff74fc9",
+    "inventory.json": "fd2a65943e9d9d4525b5e99f487ebcc92e1f4a38423af8ee2856decee1fa2a29"
+  },
+  "limits": "Verifies saved counts, grouping, arithmetic and asset metadata. Does not re-tokenize source text, validate lineage or establish population generalization."
+}

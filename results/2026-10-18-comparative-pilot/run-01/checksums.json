@@ -1,0 +1,22 @@
+{
+  "01-pairwise-count-ratios.pdf": "111c6da08df3116d37bb68ea49706600dabb2bb3ca93d9975743ac5b86c0de79",
+  "01-pairwise-count-ratios.png": "e75ee5d454262cf0f072f995aadd55d92d083b01bec7d6d99a5ffc04835691f6",
+  "01-pairwise-count-ratios.svg": "5b592b688a1c33e5cd086a864af90e8f29a748a07c511d88694da12be494e222",
+  "02-language-ratios-versus-qwen.pdf": "7e0e05f12791450872bc4b6337bb03526ec4f120c5953b791105ad643caadf4e",
+  "02-language-ratios-versus-qwen.png": "9fddcb3e120ece37115d821ef5afb25176897f4acd713eddd8943d0a53fa7d82",
+  "02-language-ratios-versus-qwen.svg": "a3e217a97f1dc452e38c0dec0f02cc3d9e34a7fca57d02658681a67662b54fa9",
+  "03-aligned-language-ratios.pdf": "b5be5706e93594e1776cb1892dba10169afdf622a7fd418200914b958b698843",
+  "03-aligned-language-ratios.png": "4fc77562f522399836e494e9c0e46cb362954c076867c832606228043ccebbb0",
+  "03-aligned-language-ratios.svg": "ae7908895efb3293c4e94dbfe4f968c159684e3511dac837afa1e263d87763e4",
+  "REPORT.md": "aa99b44669315b9e2fbeab528ed5a466334b7f18e523208a370266f3d329c01c",
+  "comparisons.json": "66e7da3190b0489b77aa58082594f315d6128b94a7a16ae384ad013df4e8f785",
+  "count-data.json": "7e0e6655be68a1c67996505b626c9aa5bbbb59e92088ec9f0a879c81bff74fc9",
+  "independent-validation.json": "a647bf6100b23ae40a5beaf523bebd97dfaa2aeabbba71e08ec32274f9652bd3",
+  "run.json": "ac8b5bf946664d61114b6010f298f4273e53b2f06333588fabfbf8caa2469a1d",
+  "source-snapshot/COMPARATIVE_STUDY_V2.md": "18ec00405e6c32aaf6c58a542483a5f579bcbf7e46d0a5588e739146a7c5c876",
+  "source-snapshot/comparative-pilot-v1.json": "309d9a6f1ac440bcf09555df55d9fa3d538915b9c956448000acefc862de3be0",
+  "source-snapshot/compare_pilot_counts.py": "84bfedbad20512a3d92a50e292ad3232b47a960e3aeb10b9cadff8f0e9a35a1d",
+  "source-snapshot/requirements-phase1.lock.txt": "be787856d9e5935b59889a3ee5dc1f7df3bd171dc78240760c96152d54a8df98",
+  "source-snapshot/verify_comparative_pilot.py": "ffa1980fd4f6b9a05ae85664e38fdaf22f3b917d2b1147dffed3df7122e5f909",
+  "validation.json": "9fa7a86e5a407298d3584de9cd8a7550f84bae96fac091e6ce8fa12f09862653"
+}

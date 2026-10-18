@@ -1,0 +1,756 @@
+{
+  "plan_sha256": "309d9a6f1ac440bcf09555df55d9fa3d538915b9c956448000acefc862de3be0",
+  "script_sha256": "3116c8b1171d0d586328f669d6289c3d1351c738b4488a810bf6cd692d8d27d7",
+  "tokenizers_version": "0.23.2",
+  "records": [
+    {
+      "model_key": "qwen35-4b",
+      "repository": "onnx-community/Qwen3.5-4B-ONNX-OPT",
+      "revision": "57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7",
+      "lock_file": "config/qwen-tokenizer.lock.json",
+      "assets_verified": [
+        {
+          "filename": "tokenizer.json",
+          "sha256": "89da80cc6689bef4d90cc1028249436975ffb0814618f1d93c65310e05801a9b",
+          "bytes": 19226111,
+          "url": "https://huggingface.co/onnx-community/Qwen3.5-4B-ONNX-OPT/resolve/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7/tokenizer.json"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "sha256": "2de621ec071dd61438efdd6d0183bd3d612e98d05ac10d19ed75f1fef9299bc9",
+          "bytes": 9162,
+          "url": "https://huggingface.co/onnx-community/Qwen3.5-4B-ONNX-OPT/resolve/57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7/tokenizer_config.json"
+        }
+      ],
+      "algorithm_type": "BPE",
+      "model_options": {
+        "type": "BPE",
+        "dropout": null,
+        "unk_token": null,
+        "continuing_subword_prefix": "",
+        "end_of_word_suffix": "",
+        "fuse_unk": false,
+        "byte_fallback": false,
+        "ignore_merges": false
+      },
+      "base_vocab_entries": 248044,
+      "added_token_records": 33,
+      "added_token_records_marked_special": 21,
+      "added_strings_already_in_base": 0,
+      "effective_vocab_entries": 248077,
+      "merge_rules": 247587,
+      "stages": {
+        "normalizer": {
+          "types": "NFC",
+          "configuration": {
+            "type": "NFC"
+          }
+        },
+        "pre_tokenizer": {
+          "types": "Sequence(Split, ByteLevel)",
+          "configuration": {
+            "type": "Sequence",
+            "pretokenizers": [
+              {
+                "type": "Split",
+                "pattern": {
+                  "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?[\\p{L}\\p{M}]+|\\p{N}| ?[^\\s\\p{L}\\p{M}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+                },
+                "behavior": "Isolated",
+                "invert": false
+              },
+              {
+                "type": "ByteLevel",
+                "add_prefix_space": false,
+                "trim_offsets": false,
+                "use_regex": false
+              }
+            ]
+          }
+        },
+        "post_processor": {
+          "types": "ByteLevel",
+          "configuration": {
+            "type": "ByteLevel",
+            "add_prefix_space": false,
+            "trim_offsets": false,
+            "use_regex": false
+          }
+        },
+        "decoder": {
+          "types": "ByteLevel",
+          "configuration": {
+            "type": "ByteLevel",
+            "add_prefix_space": false,
+            "trim_offsets": false,
+            "use_regex": false
+          }
+        }
+      },
+      "wrapper_settings": {
+        "tokenizer_class": "TokenizersBackend",
+        "clean_up_tokenization_spaces": false,
+        "split_special_tokens": false
+      },
+      "chat_template_present": true,
+      "pilot_add_special_tokens": false,
+      "component_fingerprints": {
+        "model": "028a8aa14a411ea601bbc7c9a88b232f3eeab0d4f6b0702a746b10e5cc45c365",
+        "added_tokens": "b9a3adcc43f7f0d345f3fc2a59353df0a1fb4c228ca845a2b094ebe13ff52d3f",
+        "normalizer": "5628358406a1a2864e0f9e853618fc4d47d359acf10253558d0c18886de3f06e",
+        "pre_tokenizer": "b36f1669c1fd93eaec200835899e8c42217d172fcb9dd3f4fe725920aec5a8b3",
+        "post_processor": "4942970eeb62af80cf8c4eb5d864699b914996b14b6a5e083528e3eed7dfc44d",
+        "decoder": "4942970eeb62af80cf8c4eb5d864699b914996b14b6a5e083528e3eed7dfc44d",
+        "vocab": "c39c2e23ff5b2c34598e82921096f697da6593888669ccdf03840df9175558bc",
+        "merges": "f73216a68eea59796c4f48025952a9a19c277c3b7a2d8af202591301ec229c15"
+      },
+      "pipeline_fingerprint": "d500bb03c5940e1b3c50ebd567a7074db77fc623d4cdae967b55ba729bdf1a83",
+      "lineage_status": "Not established by this local asset inspection; repository identity is not a genealogical family assignment."
+    },
+    {
+      "model_key": "bonsai-ternary-4b",
+      "repository": "onnx-community/Ternary-Bonsai-4B-ONNX",
+      "revision": "9d085aaf786063cadb648fff1725c2c36fd28ade",
+      "lock_file": "config/bonsai-ternary-4b-tokenizer.lock.json",
+      "assets_verified": [
+        {
+          "filename": "tokenizer.json",
+          "sha256": "40ae5d1ee027b985684a3bbeef4ee16b2b5697d1d90658bec5bc5d2a73018bd7",
+          "bytes": 9117036,
+          "url": "https://huggingface.co/onnx-community/Ternary-Bonsai-4B-ONNX/resolve/9d085aaf786063cadb648fff1725c2c36fd28ade/tokenizer.json"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "sha256": "a8342e0e0e791a478f628dd1adf825ab1f9afe4a1075959ad32d77f1318b9841",
+          "bytes": 4598,
+          "url": "https://huggingface.co/onnx-community/Ternary-Bonsai-4B-ONNX/resolve/9d085aaf786063cadb648fff1725c2c36fd28ade/tokenizer_config.json"
+        }
+      ],
+      "algorithm_type": "BPE",
+      "model_options": {
+        "type": "BPE",
+        "dropout": null,
+        "unk_token": null,
+        "continuing_subword_prefix": "",
+        "end_of_word_suffix": "",
+        "fuse_unk": false,
+        "byte_fallback": false,
+        "ignore_merges": false
+      },
+      "base_vocab_entries": 151643,
+      "added_token_records": 26,
+      "added_token_records_marked_special": 14,
+      "added_strings_already_in_base": 0,
+      "effective_vocab_entries": 151669,
+      "merge_rules": 151387,
+      "stages": {
+        "normalizer": {
+          "types": "NFC",
+          "configuration": {
+            "type": "NFC"
+          }
+        },
+        "pre_tokenizer": {
+          "types": "Sequence(Split, ByteLevel)",
+          "configuration": {
+            "type": "Sequence",
+            "pretokenizers": [
+              {
+                "type": "Split",
+                "pattern": {
+                  "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+                },
+                "behavior": "Isolated",
+                "invert": false
+              },
+              {
+                "type": "ByteLevel",
+                "add_prefix_space": false,
+                "trim_offsets": true,
+                "use_regex": false
+              }
+            ]
+          }
+        },
+        "post_processor": {
+          "types": "ByteLevel",
+          "configuration": {
+            "type": "ByteLevel",
+            "add_prefix_space": false,
+            "trim_offsets": false,
+            "use_regex": false
+          }
+        },
+        "decoder": {
+          "types": "ByteLevel",
+          "configuration": {
+            "type": "ByteLevel",
+            "add_prefix_space": true,
+            "trim_offsets": true,
+            "use_regex": true
+          }
+        }
+      },
+      "wrapper_settings": {
+        "tokenizer_class": "Qwen2Tokenizer",
+        "clean_up_tokenization_spaces": false,
+        "split_special_tokens": false
+      },
+      "chat_template_present": true,
+      "pilot_add_special_tokens": false,
+      "component_fingerprints": {
+        "model": "19f1c196940e3774164637c8133178ccc284d1a6b6a5c761fd2b700c8fc5b07a",
+        "added_tokens": "96a12ca156d84f1ba18fa3876f9b06604786dbd28670e53042d19a45293ca4d2",
+        "normalizer": "5628358406a1a2864e0f9e853618fc4d47d359acf10253558d0c18886de3f06e",
+        "pre_tokenizer": "d730489d91319a99960af82e8fed44be8533ca92615198807b41c29dda5556fc",
+        "post_processor": "4942970eeb62af80cf8c4eb5d864699b914996b14b6a5e083528e3eed7dfc44d",
+        "decoder": "1d64d97add535d9ad91561aabea254849cf7f2ea4b924cc61c17152f1dd6e672",
+        "vocab": "8d6c01504f923afbb54ccc145317a470ee3a352857cbc04e6c3a70ffe740f158",
+        "merges": "cc098baa4a74ce5156487605aa048a34e54f0eee6a704691a738c8fb22dafdd5"
+      },
+      "pipeline_fingerprint": "d959ed8e01a25ecf6fdbf8a30b7bee37d2d6b0ef3df87fe5b3a0df705f261c7d",
+      "lineage_status": "Not established by this local asset inspection; repository identity is not a genealogical family assignment."
+    },
+    {
+      "model_key": "lfm2-1.2b",
+      "repository": "LiquidAI/LFM2.5-1.2B-Instruct-ONNX",
+      "revision": "10f72e70abf67ac0fd7ebf15bc5854726891d864",
+      "lock_file": "config/lfm2-1.2b-tokenizer.lock.json",
+      "assets_verified": [
+        {
+          "filename": "tokenizer.json",
+          "sha256": "0a1f2cb9fc2769030ca1f4207e81c1af493319373d41b8d3cf5be53860c13760",
+          "bytes": 3297799,
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-ONNX/resolve/10f72e70abf67ac0fd7ebf15bc5854726891d864/tokenizer.json"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "sha256": "0f11f4ffa5750369414bb24e41f26e2bbf23f1d01def533cad5f584e59ae3bef",
+          "bytes": 2391,
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-ONNX/resolve/10f72e70abf67ac0fd7ebf15bc5854726891d864/tokenizer_config.json"
+        },
+        {
+          "filename": "LICENSE",
+          "sha256": "5188f2b355da20647257a3156db5834c794e5fb5e6d8dc4d4cdbb3180e75b85b",
+          "bytes": 10596,
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-ONNX/resolve/10f72e70abf67ac0fd7ebf15bc5854726891d864/LICENSE"
+        }
+      ],
+      "algorithm_type": "BPE",
+      "model_options": {
+        "type": "BPE",
+        "dropout": null,
+        "unk_token": null,
+        "continuing_subword_prefix": null,
+        "end_of_word_suffix": null,
+        "fuse_unk": false,
+        "byte_fallback": false,
+        "ignore_merges": false
+      },
+      "base_vocab_entries": 64400,
+      "added_token_records": 509,
+      "added_token_records_marked_special": 503,
+      "added_strings_already_in_base": 507,
+      "effective_vocab_entries": 64402,
+      "merge_rules": 63683,
+      "stages": {
+        "normalizer": {
+          "types": "None",
+          "configuration": null
+        },
+        "pre_tokenizer": {
+          "types": "Sequence(Split, ByteLevel)",
+          "configuration": {
+            "type": "Sequence",
+            "pretokenizers": [
+              {
+                "type": "Split",
+                "pattern": {
+                  "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}{1,3}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+                },
+                "behavior": "Isolated",
+                "invert": false
+              },
+              {
+                "type": "ByteLevel",
+                "add_prefix_space": false,
+                "trim_offsets": true,
+                "use_regex": false
+              }
+            ]
+          }
+        },
+        "post_processor": {
+          "types": "Sequence(ByteLevel, TemplateProcessing)",
+          "configuration": {
+            "type": "Sequence",
+            "processors": [
+              {
+                "type": "ByteLevel",
+                "add_prefix_space": true,
+                "trim_offsets": false,
+                "use_regex": true
+              },
+              {
+                "type": "TemplateProcessing",
+                "single": [
+                  {
+                    "SpecialToken": {
+                      "id": "<|startoftext|>",
+                      "type_id": 0
+                    }
+                  },
+                  {
+                    "Sequence": {
+                      "id": "A",
+                      "type_id": 0
+                    }
+                  }
+                ],
+                "pair": [
+                  {
+                    "SpecialToken": {
+                      "id": "<|startoftext|>",
+                      "type_id": 0
+                    }
+                  },
+                  {
+                    "Sequence": {
+                      "id": "A",
+                      "type_id": 0
+                    }
+                  },
+                  {
+                    "SpecialToken": {
+                      "id": "<|startoftext|>",
+                      "type_id": 0
+                    }
+                  },
+                  {
+                    "Sequence": {
+                      "id": "B",
+                      "type_id": 0
+                    }
+                  }
+                ],
+                "special_tokens": {
+                  "<|startoftext|>": {
+                    "id": "<|startoftext|>",
+                    "ids": [
+                      1
+                    ],
+                    "tokens": [
+                      "<|startoftext|>"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "decoder": {
+          "types": "Sequence(ByteLevel)",
+          "configuration": {
+            "type": "Sequence",
+            "decoders": [
+              {
+                "type": "ByteLevel",
+                "add_prefix_space": true,
+                "trim_offsets": true,
+                "use_regex": true
+              }
+            ]
+          }
+        }
+      },
+      "wrapper_settings": {
+        "tokenizer_class": "TokenizersBackend",
+        "clean_up_tokenization_spaces": false
+      },
+      "chat_template_present": true,
+      "pilot_add_special_tokens": false,
+      "component_fingerprints": {
+        "model": "1c1fbafce84f79ad4fa0b5130a1e92cfc3263dc84114a7400d53854b5966a640",
+        "added_tokens": "e024df1b68f50238846c7e8ae5a9311d9805da59ae0e91a7c100c648b6647e54",
+        "normalizer": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "pre_tokenizer": "65e1fe6fbe22e0df7a3877257a5e19e7b0336324a8678a75de61b6fc0df0e147",
+        "post_processor": "db3ba397769686b631a3a226f9115a7dc26a1cc4a54e8fd3f41a164d60d9f0ff",
+        "decoder": "c6f1626eec21031bd34409028deba4b084f71d8a87c76895f9e5d7cedd50995c",
+        "vocab": "cbff90d1fae8b50362053fc276b40cfaf4794fcab56e3e9a5285da4b4e458c3e",
+        "merges": "dabc41b74e8944398b763a6d3265f2022fa4fe7bb689b940642ef3f51e1b0350"
+      },
+      "pipeline_fingerprint": "41021049b6d5d11fb7d4f1eb722e2e88ac350d2867dbacf5785b9b4635d58960",
+      "lineage_status": "Not established by this local asset inspection; repository identity is not a genealogical family assignment."
+    },
+    {
+      "model_key": "gemma4-e2b",
+      "repository": "onnx-community/gemma-4-E2B-it-ONNX",
+      "revision": "9f4bef82ea6e296bc69f8a2f5939f73af81b07a6",
+      "lock_file": "config/gemma4-e2b-tokenizer.lock.json",
+      "assets_verified": [
+        {
+          "filename": "tokenizer.json",
+          "sha256": "47bd35616c7c782aaca6ccf48c75f3461d5877170984b8836b375107d0a9f566",
+          "bytes": 19439251,
+          "url": "https://huggingface.co/onnx-community/gemma-4-E2B-it-ONNX/resolve/9f4bef82ea6e296bc69f8a2f5939f73af81b07a6/tokenizer.json"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "sha256": "06afbf54e228050cba79c4a0afd83543cc89070a2d62b8337d0aa8b4cdc348c3",
+          "bytes": 18807,
+          "url": "https://huggingface.co/onnx-community/gemma-4-E2B-it-ONNX/resolve/9f4bef82ea6e296bc69f8a2f5939f73af81b07a6/tokenizer_config.json"
+        }
+      ],
+      "algorithm_type": "BPE",
+      "model_options": {
+        "type": "BPE",
+        "dropout": null,
+        "unk_token": "<unk>",
+        "continuing_subword_prefix": null,
+        "end_of_word_suffix": null,
+        "fuse_unk": true,
+        "byte_fallback": true,
+        "ignore_merges": false
+      },
+      "base_vocab_entries": 262144,
+      "added_token_records": 24,
+      "added_token_records_marked_special": 24,
+      "added_strings_already_in_base": 24,
+      "effective_vocab_entries": 262144,
+      "merge_rules": 514906,
+      "stages": {
+        "normalizer": {
+          "types": "Replace",
+          "configuration": {
+            "type": "Replace",
+            "pattern": {
+              "String": " "
+            },
+            "content": "▁"
+          }
+        },
+        "pre_tokenizer": {
+          "types": "Split",
+          "configuration": {
+            "type": "Split",
+            "pattern": {
+              "String": " "
+            },
+            "behavior": "MergedWithPrevious",
+            "invert": false
+          }
+        },
+        "post_processor": {
+          "types": "TemplateProcessing",
+          "configuration": {
+            "type": "TemplateProcessing",
+            "single": [
+              {
+                "Sequence": {
+                  "id": "A",
+                  "type_id": 0
+                }
+              }
+            ],
+            "pair": [
+              {
+                "Sequence": {
+                  "id": "A",
+                  "type_id": 0
+                }
+              },
+              {
+                "Sequence": {
+                  "id": "B",
+                  "type_id": 1
+                }
+              }
+            ],
+            "special_tokens": {}
+          }
+        },
+        "decoder": {
+          "types": "Sequence(Replace, ByteFallback, Fuse)",
+          "configuration": {
+            "type": "Sequence",
+            "decoders": [
+              {
+                "type": "Replace",
+                "pattern": {
+                  "String": "▁"
+                },
+                "content": " "
+              },
+              {
+                "type": "ByteFallback"
+              },
+              {
+                "type": "Fuse"
+              }
+            ]
+          }
+        }
+      },
+      "wrapper_settings": {
+        "tokenizer_class": "GemmaTokenizer"
+      },
+      "chat_template_present": true,
+      "pilot_add_special_tokens": false,
+      "component_fingerprints": {
+        "model": "e113510301f960dc634c7c2174e85a560f025fd52df0310c94185d902ef0b726",
+        "added_tokens": "d2197ea6f594928aa6479c7e27b5a1fd004710b8930784b0606d32966eebde94",
+        "normalizer": "bee32d134b0862217fbe58f6ab6ef6a6d89e0e0eb000a084f321aaca31c1929c",
+        "pre_tokenizer": "75caeae5a427c06d64010230e6a10b4f7a08253b5b5be3ab5ca4c15cdbf791f5",
+        "post_processor": "a443939c6288561c027ce2908243332dc594e122007588752fd052d928755b35",
+        "decoder": "78bc5c572c20213e27daca8fd5993992c1007941901a5fcceb5325362e21db23",
+        "vocab": "d78b3ddf966363e3cd1f7242f4ac5590a3f1bac57c7be03b199dbccc85426e42",
+        "merges": "2fb853b944f9cc036314428b7c8e1d4aa5ce1a63b7a69ba0be7e6958a721c494"
+      },
+      "pipeline_fingerprint": "22d7d15144bd2d7cb88768f176809541b75d8d52a2aa584eed615be7ecda3aae",
+      "lineage_status": "Not established by this local asset inspection; repository identity is not a genealogical family assignment."
+    },
+    {
+      "model_key": "minicpm5-2b-gguf",
+      "repository": "openbmb/MiniCPM5-2B",
+      "revision": "12a3808a956f869c767195e9266b59c4d21d92e2",
+      "lock_file": "config/minicpm5-2b-gguf-tokenizer.lock.json",
+      "assets_verified": [
+        {
+          "filename": "tokenizer.json",
+          "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81",
+          "bytes": 9894271,
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B/resolve/12a3808a956f869c767195e9266b59c4d21d92e2/tokenizer.json"
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "sha256": "e9b1064649e771d7a8e15637c68b2d2749724877ba3648bd74a4ece31c26303b",
+          "bytes": 94391,
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B/resolve/12a3808a956f869c767195e9266b59c4d21d92e2/tokenizer_config.json"
+        }
+      ],
+      "algorithm_type": "BPE",
+      "model_options": {
+        "type": "BPE",
+        "dropout": null,
+        "unk_token": "<unk>",
+        "continuing_subword_prefix": null,
+        "end_of_word_suffix": null,
+        "fuse_unk": false,
+        "byte_fallback": false,
+        "ignore_merges": false
+      },
+      "base_vocab_entries": 130072,
+      "added_token_records": 510,
+      "added_token_records_marked_special": 30,
+      "added_strings_already_in_base": 22,
+      "effective_vocab_entries": 130560,
+      "merge_rules": 129794,
+      "stages": {
+        "normalizer": {
+          "types": "None",
+          "configuration": null
+        },
+        "pre_tokenizer": {
+          "types": "Sequence(Split, Split, ByteLevel)",
+          "configuration": {
+            "type": "Sequence",
+            "pretokenizers": [
+              {
+                "type": "Split",
+                "pattern": {
+                  "Regex": "\\p{N}{1,3}"
+                },
+                "behavior": "Isolated",
+                "invert": false
+              },
+              {
+                "type": "Split",
+                "pattern": {
+                  "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}+| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+                },
+                "behavior": "Isolated",
+                "invert": false
+              },
+              {
+                "type": "ByteLevel",
+                "add_prefix_space": false,
+                "trim_offsets": true,
+                "use_regex": false
+              }
+            ]
+          }
+        },
+        "post_processor": {
+          "types": "TemplateProcessing",
+          "configuration": {
+            "type": "TemplateProcessing",
+            "single": [
+              {
+                "SpecialToken": {
+                  "id": "<s>",
+                  "type_id": 0
+                }
+              },
+              {
+                "Sequence": {
+                  "id": "A",
+                  "type_id": 0
+                }
+              }
+            ],
+            "pair": [
+              {
+                "SpecialToken": {
+                  "id": "<s>",
+                  "type_id": 0
+                }
+              },
+              {
+                "Sequence": {
+                  "id": "A",
+                  "type_id": 0
+                }
+              },
+              {
+                "SpecialToken": {
+                  "id": "<s>",
+                  "type_id": 1
+                }
+              },
+              {
+                "Sequence": {
+                  "id": "B",
+                  "type_id": 1
+                }
+              }
+            ],
+            "special_tokens": {
+              "<s>": {
+                "id": "<s>",
+                "ids": [
+                  0
+                ],
+                "tokens": [
+                  "<s>"
+                ]
+              }
+            }
+          }
+        },
+        "decoder": {
+          "types": "ByteLevel",
+          "configuration": {
+            "type": "ByteLevel",
+            "add_prefix_space": true,
+            "trim_offsets": true,
+            "use_regex": true
+          }
+        }
+      },
+      "wrapper_settings": {
+        "tokenizer_class": "PreTrainedTokenizerFast",
+        "add_bos_token": false,
+        "add_eos_token": false,
+        "clean_up_tokenization_spaces": false
+      },
+      "chat_template_present": false,
+      "pilot_add_special_tokens": false,
+      "component_fingerprints": {
+        "model": "08e8ccfa32a79946df53cfa8c23805a330527aa07269f29a833215b22d7db2fd",
+        "added_tokens": "ca384c4775eec769fe190e98f6033824553722202dc23d4bfbe9a78799cfe875",
+        "normalizer": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "pre_tokenizer": "42b80061fea0589340191991684a65dd1342a5b80fc910b7c58efb6e605a389c",
+        "post_processor": "e32cf655fc24a6387b6454345e37e343bccfc7511bcfab7aa8b1d814cb7474bf",
+        "decoder": "1d64d97add535d9ad91561aabea254849cf7f2ea4b924cc61c17152f1dd6e672",
+        "vocab": "e64336e8982aa30cbdba0f7afa63b7845555f3e51dc5340a4f7b84c15ac01aa1",
+        "merges": "b00122b66344b3ff1ed5a69ef3980632f032eb1a6efa5b2152ec92604098e2ee"
+      },
+      "pipeline_fingerprint": "3f8acdc5bca43319d7d622fa1e2f46951f93424787ce401912e89777c9f7aa93",
+      "lineage_status": "Not established by this local asset inspection; repository identity is not a genealogical family assignment."
+    }
+  ],
+  "pair_checks": [
+    {
+      "a": "qwen35-4b",
+      "b": "bonsai-ternary-4b",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": [
+        "normalizer",
+        "post_processor"
+      ]
+    },
+    {
+      "a": "qwen35-4b",
+      "b": "lfm2-1.2b",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    },
+    {
+      "a": "qwen35-4b",
+      "b": "gemma4-e2b",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    },
+    {
+      "a": "qwen35-4b",
+      "b": "minicpm5-2b-gguf",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    },
+    {
+      "a": "bonsai-ternary-4b",
+      "b": "lfm2-1.2b",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    },
+    {
+      "a": "bonsai-ternary-4b",
+      "b": "gemma4-e2b",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    },
+    {
+      "a": "bonsai-ternary-4b",
+      "b": "minicpm5-2b-gguf",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": [
+        "decoder"
+      ]
+    },
+    {
+      "a": "lfm2-1.2b",
+      "b": "gemma4-e2b",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    },
+    {
+      "a": "lfm2-1.2b",
+      "b": "minicpm5-2b-gguf",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": [
+        "normalizer"
+      ]
+    },
+    {
+      "a": "gemma4-e2b",
+      "b": "minicpm5-2b-gguf",
+      "same_algorithm_class": true,
+      "same_pipeline_fingerprint": false,
+      "equal_components": []
+    }
+  ],
+  "checks": {
+    "assets_verified": 11,
+    "runtime_vocab_checks": 10
+  },
+  "limitations": "Asset fingerprints describe serialized configuration, not lineage or runtime equivalence. Missing wrapper fields are unspecified, not false. Special-token settings do not describe full chat-template overhead."
+}

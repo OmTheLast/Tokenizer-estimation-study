@@ -614,3 +614,51 @@ the proposed CJK coefficient-fitting experiment. That experiment remains saved
 and unstarted; it need not drive a descriptive study. Its source-use issue is
 not a blocker to analyzing already-authorized pilot measurements. No new data,
 fitting, scoring or graph generation occurred in this discussion.
+
+## 2026-10-18 — Comparative scope adopted; inventory and direct comparisons completed
+
+Om approved the proposed broader study and asked that the work be preserved on
+GitHub. The public title is now **Comparative Tokenizer Study: Languages, Text
+Types, and Context Budgets**. The existing repository URL is unchanged. The new
+[comparative protocol](COMPARATIVE_STUDY_V2.md) records this amendment and makes
+estimation a sub-question. The CJK fitting design is deferred and remains unstarted.
+Prior protocols, outputs and limitations remain available.
+
+Before this new analysis ran, we wrote `config/comparative-pilot-v1.json`, defining
+pairing, ratios, summaries and figures. This is exploratory analysis of already
+inspected pilot data, not a prospective preregistration or an independent new test.
+
+The inventory verified 11 cached asset files against five existing locks. All
+five tokenizer JSON models report BPE. Base vocabulary sizes are Qwen 248,044,
+Bonsai 151,643, LFM 64,400, Gemma 262,144 and MiniCPM 130,072. All five serialized
+pipeline fingerprints differ. We recorded processing stages, special-token
+settings, component hashes and source revisions. These are five configurations,
+not five established lineages, and the sample has no cross-algorithm coverage.
+Runtime vocabulary counts agree with independently counted base/added unions.
+
+Using the existing 9,000 content-token counts, we verified same-text pairing,
+frozen sentence selection, complete model/language coverage and source revisions.
+We computed 475 ordered-tokenizer-pair summaries (including self-comparisons and
+pooled results) and 90 aligned-language/English summaries. Three scientific figures
+show pooled pairwise ratios, language-specific ratios/spreads against Qwen, and
+aligned translations relative to English. All have PNG/SVG/PDF exports.
+
+A separate verifier using Python math and rational-number quantiles checked all
+5,650 summary values, all 9,000 published counts and the inventory. The three
+PNGs were inspected visually. Scripts, numeric count data, source snapshots,
+version records and checksums are saved. No restricted text or token sequences
+are published. No new text encoding, model run, coefficient fitting, devtest
+access or browser trial occurred.
+
+For example, LFM/Gemma geometric mean per-text ratios are 1.022 on English,
+8.261 on Tamil and 1.220 on Korean (100 texts each). These descriptive ratios
+show that the difference varies across language samples; they do not establish
+a cause or model-quality ranking. The geometric mean differs from earlier
+ratios of total token counts. English and Qwen are fixed references, not quality
+standards. Percentile lines show sample spread, not confidence intervals.
+
+Read the [inventory](../results/2026-10-18-comparative-pilot/inventory-01/REPORT.md),
+[comparison report](../results/2026-10-18-comparative-pilot/run-01/REPORT.md), and
+[evidence guide](EVIDENCE_GUIDE.md). Next: specify a small text-type expansion and
+additional algorithm-class coverage, with sampling and metrics fixed before
+collection. The deferred fitting-data permission question does not block this work.

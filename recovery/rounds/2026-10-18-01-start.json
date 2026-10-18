@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-10-18T03:55:25.258622+00:00",
+  "status": "comparative_study_round_running",
+  "request": "User approved broader comparative study, inventory and direct count comparisons; publish on existing GitHub repository.",
+  "prior_checkpoint": "recovery/rounds/2026-10-17-01-end.json",
+  "completed": [],
+  "planned": [
+    "Version broader protocol and descriptive analysis specification",
+    "Inspect and hash-verify five pinned tokenizer assets",
+    "Generate paired count comparisons and scientific figures from existing numeric pilot",
+    "Independently verify values, inspect plots, update history, commit and push"
+  ],
+  "not_authorized": [
+    "Coefficient fitting",
+    "FLORES devtest access",
+    "Restricted raw-text publication"
+  ],
+  "running_jobs": [],
+  "exact_next_action": "Write scope amendment and comparison configuration, then inspect cached assets."
+}

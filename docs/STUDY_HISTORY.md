@@ -761,3 +761,7 @@ counts or result graphs in this round. Next: implement collection and review,
 freeze the selected sample manifest, then measure. No fitting, inference, browser
 trial, model-weight download or FLORES+ devtest access occurred. Codex prepared
 the plan, metadata script and documentation; Om remains the study owner.
+
+Publication: source-design commit `f96e07509d91d6669b49fb91cb7d04e20be9f344` was pushed and
+verified on GitHub main. Included files preserve the design, inventory and checks;
+ignored caches are not backed up by this push.

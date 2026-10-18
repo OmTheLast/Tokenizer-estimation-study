@@ -666,3 +666,56 @@ collection. The deferred fitting-data permission question does not block this wo
 Publication: commit `8722dc3e2ba5d9eaf82274cec97be7df8b9d51e8` was pushed and
 verified on GitHub main. Code, permitted numeric evidence, figures and research
 records are included; ignored local inputs are not off-device backups.
+
+## 2026-10-18 — Text types and a Unigram profile measured
+
+Om authorized the next text-type/non-BPE comparison, requested explanations as
+work progressed and asked for GitHub publication. We specified a controlled
+synthetic study before encoding: 12 original record scenarios × three message
+conditions (English, English+Hindi, English+Tamil) × five representations
+(prose, Python literal assignment, compact JSON, pretty JSON, HTML). Eight
+separate probes cover whitespace, accents, emoji and rare characters. These
+are Codex-authored examples with shared templates and unvalidated translations,
+not natural-workload sampling. Original fixtures are public; no FLORES data used.
+
+Selected FacebookAI/xlm-roberta-base at
+`e73636d4f797dec63c3081bb6ed5c7b0bb3f2089` before measurements. Its legacy JSON
+omits model.type; the first inspection raised KeyError. The pinned runtime
+loads it as Unigram with 250,002 base vocabulary entries. Original asset bytes
+were preserved. A hashed runtime serialization supplies explicit fields; all
+188 original-versus-serialized Python ID sequences agree. The JS implementation
+also successfully loaded the original source, so no conversion was needed there.
+No model weights were downloaded. Sources, asset hashes and selection rationale
+are recorded in the new lock. A single encoder-model tokenizer is a descriptive
+reference, not a controlled BPE-versus-Unigram experiment or chat-model comparison.
+
+Plan, corpus, renderer and source lock were committed and pushed as
+`d88eda415da60fbaaf198e5cb3a47e4af8ad4423` before workload encoding; its remote SHA
+was verified. Six profiles produced 1,080 primary rows and 48 diagnostic rows.
+Per-profile outputs were saved incrementally. Python/JS ID-sequence hashes agree
+on all 1,128 inputs. Independent verification recomputed row metadata/special
+counts and all 6,552 numeric summary values in 738 groups; all 14 source asset
+files passed their pinned hashes.
+
+The first plotting run failed on a Matplotlib keyword-argument requirement. Its
+script, error and numeric summaries are preserved in analysis-01. Analysis-02
+has identical numbers and the completed three figures in PNG/SVG/PDF; all PNGs
+were visually inspected. The verifier was subsequently made reproducible without
+requiring a failed attempt in a fresh run; the first successful audit and its
+source remain preserved, and the final verifier was rerun.
+
+Observed geometric mean pretty/compact English JSON ratios: Qwen 1.928, Gemma
+1.962, XLM-R 1.003. XLM-R's relative count versus Qwen is about 0.86 on English
+prose but 1.56 on compact JSON. Its decoded strings differ for all 144 primary
+non-compact-JSON inputs (mostly layout whitespace), while all 36 compact JSON
+inputs match exactly. All five BPE profiles reconstruct every primary input
+exactly. No primary inputs produced unknown IDs; XLM-R produced unknown IDs
+on two diagnostic probes. Some BPE profiles normalize the decomposed-accent
+probe. These observations are sample-specific and do not establish universal
+losslessness, semantic damage, model intelligence or algorithm superiority.
+
+See [text-type results](../results/2026-10-18-text-types/analysis-02/REPORT.md),
+[readable token examples](../results/2026-10-18-text-types/TOKEN_EXAMPLES.md), and
+[verification](../results/2026-10-18-text-types/verification.json). Next: specify
+varied natural workloads and additional tokenizer representatives before broader
+claims. No fitting, model inference, browser trial or FLORES+ devtest access occurred.

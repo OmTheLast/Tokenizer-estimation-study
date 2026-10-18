@@ -1,0 +1,72 @@
+{
+  "name": "text-types-v1",
+  "recorded_date": "2026-10-18",
+  "status": "frozen_before_workload_encoding",
+  "protocol": "docs/TEXT_TYPES_V1.md",
+  "protocol_sha256": "9bd4425bd66fbf934a138aacf2f900fbc8d59afa801d3ed3610989a20cd8dc59",
+  "corpus": "data/fixtures/text-types-v1.json",
+  "corpus_sha256": "5a38595023a377257387079fa440210883f03c1c6430fd557262e95ba1e371aa",
+  "builder": "scripts/build_text_type_fixtures.py",
+  "builder_sha256": "0b8dd3d01d6494023a1264be4631cc8b5fee8bb92c9cf70be1cbec9224582a89",
+  "models": [
+    "qwen35-4b",
+    "bonsai-ternary-4b",
+    "lfm2-1.2b",
+    "gemma4-e2b",
+    "minicpm5-2b-gguf",
+    "xlm-roberta-base"
+  ],
+  "labels": [
+    "Qwen",
+    "Bonsai",
+    "LFM",
+    "Gemma",
+    "MiniCPM*",
+    "XLM-R (Unigram)"
+  ],
+  "tokenizer_locks": {
+    "bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4",
+    "qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "xlm-roberta-base-tokenizer.lock.json": "d8bb4eee6ef84c251ddf77339809e2611b63f27b73d26dade5f0fee0e13ad2b5"
+  },
+  "reference_tokenizer": "qwen35-4b",
+  "format_reference": "prose",
+  "formats": [
+    "prose",
+    "python",
+    "json_compact",
+    "json_pretty",
+    "html"
+  ],
+  "conditions": [
+    "english",
+    "english_hindi",
+    "english_tamil"
+  ],
+  "expected": {
+    "scenarios": 12,
+    "primary_inputs": 180,
+    "probe_inputs": 8,
+    "profiles": 6,
+    "primary_measurements": 1080,
+    "probe_measurements": 48
+  },
+  "quantiles": "linear",
+  "metrics": [
+    "content_count",
+    "tokens_per_100_codepoints",
+    "unknown_token_count",
+    "normalization_changed",
+    "decode_exact",
+    "with_special_count"
+  ],
+  "ratios": "Geometric mean, median, p10/p90 of paired per-input counts; all ordered model pairs \u00d7 15 cells. Unknown-free geometric mean also reported.",
+  "sample_snapshots": "All 8 probes and scenario s01 prose/json_compact in each condition",
+  "independent_runtime": "Existing @huggingface/tokenizers 0.2.0 JS; compare full ID sequences where supported, document incompatibilities. Python original-vs-runtime-serialized Unigram parity required.",
+  "claims": "Small authored templated fixture study, not representative workloads, no causal algorithm effect or global winner.",
+  "no_fitting": true,
+  "no_flores_access": true
+}

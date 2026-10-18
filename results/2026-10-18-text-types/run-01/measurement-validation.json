@@ -1,0 +1,10 @@
+{
+  "rows": 1128,
+  "primary_rows": 1080,
+  "probe_rows": 48,
+  "all_sources_and_hashes_verified": true,
+  "unigram_original_vs_derived_id_parity": 188,
+  "no_truncation_or_padding": true,
+  "fitting": false,
+  "flores_access": false
+}

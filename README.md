@@ -22,6 +22,30 @@ Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md
 for what we did, what the results mean, and the next planned experiment.
 The [evidence guide](docs/EVIDENCE_GUIDE.md) explains our graphs and current progress.
 
+**Text-type comparison completed (2026-10-18):** five BPE profiles plus the
+multilingual XLM-RoBERTa Unigram profile measured 180 original inputs across
+prose, Python literal assignments, compact/pretty JSON and HTML, with English,
+English+Hindi and English+Tamil conditions. Eight separate diagnostic probes
+check normalization and unknown characters. The corpus and plan were committed
+and pushed before encoding.
+
+- [Text-type results and three graphs](results/2026-10-18-text-types/analysis-02/REPORT.md)
+- [Readable token/reconstruction examples](results/2026-10-18-text-types/TOKEN_EXAMPLES.md)
+- [Original public fixtures](data/fixtures/text-types-v1.json) and [study design](docs/TEXT_TYPES_V1.md)
+- [Independent verification](results/2026-10-18-text-types/verification.json)
+
+All 1,128 Python/JS token-ID sequence hashes agree, and a separate arithmetic
+check verifies 738 summary groups. Pretty English JSON costs about 1.93× compact
+JSON with Qwen and 1.96× with Gemma on these templates. XLM-R is near 1.00×, but
+it removes decoded layout whitespace. Its relative count versus Qwen also changes
+from 0.86× on English prose to 1.56× on compact JSON. These are geometric means
+of 12 paired ratios, not universal rules or a BPE-versus-Unigram ranking.
+
+This is a small authored fixture study, not sampled natural browser traffic.
+No primary input produced unknown tokens; two XLM-R diagnostic probes did.
+Next: specify independently sourced, varied natural workloads and additional
+representatives before generalizing. No fitting or browser trial has started.
+
 **Comparative milestone completed (2026-10-18):** inspected the five pinned
 tokenizer profiles and compared their actual counts on the existing pilot.
 All five assets use **BPE**, with five distinct serialized processing pipelines;
@@ -38,8 +62,7 @@ not model-quality scores or ratios of total tokens. All 565 summaries, including
 self-comparisons and aligned-language comparisons, are saved and independently
 checked. No new text was tokenized, no fitting occurred, and devtest stayed untouched.
 
-Next: specify a small expansion across text types and another algorithm class,
-with explicit sampling and comparison rules before collecting new data. The CJK
+The controlled text-type expansion above now adds a Unigram profile. The CJK
 coefficient-fitting design is deferred; its data-use question does not block
 this descriptive study.
 

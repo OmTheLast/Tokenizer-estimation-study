@@ -65,9 +65,11 @@ See `docs/EVIDENCE_GUIDE.md`; no new fitting is authorized by this preference.
 ## Comparative scope — 2026-10-18
 
 Study tokenizer behavior across languages, text types and verified tokenizer
-configurations. Estimation is a sub-question. All current five assets use BPE;
+configurations. Estimation is a sub-question. The original five assets use BPE;
 do not label them five proven genealogical families or claim cross-algorithm
 coverage. Define family/grouping evidence before reporting family effects.
-Next specify a bounded text-type and algorithm-class expansion, without fitting
-weights or opening FLORES+ devtest. Publish permitted numeric evidence and scripts
+The bounded text-type study `docs/TEXT_TYPES_V1.md` now adds one XLM-R Unigram
+profile on original authored fixtures. It is not a causal algorithm comparison.
+Next specify natural workloads and additional representatives; do not fit
+weights or open FLORES+ devtest. Publish permitted numeric evidence and scripts
 on the existing repository; raw restricted data and third-party assets stay local.

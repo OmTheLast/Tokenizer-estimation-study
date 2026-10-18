@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "js_python_id_sequence_hash_matches": 1128,
+  "row_metadata_and_special_counts_recomputed": 1128,
+  "source_asset_files_verified": 14,
+  "summary_groups_verified": 738,
+  "summary_numeric_values_verified": 6552,
+  "primary_unknown_input_count": 0,
+  "probe_unknown_input_count": 2,
+  "all_expected_cells_present": true,
+  "failed_plot_attempt_numeric_summaries_unchanged": true,
+  "arithmetic": "Independent math.fsum/log and exact Fraction quantile interpolation; does not import analysis or NumPy.",
+  "verifier_sha256": "d52d1f9921d991c29137590c0779012ed4ad178431711b654bc9db4d4fa6f526",
+  "plan_sha256": "9b9077d1b1778a9b315f7840fbe9bc526667c6c392f7f159fee6f3812680a8b3",
+  "measurements_sha256": "fce7c2c2c768a322c325b929072f8a4c5cb41828cc89457254d2ae47774faf67",
+  "summary_sha256": "7351bdcbef338753405903fed224793335fccbfa9feb227e7b465305f0478ab6",
+  "limits": "ID sequence hashes verify agreement between two runtimes, not representativeness or algorithm causality. Decode metadata independently recomputed in Python, not cross-runtime decoding parity."
+}

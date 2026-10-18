@@ -1,0 +1,10 @@
+{
+  "plan_sha256": "9b9077d1b1778a9b315f7840fbe9bc526667c6c392f7f159fee6f3812680a8b3",
+  "measurements_sha256": "fce7c2c2c768a322c325b929072f8a4c5cb41828cc89457254d2ae47774faf67",
+  "script_sha256": "2014dd02b72447947a9d50c06b5b45a71a455ca041e59d5ee9fae65eb5d2fed5",
+  "numpy_version": "2.5.3",
+  "matplotlib_version": "3.11.2",
+  "summary_groups": 738,
+  "visual_review": "All three PNGs inspected; labels, values, scales and captions readable, no clipping or overlap observed.",
+  "independent_verification": "passed: ../verification.json"
+}

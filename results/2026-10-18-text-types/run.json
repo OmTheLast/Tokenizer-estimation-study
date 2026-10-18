@@ -1,0 +1,35 @@
+{
+  "recorded_date": "2026-10-18",
+  "frozen_design_commit": "d88eda415da60fbaaf198e5cb3a47e4af8ad4423",
+  "frozen_design_remote_verified_before_measurement": true,
+  "commands": [
+    {
+      "command": ".venv/bin/python scripts/measure_text_types.py --output results/2026-10-18-text-types/run-01",
+      "exit_code": 0
+    },
+    {
+      "command": "node scripts/check_text_types_js.mjs results/2026-10-18-text-types/js-01",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python scripts/analyze_text_types.py --source results/2026-10-18-text-types/run-01 --output results/2026-10-18-text-types/analysis-01",
+      "exit_code": 1
+    },
+    {
+      "command": ".venv/bin/python scripts/analyze_text_types.py --source results/2026-10-18-text-types/run-01 --output results/2026-10-18-text-types/analysis-02",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python scripts/verify_text_types.py --base results/2026-10-18-text-types",
+      "exit_code": 0
+    }
+  ],
+  "acquisition_note": "Initial inline inspection expected model.type and raised KeyError; original legacy source lacks that field. tokenizers loads it as Unigram. Recorded pin_unigram.py preserves source and runtime serialization; JS then used original source successfully.",
+  "sources": [
+    "https://huggingface.co/FacebookAI/xlm-roberta-base",
+    "https://huggingface.co/docs/tokenizers/v0.20.3/en/api/models",
+    "https://github.com/google/sentencepiece"
+  ],
+  "no_flores_access": true,
+  "no_model_inference_or_fitting": true
+}

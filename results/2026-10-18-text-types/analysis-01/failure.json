@@ -1,0 +1,5 @@
+{
+  "status": "failed_during_plotting",
+  "error": "Colorbar.set_ticks requires keyword labels in installed Matplotlib. Summary computed; figures/report incomplete.",
+  "next_action": "Correct labels keyword, preserve run, regenerate in analysis-02."
+}

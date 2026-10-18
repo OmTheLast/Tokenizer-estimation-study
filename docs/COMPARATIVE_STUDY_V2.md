@@ -95,3 +95,18 @@ coverage we need. Define sampling and metrics before collecting it. Token-bounda
 illustrations should use original or otherwise shareable examples. Later browser
 experiments must measure actual serialized prompts and reserve response capacity;
 sentence-level count ratios alone do not establish useful context capacity.
+
+## Authorized text-type extension — 2026-10-18
+
+Om authorized running the next comparison across text types and another method.
+[Text types v1](TEXT_TYPES_V1.md) freezes 180 original primary inputs and eight
+separate probes, measured with the five existing BPE profiles and a pinned
+XLM-RoBERTa Unigram profile. This is a controlled synthetic extension, not a
+representative corpus or an isolated causal algorithm comparison. The design
+and fixtures were pushed before encoding.
+
+[Results](../results/2026-10-18-text-types/analysis-02/REPORT.md) include counts,
+unknown-token checks, exact reconstruction and three scientific figures. The
+new Unigram asset's legacy schema and source-preserving compatibility checks
+are documented. The CJK coefficient experiment remains deferred. Next specify
+varied natural workloads and additional profiles before broad generalization.

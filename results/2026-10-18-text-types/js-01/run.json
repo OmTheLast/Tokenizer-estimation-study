@@ -1,0 +1,31 @@
+{
+  "node_version": "v25.2.1",
+  "js_tokenizers_version": "0.2.0",
+  "script_sha256": "d67140dde0eb67b858a15c6d3c705a8e984360a92900831e0c61a1998731b4e5",
+  "results": [
+    {
+      "model_key": "bonsai-ternary-4b",
+      "status": "encoded"
+    },
+    {
+      "model_key": "gemma4-e2b",
+      "status": "encoded"
+    },
+    {
+      "model_key": "lfm2-1.2b",
+      "status": "encoded"
+    },
+    {
+      "model_key": "minicpm5-2b-gguf",
+      "status": "encoded"
+    },
+    {
+      "model_key": "qwen35-4b",
+      "status": "encoded"
+    },
+    {
+      "model_key": "xlm-roberta-base",
+      "status": "encoded"
+    }
+  ]
+}

@@ -6,6 +6,50 @@ Graphs make measurements easier to understand;
 the saved data, methods and checks are the evidence behind them. A graph does
 not establish that the estimator is safe for browser use.
 
+## New text-type experiment — 2026-10-18
+
+We now compare our five BPE profiles with one Unigram profile from
+[XLM-RoBERTa](https://huggingface.co/FacebookAI/xlm-roberta-base). Its actual method
+was checked by loading the pinned tokenizer asset. An encoder tokenizer can be
+studied without running its model; we are not comparing chat-model answers.
+
+We authored 12 records, rendered each in five ways, and used three message
+conditions: English, Hindi inside English structure, and Tamil inside English
+structure. That gives 180 primary inputs and 1,080 measurements across six profiles.
+Eight separate probes add 48 diagnostic measurements. This is a deliberately
+small, repeatable test, not a random sample of real webpages or programs.
+
+Read the [results and graphs](../results/2026-10-18-text-types/analysis-02/REPORT.md)
+and [token examples](../results/2026-10-18-text-types/TOKEN_EXAMPLES.md).
+
+| Finding | Plain-language meaning | Limit |
+| --- | --- | --- |
+| Pretty/compact English JSON is about 1.93× for Qwen and 1.96× for Gemma | The same data can take nearly twice as many tokens when formatted with spaces and newlines in these templates | Not a constant for every JSON file |
+| XLM-R pretty/compact JSON is near 1.00× | This tokenizer largely removes the layout difference during encoding/decoding | It does not reconstruct the formatted input exactly |
+| XLM-R/Qwen changes from 0.86× for English prose to 1.56× for compact JSON | Which profile uses fewer tokens depends on the text type | One Unigram profile does not represent every Unigram tokenizer |
+| No unknown tokens on the primary inputs; XLM-R unknowns on two probes | Coverage problems can appear outside the ordinary examples | Probe rates are not population rates |
+
+Ratios here are geometric means of 12 matched record ratios. Read each cell as
+one count divided by the reference count. Fewer tokens alone does not tell us
+whether a tokenizer preserves every character or whether a model answers well.
+
+**Reconstruction** means encoding the text and then decoding the resulting IDs.
+An exact mismatch can reflect harmless normalization, changed whitespace or an
+unknown character. We report it separately rather than equating every mismatch
+with lost meaning. The indentation example shows layout changing without claiming
+that this particular small program changes behavior.
+
+The first two new figures show count comparisons and formatting ratios. The third
+shows the percentage of inputs whose decoded string changes. All cells have 12
+scenarios. Every comparison, including unfavorable outcomes, remains in the
+numeric results. The plan and public original fixtures were pushed before counting;
+all 1,128 ID-sequence hashes agree across Python and JS, and all 6,552 summary
+values passed a separate arithmetic check. The three PNGs were visually inspected.
+
+Original fixtures are shareable and committed. Third-party tokenizer assets stay
+in ignored caches; no FLORES+ text was accessed or republished in this experiment.
+The earlier sections below remain useful evidence from the multilingual pilot.
+
 ## Current comparative results — 2026-10-18
 
 Start with the [five tokenizer fact sheets](../results/2026-10-18-comparative-pilot/inventory-01/REPORT.md).
@@ -154,7 +198,8 @@ are not included in the public repository; see the pilot reproduction notes.
 | Check candidate practice/exam data | Audit complete; preparation unfinished | [Audit report](../results/2026-10-16-cjk-preflight/audit-02/REPORT.md) |
 | Inventory current tokenizer configurations | Complete | Five BPE profiles, 11 verified asset files |
 | Direct tokenizer and aligned-language comparisons | Complete | 565 summaries, three additional figures, independent checks |
-| Specify text-type and algorithm-class expansion | Next | Choose sample and metrics before collecting data |
+| Controlled text-type and non-BPE expansion | Complete | 180 original inputs, 8 probes, six profiles; limits above |
+| Natural-workload and broader profile sampling | Next | Define sources, sampling and metrics before collection |
 | Specify one-weight versus three-weight comparison | Deferred; design preserved | [Focused design](CJK_EXPERIMENT_V2.md) |
 | Resolve CJK fitting-data use; freeze cleaned splits | Deferred with fitting experiment | Separate from current descriptive analysis |
 | Fit candidate weights and evaluate unseen exam errors | Not started | Requires prepared data and authorization |

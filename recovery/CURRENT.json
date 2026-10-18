@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-18T04:03:19.110648+00:00",
-  "status": "verified_ready_to_publish",
+  "timestamp_utc": "2026-10-18T04:03:44.222518+00:00",
+  "status": "completed_verified_and_published",
   "request": "Adopt broader comparative tokenizer study, inspect current assets, compare counts and put work on GitHub.",
   "scope": "Five existing pinned profiles and existing numeric FLORES dev pilot. Public study title changed; repository URL retained.",
   "completed": [
@@ -30,7 +30,9 @@
     "frozen_selection_and_complete_pairing_verified": true,
     "final_pngs_visually_inspected": 3,
     "source_snapshots_and_output_checksums_verified": true,
-    "local_document_links_checked": true
+    "local_document_links_checked": true,
+    "staged_diff_check_passed": true,
+    "publication_content_checks_passed": true
   },
   "findings": [
     "All five model.type values are BPE; five distinct serialized pipelines, no genealogical family assignments.",
@@ -60,7 +62,16 @@
   "running_jobs": [],
   "blockers": [],
   "deferred_issue": "CJK fitting source-text use remains unresolved; not a blocker to the current descriptive study.",
-  "exact_next_action": "Publish milestone, then specify a small text-type/algorithm-class extension before acquiring or measuring new data.",
-  "publication_status": "Local verified milestone; push pending.",
-  "prior_checkpoint": "recovery/rounds/2026-10-18-01-measurements-verified.json"
+  "exact_next_action": "Specify a small extension across prose/code/JSON-HTML/mixed-language text and another algorithm class, with sampling and metrics recorded before collection.",
+  "publication_status": "Study milestone pushed to GitHub main; exact remote SHA verified.",
+  "prior_checkpoint": "recovery/rounds/2026-10-18-01-measurements-verified.json",
+  "publication": {
+    "milestone_commit": "8722dc3e2ba5d9eaf82274cec97be7df8b9d51e8",
+    "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
+    "branch": "main",
+    "remote_sha_verified": true,
+    "files_checked": 42,
+    "bytes_checked": 1371193,
+    "excluded": "Raw restricted text, reconstructable token sequences, cached third-party assets, environments and local Parquet."
+  }
 }

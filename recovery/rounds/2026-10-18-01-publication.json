@@ -1,0 +1,77 @@
+{
+  "timestamp_utc": "2026-10-18T04:03:44.222518+00:00",
+  "status": "completed_verified_and_published",
+  "request": "Adopt broader comparative tokenizer study, inspect current assets, compare counts and put work on GitHub.",
+  "scope": "Five existing pinned profiles and existing numeric FLORES dev pilot. Public study title changed; repository URL retained.",
+  "completed": [
+    "Adopted comparative protocol v2 and descriptive analysis specification",
+    "Verified 11 asset files and inventoried five BPE configurations",
+    "Computed 475 tokenizer-pair and 90 aligned-language ratio summaries",
+    "Generated and visually inspected three PNG/SVG/PDF figures",
+    "Updated README, instructions, evidence guide and readable history",
+    "Saved scripts, numerical inputs/results, source snapshots and checksums"
+  ],
+  "artifacts": [
+    "docs/COMPARATIVE_STUDY_V2.md",
+    "config/comparative-pilot-v1.json",
+    "results/2026-10-18-comparative-pilot/inventory-01",
+    "results/2026-10-18-comparative-pilot/run-01",
+    "scripts/inventory_tokenizers.py",
+    "scripts/compare_pilot_counts.py",
+    "scripts/verify_comparative_pilot.py",
+    "docs/EVIDENCE_GUIDE.md"
+  ],
+  "checks": {
+    "inventory_assets_verified": 11,
+    "runtime_vocab_checks": 10,
+    "independently_verified_summary_groups": 565,
+    "independently_verified_summary_values": 5650,
+    "published_counts_verified": 9000,
+    "frozen_selection_and_complete_pairing_verified": true,
+    "final_pngs_visually_inspected": 3,
+    "source_snapshots_and_output_checksums_verified": true,
+    "local_document_links_checked": true,
+    "staged_diff_check_passed": true,
+    "publication_content_checks_passed": true
+  },
+  "findings": [
+    "All five model.type values are BPE; five distinct serialized pipelines, no genealogical family assignments.",
+    "Base vocabulary sizes range from 64400 to 262144.",
+    "LFM/Gemma geometric mean count ratios: English 1.0224359977616444, Tamil 8.260728748845109, Korean 1.2195390894372127."
+  ],
+  "decisions": [
+    "Estimation is a sub-question; CJK coefficient fitting deferred.",
+    "Keep all comparisons and descriptive limitations; no causal or model-quality claims.",
+    "Next specify bounded text-type and algorithm-class expansion."
+  ],
+  "not_executed": [
+    "New dataset acquisition",
+    "New text tokenization",
+    "Coefficient fitting",
+    "Model inference",
+    "FLORES devtest access",
+    "Browser benchmarks",
+    "GitHub repository rename"
+  ],
+  "limitations": [
+    "Existing pilot is exploratory, with 100 related translation sets rather than 9000 independent texts.",
+    "All profiles are BPE; no cross-algorithm or verified lineage-level conclusions.",
+    "MiniCPM HF JSON is unverified against GGUF/browser runtime.",
+    "Content counts do not measure serialized context budgets or answer quality."
+  ],
+  "running_jobs": [],
+  "blockers": [],
+  "deferred_issue": "CJK fitting source-text use remains unresolved; not a blocker to the current descriptive study.",
+  "exact_next_action": "Specify a small extension across prose/code/JSON-HTML/mixed-language text and another algorithm class, with sampling and metrics recorded before collection.",
+  "publication_status": "Study milestone pushed to GitHub main; exact remote SHA verified.",
+  "prior_checkpoint": "recovery/rounds/2026-10-18-01-measurements-verified.json",
+  "publication": {
+    "milestone_commit": "8722dc3e2ba5d9eaf82274cec97be7df8b9d51e8",
+    "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
+    "branch": "main",
+    "remote_sha_verified": true,
+    "files_checked": 42,
+    "bytes_checked": 1371193,
+    "excluded": "Raw restricted text, reconstructable token sequences, cached third-party assets, environments and local Parquet."
+  }
+}

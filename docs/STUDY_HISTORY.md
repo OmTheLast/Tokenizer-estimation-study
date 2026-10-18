@@ -662,3 +662,7 @@ Read the [inventory](../results/2026-10-18-comparative-pilot/inventory-01/REPORT
 [evidence guide](EVIDENCE_GUIDE.md). Next: specify a small text-type expansion and
 additional algorithm-class coverage, with sampling and metrics fixed before
 collection. The deferred fitting-data permission question does not block this work.
+
+Publication: commit `8722dc3e2ba5d9eaf82274cec97be7df8b9d51e8` was pushed and
+verified on GitHub main. Code, permitted numeric evidence, figures and research
+records are included; ignored local inputs are not off-device backups.

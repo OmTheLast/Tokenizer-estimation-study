@@ -719,3 +719,7 @@ See [text-type results](../results/2026-10-18-text-types/analysis-02/REPORT.md),
 [verification](../results/2026-10-18-text-types/verification.json). Next: specify
 varied natural workloads and additional tokenizer representatives before broader
 claims. No fitting, model inference, browser trial or FLORES+ devtest access occurred.
+
+Publication: results commit `fb7aeb7871965cabb080a7f9c547f0985f811ebe` was
+pushed and verified on GitHub main. Original fixtures, permitted results,
+figures, scripts and logs are included; downloaded tokenizer assets stay local.

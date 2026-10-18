@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-18T05:38:15.817688+00:00",
-  "status": "verified_ready_to_publish",
+  "timestamp_utc": "2026-10-18T05:38:38.923509+00:00",
+  "status": "completed_verified_and_published",
   "request": "Run comparison across text types and another tokenizer method, explain progress and push GitHub milestones.",
   "prior_checkpoint": "recovery/rounds/2026-10-18-02-measurements-verified.json",
   "completed": [
@@ -26,7 +26,9 @@
     "frozen_inputs_unchanged": true,
     "source_script_hashes_match": true,
     "output_checksums_verified": true,
-    "document_links_verified": true
+    "document_links_verified": true,
+    "staged_diff_check_passed": true,
+    "publication_scan_passed": true
   },
   "findings": [
     "Same-input count differences depend on representation and language condition.",
@@ -77,8 +79,13 @@
     "design_remote_verified_before_measurement": true,
     "repository": "https://github.com/OmTheLast/Tokenizer-estimation-study",
     "branch": "main",
-    "results_status": "Verified locally; commit/push next."
+    "results_status": "Pushed to GitHub main and exact remote SHA verified.",
+    "results_commit": "fb7aeb7871965cabb080a7f9c547f0985f811ebe",
+    "results_remote_verified": true,
+    "publication_files_checked": 62,
+    "publication_bytes_checked": 4378360,
+    "public_token_examples_trace_to_original_fixtures": 84
   },
-  "exact_next_action": "Publish completed milestone; then specify varied natural-workload sampling and additional tokenizer representatives before generalizing.",
+  "exact_next_action": "Specify varied natural-workload sampling and additional tokenizer representatives before generalizing beyond the authored templates.",
   "blockers": []
 }

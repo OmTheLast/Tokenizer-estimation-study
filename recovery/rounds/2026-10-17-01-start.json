@@ -1,7 +1,0 @@
-{
-  "timestamp_utc": "2026-10-17T16:38:07.690015+00:00",
-  "status": "discussion_running",
-  "request": "Clarify broader tokenizer behavior study, naming, family comparisons and graphs.",
-  "prior_checkpoint": "recovery/rounds/2026-10-16-05-publication.json",
-  "scope": "Research-scoping discussion; no new measurements, fitting or external repository rename."
-}

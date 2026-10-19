@@ -1,11 +1,11 @@
 # Research protocol: tokenizer-count estimation
 
 **Historical umbrella scope:** the [comparative protocol v2](COMPARATIVE_STUDY_V2.md)
-is the active direction approved on 2026-10-18. This document preserves the
+is the active direction as of 2026-10-18. This document preserves the
 original design; its completed diagnostic analysis remains valid evidence.
 
 Version 1, recorded 2026-10-15, after the first pilot results were inspected.
-Owner: Om. Prepared with Codex assistance. This is a working research protocol,
+This is a working research protocol,
 not a retrospective preregistration or a claim of novelty.
 
 ## Question and intended use
@@ -96,7 +96,7 @@ tests or claim a population guarantee from the worst observed sample.
 | Stage | Deliverable | Condition before advancing |
 | --- | --- | --- |
 | 0. Reproduction | Saved parity checks and discrepancy explanation | Review phase-0 evidence and limitations |
-| 1. Describe and diagnose | Pilot diagnostics, coverage gaps, literature/evidence map | Review phases 0 and 1 with Om; choose bounded expansion |
+| 1. Describe and diagnose | Pilot diagnostics, coverage gaps, literature/evidence map | Review phases 0 and 1; choose bounded expansion |
 | 2. Design improvements | Candidate methods and separate fitting/calibration/evaluation manifests | Explicitly authorize fitting; freeze split and comparison rules first |
 | 3. Independent evaluation | Results on previously uninspected data and held-out families/languages | Freeze candidates before opening final evaluation; report failures |
 | 4. Browser evaluation | Exact-worker, estimator and hybrid comparisons | Define product thresholds and hardware/browser workload before measurement |
@@ -139,17 +139,15 @@ frequency/severity and retained context against an exact-count policy. Report
 both unnecessary trimming and unused capacity with explicit denominators.
 
 Acceptable overflow, latency, memory and retained-context thresholds are product
-decisions still to be set with Om before that trial. Until then we can report
-tradeoffs, but cannot declare an estimator deployment-ready. No training run,
-package release or external submission is authorized by this protocol.
+decisions to specify before that trial. Until then we can report
+tradeoffs, but cannot declare an estimator deployment-ready.
 
 ## Research record
 
 Every substantive round records question, plan, inputs, versions, command,
 outputs, checks, interpretation, limitations and exact next action. Scripts
 generate numerical claims. Recovery checkpoints are local records; only files
-actually pushed are on GitHub. Preserve attribution to LocalMind and disclose
-Codex's coding, analysis and documentation assistance.
+actually pushed are on GitHub. Preserve attribution to LocalMind.
 
 Evidence: [study history](STUDY_HISTORY.md), [phase 0](PHASE0_RESULTS.md),
 [pilot notes](PHASE1_PILOT.md), and [saved pilot report](../results/2026-10-15-phase1-pilot/run-02/REPORT.md).

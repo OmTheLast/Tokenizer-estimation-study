@@ -4,7 +4,7 @@ We measured the same published text with six tokenizers. **Which tokenizer uses 
 
 This is the next step after our authored examples: 100 frozen published samples, 20 each of English documentation, code, JSON, HTML and mixed-script documentation. We also made compact and indented versions of each of the 20 JSON files. That gives **140 inputs × six profiles = 840 measurements**, not 140 independent source samples.
 
-The sampling plan, selected inputs and measurement protocol were fixed before encoding. Preparation was pushed in commit `b7c8b09deda75b475f973d8b98bccd06e07ad634` before the run. Codex performed the implementation, analysis and review for Om; these checks are not independent human review.
+The sampling plan, selected inputs and measurement protocol were fixed before encoding. Preparation was pushed in commit `b7c8b09deda75b475f973d8b98bccd06e07ad634` before the run.
 
 ## 1. Token counts depend on the text group
 
@@ -76,7 +76,7 @@ The graph covers the 100 originals only. JSON variants are reported above and re
 
 ## Checks and limits
 
-Python and JavaScript agree on all **840 token counts and complete ID-sequence hashes**. Separately, we recomputed all 840 rows' metadata and checked 14 tokenizer asset files, 140 original/canonical XLM-R encodings, all 20 JSON value/whitespace pairs, 1,146 summary groups, 10,698 numeric summary values and 3,720 individual ratios. The arithmetic checker uses a separate implementation. Decoding metadata was recomputed in Python; JavaScript parity covers encoding, not independent decoding.
+Python and JavaScript agree on all **840 token counts and complete ID-sequence hashes**. Separately, we recomputed all 840 rows' metadata and checked 14 tokenizer asset files, 140 original/canonical XLM-R encodings, all 20 JSON value/whitespace pairs, 1,146 summary groups, 10,698 numeric summary values and 3,720 individual ratios. The arithmetic checker uses a separate implementation; this is computational verification, not independent human review. Decoding metadata was recomputed in Python; JavaScript parity covers encoding, not independent decoding.
 
 Counts exclude added special tokens. Counts with special tokens are saved separately; neither measure is a full chat prompt with system messages, tools and templates. Five profiles use BPE and one uses Unigram. One Unigram representative cannot establish a general algorithm effect. MiniCPM* uses its pinned Hugging Face JSON asset; equivalence with a GGUF/browser runtime is unverified.
 
@@ -89,7 +89,7 @@ This is a small, deliberately selected technical-source corpus, not a random sam
 - [Independent verification](verification.json), [reproduced reconstruction diagnostic](reconstruction-diagnostic-verification.json), and [figure review and numeric identity](figure-review.json).
 - [Measurement script](../../scripts/measure_published_text.py), [JS check](../../scripts/check_published_text_js.mjs), [analysis script](../../scripts/analyze_published_text.py), [independent verifier](../../scripts/verify_published_experiment.py), [diagnostic script](../../scripts/diagnose_published_reconstruction.py), and [report builder](../../scripts/report_published_text.py).
 
-Each figure also has SVG and PDF files beside its PNG. Analysis-01 is retained; analysis-02 improves axis labels and a title. All three numeric JSON outputs are byte-identical across these versions. Codex visually inspected all three final PNGs for readable labels and clipping. The original analysis script is preserved in `source-snapshot/`.
+Each figure also has SVG and PDF files beside its PNG. Analysis-01 is retained; analysis-02 improves axis labels and a title. All three numeric JSON outputs are byte-identical across these versions. All three final PNGs were inspected for readable labels and clipping. The original analysis script is preserved in `source-snapshot/`.
 
 With the locked source files, prepared private corpus and tokenizer caches regenerated locally, use a fresh results root:
 

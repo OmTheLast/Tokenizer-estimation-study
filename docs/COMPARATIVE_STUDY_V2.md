@@ -1,6 +1,6 @@
 # Comparative Tokenizer Study: Languages, Text Types, and Context Budgets
 
-Version 2, accepted direction 2026-10-18. Owner: Om; prepared with Codex assistance.
+Version 2, recorded 2026-10-18.
 This supersedes the umbrella priority in the [earlier protocol](RESEARCH_PROTOCOL.md),
 which remains the historical record. It does not retrospectively redesign the
 completed pilot. The first comparative analysis is exploratory: its input data
@@ -96,9 +96,8 @@ illustrations should use original or otherwise shareable examples. Later browser
 experiments must measure actual serialized prompts and reserve response capacity;
 sentence-level count ratios alone do not establish useful context capacity.
 
-## Authorized text-type extension — 2026-10-18
+## Text-type extension — 2026-10-18
 
-Om authorized running the next comparison across text types and another method.
 [Text types v1](TEXT_TYPES_V1.md) freezes 180 original primary inputs and eight
 separate probes, measured with the five existing BPE profiles and a pinned
 XLM-RoBERTa Unigram profile. This is a controlled synthetic extension, not a

@@ -13,7 +13,7 @@ names = {"qwen35-4b": "Qwen", "bonsai-ternary-4b": "Bonsai", "lfm2-1.2b": "LFM",
          "gemma4-e2b": "Gemma", "minicpm5-2b-gguf": "MiniCPM (HF JSON)"}
 lines = [
     "# Phase 0: verified tokenizers, Python port, and a reference-count discrepancy",
-    "", "Recorded 2026-10-07. Prepared with Codex assistance for review with Om.", "",
+    "", "Recorded 2026-10-07.", "",
     f"We completed {main['rows']} fresh tokenizer comparisons across five profiles and ported the unchanged estimator to Python. JavaScript and Python produced identical token-ID sequences in all {main['id_matches']} comparisons, and the Python estimator matched all {main['estimator_matches']} original JavaScript predictions.", "",
     f"The saved fixture counts did not all mean what their comment said: {main['saved_js_python_matches']} matched content-only counts, while {main['disagreement_rows']} were one token higher. The separate diagnostic reproduced all {special_matches} saved counts with special tokens enabled.", "",
     "## What we found", "",

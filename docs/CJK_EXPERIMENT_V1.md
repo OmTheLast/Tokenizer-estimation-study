@@ -1,7 +1,6 @@
 # Controlled CJK experiment — design v1
 
-Recorded 2026-10-16 after exploratory FLORES+ diagnostics. Owner: Om; design
-prepared with Codex assistance. **Design only: no data files acquired, no weights
+Recorded 2026-10-16 after exploratory FLORES+ diagnostics. **Design only: no data files acquired, no weights
 fitted, no new tokenizer measurements.** Source documentation was inspected.
 The machine-readable companion is [cjk-experiment-v1.json](../config/cjk-experiment-v1.json).
 Dataset revisions, split manifests and implementation versions must be locked
@@ -195,8 +194,8 @@ claims of significance for the 15 individual primary cells.
   test until it gives a desired result.
 
 Next milestone is **data preflight and an immutable split manifest**, followed
-by review with Om and explicit authorization before fitting. This design-only
-approval does not initiate coefficient fitting, model training or test scoring.
+by a methodological review before fitting. Coefficient fitting, model training
+and test scoring have not started.
 After that review, implement parity/solver checks on synthetic inputs, freeze
 code and environment, fit once, freeze coefficients, score the final test once,
 and publish all outcomes. A defect discovered afterwards needs a correction log

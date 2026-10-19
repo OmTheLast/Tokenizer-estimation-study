@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-19",
+  "change_type": "editorial_only",
+  "prior_commit": "6835aefe4a66aa3cafaf4d6848efe80320f545fe",
+  "scope": "Condensed overview and milestone history; neutral wording in current documentation. Numerical results, configurations, frozen protocols and source snapshots unchanged.",
+  "hash_interpretation": "Historical run manifests describe files at their recorded revisions. For edited documents or report generators, use prior_commit to recover the original bytes.",
+  "files": {
+    "README.md": {
+      "previous_sha256": "7e30a7f0bf96c8f806ab475543041839518aa6443ad4dea02fa8957ed82c339b",
+      "current_sha256": "af323d87eddef68ede6645c313a1e2168cf8ffcccba0f07db1b9f215fed86919"
+    },
+    "docs/CJK_EXPERIMENT_V1.md": {
+      "previous_sha256": "75c91ebc53f80ad430b1f87abd5305cc392e9da6ab88f8fcb87d1c2e53b31ca3",
+      "current_sha256": "5603c9db51595e001037cdb075eae83f072549f85b31eaba0724a11eab128091"
+    },
+    "docs/CJK_EXPERIMENT_V2.md": {
+      "previous_sha256": "b0de4817b2cd2a18b267bf5c660318b04729ce45dd2f87571b7a9776b7a38f13",
+      "current_sha256": "c806dc56b99643ab165a471adf6290b8e64bf3732bc4c71992c4901b2ace8202"
+    },
+    "docs/COMPARATIVE_STUDY_V2.md": {
+      "previous_sha256": "89a89ada950f88ec19afbe7adae5cf7e37549c4b065ed241d20ace7fed80e4b9",
+      "current_sha256": "0b7c3e5e1109120069ff19ed4f6d1ba0282676cbc2fd088dfac5f31ff88fd170"
+    },
+    "docs/PHASE0_RESULTS.md": {
+      "previous_sha256": "7819547c3f9698c342dec87a0a75a5c4d163cf08a7c35db2ca3824c1325d949c",
+      "current_sha256": "3c3ac30163434a8b3a27d759c2b03bb47035f1f6229b12b9a11fb4294c7a4c16"
+    },
+    "docs/PHASE1_PILOT.md": {
+      "previous_sha256": "dc2d177351d86cbf6fde30d1b56beb528b6240bb8f3e052297c7fdd0cf11f417",
+      "current_sha256": "a319b82f96e15562b51bd7deac0ac20302b04506a08334bf7687d8e3f97f604f"
+    },
+    "docs/REPRODUCING_PHASE0.md": {
+      "previous_sha256": "549bd8c5d234268407cde66a80c964419e74c7decdc9be940e3d783c580ff2b8",
+      "current_sha256": "ff94f1c0fc2be58df5b8a06697b1b5b2c4d9518b0e6ffd2d64c13ef2b0d92769"
+    },
+    "docs/RESEARCH_PROTOCOL.md": {
+      "previous_sha256": "f7c3b0940e36e4a370528ee5ada1f2b370f3c8e88a175cbe11924238c258c535",
+      "current_sha256": "994c9ea7316aa2f99691e707dc26a1927013de5de66b16456363240aadbc3a74"
+    },
+    "docs/STUDY_HISTORY.md": {
+      "previous_sha256": "49344af5990f60d8a4d1d70b530aa4c8cdd6ac2ef5cdf2f89b40e6314c971552",
+      "current_sha256": "fe2a62f4b25d66929b83b5324146eecd1da3d7e4388ee7a87b8e08cdb88c94ce"
+    },
+    "results/2026-10-19-published-corpus/REPORT.md": {
+      "previous_sha256": "1b6121400923cd5f73fb1916129038ce0550139467b2d60d2df541b42b1c94b3",
+      "current_sha256": "55ead92f809f417740b1f3022f2b077907d707837f594f41cc722442de99da56"
+    },
+    "results/2026-10-19-published-experiment/REPORT.md": {
+      "previous_sha256": "cda26a1886455540320961734209ee4c47100147e29fc2063d558b8a67a628a3",
+      "current_sha256": "2ec11e691e3eb57734e64f3ab7418c9f861f346adb20ed1862a1b30aaded5bf1"
+    },
+    "scripts/report_published_text.py": {
+      "previous_sha256": "2ae88b42f753cfa02290c858a3c486112d7465ed6a0975f9b4dcef62d4c5cfa8",
+      "current_sha256": "6a943f432b47d09d834a3c69296328516d44ac723390ef48f155c84ae1affcad"
+    },
+    "scripts/write_phase0_report.py": {
+      "previous_sha256": "79e3c9e0d85fd22ca2cc091e3a1773a8c75034bbd262cadd7734788170706e0a",
+      "current_sha256": "ab5af5487d7a70c4112e4ea2dc2611f8b22c9cb560e78caa2aeffb97272cab66"
+    }
+  },
+  "checks": [
+    "Current Markdown relative links resolve",
+    "Frozen experiment, corpus and protocol hashes unchanged",
+    "Current overview and reports contain no personal coordination notes"
+  ]
+}

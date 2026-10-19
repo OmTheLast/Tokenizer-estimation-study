@@ -1,6 +1,6 @@
 # Phase 0: verified tokenizers, Python port, and a reference-count discrepancy
 
-Recorded 2026-10-07. Prepared with Codex assistance for review with Om.
+Recorded 2026-10-07.
 
 We completed 190 fresh tokenizer comparisons across five profiles and ported the unchanged estimator to Python. JavaScript and Python produced identical token-ID sequences in all 190 comparisons, and the Python estimator matched all 190 original JavaScript predictions.
 

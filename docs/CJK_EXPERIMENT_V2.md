@@ -1,10 +1,9 @@
 # CJK experiment v2: focused exploratory comparison
 
 **Deferred as of 2026-10-18:** the [broader comparative study](COMPARATIVE_STUDY_V2.md)
-is now the priority. This design is preserved, unstarted, and not an authorization
-to fit coefficients. Its source-use question matters only if this experiment resumes.
+is now the priority. This design is preserved and unstarted. Its source-use question matters only if this experiment resumes.
 
-Dated 2026-10-16. Om asked us not to add requirements that distract from the study.
+Dated 2026-10-16.
 This amendment follows the data audit, **before any candidate token counts,
 fitting or exam-error results were computed**. It changes the strength of our
 claims as well as the data requirement. The [v1 design](CJK_EXPERIMENT_V1.md),

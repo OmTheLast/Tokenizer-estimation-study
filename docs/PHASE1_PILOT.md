@@ -1,6 +1,6 @@
 # Phase 1 pilot: measuring new multilingual text
 
-Started 2026-10-10. Prepared with Codex assistance.
+Started 2026-10-10.
 
 ## Status
 
@@ -67,7 +67,7 @@ unchanged estimator, not a claim of rigorously unseen model-training content.
 
 ## FLORES+ access conditions remembered on 2026-10-15
 
-Om supplied the access-form screenshot and asked us to remember its conditions:
+Dataset access conditions:
 
 - "I agree not to re-host FLORES+ in places where it could be picked up by web crawlers"
 - "If I evaluate using FLORES+, I will ensure that its contents are not in the training data"

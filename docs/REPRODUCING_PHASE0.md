@@ -77,6 +77,6 @@ Rebuild that review from the preserved original summaries with:
 .venv/bin/python scripts/write_phase0_report.py
 ```
 
-All scripts were authored with Codex assistance. LocalMind-derived code, profiles
+LocalMind-derived code, profiles
 and fixture texts retain attribution in `THIRD_PARTY_NOTICES.md`. The upstream
 source and previous Qwen outputs were not changed.

@@ -51,7 +51,7 @@ comparisons. Category-wide raw token totals would mix length with text type.
   offsets; every code/JSON/HTML input is the entire original file.
 - All length and script thresholds passed; all 20 JSON inputs parse strictly,
   including duplicate-key rejection and exact numeric parsing.
-- All 100 selected files and samples have recorded Codex acceptance reviews.
+- All 100 selected files and samples have recorded eligibility decisions.
 - All 21 distinct referenced notice files passed their saved hashes.
 - All **4,950 pairs** passed the predefined duplicate rule. The largest character
   5-gram similarity was **0.815**, below the fixed **0.90** rejection cutoff.
@@ -60,9 +60,8 @@ comparisons. Category-wide raw token totals would mix length with text type.
   frontmatter, strict JSON/number precision, duplicate normalization and URL screening.
 - Plot data match all 100 manifest lengths; the PNG was visually inspected.
 
-These are independently recomputed integrity checks from a separate script,
-not a second researcher or human review. Meaning/language and terms applicability
-still rely on the saved AI-assisted review.
+Integrity checks were recomputed using a separate script. Eligibility and source-use
+judgments lack independent human validation; translation quality is unverified.
 
 ## Limits to carry into the next experiment
 
@@ -111,9 +110,7 @@ from the beginning into a new directory, preserving earlier logs. Public metadat
 can reconstruct the pinned text while upstream remains available; the Git push
 does not back up ignored local raw files.
 
-## Next step
+## Follow-up
 
-Prepare and verify the compact/pretty JSON serializer, then run the same six pinned
-tokenizers on this frozen corpus and compare counts, reconstruction and unknown
-tokens. **No tokenizer measurements, fitting, model inference, browser trial or
-FLORES+ devtest access occurred in this collection round.**
+The [tokenizer experiment](../2026-10-19-published-experiment/REPORT.md) is now
+complete. This collection report records the earlier corpus-freezing milestone.

@@ -863,3 +863,7 @@ browser speed/memory measurement remain future design choices. No fitting,
 model inference, training or FLORES+ access occurred. Public artifacts contain
 numeric evidence, hashes, methods and plots; raw source text and token sequences
 remain local and ignored. Publication receipt is recorded after the push.
+
+Publication verified: results commit `82ef84fd761329c2df8d692c0dadc978533ca7ec` was pushed to
+GitHub main and matched the remote branch SHA. The complete report, graphs,
+numeric evidence, scripts and recovery logs are published.

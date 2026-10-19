@@ -1,21 +1,19 @@
 {
-  "timestamp_utc": "2026-10-19T08:27:33.923019+00:00",
-  "status": "experiment_verified_publication_pending",
-  "request": "Run the frozen published technical-text tokenizer experiment and push progress.",
+  "timestamp_utc": "2026-10-19T08:28:17.163707+00:00",
+  "status": "experiment_complete_results_pushed_and_remote_verified",
+  "results_commit": "82ef84fd761329c2df8d692c0dadc978533ca7ec",
+  "verified_remote_main": "82ef84fd761329c2df8d692c0dadc978533ca7ec",
+  "remote": "https://github.com/OmTheLast/Tokenizer-estimation-study",
   "completed": [
-    "840 measurements; Python/JS ID-hash/count agreement",
-    "1146 summaries independently verified",
-    "Three final plots visually checked; numeric outputs unchanged after label revision",
-    "Report, study history and evidence guide updated",
-    "All frozen protocol/input/script hashes preserved"
+    "840 measurements with Python/JS full encoding agreement",
+    "Independent verification passed for 1146 summary groups",
+    "Three graphs visually reviewed and report published",
+    "Publication scan passed for 68 files; raw text and reconstructable token sequences excluded"
   ],
   "report": "results/2026-10-19-published-experiment/REPORT.md",
-  "checks": "results/2026-10-19-published-experiment/verification.json",
-  "raw_data": "Local ignored files; not included in GitHub publication.",
   "running_jobs": [],
-  "unfinished": [
-    "Commit and push results; verify remote SHA; save publication receipt."
-  ],
   "blockers": [],
-  "exact_next_action": "Stage relevant public artifacts, check for private text/IDs, commit and push to origin/main, verify remote SHA."
+  "unfinished_experiment_work": [],
+  "exact_next_action": "Explain published findings to Om. Any broader replication or browser experiment needs its own defined protocol.",
+  "publication_note": "This receipt is committed after the verified results push. Ignored source text/tokenizer caches are local, not covered by GitHub."
 }

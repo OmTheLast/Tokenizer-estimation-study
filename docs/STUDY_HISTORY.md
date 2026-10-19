@@ -814,3 +814,7 @@ Read the [collection report and graph](../results/2026-10-19-published-corpus/RE
 and [frozen corpus lock](../config/published-text-corpus-v1.lock.json). Next: verify
 the exact-value JSON formatting variants, then measure the same six profiles.
 No fitting, model inference, browser trial or FLORES+ devtest access occurred.
+
+Publication: collection commit `4c532e4df5c5727f955c95816724ef4e2a27ac10` was pushed and
+verified on GitHub main. Public scripts, sample metadata, review/check records and
+figures are included; ignored local source text is not covered by this backup.

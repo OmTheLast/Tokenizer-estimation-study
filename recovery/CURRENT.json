@@ -1,23 +1,37 @@
 {
-  "timestamp_utc": "2026-10-19T07:40:57.085860+00:00",
+  "timestamp_utc": "2026-10-19T07:42:58.803202+00:00",
   "user_date": "2026-10-19",
-  "status": "corpus_frozen_verified_publication_pending",
-  "request": "Collect and check samples, explain simply, push progress to GitHub.",
-  "completed": [
-    "100 samples; all quotas filled",
-    "Recorded source/text review and rejections",
-    "Verified all bytes, offsets, JSON, script counts, notice hashes and 4950 duplicate pairs",
-    "Offline replay identical; eight boundary checks passed",
-    "Saved length graph with numeric inputs; visually inspected",
-    "Saved frozen corpus lock, readable report and updated history"
-  ],
+  "status": "corpus_collection_frozen_published_and_verified",
+  "request": "Collect and check samples; explain simply; push progress to GitHub.",
+  "published_commit": "4c532e4df5c5727f955c95816724ef4e2a27ac10",
+  "verified_remote_sha": "4c532e4df5c5727f955c95816724ef4e2a27ac10",
+  "remote_branch": "origin/main",
+  "verification": "Successful git push and git ls-remote refs/heads/main matched local HEAD.",
   "freeze_lock": "config/published-text-corpus-v1.lock.json",
   "report": "results/2026-10-19-published-corpus/REPORT.md",
   "validation": "results/2026-10-19-published-corpus/validation.json",
-  "raw_scope": "Ignored local raw text; GitHub publication will contain metadata only",
+  "completed": [
+    "100 original samples, 20 per category and 10 per source/language stratum",
+    "All selected byte hashes, boundaries, JSON inputs, script thresholds, notice hashes and review labels verified",
+    "4950 duplicate comparisons passed; 20 distinct translated lesson families",
+    "Offline manifest/decision replay identical; eight focused checks passed",
+    "Published scripts, metadata, review history, length graph and recovery logs"
+  ],
+  "publication_checks": [
+    "Freeze-lock file hashes verified",
+    "Staged raw/cache directories excluded",
+    "No full sampled text in public text artifacts",
+    "SVG export trailing whitespace removed without non-whitespace changes; XML parsed",
+    "Git diff --cached --check passed after SVG cleanup"
+  ],
+  "not_performed": [
+    "Tokenization",
+    "Model inference/training/fitting",
+    "FLORES+ devtest access",
+    "Browser performance trial"
+  ],
+  "raw_backup_scope": "Raw source and notices are ignored local files, not included in the GitHub push.",
   "running_jobs": [],
-  "exact_next_action": "Commit and push verified collection artifacts; verify remote SHA; save publication receipt.",
-  "next_research_action": "Verify exact-value JSON formatting variants, then measure the six pinned tokenizers on the frozen inputs.",
-  "no_tokenization_or_training": true,
-  "prior_checkpoint": "recovery/rounds/2026-10-19-01-verified.json"
+  "exact_next_action": "Prepare and verify exact-value compact/pretty JSON variants, then measure the existing six pinned tokenizer profiles using the frozen corpus lock. Do not alter selections after inspecting counts.",
+  "prior_checkpoint": "recovery/rounds/2026-10-19-01-frozen.json"
 }

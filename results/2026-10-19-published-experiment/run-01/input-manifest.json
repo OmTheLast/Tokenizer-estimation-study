@@ -1,0 +1,7 @@
+{
+  "plan_sha256": "53bac887c908db18da1ba3699aa2a8fe6738fa6b8b841ae91fbcde28a3f02573",
+  "script_sha256": "67e1dcc4c6e50a51a401c39045d6a7c1f11e6222eaae44222c599869701e5b94",
+  "corpus_sha256": "b82b42cfd54990c3da5f4be6238019167c022e669f5b7292b1a1710542071fe2",
+  "python_version": "3.13.11",
+  "tokenizers_version": "0.23.2"
+}

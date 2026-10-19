@@ -1,0 +1,6 @@
+qwen35-4b: 140 inputs; originals: 0/100 with unknown IDs, 0/100 decode mismatches.
+bonsai-ternary-4b: 140 inputs; originals: 0/100 with unknown IDs, 0/100 decode mismatches.
+lfm2-1.2b: 140 inputs; originals: 0/100 with unknown IDs, 0/100 decode mismatches.
+gemma4-e2b: 140 inputs; originals: 0/100 with unknown IDs, 0/100 decode mismatches.
+minicpm5-2b-gguf: 140 inputs; originals: 0/100 with unknown IDs, 0/100 decode mismatches.
+xlm-roberta-base: 140 inputs; originals: 0/100 with unknown IDs, 100/100 decode mismatches.

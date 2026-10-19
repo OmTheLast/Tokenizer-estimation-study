@@ -1,18 +1,21 @@
 {
-  "timestamp_utc": "2026-10-19T08:12:48.612311+00:00",
-  "status": "published_text_experiment_preparation",
-  "request": "Run the experiment on the frozen published-text corpus and push verified progress.",
-  "planned": [
-    "Verify corpus lock and prepare exact-value JSON variants",
-    "Freeze prepared-input metadata and experiment implementation before encoding",
-    "Measure six profiles with Python and independently with JavaScript",
-    "Check counts/ID hashes, independently recompute summaries, inspect graphs and publish"
+  "timestamp_utc": "2026-10-19T08:27:33.923019+00:00",
+  "status": "experiment_verified_publication_pending",
+  "request": "Run the frozen published technical-text tokenizer experiment and push progress.",
+  "completed": [
+    "840 measurements; Python/JS ID-hash/count agreement",
+    "1146 summaries independently verified",
+    "Three final plots visually checked; numeric outputs unchanged after label revision",
+    "Report, study history and evidence guide updated",
+    "All frozen protocol/input/script hashes preserved"
   ],
-  "prior_checkpoint": "recovery/rounds/2026-10-19-01-publication.json",
-  "constraints": [
-    "Raw/derived source text and token IDs remain local",
-    "No model inference, fitting, FLORES+ access or browser benchmarking"
-  ],
+  "report": "results/2026-10-19-published-experiment/REPORT.md",
+  "checks": "results/2026-10-19-published-experiment/verification.json",
+  "raw_data": "Local ignored files; not included in GitHub publication.",
   "running_jobs": [],
-  "exact_next_action": "Implement and test precision-preserving JSON serialization; prepare 140 inputs and 840 planned measurement rows."
+  "unfinished": [
+    "Commit and push results; verify remote SHA; save publication receipt."
+  ],
+  "blockers": [],
+  "exact_next_action": "Stage relevant public artifacts, check for private text/IDs, commit and push to origin/main, verify remote SHA."
 }

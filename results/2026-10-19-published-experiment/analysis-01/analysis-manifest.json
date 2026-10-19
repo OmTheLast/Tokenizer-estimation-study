@@ -1,0 +1,11 @@
+{
+  "script_sha256": "e16f0586f9cf716508f2627da6851b95b174b38fbc08d144283c1ae90a273d55",
+  "measurements_sha256": "3394f7f0a723f86909ad4457cf154a6b20d780340f6c091eca6e7d90e19f187d",
+  "groups": 32,
+  "summary_cells": 192,
+  "pair_summaries": 936,
+  "json_pair_summaries": 18,
+  "numpy_version": "2.5.3",
+  "matplotlib_version": "3.11.2",
+  "visual_review": "pending"
+}

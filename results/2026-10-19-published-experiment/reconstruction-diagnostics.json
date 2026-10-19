@@ -1,0 +1,14 @@
+{
+  "xlm_original_decode_mismatches": 100,
+  "original_whitespace_only_mismatches": 99,
+  "remaining_original_case": {
+    "input_id": "e8d401235be097625dbd7e35/original",
+    "starts_with_utf8_bom": true,
+    "removing_initial_bom_and_whitespace_from_input_matches_decoded_without_whitespace": true
+  },
+  "xlm_json_compact_exact": 20,
+  "xlm_json_pretty_exact": 0,
+  "all_input_unknown_token_rows": 0,
+  "all_originals_end_in_newline": false,
+  "semantic_equivalence_claimed": false
+}

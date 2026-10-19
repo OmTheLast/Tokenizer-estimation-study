@@ -1,0 +1,38 @@
+{
+  "node_version": "v25.2.1",
+  "js_tokenizers_version": "0.2.0",
+  "script_sha256": "76b6146596baff9b451efdeb1372c8a184b4c81b0ae604458d81df33ea64bb3c",
+  "plan_sha256": "53bac887c908db18da1ba3699aa2a8fe6738fa6b8b841ae91fbcde28a3f02573",
+  "results": [
+    {
+      "model_key": "bonsai-ternary-4b",
+      "status": "encoded",
+      "rows": 140
+    },
+    {
+      "model_key": "gemma4-e2b",
+      "status": "encoded",
+      "rows": 140
+    },
+    {
+      "model_key": "lfm2-1.2b",
+      "status": "encoded",
+      "rows": 140
+    },
+    {
+      "model_key": "minicpm5-2b-gguf",
+      "status": "encoded",
+      "rows": 140
+    },
+    {
+      "model_key": "qwen35-4b",
+      "status": "encoded",
+      "rows": 140
+    },
+    {
+      "model_key": "xlm-roberta-base",
+      "status": "encoded",
+      "rows": 140
+    }
+  ]
+}

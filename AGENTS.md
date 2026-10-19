@@ -75,8 +75,9 @@ The next published-text sources and sampling rules are fixed in
 The corpus was collected/reviewed on 2026-10-19: use the frozen hashes and paths in
 `config/published-text-corpus-v1.lock.json`, the report in
 `results/2026-10-19-published-corpus/REPORT.md` and the current recovery checkpoint.
-Do not alter selected bytes or silently rerank/review after seeing counts. Before
-measurement, prepare the exact-value JSON serializer and verify locked inputs.
+Do not alter selected bytes or silently rerank/review after seeing counts. The exact-value JSON preparation and experiment are now complete; read
+`results/2026-10-19-published-experiment/REPORT.md` and its verification.
+Preserve the frozen experiment and earlier run outputs.
 Disclose automated Hindi/Tamil translation provenance and the technical-source scope. Do not fit
 weights or open FLORES+ devtest. Publish permitted numeric evidence and scripts
 on the existing repository; raw restricted data and third-party assets stay local.

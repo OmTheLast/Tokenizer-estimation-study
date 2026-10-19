@@ -1,0 +1,8 @@
+{
+  "rows": 840,
+  "original_rows": 600,
+  "variant_rows": 240,
+  "unigram_original_serialized_parity": 140,
+  "no_truncation_or_padding": true,
+  "raw_text_or_ids_published": false
+}

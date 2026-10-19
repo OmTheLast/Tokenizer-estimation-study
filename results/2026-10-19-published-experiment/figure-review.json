@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "numeric_outputs_byte_identical": {
+    "summary.json": "66df72b22c1032a110c52a83d44673885cc2e06aa3f947187b7ae27931a76c13",
+    "per-input-ratios.json": "b547633c7e3c0cb9d9befbcff82b744c3b3673ec6bcf2501f5fcbf22493033b3",
+    "per-json-ratios.json": "1c46e2b0cdb947c055680c1083e6d91fe0154d3134498c9b6b4bdc30a0759afd"
+  },
+  "reviewer": "Codex visual inspection, not human review",
+  "figures_reviewed": [
+    "analysis-02/01-count-ratios.png",
+    "analysis-02/02-json-formatting.png",
+    "analysis-02/03-reconstruction.png"
+  ],
+  "observations": "Final labels, legends and captions readable without clipping. Revision changes count-ratio tick labels/title only; numeric results unchanged.",
+  "analysis_01_script": "results/2026-10-19-published-experiment/source-snapshot/analyze_published_text-analysis-01.py",
+  "analysis_02_script_sha256": "0b60dac3b834705c472958a3994a34b5645802f9610ebb7be704ec286b81e6bd"
+}

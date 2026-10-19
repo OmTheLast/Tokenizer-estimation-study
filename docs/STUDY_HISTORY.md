@@ -832,3 +832,34 @@ The [experiment protocol](PUBLISHED_TEXT_EXPERIMENT_V1.md) fixes grouped metrics
 all-pair ratios, unknown-free sensitivity summaries, exact reconstruction checks
 and graphs before encoding. Six pinned profiles will produce 840 rows. Preparation
 and measurement scripts are being published before the run; no new counts yet.
+
+## 2026-10-19 — Published-text experiment completed
+
+The pre-encoding plan and input metadata were pushed and verified at
+`b7c8b09deda75b475f973d8b98bccd06e07ad634`. We then measured all six pinned profiles
+on 100 originals and 40 exact-value JSON variants. All 840 Python/JS complete
+ID-sequence hashes and counts match. An independent arithmetic implementation
+checked 1,146 summary groups, 10,698 values and 3,720 individual ratios; metadata,
+asset hashes and JSON value/whitespace equality also passed.
+
+Plain-language findings: counts depend on the text and tokenizer. Relative to
+Qwen, LFM averages 3.33 times as many tokens on our mixed-script documentation,
+while Gemma averages 0.69 times. Indenting the same JSON data adds about 61% for
+Qwen and 56% for Gemma. XLM-R adds about 0.46%, but changes the original layout.
+Its 100 original reconstruction mismatches comprise 99 whitespace-only cases
+and one case also losing an initial byte-order mark. All 20 compact JSON inputs
+reconstruct exactly with XLM-R; all 140 inputs do so with each BPE profile.
+No unknown-token IDs occurred. None of this measures model intelligence.
+
+Three graphs retain individual dots, source/language separation and reconstruction
+checks. Analysis-02 improves count-axis labels and a title; all numeric files are
+byte-identical to analysis-01. Both exports and the first script snapshot remain
+saved. Codex visually reviewed the final PNGs. The extra BOM diagnostic was saved
+as a reproducible script and checked against the original diagnostic record.
+
+Read the [report](../results/2026-10-19-published-experiment/REPORT.md). This bounded
+experiment is complete. Broader sources/additional algorithm representatives and
+browser speed/memory measurement remain future design choices. No fitting,
+model inference, training or FLORES+ access occurred. Public artifacts contain
+numeric evidence, hashes, methods and plots; raw source text and token sequences
+remain local and ignored. Publication receipt is recorded after the push.

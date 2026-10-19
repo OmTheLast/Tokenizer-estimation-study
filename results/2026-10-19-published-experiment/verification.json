@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "python_js_id_hash_matches": 840,
+  "row_metadata_recomputed": 840,
+  "tokenizer_asset_files_verified": 14,
+  "unigram_canonical_parity": 140,
+  "json_value_and_whitespace_pairs_verified": 20,
+  "summary_groups_verified": 1146,
+  "numeric_summary_values_verified": 10698,
+  "per_input_ratios_verified": 3720,
+  "arithmetic": "Separate math.fsum/log and exact Fraction quantile implementation; no analysis/NumPy imports.",
+  "verifier_sha256": "869cf89733e3c3e10f48c919ccbdf7e152d406b0c9eb34a8acaf2493b4cd753b",
+  "arithmetic_helpers_sha256": "d52d1f9921d991c29137590c0779012ed4ad178431711b654bc9db4d4fa6f526",
+  "plan_sha256": "53bac887c908db18da1ba3699aa2a8fe6738fa6b8b841ae91fbcde28a3f02573",
+  "measurements_sha256": "3394f7f0a723f86909ad4457cf154a6b20d780340f6c091eca6e7d90e19f187d",
+  "summary_sha256": "66df72b22c1032a110c52a83d44673885cc2e06aa3f947187b7ae27931a76c13",
+  "limits": "Cross-runtime ID/count parity; decoding metadata recomputed in Python, not independently decoded in JS. Not a human review."
+}

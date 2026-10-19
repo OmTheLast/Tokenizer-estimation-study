@@ -1,0 +1,6 @@
+JS encoded bonsai-ternary-4b: 140
+JS encoded gemma4-e2b: 140
+JS encoded lfm2-1.2b: 140
+JS encoded minicpm5-2b-gguf: 140
+JS encoded qwen35-4b: 140
+JS encoded xlm-roberta-base: 140

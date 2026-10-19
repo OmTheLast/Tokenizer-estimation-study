@@ -1,10 +1,33 @@
 # Reading our research evidence
 
-Updated 2026-10-18. Our main question now concerns tokenizer behavior across
+Updated 2026-10-19. Our main question now concerns tokenizer behavior across
 languages and text types, with estimation as one sub-question.
 Graphs make measurements easier to understand;
 the saved data, methods and checks are the evidence behind them. A graph does
 not establish that the estimator is safe for browser use.
+
+## Published technical-text experiment — 2026-10-19
+
+Read the [report and three graphs](../results/2026-10-19-published-experiment/REPORT.md).
+We measured 100 published samples and 40 paired JSON variants with six profiles.
+All 840 Python/JS sequences match; separate arithmetic verifies 1,146 summaries.
+
+- Count-ratio dots compare the **same text** across tokenizers. A factor of 2
+  means twice as many tokens; colors separate sources/languages. Different
+  panels have different ranges, so read their axis numbers.
+- JSON dots compare indented and compact versions of the **same data**. Qwen's
+  average factor is 1.609 and Gemma's 1.562. This formatting cost is smaller
+  than in our earlier authored fixtures, showing that it is not a fixed constant.
+- Reconstruction cells count original inputs that fail exact text recovery.
+  XLM-R changes all 100 originals: 99 differ only in whitespace after stripping
+  whitespace from both sides; one also loses an initial encoding marker.
+  The other five profiles recover all originals and variants exactly.
+
+No unknown IDs appear here; that does not guarantee coverage outside this corpus.
+Only the paired JSON experiment isolates layout. Other category contrasts also
+reflect source, length and content differences. Mixed-script documentation comes
+from automatic translations. One Unigram profile cannot represent its entire
+algorithm class. These checks do not measure model answers or browser performance.
 
 ## New text-type experiment — 2026-10-18
 
@@ -201,7 +224,7 @@ are not included in the public repository; see the pilot reproduction notes.
 | Controlled text-type and non-BPE expansion | Complete | 180 original inputs, 8 probes, six profiles; limits above |
 | Published technical text source/sampling design | Complete | [Plan with seven pinned sources](PUBLISHED_TEXT_SAMPLING_V1.md); six existing profiles |
 | Published-text corpus collection and checks | Complete | [100 samples, validation and length graph](../results/2026-10-19-published-corpus/REPORT.md); all quotas filled; raw text local |
-| Published-text token measurements and comparison graphs | Next | Verify JSON variants, then encode frozen inputs; no new token counts yet |
+| Published-text token measurements and comparison graphs | Complete | [840 verified measurements, three graphs, 1,146 checked summaries](../results/2026-10-19-published-experiment/REPORT.md) |
 | Broader tokenizer representation | Future | Additional representatives needed before algorithm-family claims |
 | Specify one-weight versus three-weight comparison | Deferred; design preserved | [Focused design](CJK_EXPERIMENT_V2.md) |
 | Resolve CJK fitting-data use; freeze cleaned splits | Deferred with fitting experiment | Separate from current descriptive analysis |

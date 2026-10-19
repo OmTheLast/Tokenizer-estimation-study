@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-10-19T08:24:15.740101+00:00",
+  "status": "measurements_and_independent_verification_complete",
+  "completed": [
+    "840 Python/JS sequence-hash/count matches",
+    "840 metadata checks",
+    "1146 summary groups and 10698 numeric values independently verified",
+    "20 exact JSON value/whitespace pairs verified"
+  ],
+  "verification": "results/2026-10-19-published-experiment/verification.json",
+  "running_jobs": [],
+  "exact_next_action": "Improve graph tick labels without changing numeric results; write report; publish verified results."
+}

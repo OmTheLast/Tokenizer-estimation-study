@@ -22,6 +22,18 @@ Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md
 for what we did, what the results mean, and the next planned experiment.
 The [evidence guide](docs/EVIDENCE_GUIDE.md) explains our graphs and current progress.
 
+**Published-text experiment completed and independently checked (2026-10-19):**
+Six pinned tokenizer profiles measured 100 frozen source samples plus 40 paired
+JSON variants: **840 measurements**, with complete Python/JS encoding agreement.
+On these JSON files, indentation uses about 61% more tokens with Qwen and 56%
+more with Gemma. XLM-R's near-constant count accompanies whitespace changes.
+Relative counts vary markedly on mixed-script documentation. These are tokenizer
+measurements, not model-quality scores or browser-performance results.
+
+- [Plain-English results and three graphs](results/2026-10-19-published-experiment/REPORT.md)
+- [Independent checks](results/2026-10-19-published-experiment/verification.json)
+- [Frozen experiment plan](docs/PUBLISHED_TEXT_EXPERIMENT_V1.md)
+
 **Published-text corpus collected and checked (2026-10-19):** 100 samples, 20 each
 of English documentation, code, JSON, HTML and mixed-script documentation. All ten
 source/language quotas are filled. Original-byte checks, strict JSON checks and
@@ -32,10 +44,9 @@ and decision log exactly. Codex reviewed the selected text and source notices.
 - [Final sample manifest](results/2026-10-19-published-corpus/collection-final/manifest.json)
 - [Frozen corpus lock](config/published-text-corpus-v1.lock.json) and [verification](results/2026-10-19-published-corpus/validation.json)
 
-This is a collection milestone, **not new token-count results**. Raw source text
-stays local; public metadata records how to reproduce it. Next: verify JSON
-formatting variants and measure the existing six tokenizer profiles. Technical
-source bias, automatic translations and shared templates remain limitations.
+The collection milestone preceded the completed measurements above. Raw source
+text stays local; public metadata records how to reproduce it. Technical source
+bias, automatic translations and shared templates remain limitations.
 
 **Published-text sampling design completed (2026-10-18):** selected seven pinned
 repositories and fixed selection rules for 100 target inputs: 20 each of English
@@ -45,7 +56,7 @@ material, not a representative sample of the web. Read the [simple explanation
 and sampling plan](docs/PUBLISHED_TEXT_SAMPLING_V1.md), [source lock](config/published-text-sources-v1.json)
 and [metadata audit](results/2026-10-18-source-design/REPORT.md).
 At that design milestone only metadata and root terms had been inspected.
-Collection and file-specific checks are now completed above; measurements remain next.
+Collection, file-specific checks and the bounded measurements are now completed above.
 
 **Text-type comparison completed (2026-10-18):** five BPE profiles plus the
 multilingual XLM-RoBERTa Unigram profile measured 180 original inputs across

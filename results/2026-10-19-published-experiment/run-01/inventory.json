@@ -1,0 +1,50 @@
+[
+  {
+    "model_key": "qwen35-4b",
+    "algorithm": "BPE",
+    "revision": "57b13b4dce7be073be0df3eaf1c842a6bbb2e0a7",
+    "unknown_id": null,
+    "base_vocab_entries": 248044,
+    "effective_vocab_entries": 248077
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "algorithm": "BPE",
+    "revision": "9d085aaf786063cadb648fff1725c2c36fd28ade",
+    "unknown_id": null,
+    "base_vocab_entries": 151643,
+    "effective_vocab_entries": 151669
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "algorithm": "BPE",
+    "revision": "10f72e70abf67ac0fd7ebf15bc5854726891d864",
+    "unknown_id": null,
+    "base_vocab_entries": 64400,
+    "effective_vocab_entries": 64402
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "algorithm": "BPE",
+    "revision": "9f4bef82ea6e296bc69f8a2f5939f73af81b07a6",
+    "unknown_id": 3,
+    "base_vocab_entries": 262144,
+    "effective_vocab_entries": 262144
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "algorithm": "BPE",
+    "revision": "12a3808a956f869c767195e9266b59c4d21d92e2",
+    "unknown_id": 130074,
+    "base_vocab_entries": 130072,
+    "effective_vocab_entries": 130560
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "algorithm": "Unigram",
+    "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "unknown_id": 3,
+    "base_vocab_entries": 250002,
+    "effective_vocab_entries": 250002
+  }
+]

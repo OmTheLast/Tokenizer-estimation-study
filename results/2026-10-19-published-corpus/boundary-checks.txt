@@ -1,0 +1,11 @@
+test_fence_context_survives_blank_lines_and_short_markers (__main__.CollectionChecks.test_fence_context_survives_blank_lines_and_short_markers) ... ok
+test_frontmatter_and_rst_heading (__main__.CollectionChecks.test_frontmatter_and_rst_heading) ... ok
+test_length_units_and_duplicate_screen (__main__.CollectionChecks.test_length_units_and_duplicate_screen) ... ok
+test_rst_directives_literals_and_resumption (__main__.CollectionChecks.test_rst_directives_literals_and_resumption) ... ok
+test_strict_json_precision_and_rejections (__main__.CollectionChecks.test_strict_json_precision_and_rejections) ... ok
+test_utf8_crlf_offsets_preserve_exact_bytes (__main__.CollectionChecks.test_utf8_crlf_offsets_preserve_exact_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK

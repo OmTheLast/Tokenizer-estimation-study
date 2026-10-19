@@ -1,24 +1,23 @@
 {
-  "timestamp_utc": "2026-10-18T10:24:23.440011+00:00",
-  "status": "source_design_published_and_verified",
-  "request": "Select sources and sampling rules; explain simply; push progress to GitHub.",
-  "published_commit": "f96e07509d91d6669b49fb91cb7d04e20be9f344",
-  "remote_branch": "origin/main",
-  "verified_remote_sha": "f96e07509d91d6669b49fb91cb7d04e20be9f344",
-  "verification": "git ls-remote origin refs/heads/main matched local HEAD after successful push",
+  "timestamp_utc": "2026-10-19T07:40:57.085860+00:00",
+  "user_date": "2026-10-19",
+  "status": "corpus_frozen_verified_publication_pending",
+  "request": "Collect and check samples, explain simply, push progress to GitHub.",
   "completed": [
-    "Seven pinned source repositories",
-    "100-input sampling target and rules fixed before collection",
-    "2129 path-only candidates inventoried reproducibly",
-    "Protocol, source lock, metadata audit, history and recovery logs published"
+    "100 samples; all quotas filled",
+    "Recorded source/text review and rejections",
+    "Verified all bytes, offsets, JSON, script counts, notice hashes and 4950 duplicate pairs",
+    "Offline replay identical; eight boundary checks passed",
+    "Saved length graph with numeric inputs; visually inspected",
+    "Saved frozen corpus lock, readable report and updated history"
   ],
-  "checks": "results/2026-10-18-source-design/validation.json",
-  "design_checkpoint": "recovery/rounds/2026-10-18-03-design.json",
-  "not_completed": [
-    "Corpus collection and file-level eligibility/terms review",
-    "New tokenization, result graphs or browser measurements"
-  ],
+  "freeze_lock": "config/published-text-corpus-v1.lock.json",
+  "report": "results/2026-10-19-published-corpus/REPORT.md",
+  "validation": "results/2026-10-19-published-corpus/validation.json",
+  "raw_scope": "Ignored local raw text; GitHub publication will contain metadata only",
   "running_jobs": [],
-  "exact_next_action": "Implement collector for docs/PUBLISHED_TEXT_SAMPLING_V1.md; review candidates and terms in fixed order; freeze and publish the selected corpus manifest before any encoding.",
-  "backup_scope": "Included Git files only; ignored caches and raw data are not covered."
+  "exact_next_action": "Commit and push verified collection artifacts; verify remote SHA; save publication receipt.",
+  "next_research_action": "Verify exact-value JSON formatting variants, then measure the six pinned tokenizers on the frozen inputs.",
+  "no_tokenization_or_training": true,
+  "prior_checkpoint": "recovery/rounds/2026-10-19-01-verified.json"
 }

@@ -22,6 +22,21 @@ Start with the [readable study history and learning notes](docs/STUDY_HISTORY.md
 for what we did, what the results mean, and the next planned experiment.
 The [evidence guide](docs/EVIDENCE_GUIDE.md) explains our graphs and current progress.
 
+**Published-text corpus collected and checked (2026-10-19):** 100 samples, 20 each
+of English documentation, code, JSON, HTML and mixed-script documentation. All ten
+source/language quotas are filled. Original-byte checks, strict JSON checks and
+all 4,950 duplicate comparisons passed; offline replay reproduced the sample list
+and decision log exactly. Codex reviewed the selected text and source notices.
+
+- [Readable collection report and sample-length graph](results/2026-10-19-published-corpus/REPORT.md)
+- [Final sample manifest](results/2026-10-19-published-corpus/collection-final/manifest.json)
+- [Frozen corpus lock](config/published-text-corpus-v1.lock.json) and [verification](results/2026-10-19-published-corpus/validation.json)
+
+This is a collection milestone, **not new token-count results**. Raw source text
+stays local; public metadata records how to reproduce it. Next: verify JSON
+formatting variants and measure the existing six tokenizer profiles. Technical
+source bias, automatic translations and shared templates remain limitations.
+
 **Published-text sampling design completed (2026-10-18):** selected seven pinned
 repositories and fixed selection rules for 100 target inputs: 20 each of English
 documentation passages, code, JSON, HTML and mixed-script documentation. Microsoft
@@ -29,9 +44,8 @@ Hindi/Tamil passages are published automatic translations; the scope is technica
 material, not a representative sample of the web. Read the [simple explanation
 and sampling plan](docs/PUBLISHED_TEXT_SAMPLING_V1.md), [source lock](config/published-text-sources-v1.json)
 and [metadata audit](results/2026-10-18-source-design/REPORT.md).
-Only source metadata and terms were inspected; corpus collection and measurements
-for this follow-up have not started. Next: collect and review eligible samples,
-freeze their manifest, then run the existing six profiles.
+At that design milestone only metadata and root terms had been inspected.
+Collection and file-specific checks are now completed above; measurements remain next.
 
 **Text-type comparison completed (2026-10-18):** five BPE profiles plus the
 multilingual XLM-RoBERTa Unigram profile measured 180 original inputs across

@@ -1,0 +1,100 @@
+{
+  "status": "passed_independent_corpus_integrity_checks",
+  "manifest_sha256": "f3622d924d1715fbca00b202ff062dd10ea2e3b2ac028169313bcae9c445291c",
+  "reviews_sha256": "675922b18c403d95d6a21ccd84871ba4f4f510323a7f6b776127c72d36d592bf",
+  "verifier_sha256": "843b578cee4327d53bea3bfb99cc97f93c4b790ae038ce8ddd0cd0e70fc6184f",
+  "sample_count": 100,
+  "stratum_counts": {
+    "english_cpython": 10,
+    "english_node": 10,
+    "python": 10,
+    "javascript": 10,
+    "npm_package": 10,
+    "vscode_extension": 10,
+    "mdn_dom": 10,
+    "mdn_learning": 10,
+    "hindi_english": 10,
+    "tamil_english": 10
+  },
+  "category_summaries": {
+    "prose": {
+      "n": 20,
+      "min_codepoints": 200,
+      "median_codepoints": 269.0,
+      "max_codepoints": 489,
+      "length_bands": {
+        "200-999": 20,
+        "1000-3999": 0,
+        "4000-12000": 0
+      }
+    },
+    "code": {
+      "n": 20,
+      "min_codepoints": 793,
+      "median_codepoints": 2663.0,
+      "max_codepoints": 10543,
+      "length_bands": {
+        "200-999": 1,
+        "1000-3999": 12,
+        "4000-12000": 7
+      }
+    },
+    "json": {
+      "n": 20,
+      "min_codepoints": 534,
+      "median_codepoints": 1570.0,
+      "max_codepoints": 8874,
+      "length_bands": {
+        "200-999": 3,
+        "1000-3999": 13,
+        "4000-12000": 4
+      }
+    },
+    "html": {
+      "n": 20,
+      "min_codepoints": 309,
+      "median_codepoints": 1006.5,
+      "max_codepoints": 7425,
+      "length_bands": {
+        "200-999": 10,
+        "1000-3999": 9,
+        "4000-12000": 1
+      }
+    },
+    "mixed": {
+      "n": 20,
+      "min_codepoints": 203,
+      "median_codepoints": 370.5,
+      "max_codepoints": 953,
+      "length_bands": {
+        "200-999": 20,
+        "1000-3999": 0,
+        "4000-12000": 0
+      }
+    }
+  },
+  "distinct_translation_lessons": 20,
+  "unique_notice_files": 21,
+  "full_source_bytes_for_selected_files": 1704732,
+  "selected_input_bytes": 183414,
+  "duplicate_pairs_checked": 4950,
+  "max_jaccard": 0.8149568552253116,
+  "closest_sample_ids": [
+    "b09c0e03958e4f48f6764484",
+    "cc0e3708901517137ea85f53"
+  ],
+  "checks": [
+    "Git blob/SHA256 identity and inventory membership",
+    "Original UTF-8 boundaries and whole-file/paragraph rules",
+    "Lengths, script thresholds, strict JSON and review labels",
+    "Notice hashes and root-license coverage references",
+    "All 4950 unordered sample pairs below duplicate threshold",
+    "100 distinct source files; 20 distinct translated lesson families"
+  ],
+  "limitations": [
+    "Independent calculations by a separate script, not independent human review",
+    "Semantic eligibility and terms applicability depend on recorded Codex review",
+    "No translation quality certification or claim of representative web sampling"
+  ],
+  "tokenization_performed": false
+}

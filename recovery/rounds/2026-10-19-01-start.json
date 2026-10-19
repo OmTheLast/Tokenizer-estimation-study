@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-10-19T07:25:54.285344+00:00",
+  "user_date": "2026-10-19",
+  "status": "published_corpus_collection_started",
+  "request": "Collect and check the samples under the published rules; explain simply and push progress.",
+  "prior_checkpoint": "recovery/rounds/2026-10-18-03-publication.json",
+  "planned": [
+    "Implement resumable pinned-source collector and byte-preserving paragraph extraction",
+    "Review selected text, source headers and ancestor notices; record rejections",
+    "Verify manifest, sampling order, byte hashes, quotas and duplicate rules",
+    "Publish scripts, metadata-only manifest, readable report and recovery logs"
+  ],
+  "constraints": [
+    "No tokenization or model run this round",
+    "Raw and derived text stay ignored/local",
+    "Retain sampling seed and quotas; report shortfalls"
+  ],
+  "running_jobs": [],
+  "exact_next_action": "Implement collector and focused boundary tests; fetch ranked candidates and ancestor terms only."
+}

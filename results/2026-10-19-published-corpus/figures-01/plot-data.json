@@ -1,0 +1,502 @@
+[
+  {
+    "sample_id": "803ca5fbf4db42c64c55fde1",
+    "category": "prose",
+    "codepoints": 283
+  },
+  {
+    "sample_id": "e45382a865c6eaa97d7efc94",
+    "category": "prose",
+    "codepoints": 253
+  },
+  {
+    "sample_id": "30abb039f72e199cdb95719e",
+    "category": "prose",
+    "codepoints": 400
+  },
+  {
+    "sample_id": "7df047dd8f98c8313636e0b6",
+    "category": "prose",
+    "codepoints": 248
+  },
+  {
+    "sample_id": "68e60d675401cd82944926e0",
+    "category": "prose",
+    "codepoints": 416
+  },
+  {
+    "sample_id": "75dcb61f5c2246a05c41e067",
+    "category": "prose",
+    "codepoints": 240
+  },
+  {
+    "sample_id": "2aeeccaac6a573bfd375c0c6",
+    "category": "prose",
+    "codepoints": 350
+  },
+  {
+    "sample_id": "46a9c6149af0e045daf49fa7",
+    "category": "prose",
+    "codepoints": 406
+  },
+  {
+    "sample_id": "baee50a3dc31256d2150110d",
+    "category": "prose",
+    "codepoints": 255
+  },
+  {
+    "sample_id": "c84e6480d2c63a67e83590ec",
+    "category": "prose",
+    "codepoints": 209
+  },
+  {
+    "sample_id": "a7506a6605e4fed0fa058bcb",
+    "category": "prose",
+    "codepoints": 421
+  },
+  {
+    "sample_id": "5037186fcfc550921acc3f82",
+    "category": "prose",
+    "codepoints": 311
+  },
+  {
+    "sample_id": "3570eaebe342195264b2d262",
+    "category": "prose",
+    "codepoints": 489
+  },
+  {
+    "sample_id": "a0f25ecb4a660c379f33dde3",
+    "category": "prose",
+    "codepoints": 225
+  },
+  {
+    "sample_id": "cd45e32faa84b2c1f3181cd0",
+    "category": "prose",
+    "codepoints": 217
+  },
+  {
+    "sample_id": "36ddf620479f22809211c5d9",
+    "category": "prose",
+    "codepoints": 204
+  },
+  {
+    "sample_id": "6ecf8f1c970af09c387d1b46",
+    "category": "prose",
+    "codepoints": 295
+  },
+  {
+    "sample_id": "6f85da6b7cdb287b4727a97b",
+    "category": "prose",
+    "codepoints": 236
+  },
+  {
+    "sample_id": "aff9985f8c1c520f44026f39",
+    "category": "prose",
+    "codepoints": 200
+  },
+  {
+    "sample_id": "2919ccfd57c1f7fbfff9aad7",
+    "category": "prose",
+    "codepoints": 288
+  },
+  {
+    "sample_id": "861610f0d299273d57aeadbd",
+    "category": "code",
+    "codepoints": 2557
+  },
+  {
+    "sample_id": "b81b07158a99ee477ddd7c22",
+    "category": "code",
+    "codepoints": 7669
+  },
+  {
+    "sample_id": "af391bffa887c693ffc5dbb2",
+    "category": "code",
+    "codepoints": 4062
+  },
+  {
+    "sample_id": "83a29fdf763c55041e283d80",
+    "category": "code",
+    "codepoints": 8638
+  },
+  {
+    "sample_id": "6aeda101d17fbcb532a38bd3",
+    "category": "code",
+    "codepoints": 2256
+  },
+  {
+    "sample_id": "a61c613241d40d2cde438266",
+    "category": "code",
+    "codepoints": 793
+  },
+  {
+    "sample_id": "4cf24baa5fa7573172f28799",
+    "category": "code",
+    "codepoints": 1704
+  },
+  {
+    "sample_id": "ce2ce8925b565dd8ed60006c",
+    "category": "code",
+    "codepoints": 5543
+  },
+  {
+    "sample_id": "c2647fd64885b39a563c01fd",
+    "category": "code",
+    "codepoints": 1004
+  },
+  {
+    "sample_id": "cd5acc209bb74cb63535c361",
+    "category": "code",
+    "codepoints": 5852
+  },
+  {
+    "sample_id": "7a0046c61dc15c158cd9eb35",
+    "category": "code",
+    "codepoints": 8588
+  },
+  {
+    "sample_id": "9d6da463f9644fa8a8328cc1",
+    "category": "code",
+    "codepoints": 1423
+  },
+  {
+    "sample_id": "6c142711112d011754226cdc",
+    "category": "code",
+    "codepoints": 2769
+  },
+  {
+    "sample_id": "bae7c63ee53eb0e44e4a2199",
+    "category": "code",
+    "codepoints": 2830
+  },
+  {
+    "sample_id": "be5e29d079ea70e6e0df419a",
+    "category": "code",
+    "codepoints": 1587
+  },
+  {
+    "sample_id": "72bb2f379c631625b3efe8d0",
+    "category": "code",
+    "codepoints": 1713
+  },
+  {
+    "sample_id": "07a83c66a451e2fe459fbc7f",
+    "category": "code",
+    "codepoints": 2448
+  },
+  {
+    "sample_id": "1b69a22b7945f0ded7e0e5a1",
+    "category": "code",
+    "codepoints": 10543
+  },
+  {
+    "sample_id": "2392abab357827c4071111f6",
+    "category": "code",
+    "codepoints": 3793
+  },
+  {
+    "sample_id": "81cc3c4858d7194adfca612d",
+    "category": "code",
+    "codepoints": 1586
+  },
+  {
+    "sample_id": "771568c7780f622e60b0ba83",
+    "category": "json",
+    "codepoints": 2042
+  },
+  {
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "category": "json",
+    "codepoints": 4819
+  },
+  {
+    "sample_id": "7221712794394b4a8906d882",
+    "category": "json",
+    "codepoints": 1447
+  },
+  {
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "category": "json",
+    "codepoints": 5821
+  },
+  {
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "category": "json",
+    "codepoints": 1422
+  },
+  {
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "category": "json",
+    "codepoints": 1038
+  },
+  {
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "category": "json",
+    "codepoints": 1449
+  },
+  {
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "category": "json",
+    "codepoints": 1054
+  },
+  {
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "category": "json",
+    "codepoints": 1547
+  },
+  {
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "category": "json",
+    "codepoints": 6443
+  },
+  {
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "category": "json",
+    "codepoints": 1626
+  },
+  {
+    "sample_id": "4293174a7b657e4f311280eb",
+    "category": "json",
+    "codepoints": 639
+  },
+  {
+    "sample_id": "0a5e09560229512549249cf0",
+    "category": "json",
+    "codepoints": 2962
+  },
+  {
+    "sample_id": "f22763d73b05329a870522f9",
+    "category": "json",
+    "codepoints": 8874
+  },
+  {
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "category": "json",
+    "codepoints": 1509
+  },
+  {
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "category": "json",
+    "codepoints": 534
+  },
+  {
+    "sample_id": "cc0e3708901517137ea85f53",
+    "category": "json",
+    "codepoints": 1593
+  },
+  {
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "category": "json",
+    "codepoints": 2755
+  },
+  {
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "category": "json",
+    "codepoints": 1636
+  },
+  {
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "category": "json",
+    "codepoints": 969
+  },
+  {
+    "sample_id": "a69d3b74a2339f22541de8f6",
+    "category": "html",
+    "codepoints": 1510
+  },
+  {
+    "sample_id": "b64f0cf7af3a5cfa223f9092",
+    "category": "html",
+    "codepoints": 397
+  },
+  {
+    "sample_id": "7db3c59ad60cdef33295feea",
+    "category": "html",
+    "codepoints": 3803
+  },
+  {
+    "sample_id": "1b1c0ac8be7ffea9f525cf6d",
+    "category": "html",
+    "codepoints": 1045
+  },
+  {
+    "sample_id": "5b1ca7d819a5dc500eeb9cda",
+    "category": "html",
+    "codepoints": 2103
+  },
+  {
+    "sample_id": "fac8aeb2836102f8fc66c83b",
+    "category": "html",
+    "codepoints": 535
+  },
+  {
+    "sample_id": "675004699e1eb0a29f53d26f",
+    "category": "html",
+    "codepoints": 1024
+  },
+  {
+    "sample_id": "72563540d80b4106893b1916",
+    "category": "html",
+    "codepoints": 1957
+  },
+  {
+    "sample_id": "3c19b1e9c9f1ac89ec6e2a84",
+    "category": "html",
+    "codepoints": 989
+  },
+  {
+    "sample_id": "d568257dd44cea5b1271c5d5",
+    "category": "html",
+    "codepoints": 609
+  },
+  {
+    "sample_id": "0f8fa506e2b7e2971cb28b86",
+    "category": "html",
+    "codepoints": 7425
+  },
+  {
+    "sample_id": "10aebfcd26982f8964628908",
+    "category": "html",
+    "codepoints": 1515
+  },
+  {
+    "sample_id": "a8750531aba3b87b43d7cb4c",
+    "category": "html",
+    "codepoints": 921
+  },
+  {
+    "sample_id": "8eb32b6d7c9c9666c53bf530",
+    "category": "html",
+    "codepoints": 309
+  },
+  {
+    "sample_id": "64234b5e9c9d1c21842f1938",
+    "category": "html",
+    "codepoints": 815
+  },
+  {
+    "sample_id": "2d3f34e251b5be32d86557df",
+    "category": "html",
+    "codepoints": 1625
+  },
+  {
+    "sample_id": "e8d401235be097625dbd7e35",
+    "category": "html",
+    "codepoints": 730
+  },
+  {
+    "sample_id": "841fd8ff7a35c32b25286cde",
+    "category": "html",
+    "codepoints": 2746
+  },
+  {
+    "sample_id": "176bb392ba917db9121137b1",
+    "category": "html",
+    "codepoints": 406
+  },
+  {
+    "sample_id": "cfaefd1649fece95255976bb",
+    "category": "html",
+    "codepoints": 698
+  },
+  {
+    "sample_id": "e7167d72fae49e95e6ee8ea1",
+    "category": "mixed",
+    "codepoints": 417
+  },
+  {
+    "sample_id": "77830942bea6e4aa5e558bb2",
+    "category": "mixed",
+    "codepoints": 206
+  },
+  {
+    "sample_id": "4c8ae73101540a350d62f980",
+    "category": "mixed",
+    "codepoints": 687
+  },
+  {
+    "sample_id": "1caaea6e6c9600d87f915912",
+    "category": "mixed",
+    "codepoints": 953
+  },
+  {
+    "sample_id": "ef50ff7e4e602ffa21ca3c93",
+    "category": "mixed",
+    "codepoints": 342
+  },
+  {
+    "sample_id": "1392401c7ea08779e384b388",
+    "category": "mixed",
+    "codepoints": 533
+  },
+  {
+    "sample_id": "d6c7120622e7f122e8360eff",
+    "category": "mixed",
+    "codepoints": 588
+  },
+  {
+    "sample_id": "0b0fc6c51bd20192fdecec88",
+    "category": "mixed",
+    "codepoints": 275
+  },
+  {
+    "sample_id": "bdbda7508d45c2c39dc62dfa",
+    "category": "mixed",
+    "codepoints": 402
+  },
+  {
+    "sample_id": "6bb132c6b23c1cceb94abb7f",
+    "category": "mixed",
+    "codepoints": 265
+  },
+  {
+    "sample_id": "47d5f0e1faa266d26e0411f8",
+    "category": "mixed",
+    "codepoints": 555
+  },
+  {
+    "sample_id": "ffbc0a1f1e9f4ed77da801b9",
+    "category": "mixed",
+    "codepoints": 425
+  },
+  {
+    "sample_id": "9b813c3c227b1329631d8c85",
+    "category": "mixed",
+    "codepoints": 203
+  },
+  {
+    "sample_id": "a0a1fe2076dfb741747e035a",
+    "category": "mixed",
+    "codepoints": 399
+  },
+  {
+    "sample_id": "00aa3739a4173cc66d236cc7",
+    "category": "mixed",
+    "codepoints": 239
+  },
+  {
+    "sample_id": "5409ef9615543523a0f10845",
+    "category": "mixed",
+    "codepoints": 303
+  },
+  {
+    "sample_id": "925d19b6e7b79ff7be25ba44",
+    "category": "mixed",
+    "codepoints": 234
+  },
+  {
+    "sample_id": "d31188166346623fa8c63ff5",
+    "category": "mixed",
+    "codepoints": 494
+  },
+  {
+    "sample_id": "69e56a62e58b21dc7ea717dc",
+    "category": "mixed",
+    "codepoints": 257
+  },
+  {
+    "sample_id": "77592b40ad1d8f099403c4bc",
+    "category": "mixed",
+    "codepoints": 217
+  }
+]

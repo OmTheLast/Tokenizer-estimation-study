@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "offline_replay_manifest_identical": true,
+  "offline_replay_decisions_identical": true,
+  "plot_rows_match_manifest": 100,
+  "png_visual_review": "Passed: title, all labels, 100 plotted values and size-limit caption readable; this shows lengths, not token counts.",
+  "collector_environment": {
+    "python": "3.13.11 (v3.13.11:627894459a8, Dec  5 2025, 11:26:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O"
+  },
+  "files_encountered_in_final_replay": 129,
+  "decision_events": 775,
+  "event_reason_counts": {
+    "rst_directive_or_literal_body": 71,
+    "selected": 100,
+    "heading": 113,
+    "quote_html_or_reference_block": 47,
+    "paragraph_length": 99,
+    "list_or_table": 49,
+    "indented_block": 96,
+    "fenced_code": 45,
+    "rst_directive_or_comment": 67,
+    "whole_file_length": 21,
+    "generated_header": 2,
+    "review:Unit-test implementation under idle_test; violates code-group exclusion of tests even though the path component is not exactly test/tests.": 1,
+    "mixed_script_threshold": 43,
+    "review:Image caption and quoted instruction, not a narrative paragraph.": 1,
+    "review:ASCII letters only in link destination.": 4,
+    "review:ASCII letters occur only in link destinations, not English narrative or identifiers.": 1,
+    "review:Roman-script company proper name and link destination only; no English word or technical identifier.": 1,
+    "review:Translation disclaimer boilerplate.": 2,
+    "review:ASCII letters occur only in link destinations.": 1,
+    "review:No ASCII letters outside link destinations, images and HTML tags.": 2,
+    "review:ASCII letters occur only in link destination; no English narrative term.": 1,
+    "known_family_already_selected": 4,
+    "review:Roman-script personal name and link destinations only; no English word or technical identifier.": 1,
+    "review:ASCII letters occur only in link destination.": 2,
+    "no_eligible_paragraph": 1
+  },
+  "svg_export_formatting": "Removed Matplotlib trailing whitespace; non-whitespace content identical and XML parsed; PNG/PDF unchanged."
+}

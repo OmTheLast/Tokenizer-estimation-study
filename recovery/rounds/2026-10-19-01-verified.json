@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-10-19T07:37:27.826003+00:00",
+  "user_date": "2026-10-19",
+  "status": "corpus_collected_reviewed_and_verified_publication_pending",
+  "request": "Collect and check samples, explain simply, push progress.",
+  "completed": [
+    "100 selected samples; 10 per stratum; no shortfalls",
+    "Codex text/header/notice reviews saved with rejected candidates",
+    "Independent byte, boundary, JSON, script-count, notice and 4950-pair duplicate audit passed",
+    "Offline replay reproduced manifest and decisions byte-for-byte",
+    "Eight focused boundary/JSON/URL checks passed"
+  ],
+  "artifacts": [
+    "results/2026-10-19-published-corpus/collection-final/manifest.json",
+    "results/2026-10-19-published-corpus/validation.json",
+    "results/2026-10-19-published-corpus/reviews-final.json"
+  ],
+  "raw_data": "data/raw/published-text-v1 (ignored, local only)",
+  "running_jobs": [],
+  "unfinished": [
+    "Finish readable report, frozen corpus lock and publication"
+  ],
+  "exact_next_action": "Save source-size evidence and freeze lock, update history, commit/push and verify remote SHA.",
+  "constraints": [
+    "No tokenization, model inference, fitting or devtest access",
+    "Publish metadata only; raw source stays ignored"
+  ],
+  "prior_checkpoint": "recovery/rounds/2026-10-19-01-start.json"
+}

@@ -72,7 +72,11 @@ The bounded text-type study `docs/TEXT_TYPES_V1.md` now adds one XLM-R Unigram
 profile on original authored fixtures. It is not a causal algorithm comparison.
 The next published-text sources and sampling rules are fixed in
 `docs/PUBLISHED_TEXT_SAMPLING_V1.md` and `config/published-text-sources-v1.json`.
-Collect/review and freeze the corpus manifest before measuring; disclose automated
-Hindi/Tamil translation provenance and the technical-source scope. Do not fit
+The corpus was collected/reviewed on 2026-10-19: use the frozen hashes and paths in
+`config/published-text-corpus-v1.lock.json`, the report in
+`results/2026-10-19-published-corpus/REPORT.md` and the current recovery checkpoint.
+Do not alter selected bytes or silently rerank/review after seeing counts. Before
+measurement, prepare the exact-value JSON serializer and verify locked inputs.
+Disclose automated Hindi/Tamil translation provenance and the technical-source scope. Do not fit
 weights or open FLORES+ devtest. Publish permitted numeric evidence and scripts
 on the existing repository; raw restricted data and third-party assets stay local.

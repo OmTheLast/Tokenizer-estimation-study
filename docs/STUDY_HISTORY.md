@@ -765,3 +765,52 @@ the plan, metadata script and documentation; Om remains the study owner.
 Publication: source-design commit `f96e07509d91d6669b49fb91cb7d04e20be9f344` was pushed and
 verified on GitHub main. Included files preserve the design, inventory and checks;
 ignored caches are not backed up by this push.
+
+## 2026-10-19 — Published samples collected, reviewed and frozen
+
+Om authorized collection and checks under the saved sampling rules and requested
+simple progress explanations and a GitHub push. We now have 100 original inputs:
+20 English documentation paragraphs, 20 code files, 20 JSON manifests, 20 HTML
+examples and 20 Hindi/Tamil–English passages. Each of ten strata contributed ten.
+There are 100 distinct files and 20 distinct translated lesson families.
+
+The collector preserves exact UTF-8 bytes, verifies Git blob identities and stores
+raw files locally. Its maximal-paragraph extractor tracks code fences and RST
+blocks; conservative implementation refinements are recorded separately without
+rewriting the earlier protocol. A six-test boundary check passed before downloads;
+the final eight-test check adds URL-screening coverage. No selected source program
+was executed. No tokenizer was loaded or run.
+
+Provisional collection was followed by saved Codex review labels. Review removed
+an image-caption block, translation disclaimers, URL-only English-letter matches,
+proper-name-only passages, and an actual unit test under an idle_test directory.
+Generated encoding files were excluded automatically. Replacements followed the
+original hash order and within-source quotas. Earlier provisional outputs remain
+as history; they are not the frozen sample set. The final selector encountered
+129 paths and wrote 775 file/paragraph decisions, including 100 selections.
+
+The selected npm workspace manifests use their nearer ISC licenses, not just the
+repository root Artistic-2.0 license. Twenty-one distinct source-notice files were
+recorded and hashed. Codex inspected source headers and selected text; this is
+AI-assisted review, not human approval or a translation-quality certification.
+Raw source/notice text stays ignored and local; public artifacts contain hashes,
+paths, byte boundaries, decisions and reproduction scripts.
+
+Independent calculations verified bytes, paragraph boundaries, JSON, lengths,
+script thresholds, notices and all 4,950 sample pairs. The greatest character
+5-gram similarity was 0.815, below the fixed 0.90 cutoff. An offline replay matched
+both manifest and decisions byte-for-byte. The length graph shows the expected
+imbalance between short paragraphs and whole files; it is not a token-count graph.
+English passages span 200–489 code points, while code files span 793–10,543.
+
+A preview command initially sliced through a UTF-8 character; the preview was
+fixed to decode before shortening. Original inputs were unaffected. Matplotlib
+used a temporary font cache because the default cache was not writable; plotting
+completed and the saved PNG was visually inspected. No collection/verification
+run failed. The report records shared templates, automatic translations, placeholder
+HTML and tool-maintained JSON fields as limitations.
+
+Read the [collection report and graph](../results/2026-10-19-published-corpus/REPORT.md)
+and [frozen corpus lock](../config/published-text-corpus-v1.lock.json). Next: verify
+the exact-value JSON formatting variants, then measure the same six profiles.
+No fitting, model inference, browser trial or FLORES+ devtest access occurred.

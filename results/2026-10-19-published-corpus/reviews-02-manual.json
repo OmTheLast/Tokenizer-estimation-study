@@ -1,0 +1,861 @@
+{
+  "reviewer": "Codex",
+  "review_date": "2026-10-19",
+  "scope": "AI-assisted source-header, notice and selected-text eligibility review; no human or translation-quality certification.",
+  "files": {
+    "79b3e5f2ebe9d791d0c71b05": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "ee70075a3aaa60acd152d1fb": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "1ef8de0d5f9198dbe93f0338": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "cef178147ea2d8ea040dc16d": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "59fa18ad97d7e8e2e66f1216": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "a0ef2351ad055562ca2a5cf6": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "81ebae63b44f59063e8ca5bc": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "d37b38db8eee94b528639d59": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "714a64ab687404a7b228a478": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "a63a0ab4121b3b6ebf5c1d80": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "db82c033366ba3ae47a4797b": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "ab08c456fd48545fa511eb2d": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "8ab3d53d8a4b35770c92e9b9": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "554b31797b1d7adafb3ae764": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "4c17d14e72e000abb059ac33": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "9cbc1b5b771d9f3194ba50f0": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "e1d3267a358bf29549834e5d": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "72566c6ffcb66bb928c36185": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "a27e7503ee604b337e150406": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "23079e160231365ee6e98309": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "fc420163852ce98b8779a7aa": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "7d864b69695ef6e6c2baa6ed": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "229c4630df954ce8c80130bc": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "d3a9b6f34911041dc1d57fd0": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "bcc5876156d73918a553ff2e": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "7ea8b9198fa07bfa94cd5c05": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "f9e01886ca090075ebe95dec": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "3d24ada59f02322ed7d49447": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "ce7b6faff2a859bf9fdfcfe2": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "c8fdbec50e2e9cea0713bea3": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "18048720bf0b37c889003457": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "cdaf0a4504ef47e883cd6f48": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "c4ec44c47bedb1322eeb1a20": {
+      "decision": "reject",
+      "reason": "Unit-test implementation under idle_test; violates code-group exclusion of tests even though the path component is not exactly test/tests."
+    },
+    "081824931c9b1e8ab6bccbff": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "4123bbd620e74d29ed8e2489": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "3a7ca32008546c016a86e67a": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "a64bafb9c3363504af79e73d": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "b991aaed9479144ce09e5504": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "34b9a2d605623acb951888fa": {
+      "decision": "accept",
+      "reason": "PSF license/historical notices; documentation notice references retained where applicable. No conflicting sampled-file header identified."
+    },
+    "cd14d96531de0a3f95d0f616": {
+      "decision": "accept",
+      "reason": "Node MIT root terms; source header reviewed. Third-party dependency code is not sampled."
+    },
+    "d3779128eb6011598b34138a": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "af1f548fed919b8a83691e63": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "df0f76b5d61d2e5fe35eafa8": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "36d8f17185a64f3be2cc0639": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "0762b44e179ac65288a6de96": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "4d53a82d2b39d7aa4377a976": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "a0515aefee9f980b019b8cf6": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "37c264795be3204a9352cd0f": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "6a9bc0edfbd5e0664c826331": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "e55c3a027b1e29bf2d33a83a": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "618c06be9f261dc12107af30": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "145b3838eb2754872eb2e822": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content. Nearer Seti notice also supplies MIT terms; icon assets not sampled."
+    },
+    "5990b833b7d29383d4050069": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "50072f216659539045b2d7a7": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "4af84fadaac71c755908f0ba": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "3b0600be623ce2730aa6bf4a": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "4891642ededed7a63b958e28": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "07219f29250368b67421079f": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "d3180efb35acb7bdd2c8f6d0": {
+      "decision": "accept",
+      "reason": "Package license field and nearer workspace LICENSE agree on ISC, more specific than root Artistic-2.0. Notice retained. templateOSS indicates shared tooling; no generated-file header in this JSON."
+    },
+    "34ba22350d358d410df8e734": {
+      "decision": "accept",
+      "reason": "MIT package field/root license; root third-party notice indexed. Sample is package metadata, not bundled dependency content."
+    },
+    "3b95094535120144e2a2bfe0": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "eb6f38f9e9bd16b00b1db7a6": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "13d0e76da10879a3e3180dd3": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "d86c34fd5049a1b33d153db5": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "e8356569827d5e53b75e469f": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "41f3e616124b9915c865949d": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "3ae182f1064e400be7847efe": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "5a23fec0a496b91c53e621fe": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "55fd2b208921172fd1741300": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "44d449b84184af7ebccd50ab": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "de7df2761a3287f6d7aef18e": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "59ed2aa7209b9bdb1247b1d5": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "275849a0c9cc7bda9a68e59b": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "38c60425d5cd1fd12d291652": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "f24334685cf7590d3cc59278": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "63d1d00700984486315a2758": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "3d5141e103aadb7caafc005a": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "3d7f77868aaee52557ca2580": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "ced0cc04d3fd170f4469836f": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "606b7787857283527bc90907": {
+      "decision": "accept",
+      "reason": "CC0 root; HTML source reviewed. Linked assets are not part of input."
+    },
+    "4d36829b8fb16854317cb457": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "d7d406b483d45f9345e5a796": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "e111366b6691ebe14bffabb4": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "7c20b3bcb919c0dd144cf0bd": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "f0b38d5e0d301627fff2d7ca": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "c8be54e62aba72e92d9ab349": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "d4401e720560efc4a94fa391": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "2e94ec510d2695abfb5779d0": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "dc3bde03b1cbc0dd8237b906": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "59bcddac112511b3875000bd": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "4f6a3e50a43f39758a8acbf0": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "12c32647665e86001b70586c": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "b4efc8d78c4240c097f1c350": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "e113bef4aaed056490a5a451": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "9f920b2febb3eed2ead851de": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "3205589e3dc54fdab5a4220a": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "70df0ca230f89c61d90a3c1e": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "280cf88ab61f82528e8a4184": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "73db2b13833be3abff859d93": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "66b6c79a755b66d9122815c8": {
+      "decision": "accept",
+      "reason": "MIT root; file header inspected. Automatic translation provenance disclosed; images/assets excluded from excerpts."
+    },
+    "68a6f5b60cd1ab1178651c7f": {
+      "decision": "accept",
+      "reason": "CPython Python source; header inspected, root PSF license retained; no file-specific exception identified."
+    }
+  },
+  "samples": {
+    "803ca5fbf4db42c64c55fde1": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "e45382a865c6eaa97d7efc94": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "30abb039f72e199cdb95719e": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "7df047dd8f98c8313636e0b6": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "68e60d675401cd82944926e0": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "75dcb61f5c2246a05c41e067": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "2aeeccaac6a573bfd375c0c6": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "46a9c6149af0e045daf49fa7": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "baee50a3dc31256d2150110d": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "c84e6480d2c63a67e83590ec": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "a7506a6605e4fed0fa058bcb": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "5037186fcfc550921acc3f82": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "3570eaebe342195264b2d262": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "a0f25ecb4a660c379f33dde3": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "cd45e32faa84b2c1f3181cd0": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "36ddf620479f22809211c5d9": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "6ecf8f1c970af09c387d1b46": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "6f85da6b7cdb287b4727a97b": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "aff9985f8c1c520f44026f39": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "2919ccfd57c1f7fbfff9aad7": {
+      "decision": "accept",
+      "reason": "Top-level English narrative documentation; inline source markup retained."
+    },
+    "861610f0d299273d57aeadbd": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "b81b07158a99ee477ddd7c22": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "af391bffa887c693ffc5dbb2": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "83a29fdf763c55041e283d80": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "6aeda101d17fbcb532a38bd3": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "a61c613241d40d2cde438266": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "4cf24baa5fa7573172f28799": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified.",
+      "related_family": "cpython/codec-wrappers"
+    },
+    "ce2ce8925b565dd8ed60006c": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "c2647fd64885b39a563c01fd": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified.",
+      "related_family": "cpython/turtle-demos"
+    },
+    "cd5acc209bb74cb63535c361": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "7a0046c61dc15c158cd9eb35": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "9d6da463f9644fa8a8328cc1": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "05bdf806a8c8a534c0e4fed3": {
+      "decision": "reject",
+      "reason": "File rejected as unit-test code."
+    },
+    "bae7c63ee53eb0e44e4a2199": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "6c142711112d011754226cdc": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified.",
+      "related_family": "cpython/turtle-demos"
+    },
+    "72bb2f379c631625b3efe8d0": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "be5e29d079ea70e6e0df419a": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "1b69a22b7945f0ded7e0e5a1": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "07a83c66a451e2fe459fbc7f": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified.",
+      "related_family": "cpython/codec-wrappers"
+    },
+    "81cc3c4858d7194adfca612d": {
+      "decision": "accept",
+      "reason": "Source code and header reviewed; no generated-file notice or third-party exception identified."
+    },
+    "771568c7780f622e60b0ba83": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "d340e9afcbedad24e62d44ff": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "7221712794394b4a8906d882": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "7c140ea5d100302dadf071a9": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "1404f63aea4ee114d6c210db": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "9e8c87563f8cb6aa3ffed194": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "6ad14f0ce862cd0cfe1d43ef": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "b301ef4b80780c80e0dea83e": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "b09c0e03958e4f48f6764484": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "7abee965c755abd1a357d0ee": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed. Test-utility package metadata, not a test fixture; retained under the JSON path rule."
+    },
+    "e6ff02f3fef60b8ffcb01699": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "4293174a7b657e4f311280eb": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "0a5e09560229512549249cf0": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "f22763d73b05329a870522f9": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "43b8dd26c56690fc7db4775d": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "c3ca061810fac1bcda45c552": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "cc0e3708901517137ea85f53": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "022d4a5358fd9d8e808fa508": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "67e1096660ffbf3cd7962d41": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "f05b13d6ff223b573eeaddc7": {
+      "decision": "accept",
+      "reason": "Complete strict package-manifest JSON; license field and source purpose reviewed."
+    },
+    "a69d3b74a2339f22541de8f6": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "b64f0cf7af3a5cfa223f9092": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "7db3c59ad60cdef33295feea": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "1b1c0ac8be7ffea9f525cf6d": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets.",
+      "related_family": "mdn-learning/oojs-playground-template"
+    },
+    "5b1ca7d819a5dc500eeb9cda": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "fac8aeb2836102f8fc66c83b": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "675004699e1eb0a29f53d26f": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "72563540d80b4106893b1916": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "3c19b1e9c9f1ac89ec6e2a84": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "d568257dd44cea5b1271c5d5": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets.",
+      "related_family": "mdn-learning/navigation-menu-exercise"
+    },
+    "0f8fa506e2b7e2971cb28b86": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets. Contains long Lorem ipsum placeholder prose; retained as published demo HTML and flagged as a limitation."
+    },
+    "10aebfcd26982f8964628908": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "a8750531aba3b87b43d7cb4c": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "8eb32b6d7c9c9666c53bf530": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets.",
+      "related_family": "mdn-learning/navigation-menu-exercise"
+    },
+    "64234b5e9c9d1c21842f1938": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "2d3f34e251b5be32d86557df": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "e8d401235be097625dbd7e35": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "841fd8ff7a35c32b25286cde": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "176bb392ba917db9121137b1": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets."
+    },
+    "cfaefd1649fece95255976bb": {
+      "decision": "accept",
+      "reason": "Complete HTML teaching/demo source reviewed; includes original formatting, without fetching or executing referenced assets.",
+      "related_family": "mdn-learning/oojs-playground-template"
+    },
+    "e7167d72fae49e95e6ee8ea1": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "6f749c1f7793b8226972a371": {
+      "decision": "reject",
+      "reason": "Image caption and quoted instruction, not a narrative paragraph."
+    },
+    "496cb9182d7af01de56055e1": {
+      "decision": "reject",
+      "reason": "ASCII letters occur only in link destinations, not English narrative or identifiers."
+    },
+    "4087ce411e3a9ef81ebe33f4": {
+      "decision": "reject",
+      "reason": "Translation disclaimer boilerplate."
+    },
+    "9adb0a8cbbb3e5a7929ea75f": {
+      "decision": "reject",
+      "reason": "ASCII letters occur only in link destinations."
+    },
+    "affe92fb018b66c87fc87428": {
+      "decision": "reject",
+      "reason": "ASCII letters occur only in link destination; no English narrative term."
+    },
+    "d6c7120622e7f122e8360eff": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "0b0fc6c51bd20192fdecec88": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "bdbda7508d45c2c39dc62dfa": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "6bb132c6b23c1cceb94abb7f": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "441f837b37cf400feae2101e": {
+      "decision": "reject",
+      "reason": "Roman-script personal name and link destinations only; no English word or technical identifier."
+    },
+    "ffbc0a1f1e9f4ed77da801b9": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "9b813c3c227b1329631d8c85": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "a0a1fe2076dfb741747e035a": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "f77615c33cc7079d4a10ef1b": {
+      "decision": "reject",
+      "reason": "ASCII letters occur only in link destination."
+    },
+    "5409ef9615543523a0f10845": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "925d19b6e7b79ff7be25ba44": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "d31188166346623fa8c63ff5": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "d7497457eff301051be6d18a": {
+      "decision": "reject",
+      "reason": "ASCII letters occur only in link destination."
+    },
+    "77592b40ad1d8f099403c4bc": {
+      "decision": "accept",
+      "reason": "Narrative paragraph with target script and English words or technical identifiers outside link destinations; automatic translation disclosed."
+    },
+    "2392abab357827c4071111f6": {
+      "decision": "accept",
+      "reason": "Source implementation, not test/generated code; header and body preview reviewed."
+    },
+    "d9978795d1a7e72a29b45c4e": {
+      "decision": "reject",
+      "reason": "ASCII letters only in link destination."
+    },
+    "98ac4b52a6e625d85127e4e8": {
+      "decision": "reject",
+      "reason": "Roman-script company proper name and link destination only; no English word or technical identifier."
+    },
+    "1caaea6e6c9600d87f915912": {
+      "decision": "accept",
+      "reason": "Narrative target-script paragraph with English technical identifiers outside links; no rewriting; translated source quality not certified."
+    },
+    "f66e5c29cbedb21c3a68aa9f": {
+      "decision": "reject",
+      "reason": "ASCII letters only in link destination."
+    },
+    "bc23535401e3b761cf1a732f": {
+      "decision": "reject",
+      "reason": "ASCII letters only in link destination."
+    },
+    "47d5f0e1faa266d26e0411f8": {
+      "decision": "accept",
+      "reason": "Narrative target-script paragraph with English technical identifiers outside links; no rewriting; translated source quality not certified."
+    },
+    "00aa3739a4173cc66d236cc7": {
+      "decision": "accept",
+      "reason": "Narrative target-script paragraph with English technical identifiers outside links; no rewriting; translated source quality not certified."
+    },
+    "cd291a88f4885b093a3cd9f3": {
+      "decision": "reject",
+      "reason": "ASCII letters only in link destination."
+    },
+    "17cbea493bd879081ad38fda": {
+      "decision": "reject",
+      "reason": "Translation disclaimer boilerplate."
+    }
+  }
+}

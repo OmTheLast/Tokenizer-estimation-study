@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-10-19T07:40:57.085860+00:00",
+  "user_date": "2026-10-19",
+  "status": "corpus_frozen_verified_publication_pending",
+  "request": "Collect and check samples, explain simply, push progress to GitHub.",
+  "completed": [
+    "100 samples; all quotas filled",
+    "Recorded source/text review and rejections",
+    "Verified all bytes, offsets, JSON, script counts, notice hashes and 4950 duplicate pairs",
+    "Offline replay identical; eight boundary checks passed",
+    "Saved length graph with numeric inputs; visually inspected",
+    "Saved frozen corpus lock, readable report and updated history"
+  ],
+  "freeze_lock": "config/published-text-corpus-v1.lock.json",
+  "report": "results/2026-10-19-published-corpus/REPORT.md",
+  "validation": "results/2026-10-19-published-corpus/validation.json",
+  "raw_scope": "Ignored local raw text; GitHub publication will contain metadata only",
+  "running_jobs": [],
+  "exact_next_action": "Commit and push verified collection artifacts; verify remote SHA; save publication receipt.",
+  "next_research_action": "Verify exact-value JSON formatting variants, then measure the six pinned tokenizers on the frozen inputs.",
+  "no_tokenization_or_training": true,
+  "prior_checkpoint": "recovery/rounds/2026-10-19-01-verified.json"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "plain",
+    "text_sha256": "2bd4598d461ea1ed7ee85c6b447a9cfe582a8458d79c0b568870abfdda6beeee",
+    "token_count": 4,
+    "id_sequence_sha256": "9cc5e9859f22bf3a2a503fe54afb7ede754bc851fb8cb12d9909733344cb6fd8"
+  },
+  {
+    "id": "open-marker",
+    "text_sha256": "7d329bb7d9d43bf17bcafd4cb8203e1b94423923e87980bd1d2d9fc525d50b99",
+    "token_count": 3,
+    "id_sequence_sha256": "633bd207903165749dbc488254cc85ca206c433fe13abca265505012d86b9fe0"
+  },
+  {
+    "id": "close-marker",
+    "text_sha256": "475ad64997bc531fda042238dad1fce2ee04a94130baa9977f0f6ff93bcf9f00",
+    "token_count": 3,
+    "id_sequence_sha256": "a57cf6781576fdabe83fffbcdeeb1800f8dda6d90f5e5f60c23289cd7e053de6"
+  },
+  {
+    "id": "embedded-markers",
+    "text_sha256": "8fb51e15958f9b3b6ae05c620f801441244a93176b4829cacc68f25f281d4c39",
+    "token_count": 10,
+    "id_sequence_sha256": "65f1ee2d0f9af45c8f7470bc229b8de2d9fc69480a557572db4b11c1e864f94c"
+  }
+]

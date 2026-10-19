@@ -6,6 +6,19 @@ Graphs make measurements easier to understand;
 the saved data, methods and checks are the evidence behind them. A graph does
 not establish that the estimator is safe for browser use.
 
+## DeepSeek extension — 2026-10-19
+
+[Updated eight-configuration graphs](../results/2026-10-19-deepseek-extension/REPORT.md)
+add V3/R1 to the same corpus. The 280 new rows agree across Python/JS; the 840
+previous rows remain unchanged. Both DeepSeek profiles match on all corpus inputs,
+but targeted reasoning-marker probes differ. They share a BPE core, so matching
+dots are not independent evidence from two unrelated tokenizer families.
+
+DeepSeek/Qwen averages 0.997 on English documentation, 0.905 on HTML and 1.244 on
+mixed-script documentation. Indentation adds 35.2% on the paired JSON variants.
+Both recover all 140 inputs exactly. These are corpus observations, not browser
+speed, memory or full-prompt measurements. The earlier figures below remain history.
+
 ## Published technical-text experiment — 2026-10-19
 
 Read the [report and three graphs](../results/2026-10-19-published-experiment/REPORT.md).
@@ -225,7 +238,8 @@ are not included in the public repository; see the pilot reproduction notes.
 | Published technical text source/sampling design | Complete | [Plan with seven pinned sources](PUBLISHED_TEXT_SAMPLING_V1.md); six existing profiles |
 | Published-text corpus collection and checks | Complete | [100 samples, validation and length graph](../results/2026-10-19-published-corpus/REPORT.md); all quotas filled; raw text local |
 | Published-text token measurements and comparison graphs | Complete | [840 verified measurements, three graphs, 1,146 checked summaries](../results/2026-10-19-published-experiment/REPORT.md) |
-| Broader tokenizer representation | Future | Additional representatives needed before algorithm-family claims |
+| DeepSeek V3/R1 extension | Complete | [280 new corpus rows, eight marker probes, updated graphs](../results/2026-10-19-deepseek-extension/REPORT.md); shared BPE core disclosed |
+| Broader tokenizer representation | Future | Additional algorithm representatives needed before family-level claims |
 | Specify one-weight versus three-weight comparison | Deferred; design preserved | [Focused design](CJK_EXPERIMENT_V2.md) |
 | Resolve CJK fitting-data use; freeze cleaned splits | Deferred with fitting experiment | Separate from current descriptive analysis |
 | Fit candidate weights and evaluate unseen exam errors | Not started | Requires prepared data and authorization |

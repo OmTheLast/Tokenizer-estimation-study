@@ -1,0 +1,1122 @@
+[
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.4945652173913044,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.5579710144927537,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.6271676300578035,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.620019436345967,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.4986376021798364,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.792929292929293,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.4806201550387597,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.8888888888888888,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.5686813186813187,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.6055299539170507,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.5486935866983373,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.7426470588235294,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.3711691259931895,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.7521367521367521,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.516304347826087,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.8365384615384615,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.5644329896907216,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.5187713310580204,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.4928571428571429,
+    "unknown_free": true
+  },
+  {
+    "model_key": "qwen35-4b",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.8058823529411765,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.3417721518987342,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.3932448733413751,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.440922190201729,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.4314868804664722,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.3505434782608696,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.5606060606060606,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.3350515463917525,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.6222222222222222,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.4,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.4377880184331797,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.3838862559241707,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.5220588235294117,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.2528344671201814,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.5256410256410255,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.3631436314363143,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.5865384615384615,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.3958868894601542,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.3651877133105803,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.342789598108747,
+    "unknown_free": true
+  },
+  {
+    "model_key": "bonsai-ternary-4b",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.5647058823529412,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.288490284005979,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.2660714285714285,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.3142201834862386,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.2566807313642756,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.2731277533039647,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.3671875,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.273109243697479,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.3829787234042554,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.2916666666666667,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.3029389600602863,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.3001949317738792,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.3674698795180722,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.251930501930502,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.519691780821918,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.2729257641921397,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.4153846153846155,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.2966804979253113,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.267425320056899,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.2709551656920077,
+    "unknown_free": true
+  },
+  {
+    "model_key": "lfm2-1.2b",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.3391304347826087,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.4533106960950763,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.487856388595565,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.569482288828338,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.5566202090592334,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.4455696202531645,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.75,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.4302884615384615,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.8290155440414508,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.5012594458438286,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.5632083696599826,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.5056689342403629,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.7234042553191489,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.3364879074658254,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.6964112512124152,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.455223880597015,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.8640776699029127,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.503562945368171,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.4726134585289514,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.4444444444444444,
+    "unknown_free": true
+  },
+  {
+    "model_key": "gemma4-e2b",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.7784090909090908,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.3408695652173912,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.3541442411194833,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.4349030470914128,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.3559589581689029,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.3445595854922279,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.5321100917431192,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.3276283618581908,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.6010362694300517,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.3942558746736293,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.4077506318449873,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.3816091954022989,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.5314685314685315,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.2454448017148982,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.487985212569316,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.3582474226804124,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.5892857142857142,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.3887530562347188,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.3689482470784642,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.342403628117914,
+    "unknown_free": true
+  },
+  {
+    "model_key": "minicpm5-2b-gguf",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.5401069518716577,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.0034129692832765,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.009848982271832,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.0033670033670035,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.003898635477583,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.0033003300330032,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.0,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.0032,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.0140056022408963,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.0047318611987381,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.0015052684395385,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.0029411764705882,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.00398406374502,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.002290076335878,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 0.9978824775013234,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.0047318611987381,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.0103092783505154,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.0045317220543806,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.0019880715705765,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.0043290043290043,
+    "unknown_free": true
+  },
+  {
+    "model_key": "xlm-roberta-base",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.0121212121212122,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.2937181663837012,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.3270042194092826,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.3753351206434317,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.3117283950617284,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.297979797979798,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.4601769911504425,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.2860576923076923,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.4669811320754718,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.3308080808080809,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.3509341998375304,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.3340807174887892,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.4370860927152318,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.2190476190476192,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.4404096834264433,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.306532663316583,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.475,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.332541567695962,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.3136942675159236,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.2913907284768211,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-v3",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.4166666666666667,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "771568c7780f622e60b0ba83",
+    "stratum": "npm_package",
+    "ratio": 1.2937181663837012,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "d340e9afcbedad24e62d44ff",
+    "stratum": "vscode_extension",
+    "ratio": 1.3270042194092826,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "7221712794394b4a8906d882",
+    "stratum": "npm_package",
+    "ratio": 1.3753351206434317,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "7c140ea5d100302dadf071a9",
+    "stratum": "vscode_extension",
+    "ratio": 1.3117283950617284,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "1404f63aea4ee114d6c210db",
+    "stratum": "npm_package",
+    "ratio": 1.297979797979798,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "9e8c87563f8cb6aa3ffed194",
+    "stratum": "vscode_extension",
+    "ratio": 1.4601769911504425,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "6ad14f0ce862cd0cfe1d43ef",
+    "stratum": "npm_package",
+    "ratio": 1.2860576923076923,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "b301ef4b80780c80e0dea83e",
+    "stratum": "vscode_extension",
+    "ratio": 1.4669811320754718,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "b09c0e03958e4f48f6764484",
+    "stratum": "npm_package",
+    "ratio": 1.3308080808080809,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "7abee965c755abd1a357d0ee",
+    "stratum": "vscode_extension",
+    "ratio": 1.3509341998375304,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "e6ff02f3fef60b8ffcb01699",
+    "stratum": "npm_package",
+    "ratio": 1.3340807174887892,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "4293174a7b657e4f311280eb",
+    "stratum": "vscode_extension",
+    "ratio": 1.4370860927152318,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "0a5e09560229512549249cf0",
+    "stratum": "npm_package",
+    "ratio": 1.2190476190476192,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "f22763d73b05329a870522f9",
+    "stratum": "vscode_extension",
+    "ratio": 1.4404096834264433,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "43b8dd26c56690fc7db4775d",
+    "stratum": "npm_package",
+    "ratio": 1.306532663316583,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "c3ca061810fac1bcda45c552",
+    "stratum": "vscode_extension",
+    "ratio": 1.475,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "cc0e3708901517137ea85f53",
+    "stratum": "npm_package",
+    "ratio": 1.332541567695962,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "022d4a5358fd9d8e808fa508",
+    "stratum": "vscode_extension",
+    "ratio": 1.3136942675159236,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "67e1096660ffbf3cd7962d41",
+    "stratum": "npm_package",
+    "ratio": 1.2913907284768211,
+    "unknown_free": true
+  },
+  {
+    "model_key": "deepseek-r1",
+    "sample_id": "f05b13d6ff223b573eeaddc7",
+    "stratum": "vscode_extension",
+    "ratio": 1.4166666666666667,
+    "unknown_free": true
+  }
+]

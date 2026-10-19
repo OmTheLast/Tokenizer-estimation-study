@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "corpus_inputs": 140,
+  "v3_r1_matching_corpus_id_hashes": 140,
+  "v3_r1_matching_corpus_counts": 140,
+  "marker_probe_python_js_matches": 8,
+  "script_sha256": "bdb7b11dc61cbf5d8503871d63d9471add02b261b5632c7951f911b9d012253d",
+  "limits": "Probes target known added-token differences and are excluded from primary results. Content parity is not chat-template equivalence."
+}

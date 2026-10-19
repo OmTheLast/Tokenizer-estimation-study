@@ -32,5 +32,8 @@ reproduction commands. Frozen numeric results and experiment records are retaine
 
 [Protocol](DEEPSEEK_EXTENSION_V1.md) specified before measurement. Official V3
 and R1 assets share their BPE core but differ in two added-token entries and chat
-templates. Both configurations will be measured on the existing frozen corpus;
-separate marker probes test the known differences. No additional source sampling.
+templates. The [completed experiment](../results/2026-10-19-deepseek-extension/REPORT.md) adds
+280 verified corpus measurements and eight marker probes. V3/R1 match on all
+140 corpus inputs but differ on the marker probes. Combined evidence has 1,120
+rows and 1,944 independently checked summaries. Three comparison graphs updated;
+no additional source sampling or model weights.

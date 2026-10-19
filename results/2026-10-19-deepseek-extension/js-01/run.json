@@ -1,0 +1,18 @@
+{
+  "node_version": "v25.2.1",
+  "js_tokenizers_version": "0.2.0",
+  "script_sha256": "66005e017859916d3ec72edd170037e5a9a6c7f8019044fcfefef29e0d2d5582",
+  "plan_sha256": "2dd0eeae06fbe0a8cbc1e26dd63c358aa59b69d4b35210a0dda60c072bb30ccc",
+  "results": [
+    {
+      "model_key": "deepseek-v3",
+      "status": "encoded",
+      "rows": 140
+    },
+    {
+      "model_key": "deepseek-r1",
+      "status": "encoded",
+      "rows": 140
+    }
+  ]
+}

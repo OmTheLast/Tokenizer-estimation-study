@@ -1,0 +1,2 @@
+JS encoded deepseek-v3: 140
+JS encoded deepseek-r1: 140

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "review": "All three PNG exports inspected: titles, axes, legends, labels and captions readable without clipping. Different panel ranges and shared DeepSeek core disclosed.",
+  "figures": {
+    "01-count-ratios.png": "93e855c3bc685d7dbd6a09f6dcb2b76bc5613cc18ac0483e26c6262cf267d613",
+    "02-json-formatting.png": "74bdc246401f306554f8b379114deb7adf9bb28a39f31c81e4a2d36e5e19cb45",
+    "03-reconstruction.png": "a4e308d4db8159e6a4e0216246f5eb90a6ced71dd9facbeab63d9f5d51b40cf8"
+  }
+}

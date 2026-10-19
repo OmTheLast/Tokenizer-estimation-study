@@ -1,0 +1,18 @@
+[
+  {
+    "model_key": "deepseek-v3",
+    "algorithm": "BPE",
+    "revision": "e815299b0bcbac849fa540c768ef21845365c9eb",
+    "unknown_id": null,
+    "base_vocab_entries": 128000,
+    "effective_vocab_entries": 128815
+  },
+  {
+    "model_key": "deepseek-r1",
+    "algorithm": "BPE",
+    "revision": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+    "unknown_id": null,
+    "base_vocab_entries": 128000,
+    "effective_vocab_entries": 128815
+  }
+]

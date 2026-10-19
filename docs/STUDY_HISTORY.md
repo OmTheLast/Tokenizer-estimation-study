@@ -27,3 +27,10 @@ would be needed for general conclusions. Coefficient fitting remains deferred.
 
 Reports preserve failed checks, corrections, versions, source limitations and
 reproduction commands. Frozen numeric results and experiment records are retained.
+
+## DeepSeek extension — 2026-10-19
+
+[Protocol](DEEPSEEK_EXTENSION_V1.md) specified before measurement. Official V3
+and R1 assets share their BPE core but differ in two added-token entries and chat
+templates. Both configurations will be measured on the existing frozen corpus;
+separate marker probes test the known differences. No additional source sampling.

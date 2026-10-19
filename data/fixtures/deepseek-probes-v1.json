@@ -1,0 +1,22 @@
+{
+  "name": "deepseek-probes-v1",
+  "scope": "Synthetic marker diagnostics, excluded from corpus statistics",
+  "inputs": [
+    {
+      "id": "plain",
+      "text": "A short example."
+    },
+    {
+      "id": "open-marker",
+      "text": "<think>"
+    },
+    {
+      "id": "close-marker",
+      "text": "</think>"
+    },
+    {
+      "id": "embedded-markers",
+      "text": "Before <think>check</think> after."
+    }
+  ]
+}

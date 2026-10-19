@@ -40,3 +40,13 @@ The Hugging Face tokenizer assets are downloaded separately into the ignored
 .cache/ directory. See config/qwen-tokenizer.lock.json for provenance and licence
 limitations. @huggingface/tokenizers and Python tokenizers are separate library
 dependencies; their licence files remain in the installed distributions.
+
+## DeepSeek tokenizer assets
+
+Official `deepseek-ai/DeepSeek-V3` and `deepseek-ai/DeepSeek-R1` tokenizer revisions
+are pinned in their respective `config/deepseek-*-tokenizer.lock.json` files.
+Assets and source notices remain in ignored local caches; no weights are downloaded.
+The pinned V3 model card distinguishes its MIT code license from its model license;
+the pinned R1 card and LICENSE specify MIT. This repository does not relicense or
+redistribute those tokenizer assets. Consult the immutable source-notice URLs in
+the locks for the applicable upstream terms.

@@ -1,0 +1,54 @@
+{
+  "repositories": [
+    {
+      "model_key": "deepseek-v3",
+      "repository": "deepseek-ai/DeepSeek-V3",
+      "revision": "e815299b0bcbac849fa540c768ef21845365c9eb",
+      "runtime_model_type": "BPE",
+      "base_vocab_entries": 128000,
+      "effective_vocab_entries": 128815,
+      "definition_sha256": "2f69562dd0c8f5007addd460623106f5f4e41d2396b50144136fc70033583cd0",
+      "components_sha256": {
+        "model": "069b30ff069e2100d151486240eb77a34ea357f22dda7d084596b31bb43d9cc6",
+        "normalizer": "29490adc115d53049331c399ebf4c815f6287aaae492078096a34c6ffd5950ba",
+        "pre_tokenizer": "6613066caf7789d855908c48dc6193bc8590f3c5453aa466b84f75ae3ceed71d",
+        "decoder": "1d64d97add535d9ad91561aabea254849cf7f2ea4b924cc61c17152f1dd6e672",
+        "post_processor": "18e6a4825c46b5a700a630cf00cb9329241348ac3b9e5eeb15b6b6936c165ffb",
+        "added_tokens": "c2f121f05b5ea417c731ad6baa9ab4a2d711e5766dcc72c7a4f2a36f5cef0dab"
+      },
+      "chat_template_sha256": "4e74a097342614f298d7b945db9fcc482de860bf75fc441f9974b1e764103dda"
+    },
+    {
+      "model_key": "deepseek-r1",
+      "repository": "deepseek-ai/DeepSeek-R1",
+      "revision": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+      "runtime_model_type": "BPE",
+      "base_vocab_entries": 128000,
+      "effective_vocab_entries": 128815,
+      "definition_sha256": "12178fd646f1416b561c336838f3e2eb8067bdc3655965385a1adbbaf300e063",
+      "components_sha256": {
+        "model": "069b30ff069e2100d151486240eb77a34ea357f22dda7d084596b31bb43d9cc6",
+        "normalizer": "29490adc115d53049331c399ebf4c815f6287aaae492078096a34c6ffd5950ba",
+        "pre_tokenizer": "6613066caf7789d855908c48dc6193bc8590f3c5453aa466b84f75ae3ceed71d",
+        "decoder": "1d64d97add535d9ad91561aabea254849cf7f2ea4b924cc61c17152f1dd6e672",
+        "post_processor": "18e6a4825c46b5a700a630cf00cb9329241348ac3b9e5eeb15b6b6936c165ffb",
+        "added_tokens": "05d0bf8a46e3321cb189716f0d72c1dec3cdfac3352da22ef14f369780e6691d"
+      },
+      "chat_template_sha256": "695807c5a6cbafcb14592fba49b929efad077273bef0a260ff9dcf89f10be62d"
+    }
+  ],
+  "tokenizer_json_byte_identical": false,
+  "serialized_definition_identical": false,
+  "component_matches": {
+    "model": true,
+    "normalizer": true,
+    "pre_tokenizer": true,
+    "decoder": true,
+    "post_processor": true,
+    "added_tokens": false
+  },
+  "tokenizer_config_identical": false,
+  "chat_template_identical": false,
+  "study_inputs_encoded": 0,
+  "script_sha256": "34fc4d2d7a76faa140192783090f857980a17e2055bbb8e8795b8a6626614e3a"
+}

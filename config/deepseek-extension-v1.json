@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-19",
+  "input_manifest": "results/2026-10-19-published-experiment/preparation-01/input-manifest.json",
+  "private_corpus": "data/processed/published-text-inputs-v1.json",
+  "private_corpus_sha256": "b82b42cfd54990c3da5f4be6238019167c022e669f5b7292b1a1710542071fe2",
+  "models": [
+    "qwen35-4b",
+    "bonsai-ternary-4b",
+    "lfm2-1.2b",
+    "gemma4-e2b",
+    "minicpm5-2b-gguf",
+    "xlm-roberta-base",
+    "deepseek-v3",
+    "deepseek-r1"
+  ],
+  "labels": [
+    "Qwen",
+    "Bonsai",
+    "LFM",
+    "Gemma",
+    "MiniCPM*",
+    "XLM-R (Unigram)",
+    "DeepSeek V3",
+    "DeepSeek R1"
+  ],
+  "tokenizer_locks": {
+    "bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4",
+    "qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "xlm-roberta-base-tokenizer.lock.json": "d8bb4eee6ef84c251ddf77339809e2611b63f27b73d26dade5f0fee0e13ad2b5",
+    "deepseek-v3-tokenizer.lock.json": "d8c98543c02f664d129336357b6031a524d6540e1d694303c40bdbf6730420b6",
+    "deepseek-r1-tokenizer.lock.json": "13617079036ec3443a4c651bd42d66605b9e49bf5ebc4715c57518f8fa8e5906"
+  },
+  "reference_tokenizer": "qwen35-4b",
+  "python_tokenizers_version": "0.23.2",
+  "js_tokenizers_version": "0.2.0",
+  "original_inputs": 100,
+  "json_variant_inputs": 40,
+  "length_bands": [
+    [
+      200,
+      999
+    ],
+    [
+      1000,
+      3999
+    ],
+    [
+      4000,
+      12000
+    ]
+  ],
+  "name": "deepseek-extension-v1",
+  "status": "frozen_before_encoding",
+  "new_models": [
+    "deepseek-v3",
+    "deepseek-r1"
+  ],
+  "reuse_measurements": "results/2026-10-19-published-experiment/run-01/measurements.json",
+  "reuse_js": "results/2026-10-19-published-experiment/js-01",
+  "probes": "data/fixtures/deepseek-probes-v1.json",
+  "expected_measurement_rows": 1120,
+  "expected_new_rows": 280,
+  "expected_probe_rows": 8,
+  "files_sha256": {
+    "docs/DEEPSEEK_EXTENSION_V1.md": "6a7beec1d43175f777b981031c926d038c2ad103b414bc4934e9e411bc4edffc",
+    "config/published-text-experiment-v1.json": "53bac887c908db18da1ba3699aa2a8fe6738fa6b8b841ae91fbcde28a3f02573",
+    "results/2026-10-19-published-experiment/preparation-01/input-manifest.json": "5a503338b9aa2a011a8b8ee428f78c42586a39286a04415a307a05eb1a2ff7b1",
+    "data/processed/published-text-inputs-v1.json": "b82b42cfd54990c3da5f4be6238019167c022e669f5b7292b1a1710542071fe2",
+    "results/2026-10-19-published-experiment/run-01/measurements.json": "3394f7f0a723f86909ad4457cf154a6b20d780340f6c091eca6e7d90e19f187d",
+    "data/fixtures/deepseek-probes-v1.json": "9a11958723854e7e8e4dbcf560d7b7744f52a0d0af376fe7ebca32251787893b",
+    "results/2026-10-19-deepseek-extension/identity.json": "f4f5194bd07b66da36bbf49c82755b1b24a0ea5c85abd4f2a70cd1fd9871b648",
+    "package-lock.json": "a9a9595154c3d9f46f6f65c63874dbcf312baf3fe7c70133bb9cd64b30192327",
+    "requirements-phase1.lock.txt": "be787856d9e5935b59889a3ee5dc1f7df3bd171dc78240760c96152d54a8df98",
+    "scripts/measure_deepseek.py": "c7945c8319e76950c55fab78fbdf6e64fa1c0c40b9b179d851817337a8ca66b9",
+    "scripts/check_deepseek_js.mjs": "66005e017859916d3ec72edd170037e5a9a6c7f8019044fcfefef29e0d2d5582",
+    "scripts/analyze_deepseek.py": "76d7a14eff6444d8882ce0569ac07ef3e8776bc8b07a7b7193c17e68317d647f",
+    "scripts/verify_deepseek.py": "d1402e0f50ee04a34de42ea7e96144703671147615b61ed15c5cd81a8b019ab7",
+    "scripts/check_deepseek_identity.py": "bdb7b11dc61cbf5d8503871d63d9471add02b261b5632c7951f911b9d012253d",
+    "scripts/prepare_published_inputs.py": "afc1f15ca896409d3fcd74a18a1ad32530f6d98acf66756dfe5d03d3b63bda10",
+    "scripts/verify_text_types.py": "d52d1f9921d991c29137590c0779012ed4ad178431711b654bc9db4d4fa6f526",
+    "results/2026-10-19-published-experiment/js-01/lfm2-1.2b.json": "4dfec78ffe9aea177c72869d84b3412b5de7b3f722d6152e6437b15392999a5f",
+    "results/2026-10-19-published-experiment/js-01/xlm-roberta-base.json": "2049553de2d56c3d0cd35a47d7dd8f163bc181736f369640aa482aceada3c773",
+    "results/2026-10-19-published-experiment/js-01/bonsai-ternary-4b.json": "82eaac1007b03296b4391209e836c23b92998a1de82cb760a396733166259964",
+    "results/2026-10-19-published-experiment/js-01/qwen35-4b.json": "3b4377e8755e8905c6c3ff5df5c45412be8737ca107de37ca51298819aa991d3",
+    "results/2026-10-19-published-experiment/js-01/gemma4-e2b.json": "fecf697f5e8b31d58afae3c99e35a56dbc2249ac40db01716402cd952f1bcc16",
+    "results/2026-10-19-published-experiment/js-01/minicpm5-2b-gguf.json": "53114a1d48e6ab2bfa66819f8fbc7670fcef4c0b6dee673c56bf69b6773a3776",
+    "results/2026-10-19-published-experiment/js-01/run.json": "1821b8c2dd125c381638f00616a5e669a0cf0b6da409b151608d89c36dd30c89"
+  }
+}

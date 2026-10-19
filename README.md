@@ -1,59 +1,66 @@
-# Comparative Tokenizer Study
+<h1 align="center">Comparative Tokenizer Study</h1>
 
-A study of how token counts vary across tokenizer configurations, languages and
-text types—and what that means for managing context in browser applications.
+**Compare exact token counts across languages and text types with pinned configurations and saved Python/JavaScript checks.**
 
-## Latest results
+Python and Node.js. Tokenizer assets download separately; no model weights. Source text and reconstructable token sequences are excluded from Git.
 
-[DeepSeek extension: report and updated graphs](results/2026-10-19-deepseek-extension/REPORT.md)
+By Om Patnaik · repository created September 2026.
 
-Eight tokenizer configurations now cover the same 100 published samples and 40
-paired JSON variants. **1,120 encodings** agree between Python and JavaScript:
-280 new DeepSeek measurements and 840 unchanged earlier results.
+## Install
 
-- DeepSeek V3 and R1 match on all 140 corpus inputs and reconstruct them exactly.
-  Their shared BPE core does not make their added tokens or chat templates identical.
-- Relative to Qwen, both use about **9.5% fewer tokens on HTML** and **24.4% more
-  on mixed-script documentation**. English documentation counts are nearly equal.
-- JSON indentation adds about **35.2%** for DeepSeek, compared with about **61%**
-  for Qwen and **56%** for Gemma in these samples.
+| Platform / path | Start here |
+| --- | --- |
+| Read-only inspection | [Latest report](results/2026-10-19-deepseek-extension/REPORT.md) and committed numeric summaries |
+| Reproduction | Follow [pinned setup](docs/REPRODUCING_QWEN.md) and the experiment-specific report |
 
-These are sample-specific tokenizer results, not model-quality scores. Technical
-sources, shared templates and automatic translations limit generalization. One
-Unigram profile cannot establish an algorithm-wide effect.
+Inspect the saved summaries first; they require no tokenizer download. Reproduction needs pinned local source data, caches, and prior results. Use fresh output directories so frozen experiments remain intact.
 
-## Experiments
+```bash
+python scripts/test_published_collection.py
+```
 
-| Experiment | Scope | Evidence |
-| --- | --- | --- |
-| Tokenizer and estimator reproduction | 38 fixtures × five profiles; special-token diagnostics | [Results](docs/PHASE0_RESULTS.md) · [Reproduce](docs/REPRODUCING_PHASE0.md) |
-| Multilingual pilot | 100 aligned IDs × 18 language varieties × five profiles | [Report](results/2026-10-15-phase1-pilot/run-02/REPORT.md) |
-| Direct tokenizer comparisons | Same-input counts, language differences and configuration inventory | [Report](results/2026-10-18-comparative-pilot/run-01/REPORT.md) |
-| Controlled text types | 180 synthetic inputs, eight probes, six profiles | [Report](results/2026-10-18-text-types/analysis-02/REPORT.md) |
-| Published technical text | Initial six-profile comparison | [Collection](results/2026-10-19-published-corpus/REPORT.md) · [Results](results/2026-10-19-published-experiment/REPORT.md) |
-| DeepSeek extension | V3/R1 added; eight configurations, same corpus | [Results](results/2026-10-19-deepseek-extension/REPORT.md) |
+## Why
 
-## Browser question
+You need to budget context, but tokenizer counts vary with language, text type, serialization, and configuration. This study compares same-input counts and reconstruction, separately from estimator claims. Browser startup, memory, latency, and complete-prompt budgets remain unmeasured.
 
-An estimator predicts a count; a tokenizer produces the IDs used by a model.
-Browser feasibility remains unmeasured. The proposed next stage compares exact
-counting, estimates and a combined approach for startup cost, memory, latency
-and complete-prompt context budgets, with capacity reserved for responses.
-No estimator coefficients have been fitted in this study.
+## Results
 
-## Methods and reproduction
+![Same-input token-count ratios for eight configurations across five sampled text groups](results/2026-10-19-deepseek-extension/analysis-01/01-count-ratios.svg)
 
-- [Study protocol](docs/COMPARATIVE_STUDY_V2.md)
-- [Evidence guide](docs/EVIDENCE_GUIDE.md) and [milestone history](docs/STUDY_HISTORY.md)
-- [Latest verification](results/2026-10-19-deepseek-extension/verification.json)
-- [Third-party notices](THIRD_PARTY_NOTICES.md)
+On these samples, DeepSeek uses 9.5% fewer tokens than Qwen on HTML and 24.4% more on mixed-script documentation. All 1,120 recorded encodings agree between Python and JavaScript.
 
-Each report links to its configuration, scripts, checks and numeric plot inputs.
-Tokenizer revisions and runtime versions are pinned. MiniCPM uses its Hugging Face
-JSON asset; GGUF/browser-runtime equivalence remains unverified. Counts reported
-without special tokens do not represent a complete chat prompt.
+Rebuild the figure with `python scripts/analyze_deepseek.py --base results/2026-10-19-deepseek-extension --output work/deepseek-figures` using the recorded inputs. [Numeric summaries](results/2026-10-19-deepseek-extension/analysis-01/summary.json) · [Full protocol and rerun sequence](results/2026-10-19-deepseek-extension/REPORT.md).
 
-Raw third-party text, tokenizer assets and reconstructable token sequences are
-excluded from Git. FLORES+ is evaluation-only and is not re-hosted. Reproduction
-requires the pinned local inputs and applicable source access. Frozen experiment
-records retain their original hashes and provenance.
+## Compare like with like
+
+The extension uses 100 published samples and 40 JSON variants. V3 and R1 match on all 140 corpus inputs but differ on added-token probes; identical core counts do not make full chat prompts interchangeable.
+
+## Inspect limits and provenance
+
+Technical-source bias, repeated templates, lengths, and translations limit generalization. Counts omit special tokens unless stated. FLORES+ stays evaluation-only and is not re-hosted; no estimator coefficients were fitted by this study.
+
+## Notes from building it
+
+I separated configuration identity from same-input count comparisons. Independent arithmetic and Python/JavaScript checks exposed distinctions that a single aggregate ratio would hide. I would next measure browser runtime costs and full-prompt budgets before choosing a product strategy.
+
+## Commands
+
+```bash
+python scripts/test_published_collection.py       # check collection rules
+python scripts/verify_deepseek.py --base results/2026-10-19-deepseek-extension  # audit with pinned local inputs
+node scripts/check_deepseek_js.mjs results/reproduce-deepseek/js-01  # new JS measurements; requires local assets
+```
+
+## Verify it yourself
+
+```bash
+python scripts/test_published_collection.py
+```
+
+The collection tests run without training. The latest [verification record](results/2026-10-19-deepseek-extension/verification.json) describes sequence-hash and arithmetic checks; full reproduction also needs inputs deliberately excluded from publication.
+
+## Credits, license and pointers
+
+Builds on Hugging Face Tokenizers/Transformers, the pinned tokenizer publishers, LocalMind reference work, and sources listed in [third-party notices](THIRD_PARTY_NOTICES.md). Study by Om Patnaik. No repository source license file is present; upstream assets retain their terms.
+
+[Full setup, original notes, and project history](README-DETAILS.md).

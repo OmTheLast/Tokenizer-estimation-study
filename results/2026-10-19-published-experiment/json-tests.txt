@@ -1,0 +1,8 @@
+test_invalid_numbers_and_duplicate_keys (__main__.ExactJSON.test_invalid_numbers_and_duplicate_keys) ... ok
+test_layout_differs_only_outside_strings (__main__.ExactJSON.test_layout_differs_only_outside_strings) ... ok
+test_nested_values_and_order_and_precision (__main__.ExactJSON.test_nested_values_and_order_and_precision) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

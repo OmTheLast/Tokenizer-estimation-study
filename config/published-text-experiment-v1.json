@@ -1,0 +1,64 @@
+{
+  "name": "published-text-experiment-v1",
+  "date": "2026-10-19",
+  "status": "frozen_before_encoding",
+  "input_manifest": "results/2026-10-19-published-experiment/preparation-01/input-manifest.json",
+  "private_corpus": "data/processed/published-text-inputs-v1.json",
+  "private_corpus_sha256": "b82b42cfd54990c3da5f4be6238019167c022e669f5b7292b1a1710542071fe2",
+  "models": [
+    "qwen35-4b",
+    "bonsai-ternary-4b",
+    "lfm2-1.2b",
+    "gemma4-e2b",
+    "minicpm5-2b-gguf",
+    "xlm-roberta-base"
+  ],
+  "labels": [
+    "Qwen",
+    "Bonsai",
+    "LFM",
+    "Gemma",
+    "MiniCPM*",
+    "XLM-R (Unigram)"
+  ],
+  "tokenizer_locks": {
+    "bonsai-ternary-4b-tokenizer.lock.json": "26c3fffc25ff6509f7dcae8de23e6abba9dc791ca86387f7eb894b9c8d5871d4",
+    "gemma4-e2b-tokenizer.lock.json": "a91192b25aa9b3f155203b21a8b7e29ed4220819e42d02a9325e1c0555b24464",
+    "lfm2-1.2b-tokenizer.lock.json": "95d0971222df25b8b5276222470a0085a2fa83a00bd849f683d68207535ff869",
+    "minicpm5-2b-gguf-tokenizer.lock.json": "182d2c54ccc59a9e41a06974f6c067190b75b77263c6c04e44fd41f4486cd2c4",
+    "qwen-tokenizer.lock.json": "ca185909ab74c84c8b6f16850cd55db95365651648c6c39a23804945f5642866",
+    "xlm-roberta-base-tokenizer.lock.json": "d8bb4eee6ef84c251ddf77339809e2611b63f27b73d26dade5f0fee0e13ad2b5"
+  },
+  "reference_tokenizer": "qwen35-4b",
+  "python_tokenizers_version": "0.23.2",
+  "js_tokenizers_version": "0.2.0",
+  "original_inputs": 100,
+  "json_variant_inputs": 40,
+  "expected_measurement_rows": 840,
+  "length_bands": [
+    [
+      200,
+      999
+    ],
+    [
+      1000,
+      3999
+    ],
+    [
+      4000,
+      12000
+    ]
+  ],
+  "files_sha256": {
+    "docs/PUBLISHED_TEXT_EXPERIMENT_V1.md": "1f86e455acdb010e0b013a3597e7ad4ffdf679a9f3b40962d1039cc0d695c347",
+    "config/published-text-corpus-v1.lock.json": "0cc1f13d4dfc5041e4ba3582ae4b0f2ca157167840a6b474cd94082da1b78983",
+    "config/text-types-v1.json": "9b9077d1b1778a9b315f7840fbe9bc526667c6c392f7f159fee6f3812680a8b3",
+    "scripts/prepare_published_inputs.py": "afc1f15ca896409d3fcd74a18a1ad32530f6d98acf66756dfe5d03d3b63bda10",
+    "scripts/test_published_json.py": "dc192ffffa7bbc29f8793e35279c38a4273e440be5a72f1c641dbfd1ebbe07f3",
+    "scripts/measure_published_text.py": "67e1dcc4c6e50a51a401c39045d6a7c1f11e6222eaae44222c599869701e5b94",
+    "scripts/check_published_text_js.mjs": "76b6146596baff9b451efdeb1372c8a184b4c81b0ae604458d81df33ea64bb3c",
+    "results/2026-10-19-published-experiment/preparation-01/input-manifest.json": "5a503338b9aa2a011a8b8ee428f78c42586a39286a04415a307a05eb1a2ff7b1",
+    "package-lock.json": "a9a9595154c3d9f46f6f65c63874dbcf312baf3fe7c70133bb9cd64b30192327",
+    "requirements-phase1.lock.txt": "be787856d9e5935b59889a3ee5dc1f7df3bd171dc78240760c96152d54a8df98"
+  }
+}

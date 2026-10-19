@@ -818,3 +818,17 @@ No fitting, model inference, browser trial or FLORES+ devtest access occurred.
 Publication: collection commit `4c532e4df5c5727f955c95816724ef4e2a27ac10` was pushed and
 verified on GitHub main. Public scripts, sample metadata, review/check records and
 figures are included; ignored local source text is not covered by this backup.
+
+## 2026-10-19 — Published-text experiment preparation
+
+Om authorized the experiment. Verified the frozen corpus hashes and reconstructed
+100 original inputs unchanged. Prepared 40 JSON variants using exact Decimal
+parsing and a shared compact/pretty serializer, preserving numeric sign, precision,
+object/array order and data. All 20 source JSON equivalence checks and three focused
+serializer tests passed. Prepared text is ignored/local; public input metadata
+contains only IDs, categories, hashes and lengths.
+
+The [experiment protocol](PUBLISHED_TEXT_EXPERIMENT_V1.md) fixes grouped metrics,
+all-pair ratios, unknown-free sensitivity summaries, exact reconstruction checks
+and graphs before encoding. Six pinned profiles will produce 840 rows. Preparation
+and measurement scripts are being published before the run; no new counts yet.

@@ -1,5 +1,7 @@
 <h1 align="center">Comparative Tokenizer Study</h1>
 
+[Portfolio case study](https://ompatnaik.com/tokenizers/)
+
 **Compare exact token counts across languages and text types with pinned configurations and saved Python/JavaScript checks.**
 
 Python and Node.js. Tokenizer assets download separately; no model weights. Source text and reconstructable token sequences are excluded from Git.
